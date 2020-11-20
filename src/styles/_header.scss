@@ -1,6 +1,11 @@
-.header {
+header {
   display: flex;
   justify-content: space-between;
+  // background-color: pink;
+
+  .logo {
+    width: 150px;
+  }
 
   @include respond(wide) {
     display: block;
