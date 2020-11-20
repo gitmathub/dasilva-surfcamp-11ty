@@ -1,0 +1,35 @@
+image: tui-docker.bin.source.tui/tuid/tuicom/aws-deployment-image:v1601311719
+
+stages:
+  - build
+  - deploy
+
+variables:
+  AWS_DEFAULT_REGION: eu-central-1
+
+build:
+  stage: build
+  script:
+    - npm ci --only=production --no-bin-links --no-audit
+    - npm run fetch-news
+    - npm run build
+  artifacts:
+    paths: [ dist ]
+  tags: [ tuicomdev ]
+
+deploy:
+  stage: deploy
+  needs: [ build ]
+  only: [ branches ]
+  tags: [ tuicomdev ]
+  script:
+    - export STACK_NAME=tuid-dev-static-site-demo
+    - export S3_BUCKET_NAME=$STACK_NAME
+    - aws cloudformation deploy
+        --stack-name=$STACK_NAME
+        --template-file=cloudformation.yml
+        --capabilities CAPABILITY_IAM
+        --no-fail-on-empty-changeset
+        --parameter-overrides
+          s3BucketName=$S3_BUCKET_NAME
+    - aws s3 sync dist/ s3://$S3_BUCKET_NAME/
