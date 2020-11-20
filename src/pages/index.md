@@ -1,6 +1,6 @@
 ---
 layout: main.njk
-title: Home
+title: Surfcamp
 ---
 
 {# {% import "macros.njk" as macros %}

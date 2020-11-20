@@ -23,14 +23,19 @@
             <header>
                 <nav>
                     <img src="/_assets/static/dasilva-surfcamp-logo.png" class="logo">
-                    <a href="/">Home</a>
-                    <a href="/news">News</a>
+                    <a href="/">Surfcamp / Home</a> · 
+                    <a href="/">Surfing</a> · 
+                    <a href="/">Mountainbikes</a> · 
+                    <a href="/">Kids are Welcome</a> · 
+                    <a href="/">Happy Horses</a> · 
+                    <a href="/">Activities</a> · 
+                    <a href="/">Unterkunft</a> · 
+                    <a href="/">Buchen</a> · 
                 </nav>
             </header>
+            <article> {% include "masonry.njk" %} </article>
             <main>
-                <div class="wrapper">
-                    {{ content | safe }}
-                </div>
+                <article> {{ content | safe }} </article>
             </main>
         </div>
     </body>
