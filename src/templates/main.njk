@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="{{ locale }}">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>{{ title }}</title>
+        <link rel="stylesheet" href="/css/main.min.css">
+
+        <!-- open graph -->
+        <meta property="og:type" content="article">
+        <meta property="og:title" content="{{ title }}">
+        <meta property="og:image" content="{{ metaImage }}">
+        <meta property="og:site_name" content="{{ site.name }}">
+        <meta property="og:description" content="{{ metaDescription }}">
+
+        <!-- twitter -->
+        <meta name="twitter:card" content="summary">
+        <meta name="twitter:site" content="{{ site.twitter }}">
+        <meta name="twitter:title" content="{{ metaTitle }}">
+        <meta name="twitter:description" content="{{ metaDescription }}">
+        <meta name="twitter:image" content="{{ metaImage }}">
+
+        <link rel="stylesheet" href="/_assets/main.css">
+        <script src="/_assets/main.js"></script>
+
+        {% block head_extra %}
+            {# extra head stuff like page-specific JS or CSS #}
+        {% endblock %}
+    </head>
+    <body>
+        <header>
+            {% include "header.njk" %}
+        </header>
+        <main>
+            {{ content | safe }}
+        </main>
+        <footer>
+            {% include "footer.njk" %}
+        </footer>
+    </body>
+</html>

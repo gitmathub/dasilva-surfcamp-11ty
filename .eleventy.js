@@ -7,8 +7,8 @@ module.exports = function(eleventyConfig) {
     return {
         dir: {
             input: 'src/pages',
-            layouts: "../template",
-            includes: "../template",
+            layouts: "../templates",
+            includes: "../templates",
             data: "../data",
             output: 'dist'
         },

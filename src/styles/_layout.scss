@@ -36,27 +36,38 @@ a.active {
   background-color: $color-grey-light-2;
 }
 
-// reading area: 680
-// text size medium to small: 18px
-// text size wide: 21px
-// line hight 1.6
 main {
-  font-size: $font-size-middle;
-  max-width: $text-block-width;
   margin: 0 auto;
   padding: 0.8rem;
-  @include respond(wide) {
-    font-size: $font-size-wide;
-  }
+}
+
+.masonry {
+  max-width: 100%;
+}
+
+.centered {
+  margin: 0 auto;
+  padding: 0.8rem;
+  max-width: $text-block-width;
 }
 
 section,
 article {
 
+  // reading area: 680
+  // text size medium to small: 18px
+  // text size wide: 21px
+  // line hight 1.6
+
   font-family: $font-code;
   font-size: $font-size-middle;
   font-weight: $font-weight-light;
-  
+  @include respond(wide) {
+    font-size: $font-size-wide;
+  }
+
+
+
   @include respond(wide) {
     &:first-child {
       margin: 3.2rem 0rem;

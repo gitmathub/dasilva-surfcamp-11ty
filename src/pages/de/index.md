@@ -1,7 +1,14 @@
 ---
-layout: main.njk
-title: Surfcamp
+permalink: /{{ locale }}/index.html
+layout: index.njk
+translationKey: "home"
+
+title: "Willllllll"
+
+metaImage: ""
+metaDescription: "Surfen, Biken und vieles mehr"
 ---
+
 
 {# {% import "macros.njk" as macros %}
 
