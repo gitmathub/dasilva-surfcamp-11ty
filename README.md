@@ -101,7 +101,8 @@ CMS for Da Silva Surfcamp
 ## Multilingual with 11ty
 
 - [Languag Switcher Multilangual Jamstack ](https://www.webstoemp.com/blog/language-switcher-multilingual-jamstack-sites/)
-- 
+
+
 ## Masonry
 
 - Colocate Desandro
