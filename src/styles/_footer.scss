@@ -1,5 +1,4 @@
 
-
 footer {
   // display: block;
   font-size: $font-size-middle;
@@ -7,13 +6,12 @@ footer {
   margin: 5rem;
   display: flex-wrap;
   justify-content: space-between;
-}
 
-.footer {
-  &__link {
+  li {
+    display: inline;
     margin-left: 1.6rem;
   }
-  &__link:first-child {
+  li:first-child {
     margin-left: 0;
   }
 }

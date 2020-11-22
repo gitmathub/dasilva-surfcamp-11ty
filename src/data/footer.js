@@ -1,19 +1,16 @@
 module.exports = {
-  mapUrl: "https://goo.gl/maps/3YTkhCgfEgj1PRAd7",
   de: {
-    addressTitle: "Adresse",
-    addressStreet: "Rue du marché",
-    addressNumber: "42",
-    addressPostcode: "1000",
-    addressCity: "Bruxelles",
-    directionsLabel: "Itinéraire"
+    contact: "Kontakt",
+    booking: "Booking",
+    terms: "AGBs",
+    impress: "Impressum",
+    faq: "FAQ"
   },
   en: {
-    addressTitle: "Address",
-    addressStreet: "Market street",
-    addressNumber: "42",
-    addressPostcode: "1000",
-    addressCity: "Brussels",
-    directionsLabel: "Directions"
+    contact: "Contact",
+    booking: "Booking",
+    terms: "Terms and Conditions",
+    impress: "Impress",
+    faq: "FAQ"
   }
 };
