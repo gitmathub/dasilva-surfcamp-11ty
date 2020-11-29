@@ -1,10 +1,28 @@
 ---
 layout: main.njk
+galeryImages: [
+  {src: "/_assets/static/bed-and-breakfast/galery/01-surfcamp-pool.jpg"},
+  {src: "/_assets/static/bed-and-breakfast/galery/02-sign-dasilva.jpg"},
+  {src: "/_assets/static/bed-and-breakfast/galery/03-terrace.jpg"},
+  {src: "/_assets/static/bed-and-breakfast/galery/04-double-room.jpg"},
+  {src: "/_assets/static/bed-and-breakfast/galery/05-double-triple.jpg"},
+  {src: "/_assets/static/bed-and-breakfast/galery/06-tinies.jpg"},
+  {src: "/_assets/static/bed-and-breakfast/galery/07-longboard.jpg"},
+  {src: "/_assets/static/bed-and-breakfast/galery/08-surfcamp-breakfast.jpg"},
+  {src: "/_assets/static/bed-and-breakfast/galery/09-common-room.jpg"}
+]
 ---
-
+{% import "partial.njk" as partial %}
 {% import "hero.njk" as hero %}
-{{ hero.image(src="/_assets/static/bed-and-breakfast/hero/the-place-to-be.jpg", alt=links[locale].bedAndBreakfast.title)}}
+{% import "galery.njk" as galery %}
+
+{{ hero.image(
+  src="/_assets/static/bed-and-breakfast/hero/the-place-to-be.jpg",
+  alt=links[locale].bedAndBreakfast.title)
+}}
 
 <div class="centered">
-  {{ content | safe }}
+  {{ partial.get(collections, tags, "welcome") }}
 </div>
+
+{{ galery.threeCols(images=galeryImages) }}

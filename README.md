@@ -106,7 +106,7 @@ CMS for Da Silva Surfcamp
   - [ ] Google rating
   - [ ] Metatags
 - [ ] Page Bed & Breakfast
-  - [ ] Hero
+  - [x] Hero
   - [x] Welcome
   - [ ] Galerie
   - [ ] Rooms

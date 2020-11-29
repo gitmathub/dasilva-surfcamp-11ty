@@ -1,0 +1,9 @@
+{% macro get(collections, tags, partial) %}
+
+  {% for item in collections[tags] %}
+    {% if item.data.partial == partial %}
+      {{ item.templateContent | safe }}
+    {% endif %}
+  {% endfor %}
+
+{% endmacro %}
