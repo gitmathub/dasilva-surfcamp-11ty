@@ -107,10 +107,11 @@ CMS for Da Silva Surfcamp
   - [ ] Metatags
 - [ ] Page Bed & Breakfast
   - [ ] Hero
-  - [ ] Welcome
+  - [x] Welcome
   - [ ] Galerie
   - [ ] Rooms
   - [ ] Related links
+- [ ] Portugues Version
 - [ ] ...other pages
 
 # Research

@@ -1,13 +1,10 @@
 ---
 permalink: /{{ locale }}/index.html
 layout: index.njk
-translationKey: "home"
+pageKey: home
 ---
 
-
-{% set metaTitle = site[locale].metaTitle %}
-{% set metaDescription = site[locale].metaDescription %}
-{% set metaImage = site[locale].metaImage %}
+title: "Surfing and Mountain Biking"
 
 <section>
 

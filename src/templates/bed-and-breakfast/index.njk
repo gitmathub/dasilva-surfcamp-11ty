@@ -1,7 +1,9 @@
 ---
 layout: main.njk
 ---
-BED
+
+{% import "hero.njk" as hero %}
+{{ hero.image(src="/_assets/static/bed-and-breakfast/hero/the-place-to-be.jpg", alt=links[locale].bedAndBreakfast.title)}}
 
 <div class="centered">
   {{ content | safe }}

@@ -1,20 +1,13 @@
 ---
 permalink: /{{ locale }}/index.html
 layout: index.njk
-translationKey: "home"
+pageKey: home
 
-title: "Willllllll"
+title: "Surfen und Mountain Biken"
 
 metaImage: ""
 metaDescription: "Surfen, Biken und vieles mehr"
 ---
-
-{{ site[locale].name}}TT
-{{ footer[locale].contact}}TT
-
-{# {% import "macros.njk" as macros %}
-
-{{ macros.image("mansory/0-portuguese-spirit-of-surfing.jpg", alt="The Portuguese Spirit of Surfing") }} #}
 
 <section>
 
