@@ -9,6 +9,8 @@ metaImage: ""
 metaDescription: "Surfen, Biken und vieles mehr"
 ---
 
+{{ site[locale].name}}TT
+{{ footer[locale].contact}}TT
 
 {# {% import "macros.njk" as macros %}
 

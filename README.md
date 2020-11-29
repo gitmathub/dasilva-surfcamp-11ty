@@ -63,15 +63,55 @@ CMS for Da Silva Surfcamp
 
 # Project Todos
 
-- [ ] Headless CMS
-  - [ ] CMS Requirement List
-  - [ ] Checkout Ghost https://ghost.org
-  - [ ] Decide on CMS
-- [ ] Site Generator
-  - [ ] Decide on Site Generator
-  - [ ] Checkout 11ty https://www.11ty.dev
-
-
+- [x] Headless CMS
+  - [x] CMS Requirement List
+  - [x] Checkout Ghost https://ghost.org
+  - [x] Decide on CMS
+- [x] Site Generator
+  - [x] Decide on Site Generator
+  - [x] Checkout 11ty https://www.11ty.dev
+- [ ] Internationalisation
+  - [x] Concept
+  - [x] Switch same to same page
+  - [ ] Switch to non existing page
+  - [ ] Default page: German home
+  - [ ] Detect browser language and switch
+- [ ] Generate all Links
+- [ ] Header
+  - [ ] Links
+  - [ ] Logo
+  - [ ] Mobile menu
+- [ ] Footer
+  - [ ] Language icons
+  - [ ] Social media links
+  - [ ] Site map
+- [ ] Fragment related links
+  - [ ] Images
+  - [ ] Mouse over
+- [ ] Masonry
+  - [x] Resonsive Design
+  - [ ] Links
+  - [ ] Overlay
+  - [ ] Loader
+- [ ] Fragment galerie
+- [ ] Home
+  - [x] Masonry
+  - [ ] Welcome
+  - [ ] Video
+  - [ ] Booking
+  - [ ] Specials
+  - [ ] Galerie
+  - [ ] Instagram
+  - [ ] Partners
+  - [ ] Google rating
+  - [ ] Metatags
+- [ ] Page Bed & Breakfast
+  - [ ] Hero
+  - [ ] Welcome
+  - [ ] Galerie
+  - [ ] Rooms
+  - [ ] Related links
+- [ ] ...other pages
 
 # Research
 
