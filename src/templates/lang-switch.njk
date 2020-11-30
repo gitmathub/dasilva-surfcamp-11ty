@@ -1,6 +1,4 @@
 {% for language in site.languages %}
- {# <br><br>*** {{language.code}}
- <br>*** {{tags}} #}
 
   {% if loop.first %}<ul class="c-lggnav">{% endif %}
 
@@ -8,23 +6,13 @@
   {% set translatedUrl = "/" + language.code + "/" %}
   {% set activeClass = "is-active" if language.code == locale else "" %}
   
-  {% for item in collections.all %}
-    {# <br>+++ ITEM {{item.url}} - tags:{{tags}} - partial:{{item.data.partial}} - locale:{{item.data.locale}}  #}
-    
-    {% if tags == item.data.tags %}
-      {# <br>XXX
-      - tags matches: {{ tags }} #}
+  {% for item in collections[tags] %}
       {% if not item.data.partial %}
-        {# - it's not a partial #}
           {% if item.data.locale == language.code %}
-            {# - language code mathes: {{ language.code }} #}
             {% set translatedUrl = item.url %}
-            {# - MATCH. set URL: {{ item.url }} #}
           {% endif %}
       {% endif %}
-    {% endif %}
   {% endfor %}
-
 
   <li class="c-lggnav__item">
     <a class="c-lggnav__link  {{ activeClass }}" href="{{ translatedUrl }}">{{ language.label }}</a>
