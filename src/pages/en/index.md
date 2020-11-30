@@ -1,10 +1,13 @@
 ---
 permalink: /{{ locale }}/index.html
 layout: index.njk
-pageKey: home
----
+tags: home
 
 title: "Surfing and Mountain Biking"
+
+metaImage: ""
+metaDescription: ""
+---
 
 <section>
 

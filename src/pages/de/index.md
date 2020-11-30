@@ -1,7 +1,7 @@
 ---
 permalink: /{{ locale }}/index.html
 layout: index.njk
-pageKey: home
+tags: home
 
 title: "Surfen und Mountain Biken"
 

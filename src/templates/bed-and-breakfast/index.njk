@@ -22,7 +22,7 @@ galeryImages: [
 }}
 
 <div class="centered">
-  {{ partial.get(collections, tags, "welcome") }}
+  {{ partial.get(collections, tags, "welcome", locale) }}
 </div>
 
 {{ galery.threeCols(images=galeryImages) }}

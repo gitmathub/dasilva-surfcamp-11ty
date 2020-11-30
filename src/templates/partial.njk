@@ -1,7 +1,7 @@
-{% macro get(collections, tags, partial) %}
+{% macro get(collections, tags, partial, locale="de") %}
 
   {% for item in collections[tags] %}
-    {% if item.data.partial == partial %}
+    {% if item.data.partial == partial and item.data.locale == locale%}
       {{ item.templateContent | safe }}
     {% endif %}
   {% endfor %}

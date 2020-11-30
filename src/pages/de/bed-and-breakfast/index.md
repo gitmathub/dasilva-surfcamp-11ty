@@ -8,5 +8,3 @@ title: "Unterkunft"
 metaImage: ""
 metaDescription: "Surfen, Biken und vieles mehr"
 ---
-
-{{bedAndBreakfast.data.partial}}
