@@ -1,6 +1,6 @@
 ---
 permalink: /de/unterkunft/index.html
-layout: bed-and-breakfast/index.njk
+layout: bed-and-breakfast.njk
 tags: bedAndBreakfast
 
 title: "Unterkunft"

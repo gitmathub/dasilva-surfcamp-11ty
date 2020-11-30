@@ -16,8 +16,9 @@ body {
   font-family: 'Scope One', 'Roboto';
   line-height: $line-height-middle;
   color: $color-grey-dark-3;
-  // margin: 0.4rem; // check on windows
 }
+
+
 
 a {
   &:link,
@@ -37,11 +38,17 @@ a.active {
 }
 
 main {
-  margin: 0 auto;
+  margin: 3.6rem;
   padding: 0.8rem;
+  @include respond(middle) {
+    margin: 1.6rem;
+  }
+  @include respond(small) {
+    margin: 0rem;
+  }  
 }
 
-.masonry {
+.full-width {
   max-width: 100%;
 }
 

@@ -20,26 +20,25 @@
   <style>
 
     .wrapper {
-      margin: 0 5.0rem;
+      display: grid;
+      grid-template-columns: 1fr;
     }
 
     .wrapper > div {
-      background-color: lightgrey;
       padding: 0;
-      margin: 0.5rem;
-    }
-
-    .wrapper {
-      display: grid;
-      grid-template-columns: 1fr;
+      margin: 0.2rem 0;
     }
 
     @media screen and (min-width: 900px) {
 
       .wrapper {
-        display: grid;
         grid-template-columns: 1fr 1fr 1fr;
       }
+      .wrapper > div {
+        background-color: lightgrey;
+        padding: 0;
+        margin: 0.5rem;
+      }      
       .tile {}
     }
     img {

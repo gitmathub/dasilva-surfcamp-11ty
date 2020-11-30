@@ -1,0 +1,12 @@
+---
+layout: main.njk
+---
+{% import "partial.njk" as partial %}
+
+<div class="full-width">
+  {% include "masonry.njk" %}
+</div>
+
+<div class="centered">
+  {{ partial.get(collections, tags, "welcome", locale) }}
+</div>

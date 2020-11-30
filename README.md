@@ -93,10 +93,11 @@ CMS for Da Silva Surfcamp
   - [ ] Links
   - [ ] Overlay
   - [ ] Loader
-- [ ] Fragment galerie
+- [x] Fragment galerie
 - [ ] Home
   - [x] Masonry
-  - [ ] Welcome
+  - [x] Welcome
+  - [ ] Responsive layout
   - [ ] Video
   - [ ] Booking
   - [ ] Specials
@@ -108,7 +109,7 @@ CMS for Da Silva Surfcamp
 - [ ] Page Bed & Breakfast
   - [x] Hero
   - [x] Welcome
-  - [ ] Galerie
+  - [x] Galerie
   - [ ] Rooms
   - [ ] Related links
 - [ ] Portugues Version

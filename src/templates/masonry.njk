@@ -8,36 +8,37 @@
     <div class="six"><img src="/_assets/static/masonry/portugal_surfcamp_035-e1586360473425-600x450.jpg"/></div>
     <div class="seven"><img src="/_assets/static/masonry/joyride-1200x450.jpg"/></div>
   </div>
-<section>
+  <section>
 
     <style>
-
-      .wrapper {
-        margin: 0 5.0rem;
-      }
-
-      .wrapper > div {
-        background-color: rgba(233,171,88,.5);
-        padding: 0;
-        color: #d9480f;
-        margin: -10px 0;
-      }
 
       .wrapper {
         display: grid;
         grid-template-columns: 1fr;
       }
 
-      @media screen and (min-width: 900px) {
+      .wrapper > div {
+        margin-bottom: -1.0rem;
+      }
+
+      .wrapper > div > img {
+        object-fit: cover;
+        width: 100%;
+        height: auto;
+      }
+
+      @media screen and (min-width: 768px) {
 
         .wrapper {
-          display: grid;
           grid-template-columns: 1fr 1fr 1fr;
           grid-template-rows: 1fr 1fr 1fr 1fr;
         }
+        .wrapper > div {
+          margin-bottom: -3.0rem;
+        }
         .one {
           grid-area: 1 / 1/ 3 / 3;
-          min-height: 400px;
+          {# min-height: 400px; #}
         }
         .two {
           grid-area: 1 / 3/ 2 / 4;
@@ -57,10 +58,5 @@
         .seven {
           grid-area: 4 / 2 / 5 / 4;
         }
-      }
-      img {
-        object-fit: cover;
-        width: 100%;
-        height: 100%; // auto?
       }
     </style>

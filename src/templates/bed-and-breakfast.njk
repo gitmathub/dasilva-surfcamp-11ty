@@ -16,10 +16,12 @@ galeryImages: [
 {% import "hero.njk" as hero %}
 {% import "galery.njk" as galery %}
 
-{{ hero.image(
-  src="/_assets/static/bed-and-breakfast/hero/the-place-to-be.jpg",
-  alt=links[locale].bedAndBreakfast.title)
-}}
+<div class="full-width">
+  {{ hero.image(
+    src="/_assets/static/bed-and-breakfast/hero/the-place-to-be.jpg",
+    alt=links[locale].bedAndBreakfast.title)
+  }}
+</div>
 
 <div class="centered">
   {{ partial.get(collections, tags, "welcome", locale) }}

@@ -1,6 +1,6 @@
 ---
 permalink: /en/bed-and-breakfast/index.html
-layout: bed-and-breakfast/index.njk
+layout: bed-and-breakfast.njk
 tags: bedAndBreakfast
 
 title: "Bed and Breakfast"
