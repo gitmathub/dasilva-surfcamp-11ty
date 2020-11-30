@@ -9,8 +9,6 @@ partial: welcome
 
 # BEM VINDO
 
-im
-
 ## DA SILVA SURFCAMP Portugal
 
 

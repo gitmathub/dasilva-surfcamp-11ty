@@ -66,30 +66,29 @@ main {
 
 section,
 article {
-
   // middle
   font-family: $font-code;
   font-size: $font-size-middle;
   font-weight: $font-weight-light;
 
   h1, h2, h3, h4 {
-    font-family: $font-header;
+    font-family: $font-header;   
+    text-align: center;
   }
   h1 {
     font-size: $font-size-title-middle;
     font-weight: $font-weight-title-middle;
+    margin: 3.2rem auto 2.8rem auto; 
   }
   h2 {
     font-size: $font-size-title-small;
     font-weight: $font-weight-title-small;
+    margin: 2.8rem auto 2.1rem auto; 
   }
   h3 {
     font-size: $font-size-title-smaller;
     font-weight: $font-weight-title-smaller;
-    margin-bottom: 0.8rem;
-  }
-  h4 {
-    margin: 1.6rem 0 0.8rem 0;
+    margin: 2.1rem auto 1.6rem auto; 
   }
 
   @include respond(small) {
@@ -127,17 +126,16 @@ article {
   }
 
 
-
-
-
-
   p {
-    margin-bottom: 0.8rem;
+    margin-bottom: 2.1rem;
+    @include respond(small) {
+      margin-bottom: 1.2rem;
+    }
   }
 
-  p:last-child {
-    margin-bottom: 0;
-  }
+  // p:last-child {
+  //   margin-bottom: 0;
+  // }
 
   ul,
   ol {
