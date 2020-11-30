@@ -5,17 +5,17 @@ layout: main.njk
 {% import "hero.njk" as hero %}
 {% import "galery.njk" as galery %}
 
-<div class="full-width hero">
-  {{ hero.image(src="/_assets/static/home/hero/portuguese-spirit-of-surfing.jpg") }}
-</div>
+<section>
+  <div class="hero">
+    {{ hero.image(src="/_assets/static/home/hero/portuguese-spirit-of-surfing.jpg") }}
+  </div>
 
-<div class="full-width">
   {% include "masonry.njk" %}
-</div>
+</section>
 
-<div class="centered">
+<section class="centered">
   {{ partial.get(collections, tags, "welcome", locale) }}
-</div>
+</section>
 
 <style>
   .hero {

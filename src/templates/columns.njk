@@ -1,0 +1,50 @@
+{% macro 2cols(
+  headline = "", 
+  subHeadline = "", 
+  leftColumn = "", 
+  rightColumn = "") %}
+
+  <div class="columns-container">
+    <h2>{{ headline }}</h2>
+    <h3>{{ subHeadline }}</h3>
+    <div class="grid-container">
+      <div class="column-left">
+        {{ leftColumn }}
+      </div>
+      <div class="column-right">
+        {{ rightColumn }}
+      </div>
+    </div>
+  </div>
+  <style>
+
+    .grid-container {
+      display: grid;
+      grid-template-columns: 1fr;
+    }
+
+    .grid-container > div {
+      padding: 0;
+      margin: 0.2rem 0;
+    }
+
+    @media screen and (min-width: 767px) {
+
+      .grid-container {
+        grid-template-columns: 1fr 1fr;
+      }
+      .grid-container > div {
+        background-color: lightgrey;
+        padding: 0;
+        margin: 0.5rem;
+      }
+    }
+    img {
+      object-fit: cover;
+      width: 100%;
+      height: 100%; // auto?
+    }
+  </style>
+
+{% endmacro %}%}
+

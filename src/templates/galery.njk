@@ -1,11 +1,11 @@
-{% macro threeCols(
+{% macro 3cols(
   images=[{
     src:"/_assets/static/dasilva-surfcamp-logo.png",
     alt:"Da Silve Surfcamp",
     link:"https://dasilva-surfcamp.de"}]
   ) 
 %}
-  <div class="wrapper">
+  <div class="galery-container">
     {% for image in images%}
       <div class="tile">
         {% if image.link %}<a href="{{image.link}}">{% endif %}
@@ -19,22 +19,22 @@
 
   <style>
 
-    .wrapper {
+    .galery-container {
       display: grid;
       grid-template-columns: 1fr;
     }
 
-    .wrapper > div {
+    .galery-container > div {
       padding: 0;
       margin: 0.2rem 0;
     }
 
-    @media screen and (min-width: 900px) {
+    @media screen and (min-width: 767px) {
 
-      .wrapper {
+      .galery-container {
         grid-template-columns: 1fr 1fr 1fr;
       }
-      .wrapper > div {
+      .galery-container > div {
         background-color: lightgrey;
         padding: 0;
         margin: 0.5rem;

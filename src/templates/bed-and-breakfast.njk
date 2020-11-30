@@ -15,16 +15,26 @@ galeryImages: [
 {% import "partial.njk" as partial %}
 {% import "hero.njk" as hero %}
 {% import "galery.njk" as galery %}
+{% import "columns.njk" as columns %}
 
-<div class="full-width">
-  {{ hero.image(
-    src="/_assets/static/bed-and-breakfast/hero/the-place-to-be.jpg",
-    alt=links[locale].bedAndBreakfast.title)
-  }}
-</div>
+{{ hero.image(
+  src="/_assets/static/bed-and-breakfast/hero/the-place-to-be.jpg",
+  alt=links[locale].bedAndBreakfast.title)
+}}
 
-<div class="centered">
+<section class="centered">
   {{ partial.get(collections, tags, "welcome", locale) }}
-</div>
+</section>
 
-{{ galery.threeCols(images=galeryImages) }}
+<section>
+  {{ galery.3cols(images=galeryImages) }}
+</section>
+
+<section class="centered">
+  {{ partial.get(collections, tags, "accomodation", locale) }}
+  {{ partial.get(collections, tags, "main-house", locale) }}
+</section>
+
+{{ columns.2cols(
+  headline="Tiny House Luna"
+)}}
