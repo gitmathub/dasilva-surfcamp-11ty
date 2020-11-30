@@ -27,21 +27,30 @@ $font-header: 'Montserrat', monseart; //400, 600, 700
 
 $line-height-middle: 1.6;
 
+$font-size-small: 1.3rem;
 $font-size-middle: 1.8rem;
 $font-size-wide: 2.1rem;
+
 $font-weight-middle: 300;
 $font-weight-light: 100;
 
 // title
+$font-size-title-smallest: 1.8rem;
+$font-weight-title-smallest: 400;
+
+$font-size-title-smaller: 2.4rem;
+$font-weight-title-smaller: 400;
+
 $font-size-title-small: 3.2rem;
 $font-weight-title-small: 400;
 
 $font-size-title-middle: 4.2rem;
-$font-weight-title-middle: 600;
+$font-weight-title-middle: 400;
 
 $font-size-title-wide: 6.4rem;
 $font-weight-title-wide: 400;
 
 //
-$text-block-width: 680px;
+// $text-block-width: 680px;
+$text-block-width: 1024px;
 $mobile-width: 480px;

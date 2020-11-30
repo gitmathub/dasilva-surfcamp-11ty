@@ -95,9 +95,9 @@ CMS for Da Silva Surfcamp
   - [ ] Loader
 - [x] Fragment galerie
 - [ ] Home
+  - [x] Hero
   - [x] Masonry
   - [x] Welcome
-  - [ ] Responsive layout
   - [ ] Video
   - [ ] Booking
   - [ ] Specials

@@ -2,6 +2,12 @@
 layout: main.njk
 ---
 {% import "partial.njk" as partial %}
+{% import "hero.njk" as hero %}
+{% import "galery.njk" as galery %}
+
+<div class="full-width hero">
+  {{ hero.image(src="/_assets/static/home/hero/portuguese-spirit-of-surfing.jpg") }}
+</div>
 
 <div class="full-width">
   {% include "masonry.njk" %}
@@ -10,3 +16,9 @@ layout: main.njk
 <div class="centered">
   {{ partial.get(collections, tags, "welcome", locale) }}
 </div>
+
+<style>
+  .hero {
+    margin-bottom: -4.0rem;
+  }
+</style>
