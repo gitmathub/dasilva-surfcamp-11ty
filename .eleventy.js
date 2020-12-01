@@ -1,7 +1,7 @@
 const pluginSass = require("eleventy-plugin-sass")
 
 module.exports = function(eleventyConfig) {
-    eleventyConfig.addPassthroughCopy({ 'src/assets': "_assets/static" })
+    eleventyConfig.addPassthroughCopy({ 'src/assets': "_assets/" })
     eleventyConfig.addPlugin(pluginSass, { watch: ["src/styles/*.scss"], outputDir : "dist/_assets" })
 
     return {

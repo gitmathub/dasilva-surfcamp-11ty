@@ -26,7 +26,8 @@ a {
   &:visited {
     display: inline-block;
     color: $color-grey-dark-3;
-    text-decoration: none;
+    // text-decoration: none;
+    font-weight: bolder;
   }
 
   &:hover {
@@ -149,4 +150,5 @@ article {
     margin-left: -1.6rem;
     vertical-align: top;
   }
+
 }

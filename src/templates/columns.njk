@@ -1,10 +1,7 @@
-{% macro 2cols(
-  headline = "", 
-  subHeadline = "", 
-  leftColumn = "", 
-  rightColumn = "") %}
+{% macro 2cols(headline = "", subHeadline = "", leftColumn = "", rightColumn = "") %}
 
   <div class="columns-container">
+
     <h2>{{ headline }}</h2>
     <h3>{{ subHeadline }}</h3>
     <div class="grid-container">
@@ -16,6 +13,7 @@
       </div>
     </div>
   </div>
+
   <style>
 
     .grid-container {
@@ -25,19 +23,31 @@
 
     .grid-container > div {
       padding: 0;
-      margin: 0.2rem 0;
+      margin: 0 auto;
     }
 
-    @media screen and (min-width: 767px) {
+    {# // start with second column (text) #}
+    .column-left {
+      grid-row-start: 2;
+    }
+    .column-right {
+      max-width: 102.4rem;
+    }    
+
+    @media screen and (min-width: 102.4rem) {
 
       .grid-container {
         grid-template-columns: 1fr 1fr;
+        grid-gap: 4rem;
       }
       .grid-container > div {
-        background-color: lightgrey;
         padding: 0;
         margin: 0.5rem;
       }
+      .column-left {
+        grid-row-start: 1;
+        text-align: right;
+      }    
     }
     img {
       object-fit: cover;

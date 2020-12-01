@@ -20,5 +20,4 @@ module.exports = {
       path: "/en/bed-and-breakfast"
     }    
   }
-
 }
