@@ -1,9 +1,20 @@
 ---
 layout: main.njk
+
+galleryBedAndBreakfast:
+  - src: /_assets/bed-and-breakfast/gallery/01-surfcamp-pool.jpg
+  - src: /_assets/bed-and-breakfast/gallery/02-sign-dasilva.jpg
+  - src: /_assets/bed-and-breakfast/gallery/03-terrace.jpg
+  - src: /_assets/bed-and-breakfast/gallery/04-double-room.jpg
+  - src: /_assets/bed-and-breakfast/gallery/05-double-triple.jpg
+  - src: /_assets/bed-and-breakfast/gallery/06-tinies.jpg
+  - src: /_assets/bed-and-breakfast/gallery/07-longboard.jpg
+  - src: /_assets/bed-and-breakfast/gallery/08-surfcamp-breakfast.jpg
+  - src: /_assets/bed-and-breakfast/gallery/09-common-room.jpg
 ---
 {% import "partial.njk" as partial %}
 {% import "hero.njk" as hero %}
-{% import "galery.njk" as galery %}
+{% import "gallery.njk" as gallery %}
 {% import "columns.njk" as columns %}
 
 {{ hero.image(
@@ -15,9 +26,9 @@ layout: main.njk
   {{ partial.get(collections, tags, "welcome", locale) }}
 </section>
 
-{{ galery.bedAndBreakfast }}
+{{ gallery.bedAndBreakfast }}
 <section>
-  {{ galery.3cols(images=galeryimages.bedAndBreakfast) }}
+  {{ gallery.3cols(images=galleryBedAndBreakfast) }}
 </section>
 
 <section class="centered">
@@ -29,10 +40,9 @@ layout: main.njk
 </section>
 
 <section>
-{{ footer[locale].impress }}
-{{ title }} {{ links.en.home.title }} {{ images.a }} x
   {{ columns.2cols(
     headline="Tiny House Luna",
+    leftColumn=gallery.3cols(images=galleryBedAndBreakfast),
     rightColumn=partial.get(collections, tags, "tiny-house-luna", locale)
   )}}
 </section>

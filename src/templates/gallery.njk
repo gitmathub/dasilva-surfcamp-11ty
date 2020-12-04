@@ -5,7 +5,7 @@
     link:"https://dasilva-surfcamp.de"}]
   ) 
 %}
-  <div class="galery-container">
+  <div class="gallery-container">
     {% for image in images%}
       <div class="tile">
         {% if image.link %}<a href="{{image.link}}">{% endif %}
@@ -19,22 +19,22 @@
 
   <style>
 
-    .galery-container {
+    .gallery-container {
       display: grid;
       grid-template-columns: 1fr;
     }
 
-    .galery-container > div {
+    .gallery-container > div {
       padding: 0;
       margin: 0.2rem 0;
     }
 
     @media screen and (min-width: 767px) {
 
-      .galery-container {
+      .gallery-container {
         grid-template-columns: 1fr 1fr 1fr;
       }
-      .galery-container > div {
+      .gallery-container > div {
         background-color: lightgrey;
         padding: 0;
         margin: 0.5rem;
@@ -48,5 +48,5 @@
     }
   </style>
 
-{% endmacro %}%}
+{% endmacro %}
 

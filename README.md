@@ -70,6 +70,7 @@ CMS for Da Silva Surfcamp
 - [x] Site Generator
   - [x] Decide on Site Generator
   - [x] Checkout 11ty https://www.11ty.dev
+  - [ ]     <link rel="preload" as="font" href="{% assetsUrl %}/fonts/tuitypelight-regular.woff2" type="font/woff2" crossorigin="anonymous">
 - [ ] Internationalisation
   - [x] Concept
   - [x] Switch same to same page
@@ -93,6 +94,9 @@ CMS for Da Silva Surfcamp
   - [ ] Links
   - [ ] Overlay
   - [ ] Loader
+- [ ] Galery
+  - [x] Responsive Design
+  - [ ] Overlay picture
 - [x] Fragment galerie
 - [ ] Home
   - [x] Hero
