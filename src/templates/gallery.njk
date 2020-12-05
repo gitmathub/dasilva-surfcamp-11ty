@@ -11,6 +11,7 @@
         {% if image.link %}<a href="{{image.link}}">{% endif %}
           <img src="{{image.src}}"
            {% if image.alt %} alt="{{image.alt}}" {% endif %}
+           class="gallery-image"
           />
         {% if image.link %}</a>{% endif %}
       </div>
@@ -41,7 +42,7 @@
       }      
       .tile {}
     }
-    img {
+    .gallery-image {
       object-fit: cover;
       width: 100%;
       height: 100%; // auto?

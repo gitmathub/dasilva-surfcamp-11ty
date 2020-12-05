@@ -9,16 +9,20 @@ module.exports = {
       title: "Unterkunft",
       path: "/de/unterkunft"
     },
+    surfing: {
+      title: "Surfing",
+      path: "/de/surfing"
+    },    
     mountainbikes: {
       title: "Moutainbikes",
       path: "/de/mountainbikes"
     },
     kidsAreWelcome: {
-      title: "Kids are welcome",
+      title: "Kids",
       path: "/de/kidsAreWelcome"
     },
     happyHorses: {
-      title: "Happy Horses",
+      title: "Pferde",
       path: "/de/happyHorses"
     },
     activities: {
@@ -39,25 +43,29 @@ module.exports = {
       title: "Bed and Breakfast",
       path: "/en/bed-and-breakfast"
     },
+    surfing: {
+      title: "Surfing",
+      path: "/en/surfing"
+    },        
     mountainbikes: {
       title: "Moutainbikes",
-      path: "/de/mountainbikes"
+      path: "/en/mountainbikes"
     },
     kidsAreWelcome: {
       title: "Kids are welcome",
-      path: "/de/kidsAreWelcome"
+      path: "/en/kidsAreWelcome"
     },
     happyHorses: {
       title: "Happy Horses",
-      path: "/de/happyHorses"
+      path: "/en/happyHorses"
     },
     activities: {
       title: "Aktivitäten",
-      path: "/de/aktivitaeten"
+      path: "/en/aktivitaeten"
     },
     booking: {
       title: "Booking",
-      path: "/de/booking"
+      path: "/en/booking"
     }    
   }
 }
