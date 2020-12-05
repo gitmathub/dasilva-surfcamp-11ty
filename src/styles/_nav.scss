@@ -1,121 +1,144 @@
-.nav {
-  &__top {
+nav {
+  font-family: $font-header;
+  font-weight: $font-weight-light;
+  text-transform: uppercase;
+
+  a {
+    text-decoration: none;
+  }
+
+  li {
+    display: block;
+    float: left;
+    padding: 0.4rem;
+    margin: 1.6rem 0 0.8rem 0;
+  }
+
+  .menu-bar {
     display: none;
+  
+    @include respond(middle) {
+      display: flex;
+      justify-content: flex-end;
+      margin-left: 15.0rem; // logo width
+      margin-right: 2.1rem;
+      font-size: $font-size-small;
+      font-weight: $font-weight-middle;   
+    }
+
     @include respond(wide) {
       display: flex;
-      justify-content: space-between;
-      margin: 0 auto;
-      max-width: $text-block-width;
+      justify-content: flex-end;
+      margin-left: 20.0rem; // logo width
+      margin-right: 4.2rem;
+      font-size: $font-size-wide;
+      font-weight: $font-weight-middle;      
     }
+
+    // background-color: pink;
+    // padding: 8.0rem 0;
+    // margin-left: 22rem;
+    // @include respond(middle) {
+    //   position: fixed;
+    // }
+
+
   }
 
-  &__footer {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    font-size: smaller;
-  }
 
-  &__menu-bar {
-    font-size: $font-size-middle;
-    font-family: $font-sans-serif;
-    font-weight: $font-weight-light;
-    text-transform: uppercase;
-  }
-
-  &__link {
-    padding: 0 1rem;
-  }
-}
-
-.hamburger-menu {
-  display: none;
-  @include respond(small-to-middle) {
-    display: block;
-  }
-
-  &__checkbox {
+  .hamburger-menu {
     display: none;
-  }
 
-  &__button {
-    background-color: $color-white;
-    width: 5rem;
-    height: 5rem;
-    position: absolute;
-    top: 0.6rem;
-    right: 0.6rem;
-    z-index: 2000;
-  }
-
-  &__icon {
-    font-size: 3rem;
-    position: relative;
-    top: 0.5rem;
-    left: 1.2rem;
-  }
-
-  &__background {
-    width: 4rem;
-    height: 4rem;
-    border-radius: 50%;
-    position: absolute;
-    top: 0.8rem;
-    right: 1.3rem;
-    background-color: $color-grey-light-2;
-    transition: transform 0.8s;
-  }
-
-  &__nav {
-    height: 100vh;
-    width: 100%;
-    position: fixed;
-    top: 0;
-    right: 0;
-    z-index: 1500;
-
-    opacity: 0;
-    width: 0;
-  }
-
-  &__list {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    list-style: none;
-    text-align: center;
-  }
-
-  &__item {
-    margin: 2rem;
-  }
-
-  a.active {
-    background-color: $color-white;
-  }
-
-  &__link {
-    &:link,
-    &:visited {
-      display: inline-block;
-      font-family: $font-sans-serif;
-      font-size: $font-size-middle;
-      padding: 0.5rem 2rem;
-      color: $color-black;
-      text-transform: uppercase;
+    @include respond(small) {
+      display: block;
     }
-    &:hover {
+
+    &__checkbox {
+      display: none;
+    }
+
+    &__button {
+      background-color: $color-white;
+      width: 5rem;
+      height: 5rem;
+      position: absolute;
+      top: 0.6rem;
+      right: 0.6rem;
+      z-index: 2000;
+    }
+
+    &__icon {
+      font-size: 3rem;
+      position: relative;
+      top: 0.5rem;
+      left: 1.2rem;
+    }
+
+    &__background {
+      width: 4rem;
+      height: 4rem;
+      border-radius: 50%;
+      position: absolute;
+      top: 0.8rem;
+      right: 1.3rem;
+      background-color: $color-grey-light-2;
+      transition: transform 0.8s;
+    }
+
+    &__nav {
+      height: 100vh;
+      width: 100%;
+      position: fixed;
+      top: 0;
+      right: 0;
+      z-index: 1500;
+
+      opacity: 0;
+      width: 0;
+    }
+
+    &__list {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      list-style: none;
+      text-align: center;
+    }
+
+    &__item {
+      margin: 2rem;
+    }
+
+    a.active {
       background-color: $color-white;
     }
-  }
 
-  &__checkbox:checked ~ &__background {
-    transform: scale(80);
-  }
-  &__checkbox:checked ~ &__nav {
-    transition: opacity 0.8s;
-    width: 100%;
-    opacity: 1;
+    &__link {
+
+      &:link,
+      &:visited {
+        display: inline-block;
+        font-family: $font-sans-serif;
+        font-size: $font-size-middle;
+        padding: 0.5rem 2rem;
+        color: $color-black;
+        text-transform: uppercase;
+      }
+
+      &:hover {
+        background-color: $color-white;
+      }
+    }
+
+    &__checkbox:checked~&__background {
+      transform: scale(80);
+    }
+
+    &__checkbox:checked~&__nav {
+      transition: opacity 0.8s;
+      width: 100%;
+      opacity: 1;
+    }
   }
 }

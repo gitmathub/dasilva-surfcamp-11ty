@@ -17,6 +17,12 @@ min-width: 1200px   Laptops (and langer)
       @content;
     }
   }
+  // @if $breakpoint == between-small-and-middle {
+  //   @media only screen and (min-width: $mobile-width) and (max-width: $pad-width) {
+  //       background-color: orange;
+  //     @content;
+  //   }
+  // }
   @if $breakpoint == middle {
     @media only screen and (min-width: $mobile-width) and (max-width: $text-block-width) {
         // background-color: orange;
