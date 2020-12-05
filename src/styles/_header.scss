@@ -1,10 +1,46 @@
 header {
+  position: relative;
   display: flex;
   justify-content: space-between;
   // background-color: pink;
 
+  nav {
+    width: 100%;
+
+    @include respond(small) {
+      position: absolute;
+    }
+
+    @include respond(middle) {
+      position: fixed;
+    }
+
+    @include respond(wide) {
+      position: fixed;
+    }
+  }
+
   .logo {
-    width: 150px;
+    @include respond(small) {
+      position: absolute;
+      width: 8.0rem;
+      top: 0.0rem;
+      left: 0.0rem;
+    }
+
+    @include respond(middle) {
+      position: fixed;
+      width: 16.0rem;
+      top: 0.8rem;
+      left: 0.4rem;
+    }
+
+    @include respond(wide) {
+      position: fixed;
+      width: 21.6rem;
+      top: 1.6rem;
+      left: 1.2rem;
+    } 
   }
 
   @include respond(wide) {
@@ -18,11 +54,13 @@ header {
       margin: 0.8rem;
       margin-right: 5.5rem; // avoid collition with hambuger nav
     }
+
     @include respond(middle) {
       font-size: $font-size-title-middle;
       font-weight: $font-weight-title-middle;
       margin: 0.8rem;
     }
+
     @include respond(wide) {
       display: block;
       text-align: center;
