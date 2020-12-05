@@ -1,5 +1,9 @@
-<img src="/_assets/dasilva-surfcamp-logo.png" class="logo">
+<a href="{{ links[locale].home.path }}">
+  <img src="/_assets/dasilva-surfcamp-logo.png" class="logo" alt="{{ links[locale].home.title }}">
+</a>
 <nav>
-  {# {% include "hamburger-menu.njk" %} #}
   {% include "menu-bar.njk" %}
+</nav>
+<nav>
+  {% include "hamburger-menu.njk" %}
 </nav>

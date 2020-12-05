@@ -4,9 +4,9 @@ header {
   .logo {
     @include respond(small) {
       position: absolute;
-      width: 8.0rem;
-      top: 0.0rem;
-      left: 0.0rem;
+      width: 10.0rem;
+      top: 0.2rem;
+      left: 0.2rem;
     }
 
     @include respond(middle) {
