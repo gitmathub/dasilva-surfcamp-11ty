@@ -1,24 +1,39 @@
-<div class="hamburger-menu">
-  <input
+<nav class="hamburger-menu">
+  <input  
       type="checkbox"
       class="hamburger-menu__checkbox"
-      id="divi-toggle"
-/>
-  <label htmlFor="navi-toggle" class="hamburger-menu__button">
+      id="navi-toggle"
+  />
+  <label for="navi-toggle" class="hamburger-menu__button">
     <span class="hamburger-menu__icon">☰</span>
   </label>
-  <div class="hamburger-menu__background">&nbsp;</div>
-  <div class="hamburger-menu__nav">
+  <div class="canvas">&nbsp;</div>
+  <div class="menu-area">
     <ul class="hamburger-menu__list">
-      <li class="hamburger-menu__item">
-        <Link
-            to="/"
-            class="hamburger-menu__link"
-            activeClass="active"
-          >
-            Home
-          </Link>
-      </li>
+    <li>
+      <a href="{{ links[locale].home.path }}">{{ links[locale].home.title }}</a>
+    </li>
+    <li>
+      <a href="{{ links[locale].surfing.path }}">{{ links[locale].surfing.title }}</a>
+    </li>
+    <li>
+      <a href="{{ links[locale].mountainbikes.path }}">{{ links[locale].mountainbikes.title }}</a>
+    </li>
+    <li>
+      <a href="{{ links[locale].kidsAreWelcome.path }}">{{ links[locale].kidsAreWelcome.title }}</a>
+    </li>
+    <li>
+      <a href="{{ links[locale].happyHorses.path }}">{{ links[locale].happyHorses.title }}</a>
+    </li>
+    <li>
+      <a href="{{ links[locale].activities.path }}">{{ links[locale].activities.title }}</a>
+    </li>
+    <li>
+      <a href="{{ links[locale].booking.path }}">{{ links[locale].booking.title }}</a>
+    </li>
+    <li>
+      <a href="{{ links[locale].bedAndBreakfast.path }}">{{ links[locale].bedAndBreakfast.title }}</a>
+    </li>
     </ul>
   </div>
-</div>
+</nav>
