@@ -73,8 +73,11 @@
   }
 
   &__item {
-    background-color: red;
     margin: 2rem;
+  }
+
+  a {
+    text-decoration: none;
   }
 
   a.active {
