@@ -1,7 +1,6 @@
 ---
 tags: bedAndBreakfast
 partial: tiny-house-luna
-tiny: hey
 ---
 
 Seit Frühjahr 2019 freuen wir uns euch unser Tiny House Luna anbieten zu können – mit allem was Mann & Frau braucht. Einer kleine Kochnische, Kühlschrank, Bad mit WC und Dusche, und vor allem ruhig gelegen mit einer herrlichen Aussicht. Enjoy!
