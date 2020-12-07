@@ -13,7 +13,8 @@ module.exports = {
     },
     surfing: {
       title: "Surfing",
-      path: "/de/surfing"
+      path: "/de/surfing",
+      image: "/_assets/surfing/related-surfing.jpg"
     },    
     mountainBike: {
       title: "Moutain Bike",
@@ -23,7 +24,7 @@ module.exports = {
     kidsAreWelcome: {
       title: "Kids are Welcome",
       path: "/de/kids-are-welcome",
-      image: "/_assets/masonry/surfcamp-portugal_Kids_1-600x900.jpg"
+      image: "/_assets/kids-are-welcome/related-kids-are-welcome.jpg"
     },
     happyHorses: {
       title: "Pferde",
@@ -51,7 +52,8 @@ module.exports = {
     },
     surfing: {
       title: "Surfing",
-      path: "/en/surfing"
+      path: "/en/surfing",
+      image: "/_assets/surfing/related-surfing.jpg"      
     },        
     mountainBike: {
       title: "Moutain Bike",
@@ -61,7 +63,7 @@ module.exports = {
     kidsAreWelcome: {
       title: "Kids are Welcome",
       path: "/en/kids-are-welcome",
-      image: "/_assets/masonry/surfcamp-portugal_Kids_1-600x900.jpg"
+      image: "/_assets/kids-are-welcome/related-kids-are-welcome.jpg"
     },
     happyHorses: {
       title: "Happy Horses",

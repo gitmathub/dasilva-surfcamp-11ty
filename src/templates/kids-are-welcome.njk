@@ -1,0 +1,38 @@
+---
+layout: main.njk
+
+galleryKids:
+  - src: /_assets/kids-are-welcome/gallery/01-kids-are-welcome.jpg
+  - src: /_assets/kids-are-welcome/gallery/02-kids-are-welcome.jpg
+  - src: /_assets/kids-are-welcome/gallery/03-kids-are-welcome.jpg
+
+relatedPages:
+  - surfing
+  - kidsAreWelcome
+  - mountainBike      
+---
+{% import "partial.njk" as partial %}
+{% import "hero.njk" as hero %}
+{% import "gallery.njk" as gallery %}
+{% import "related.njk" as related %}
+
+{{ hero.image(
+  src="/_assets/kids-are-welcome/hero-kids-are-welcome.jpg",
+  alt=links[locale].mountainBike.title)
+}}
+
+<section class="centered">
+  {{ partial.get(collections, tags, "start", locale) }}
+</section>
+
+<section>
+  {{ gallery.3cols(images=galleryKids) }}
+</section>
+
+<section class="centered">
+  {{ partial.get(collections, tags, "what-matters", locale) }}
+</section>
+
+<nav class="centered">
+  {{ related.3cols(links[locale], relatedPages)}}
+</nav>
