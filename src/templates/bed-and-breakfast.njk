@@ -91,7 +91,7 @@ galleryCamperVan:
   - src: /_assets/bed-and-breakfast/camper-van/06-camper-van.jpg
   - src: /_assets/bed-and-breakfast/camper-van/07-camper-van.jpg
 relatedPages:
-  - home
+  - surfing
   - kidsAreWelcome
   - mountainBike      
 ---
@@ -112,7 +112,7 @@ relatedPages:
 
 {{ gallery.bedAndBreakfast }}
 <section>
-  {{ gallery.3cols(images=galleryBedAndBreakfast) }}
+  {{ gallery.three(images=galleryBedAndBreakfast) }}
 </section>
 
 <section class="centered">
@@ -126,7 +126,7 @@ relatedPages:
 <section>
   {{ columns.two(
     headline="Tiny House Luna",
-    leftColumn=gallery.3cols(images=galleryTinyHouseLuna),
+    leftColumn=gallery.three(images=galleryTinyHouseLuna),
     rightColumn=partial.get(collections, tags, "tiny-house-luna", locale)
   )}}
 </section>
@@ -134,7 +134,7 @@ relatedPages:
 <section>
   {{ columns.two(
     headline="Tiny House Eloá",
-    leftColumn=gallery.3cols(images=galleryTinyHouseEloa),
+    leftColumn=gallery.three(images=galleryTinyHouseEloa),
     rightColumn=partial.get(collections, tags, "tiny-house-eloa", locale)
   )}}
 </section>
@@ -142,7 +142,7 @@ relatedPages:
 <section>
   {{ columns.two(
     headline="Tiny House Jorgina",
-    leftColumn=gallery.3cols(images=galleryTinyHouseJorgina),
+    leftColumn=gallery.three(images=galleryTinyHouseJorgina),
     rightColumn=partial.get(collections, tags, "tiny-house-jorgina", locale)
   )}}
 </section>
@@ -151,7 +151,7 @@ relatedPages:
   {{ columns.two(
     headline="Quarto do Terraço",
     subHeadline="Doppel- oder 4-Bettzimmer",
-    leftColumn=gallery.3cols(images=galleryQuartoDoTerraco),
+    leftColumn=gallery.three(images=galleryQuartoDoTerraco),
     rightColumn=partial.get(collections, tags, "quarto-do-terraco", locale)
   )}}
 </section>
@@ -160,7 +160,7 @@ relatedPages:
   {{ columns.two(
     headline="Quarto Zambujeira",
     subHeadline="Doppelzimmer",
-    leftColumn=gallery.3cols(images=galleryQuartoZambujeira),
+    leftColumn=gallery.three(images=galleryQuartoZambujeira),
     rightColumn=partial.get(collections, tags, "quarto-zambujeira", locale)
   )}}
 </section>
@@ -169,7 +169,7 @@ relatedPages:
   {{ columns.two(
     headline="Quarto Abelheira",
     subHeadline="Doppel- oder Dreibettzimmer",
-    leftColumn=gallery.3cols(images=galleryQuartoAbelheira),
+    leftColumn=gallery.three(images=galleryQuartoAbelheira),
     rightColumn=partial.get(collections, tags, "quarto-abelheira", locale)
   )}}
 </section>
@@ -178,7 +178,7 @@ relatedPages:
   {{ columns.two(
     headline="Quarto Azul",
     subHeadline="Girls 4-Bettzimmer",
-    leftColumn=gallery.3cols(images=galleryQuartoAzul),
+    leftColumn=gallery.three(images=galleryQuartoAzul),
     rightColumn=partial.get(collections, tags, "quarto-azul", locale)
   )}}
 </section>
@@ -187,7 +187,7 @@ relatedPages:
   {{ columns.two(
     headline="Quarto Vermelho",
     subHeadline="Gemischt / 7-Bettzimmer",
-    leftColumn=gallery.3cols(images=galleryQuartoVermelho),
+    leftColumn=gallery.three(images=galleryQuartoVermelho),
     rightColumn=partial.get(collections, tags, "quarto-vermelho", locale)
   )}}
 </section>
@@ -196,7 +196,7 @@ relatedPages:
   {{ columns.two(
     headline="Camper Van",
     subHeadline="ausgebucht ≠ ausgebucht",
-    leftColumn=gallery.3cols(images=galleryCamperVan),
+    leftColumn=gallery.three(images=galleryCamperVan),
     rightColumn=partial.get(collections, tags, "camper-van", locale)
   )}}
 </section>
@@ -206,5 +206,5 @@ relatedPages:
 </section>
 
 <nav class="centered">
-  {{ related.3cols(links[locale], relatedPages)}}
+  {{ related.three(links[locale], relatedPages)}}
 </nav>
