@@ -1,7 +1,6 @@
-{% macro 2cols(headline = "", subHeadline = "", leftColumn = "", rightColumn = "") %}
+{% macro two(headline = "", subHeadline = "", leftColumn = "", rightColumn = "") %}
 
   <div class="two-columns">
-
     <h2>{{ headline }}</h2>
     <h3>{{ subHeadline }}</h3>
     <div class="two-columns__container">
@@ -16,3 +15,22 @@
 
 {% endmacro %}%}
 
+{% macro three(headline = "", subHeadline = "", leftColumn = "", middleColumn = "", rightColumn = "") %}
+
+  <div class="three-columns">
+    <h2>{{ headline }}</h2>
+    <h3>{{ subHeadline }}</h3>
+    <div class="three-columns__container">
+      <div class="three-columns__left">
+        {{ leftColumn }}
+      </div>
+      <div class="three-columns__middle">
+        {{ middleColumn }}
+      </div>      
+      <div class="three-columns__right">
+        {{ rightColumn }}
+      </div>
+    </div>
+  </div>
+
+{% endmacro %}%}

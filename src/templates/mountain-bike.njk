@@ -40,11 +40,12 @@ relatedPages:
   {{ partial.get(collections, tags, "prices", locale) }}
 </section>
 
-<section>
-  {{ columns.2cols(
+<section class="centered">
+  {{ columns.three(
     headline="ab 470 € pro Woche",
     leftColumn=partial.get(collections, tags, "low-season", locale),
-    rightColumn=partial.get(collections, tags, "low-season", locale)
+    middleColumn=partial.get(collections, tags, "mid-season", locale),
+    rightColumn=partial.get(collections, tags, "high-season", locale)
   )}}
 </section>
 
