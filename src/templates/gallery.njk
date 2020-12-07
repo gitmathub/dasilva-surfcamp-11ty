@@ -18,36 +18,5 @@
     {% endfor %}
   </div>
 
-  <style>
-
-    .gallery-container {
-      display: grid;
-      grid-template-columns: 1fr;
-    }
-
-    .gallery-container > div {
-      padding: 0;
-      margin: 0.2rem 0;
-    }
-
-    @media screen and (min-width: 767px) {
-
-      .gallery-container {
-        grid-template-columns: 1fr 1fr 1fr;
-      }
-      .gallery-container > div {
-        background-color: lightgrey;
-        padding: 0;
-        margin: 0.5rem;
-      }      
-      .tile {}
-    }
-    .gallery-image {
-      object-fit: cover;
-      width: 100%;
-      height: 100%; // auto?
-    }
-  </style>
-
 {% endmacro %}
 

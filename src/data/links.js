@@ -3,7 +3,8 @@ module.exports = {
   de: {
     home: {
       title: "Home",
-      path: "/de"
+      path: "/de",
+      image: "/_assets/home/hero/portuguese-spirit-of-surfing.jpg"
     },
     bedAndBreakfast: {
       title: "Unterkunft",
@@ -15,11 +16,13 @@ module.exports = {
     },    
     mountainbikes: {
       title: "Moutainbikes",
-      path: "/de/mountainbikes"
+      path: "/de/mountainbikes",
+      image: "/_assets/masonry/joyride-1200x450.jpg"
     },
     kidsAreWelcome: {
       title: "Kids",
-      path: "/de/kidsAreWelcome"
+      path: "/de/kidsAreWelcome",
+      image: "/_assets/masonry/surfcamp-portugal_Kids_1-600x900.jpg"
     },
     happyHorses: {
       title: "Pferde",
@@ -37,7 +40,8 @@ module.exports = {
   en: {
     home: {
       title: "Home",
-      path: "/en"
+      path: "/en",
+      image: "/_assets/home/hero/portuguese-spirit-of-surfing.jpg"
     },
     bedAndBreakfast: {
       title: "Bed and Breakfast",
@@ -49,11 +53,13 @@ module.exports = {
     },        
     mountainbikes: {
       title: "Moutainbikes",
-      path: "/en/mountainbikes"
+      path: "/en/mountainbikes",
+      image: "/_assets/masonry/joyride-1200x450.jpg"
     },
     kidsAreWelcome: {
       title: "Kids are welcome",
-      path: "/en/kidsAreWelcome"
+      path: "/en/kidsAreWelcome",
+      image: "/_assets/masonry/surfcamp-portugal_Kids_1-600x900.jpg"
     },
     happyHorses: {
       title: "Happy Horses",

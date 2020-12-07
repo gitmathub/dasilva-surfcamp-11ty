@@ -1,0 +1,20 @@
+{% macro 3cols(
+  linksData,
+  relatedPages
+  )
+%}
+  <div class="gallery-container">
+    {% for page in relatedPages %}
+      <div>
+        <a href="{{ linksData[page].path }}">
+          <img src="{{ linksData[page].image }}"
+            alt="{{ linksData[page].title }}" 
+           class="gallery-image"
+          />
+        </a>
+      </div>
+    {% endfor %}
+  </div>
+
+{% endmacro %}
+

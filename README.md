@@ -79,9 +79,11 @@ CMS for Da Silva Surfcamp
   - [ ] Detect browser language and switch
 - [ ] Generate all Links
 - [ ] Header
-  - [ ] Links
-  - [ ] Logo
-  - [ ] Mobile menu
+  - [x] Navigation bar
+  - [x] Logo
+  - [x] Hambuger menu
+  - [ ] All links for Hamburger
+  - [ ] Language switch
 - [ ] Footer
   - [ ] Language icons
   - [ ] Social media links
@@ -97,6 +99,7 @@ CMS for Da Silva Surfcamp
 - [ ] Galery
   - [x] Responsive Design
   - [ ] Overlay picture
+  - [ ] 2nd row too big pictures
 - [x] Fragment galerie
 - [ ] Home
   - [x] Hero
@@ -114,7 +117,7 @@ CMS for Da Silva Surfcamp
   - [x] Hero
   - [x] Welcome
   - [x] Galerie
-  - [ ] Rooms
+  - [x] Rooms
   - [ ] Related links
 - [ ] Portugues Version
 - [ ] ...other pages
@@ -164,6 +167,8 @@ CMS for Da Silva Surfcamp
 - Justified Gallery
   - https://github.com/miromannino/Justified-Gallery
   - fixed height
+
+- Hover https://www.w3schools.com/howto/howto_css_image_overlay.asp
 
 ## Lazyloading
 

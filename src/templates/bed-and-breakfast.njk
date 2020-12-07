@@ -3,14 +3,22 @@ layout: main.njk
 
 galleryBedAndBreakfast:
   - src: /_assets/bed-and-breakfast/gallery/01-surfcamp-pool.jpg
+    alt: pool
   - src: /_assets/bed-and-breakfast/gallery/02-sign-dasilva.jpg
   - src: /_assets/bed-and-breakfast/gallery/03-terrace.jpg
+    alt: main house terrace
   - src: /_assets/bed-and-breakfast/gallery/04-double-room.jpg
+    alt: double room
   - src: /_assets/bed-and-breakfast/gallery/05-double-triple.jpg
+    alt: queen size bed
   - src: /_assets/bed-and-breakfast/gallery/06-tinies.jpg
+    alt: tiny houses
   - src: /_assets/bed-and-breakfast/gallery/07-longboard.jpg
+    alt: scateboards and longboards
   - src: /_assets/bed-and-breakfast/gallery/08-surfcamp-breakfast.jpg
+    alt: breakfast at the surfcamp
   - src: /_assets/bed-and-breakfast/gallery/09-common-room.jpg
+    alt: cosy common room
 galleryTinyHouseLuna:
   - src: /_assets/bed-and-breakfast/tiny-house-luna/01-tiny-house-luna.jpg
   - src: /_assets/bed-and-breakfast/tiny-house-luna/02-tiny-house-luna.jpg
@@ -81,12 +89,17 @@ galleryCamperVan:
   - src: /_assets/bed-and-breakfast/camper-van/04-camper-van.jpg
   - src: /_assets/bed-and-breakfast/camper-van/05-camper-van.jpg
   - src: /_assets/bed-and-breakfast/camper-van/06-camper-van.jpg
-  - src: /_assets/bed-and-breakfast/camper-van/07-camper-van.jpg  
+  - src: /_assets/bed-and-breakfast/camper-van/07-camper-van.jpg
+relatedPages:
+  - home
+  - kidsAreWelcome
+  - mountainbikes      
 ---
 {% import "partial.njk" as partial %}
 {% import "hero.njk" as hero %}
 {% import "gallery.njk" as gallery %}
 {% import "columns.njk" as columns %}
+{% import "related.njk" as related %}
 
 {{ hero.image(
   src="/_assets/bed-and-breakfast/hero/the-place-to-be.jpg",
@@ -191,3 +204,7 @@ galleryCamperVan:
 <section class="centered">
   {{ partial.get(collections, tags, "glamping-people-surrounding", locale) }}
 </section>
+
+<nav class="centered">
+  {{ related.3cols(links[locale], relatedPages)}}
+</nav>
