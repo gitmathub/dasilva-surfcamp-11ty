@@ -1,3 +1,4 @@
+
 .gallery-container {
   display: grid;
   grid-template-columns: 1fr;
@@ -15,14 +16,15 @@
   }
 
   .gallery-container>div {
-    background-color: lightgrey;
-    padding: 0;
-    margin: 0.5rem; 
+    // background-color: lightgrey;
+    padding: 0.5rem;
+    width: 100%;
+    height: 100%;
   }
 
   .gallery-image {
     object-fit: cover;
     width: 100%;
-    height: 100%; // auto  }         
+    height: 100%; // auto
   }
 }

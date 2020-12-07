@@ -3,9 +3,9 @@ tags: mountainBike
 partial: low-season
 ---
 
-#### Low Season
+#### **Low Season**
 
-#### November – March
+#### *(November – March)*
 
 #### Multiple: 470 €
 

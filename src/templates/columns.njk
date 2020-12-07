@@ -1,55 +1,18 @@
 {% macro 2cols(headline = "", subHeadline = "", leftColumn = "", rightColumn = "") %}
 
-  <div class="columns-container">
+  <div class="two-columns">
 
     <h2>{{ headline }}</h2>
     <h3>{{ subHeadline }}</h3>
-    <div class="grid-container">
-      <div class="column-left">
+    <div class="two-columns__container">
+      <div class="two-columns__left">
         {{ leftColumn }}
       </div>
-      <div class="column-right">
+      <div class="two-columns__right">
         {{ rightColumn }}
       </div>
     </div>
   </div>
-
-  <style>
-
-    .grid-container {
-      display: grid;
-      grid-template-columns: 1fr;
-    }
-
-    .grid-container > div {
-      padding: 0;
-      margin: 0 auto;
-    }
-
-    {# // start with second column (text) #}
-    .column-left {
-      grid-row-start: 2;
-    }
-    .column-right {
-      max-width: 102.4rem;
-    }    
-
-    @media screen and (min-width: 102.4rem) {
-
-      .grid-container {
-        grid-template-columns: 1fr 1fr;
-        grid-gap: 4rem;
-      }
-      .grid-container > div {
-        padding: 0;
-        margin: 0.5rem;
-      }
-      .column-left {
-        grid-row-start: 1;
-        text-align: right;
-      }    
-    }
-  </style>
 
 {% endmacro %}%}
 

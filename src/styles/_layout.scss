@@ -10,6 +10,7 @@
 html {
   // This defines 1rem = 10px; 10px/16px = 62.5%
   font-size: 62.5%;
+  box-sizing: border-box;
 }
 
 body {
@@ -71,6 +72,9 @@ article {
   h1, h2, h3, h4 {
     font-family: $font-header;   
     text-align: center;
+  }
+  h4 {
+    font-weight: $font-weight-light;
   }
   h1 {
     font-size: $font-size-title-middle;
