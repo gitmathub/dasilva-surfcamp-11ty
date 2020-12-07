@@ -1,0 +1,54 @@
+---
+layout: main.njk
+
+galleryMountainbike:
+  - src: /_assets/mountain-bike/gallery/01-mountain-bike.jpg
+  - src: /_assets/mountain-bike/gallery/02-mountain-bike.jpg
+  - src: /_assets/mountain-bike/gallery/03-mountain-bike.jpg
+  - src: /_assets/mountain-bike/gallery/04-mountain-bike.jpg
+  - src: /_assets/mountain-bike/gallery/05-mountain-bike.jpg
+  - src: /_assets/mountain-bike/gallery/06-mountain-bike.jpg
+  - src: /_assets/mountain-bike/gallery/07-mountain-bike.jpg
+  - src: /_assets/mountain-bike/gallery/08-mountain-bike.jpg
+  - src: /_assets/mountain-bike/gallery/09-mountain-bike.jpg
+
+relatedPages:
+  - home
+  - kidsAreWelcome
+  - mountainBike      
+---
+{% import "partial.njk" as partial %}
+{% import "hero.njk" as hero %}
+{% import "gallery.njk" as gallery %}
+{% import "columns.njk" as columns %}
+{% import "related.njk" as related %}
+
+{{ hero.image(
+  src="/_assets/mountain-bike/hero-joyride.jpg",
+  alt=links[locale].mountainBike.title)
+}}
+
+<section class="centered">
+  {{ partial.get(collections, tags, "start", locale) }}
+</section>
+
+<section>
+  {{ gallery.3cols(images=galleryMountainbike) }}
+</section>
+
+<section class="centered">
+  {{ partial.get(collections, tags, "prices", locale) }}
+</section>
+
+<section>
+  {{ columns.2cols(
+    headline="ab 470 € pro Woche",
+    leftColumn=partial.get(collections, tags, "low-season", locale),
+    rightColumn=partial.get(collections, tags, "low-season", locale)
+  )}}
+</section>
+
+
+<nav class="centered">
+  {{ related.3cols(links[locale], relatedPages)}}
+</nav>

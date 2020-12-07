@@ -7,7 +7,7 @@
 %}
   <div class="gallery-container">
     {% for image in images%}
-      <div class="tile">
+      <div>
         {% if image.link %}<a href="{{image.link}}">{% endif %}
           <img src="{{image.src}}"
            {% if image.alt %} alt="{{image.alt}}" {% endif %}

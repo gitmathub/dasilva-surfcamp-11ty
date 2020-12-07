@@ -12,6 +12,7 @@ CMS for Da Silva Surfcamp
 - [Loadtest](#loadtest)
   - [Speed results](#speed-results)
   - [Testing](#testing)
+    - [Speedtest tool](#speedtest-tool)
 - [Ghost CMS](#ghost-cms)
   - [Booking Layer](#booking-layer)
   - [CDN](#cdn)
@@ -188,7 +189,7 @@ CMS for Da Silva Surfcamp
 ![](docs/images/load-02-alabaster.jpg)
 ![](docs/images/load-03-babylon.jpg)
 
-  
+
 
 ## Testing
 
@@ -206,6 +207,9 @@ resize to 228 height
 curl -o /dev/null -s -w %{time_total}\\n  https://im.ages.io/4FtAEiH1l1\?height\=228
 ```
 
+### Speedtest tool
+
+- https://www.dotcom-tools.com/website-speed-test.aspx
 
 
 # Ghost CMS
@@ -229,6 +233,12 @@ https://hostingcrown.com/best-image-cdn
 ### cloudflare
 
 https://www.cloudflare.com/
+
+Check which name server is respondig
+
+```shell
+dig -t NS dasilva.alabaster.de
+```
 
 ### unpack
 

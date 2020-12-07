@@ -8,25 +8,26 @@ module.exports = {
     },
     bedAndBreakfast: {
       title: "Unterkunft",
-      path: "/de/unterkunft"
+      path: "/de/unterkunft",
+      image: "/_assets/bed-and-breakfast/gallery/08-surfcamp-breakfast.jpg"
     },
     surfing: {
       title: "Surfing",
       path: "/de/surfing"
     },    
-    mountainbikes: {
-      title: "Moutainbikes",
-      path: "/de/mountainbikes",
-      image: "/_assets/masonry/joyride-1200x450.jpg"
+    mountainBike: {
+      title: "Moutain Bike",
+      path: "/de/mountain-bike",
+      image: "/_assets/mountain-bike/gallery/09-mountain-bike.jpg"
     },
     kidsAreWelcome: {
-      title: "Kids",
-      path: "/de/kidsAreWelcome",
+      title: "Kids are Welcome",
+      path: "/de/kids-are-welcome",
       image: "/_assets/masonry/surfcamp-portugal_Kids_1-600x900.jpg"
     },
     happyHorses: {
       title: "Pferde",
-      path: "/de/happyHorses"
+      path: "/de/happy-horses"
     },
     activities: {
       title: "Aktivitäten",
@@ -45,25 +46,26 @@ module.exports = {
     },
     bedAndBreakfast: {
       title: "Bed and Breakfast",
-      path: "/en/bed-and-breakfast"
+      path: "/en/bed-and-breakfast",
+      image: "/_assets/bed-and-breakfast/gallery/08-surfcamp-breakfast.jpg"      
     },
     surfing: {
       title: "Surfing",
       path: "/en/surfing"
     },        
-    mountainbikes: {
-      title: "Moutainbikes",
-      path: "/en/mountainbikes",
-      image: "/_assets/masonry/joyride-1200x450.jpg"
+    mountainBike: {
+      title: "Moutain Bike",
+      path: "/en/mountain-bike",
+      image: "/_assets/mountain-bike/gallery/09-mountain-bike.jpg"
     },
     kidsAreWelcome: {
-      title: "Kids are welcome",
-      path: "/en/kidsAreWelcome",
+      title: "Kids are Welcome",
+      path: "/en/kids-are-welcome",
       image: "/_assets/masonry/surfcamp-portugal_Kids_1-600x900.jpg"
     },
     happyHorses: {
       title: "Happy Horses",
-      path: "/en/happyHorses"
+      path: "/en/happy-horses"
     },
     activities: {
       title: "Aktivitäten",
