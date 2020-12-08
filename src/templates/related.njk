@@ -4,16 +4,19 @@
   )
 %}
 
-<div class="related-container">
-  <div class="related-container__grid">
+<div class="related">
+  <div class="related__grid">
     {% for page in relatedPages %}
-      <div>
+      <div class="related__item">
         <a href="{{ linksData[page].path }}">
           <img src="{{ linksData[page].image }}"
             alt="{{ linksData[page].title }}" 
-           class="related-container__image"
+           class="related__image"
           />
         </a>
+        <div class="related__text-box">
+        <div class="related__title">{{ linksData[page].title }}</div>
+        </div>
       </div>
     {% endfor %}
   </div>
