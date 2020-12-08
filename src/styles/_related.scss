@@ -44,22 +44,22 @@
     width: 80%;
   }
 
-  @media screen and (min-width: 767px) {
+  &__item {
+    padding: 0.5rem;
+    width: 100%;
+    height: 100%;
+  }
+
+  &__image {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+  }
+    
+  @include respond(middle-to-wide)  {
 
     &__grid {
       grid-template-columns: 1fr 1fr 1fr;
-    }
-
-    &__item {
-      padding: 0.5rem;
-      width: 100%;
-      height: 100%;
-    }
-
-    &__image {
-      object-fit: cover;
-      width: 100%;
-      height: 100%;
     }
   }
 }
