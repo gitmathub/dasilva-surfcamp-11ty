@@ -1,25 +1,20 @@
-{% macro three(
-  linksData,
-  relatedPages
-  )
-%}
+{% macro three(linksData, relatedPages) %}
 
-<div class="related">
-  <div class="related__grid">
-    {% for page in relatedPages %}
-      <div class="related__item">
-        <a href="{{ linksData[page].path }}">
-          <img src="{{ linksData[page].image }}"
-            alt="{{ linksData[page].title }}" 
-           class="related__image"
-          />
-        </a>
-        <div class="related__text-box">
-        <div class="related__title">{{ linksData[page].title }}</div>
+  <div class="related">
+    <div class="related__grid">
+      {% for page in relatedPages %}
+        <div class="related__item">
+          <a href="{{ linksData[page].path }}">
+            <img src="{{ linksData[page].image }}"
+              alt="{{ linksData[page].title }}" 
+              class="related__image"/>
+            <div class="related__text-box">
+              <div class="related__title">{{ linksData[page].title }}</div>
+            </div>
+          </a>
         </div>
-      </div>
-    {% endfor %}
+      {% endfor %}
+    </div>
   </div>
-</div>
 
 {% endmacro %}

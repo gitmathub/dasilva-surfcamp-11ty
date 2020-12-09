@@ -6,7 +6,7 @@ layout: main.njk
 {% import "gallery.njk" as gallery %}
 
 <section>
-  <div class="hero">
+  <div style="margin-bottom: -4.0rem">
     {{ hero.image(src="/_assets/home/hero/portuguese-spirit-of-surfing.jpg") }}
   </div>
 
@@ -17,8 +17,6 @@ layout: main.njk
   {{ partial.get(collections, tags, "welcome", locale) }}
 </section>
 
-<style>
-  .hero {
-    margin-bottom: -4.0rem;
-  }
-</style>
+<section>
+  {% include "video.njk" %}
+</section>
