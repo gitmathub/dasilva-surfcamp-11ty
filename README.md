@@ -3,17 +3,14 @@ CMS for Da Silva Surfcamp
 - [Anforderungen](#anforderungen)
 - [Project Todos](#project-todos)
 - [Research](#research)
+  - [Instagram Integration](#instagram-integration)
   - [CMS Requirements](#cms-requirements)
   - [Site Generator Requirements](#site-generator-requirements)
   - [Web Scraper and Crawler](#web-scraper-and-crawler)
   - [Multilingual with 11ty](#multilingual-with-11ty)
+  - [Lightbox](#lightbox)
   - [Masonry](#masonry)
-  - [Lazyloading](#lazyloading)
-- [Loadtest](#loadtest)
-  - [Speed results](#speed-results)
-  - [Testing](#testing)
-    - [Speedtest tool](#speedtest-tool)
-- [Ghost CMS](#ghost-cms)
+  - [Ghost CMS](#ghost-cms)
   - [Booking Layer](#booking-layer)
   - [CDN](#cdn)
     - [cloudflare](#cloudflare)
@@ -23,6 +20,11 @@ CMS for Da Silva Surfcamp
   - [Lazy Loading](#lazy-loading)
     - [Iframe](#iframe)
     - [Youtube](#youtube)
+    - [Preloading fonts](#preloading-fonts)
+- [Loadtest](#loadtest)
+  - [Speed results](#speed-results)
+  - [Testing](#testing)
+    - [Speedtest tool](#speedtest-tool)
 
 
 
@@ -59,26 +61,15 @@ CMS for Da Silva Surfcamp
   - bis 11. Januar
   - 8 Wochen
 
-- 
-
 
 # Project Todos
 
-- [x] Headless CMS
-  - [x] CMS Requirement List
-  - [x] Checkout Ghost https://ghost.org
-  - [x] Decide on CMS
-- [x] Site Generator
-  - [x] Decide on Site Generator
-  - [x] Checkout 11ty https://www.11ty.dev
-  - [ ]     <link rel="preload" as="font" href="{% assetsUrl %}/fonts/tuitypelight-regular.woff2" type="font/woff2" crossorigin="anonymous">
 - [ ] Internationalisation
   - [x] Concept
   - [x] Switch same to same page
-  - [ ] Switch to non existing page
+  - [x] Switch to non existing page
   - [ ] Default page: German home
   - [ ] Detect browser language and switch
-- [ ] Generate all Links
 - [ ] Header
   - [x] Navigation bar
   - [x] Logo
@@ -88,42 +79,70 @@ CMS for Da Silva Surfcamp
 - [ ] Footer
   - [ ] Language icons
   - [ ] Social media links
-  - [ ] Site map
-- [ ] Fragment related links
-  - [ ] Images
-  - [ ] Mouse over
+  - [ ] Site map (Generate all Links)
 - [ ] Masonry
   - [x] Resonsive Design
   - [ ] Links
-  - [ ] Overlay
+  - [ ] Lightbox
   - [ ] Loader
 - [ ] Galery
   - [x] Responsive Design
   - [ ] Overlay picture
-  - [ ] 2nd row too big pictures
+  - [ ] Single Pic for Mobile
 - [x] Fragment galerie
 - [ ] Home
   - [x] Hero
   - [x] Masonry
   - [x] Welcome
-  - [ ] Video
+  - [x] Video
   - [ ] Booking
   - [ ] Specials
-  - [ ] Galerie
+  - [x] Galerie
   - [ ] Instagram
   - [ ] Partners
   - [ ] Google rating
   - [ ] Metatags
-- [ ] Page Bed & Breakfast
+- [ ] Optimisations
+  - [ ] Preload fonts
+  - [ ] Skeletons
+- [ ] Portugues Version
+- [ ] ...other pages
+- [x] Page Bed & Breakfast
   - [x] Hero
   - [x] Welcome
   - [x] Galerie
   - [x] Rooms
-  - [ ] Related links
-- [ ] Portugues Version
-- [ ] ...other pages
+  - [x] Related links
+- [x] Fragment related links
+  - [x] Images
+  - [x] Mouse over
+- [x] Headless CMS
+  - [x] CMS Requirement List
+  - [x] Checkout Ghost https://ghost.org
+  - [x] Decide on CMS
+- [x] Site Generator
+  - [x] Decide on Site Generator
+  - [x] Checkout 11ty https://www.11ty.dev
+
 
 # Research
+
+## Instagram Integration
+
+- https://www.instagram.com/dasilvasurfcamp/
+- #dasilvasurfcamp
+- Benutzerkonto:
+dasilvasurfcamp (17841401066982260)
+
+- dev instructions: https://developers.facebook.com/docs/instagram/oembed
+- javascript lib: https://github.com/stevenschobert/instafeed.js
+- node module: https://www.npmjs.com/package/node-instagram
+
+- To get a Client Access Token, sign into your App Dashboard and navigate to Settings > Advanced > Security > Client Token.
+
+
+GET http://graph.facebook.com/17841401066982260/media
+
 
 ## CMS Requirements
 
@@ -152,6 +171,10 @@ CMS for Da Silva Surfcamp
 
 - [Languag Switcher Multilangual Jamstack ](https://www.webstoemp.com/blog/language-switcher-multilingual-jamstack-sites/)
 
+## Lightbox
+
+- [w3school](https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_js_lightbox)
+
 
 ## Masonry
 
@@ -171,48 +194,7 @@ CMS for Da Silva Surfcamp
 
 - Hover https://www.w3schools.com/howto/howto_css_image_overlay.asp
 
-## Lazyloading
-
-- https://codepen.io/m3g4p0p/pen/oepWVR
-
-
-# Loadtest
-
-- https://alabaster.de/load-test/
-
-## Speed results
-
-*Ohne Cloudflare*
-![](docs/images/load-01-surfcamp.jpg)
-*Cloudflare*
-![](docs/images/load-cloudflare.jpg)
-![](docs/images/load-02-alabaster.jpg)
-![](docs/images/load-03-babylon.jpg)
-
-
-
-## Testing
-
-test image loading speed
-```bash
-# dasilve surfcamp
-curl -o /dev/null -s -w %{time_total}\\n  https://www.dasilva-surfcamp.de/wp-content/uploads/2016/05/portugal_surfcamp-e1586447532869-1200x900.jpg
-
-# alabaster
-curl -o /dev/null -s -w %{time_total}\\n  https://alabaster.de/load-test/images/portugal_surfcamp-e1586447532869-1200x900.jpg
-```
-
-resize to 228 height
-```
-curl -o /dev/null -s -w %{time_total}\\n  https://im.ages.io/4FtAEiH1l1\?height\=228
-```
-
-### Speedtest tool
-
-- https://www.dotcom-tools.com/website-speed-test.aspx
-
-
-# Ghost CMS
+## Ghost CMS
 
 - Docs: https://ghost.org/docs/
 - Ghost + 11ty: https://ghost.org/changelog/eleventy/
@@ -267,6 +249,8 @@ dig -t NS dasilva.alabaster.de
 
 ### Iframe
 
+- https://codepen.io/m3g4p0p/pen/oepWVR
+
 ```html
   <iframe src="video-player.html" title="..." loading="lazy"></iframe>
 ```
@@ -277,3 +261,44 @@ dig -t NS dasilva.alabaster.de
 
 - lite-youtube-embed claims to load 200x faster
   - https://github.com/paulirish/lite-youtube-embed
+
+### Preloading fonts
+
+```html
+<link rel="preload" as="font" href="{% assetsUrl %}/fonts/tuitypelight-regular.woff2" type="font/woff2" crossorigin="anonymous">
+```
+
+# Loadtest
+
+- https://alabaster.de/load-test/
+
+## Speed results
+
+*Ohne Cloudflare*
+![](docs/images/load-01-surfcamp.jpg)
+*Cloudflare*
+![](docs/images/load-cloudflare.jpg)
+![](docs/images/load-02-alabaster.jpg)
+![](docs/images/load-03-babylon.jpg)
+
+
+
+## Testing
+
+test image loading speed
+```bash
+# dasilve surfcamp
+curl -o /dev/null -s -w %{time_total}\\n  https://www.dasilva-surfcamp.de/wp-content/uploads/2016/05/portugal_surfcamp-e1586447532869-1200x900.jpg
+
+# alabaster
+curl -o /dev/null -s -w %{time_total}\\n  https://alabaster.de/load-test/images/portugal_surfcamp-e1586447532869-1200x900.jpg
+```
+
+resize to 228 height
+```
+curl -o /dev/null -s -w %{time_total}\\n  https://im.ages.io/4FtAEiH1l1\?height\=228
+```
+
+### Speedtest tool
+
+- https://www.dotcom-tools.com/website-speed-test.aspx

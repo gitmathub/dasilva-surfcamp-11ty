@@ -41,7 +41,7 @@ a.active {
 
 main {
   margin: 3.6rem;
-  margin-top: 0;  
+  margin-top: 0;
   padding: 0.8rem;
 
   @include respond(middle) {
@@ -60,7 +60,19 @@ main {
   max-width: $text-block-width;
 }
 
-@include respond(small) {}
+.display-if-middle-to-wide {
+  @include respond(small) {
+    display: none;
+  }
+}
+
+.display-if-small {
+  @include respond(middle-to-wide) {
+    display: none;
+  }
+}
+
+
 
 section,
 article {
@@ -69,57 +81,70 @@ article {
   font-size: $font-size-middle;
   font-weight: $font-weight-light;
 
-  h1, h2, h3, h4 {
-    font-family: $font-header;  
+  h1,
+  h2,
+  h3,
+  h4 {
+    font-family: $font-header;
     text-align: center;
   }
+
   h4 {
     font-weight: $font-weight-light;
   }
+
   h1 {
     font-size: $font-size-title-middle;
     font-weight: $font-weight-title-middle;
-    margin: 3.2rem auto 2.8rem auto; 
+    margin: 3.2rem auto 2.8rem auto;
   }
+
   h2 {
     font-size: $font-size-title-small;
     font-weight: $font-weight-title-small;
-    margin: 2.8rem auto 2.1rem auto; 
+    margin: 2.8rem auto 2.1rem auto;
   }
+
   h3 {
     font-size: $font-size-title-smaller;
     font-weight: $font-weight-title-smaller;
-    margin: 2.1rem auto 1.6rem auto; 
+    margin: 2.1rem auto 1.6rem auto;
   }
 
   @include respond(small) {
     font-size: $font-size-small;
     font-weight: $font-weight-light;
+
     h1 {
       font-size: $font-size-title-small;
       font-weight: $font-weight-title-small;
     }
+
     h2 {
       font-size: $font-size-title-smaller;
       font-weight: $font-weight-title-smaller;
     }
+
     h3 {
       font-size: $font-size-title-smallest;
       font-weight: $font-weight-title-smallest;
-    }    
+    }
   }
 
   @include respond(wide) {
     font-size: $font-size-wide;
     font-weight: $font-weight-middle;
+
     h1 {
       font-size: $font-size-title-wide;
       font-weight: $font-weight-title-wide;
     }
+
     h2 {
       font-size: $font-size-title-middle;
       font-weight: $font-weight-title-small;
     }
+
     h3 {
       font-size: $font-size-title-small;
       font-weight: $font-weight-title-small;
@@ -129,6 +154,7 @@ article {
 
   p {
     margin-bottom: 2.1rem;
+
     @include respond(small) {
       margin-bottom: 1.2rem;
     }

@@ -14,8 +14,8 @@ module.exports = {
     surfing: {
       title: "Surfing",
       path: "/de/surfing",
-      image: "/_assets/surfing/related-surfing.jpg"
-    },    
+      image: "/_assets/surfing/surfer-lighthouse-770x513.jpg"
+    },
     mountainBike: {
       title: "Moutain Bike",
       path: "/de/mountain-bike",
@@ -48,13 +48,13 @@ module.exports = {
     bedAndBreakfast: {
       title: "Bed and Breakfast",
       path: "/en/bed-and-breakfast",
-      image: "/_assets/bed-and-breakfast/gallery/08-surfcamp-breakfast.jpg"      
+      image: "/_assets/bed-and-breakfast/gallery/08-surfcamp-breakfast.jpg"
     },
     surfing: {
       title: "Surfing",
       path: "/en/surfing",
-      image: "/_assets/surfing/related-surfing.jpg"      
-    },        
+      image: "/_assets/surfing/surfer-lighthouse-770x513.jpg"
+    },
     mountainBike: {
       title: "Moutain Bike",
       path: "/en/mountain-bike",
@@ -76,6 +76,6 @@ module.exports = {
     booking: {
       title: "Booking",
       path: "/en/booking"
-    }    
+    }
   }
 }
