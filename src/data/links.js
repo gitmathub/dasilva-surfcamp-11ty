@@ -27,8 +27,9 @@ module.exports = {
       image: "/_assets/kids-are-welcome/related-kids-are-welcome.jpg"
     },
     happyHorses: {
-      title: "Pferde",
-      path: "/de/happy-horses"
+      title: "Happy Horses",
+      path: "/de/happy-horses",
+      image: "/_assets/happy-horses/related-happy-horses.jpg"
     },
     activities: {
       title: "Aktivitäten",
@@ -67,7 +68,8 @@ module.exports = {
     },
     happyHorses: {
       title: "Happy Horses",
-      path: "/en/happy-horses"
+      path: "/en/happy-horses",
+      image: "/_assets/happy-horses/related-happy-horses.jpg"
     },
     activities: {
       title: "Aktivitäten",
