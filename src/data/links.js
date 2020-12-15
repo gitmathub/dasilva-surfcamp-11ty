@@ -9,27 +9,27 @@ module.exports = {
     bedAndBreakfast: {
       title: "Unterkunft",
       path: "/de/unterkunft",
-      image: "/_assets/bed-and-breakfast/gallery/08-surfcamp-breakfast.jpg"
+      image: "/_assets/related/bed-and-breakfast.jpg"
     },
     surfing: {
       title: "Surfing",
       path: "/de/surfing",
-      image: "/_assets/surfing/surfer-lighthouse-770x513.jpg"
+      image: "/_assets/related/surfing.jpg"
     },
     mountainBike: {
       title: "Moutain Bike",
       path: "/de/mountain-bike",
-      image: "/_assets/mountain-bike/gallery/09-mountain-bike.jpg"
+      image: "/_assets/related/mountain-bike.jpg"
     },
     kidsAreWelcome: {
       title: "Kids are Welcome",
       path: "/de/kids-are-welcome",
-      image: "/_assets/kids-are-welcome/related-kids-are-welcome.jpg"
+      image: "/_assets/related/kids-are-welcome.jpg"
     },
     happyHorses: {
       title: "Happy Horses",
       path: "/de/happy-horses",
-      image: "/_assets/happy-horses/related-happy-horses.jpg"
+      image: "/_assets/related/happy-horses.jpg"
     },
     activities: {
       title: "Aktivitäten",
@@ -49,27 +49,27 @@ module.exports = {
     bedAndBreakfast: {
       title: "Bed and Breakfast",
       path: "/en/bed-and-breakfast",
-      image: "/_assets/bed-and-breakfast/gallery/08-surfcamp-breakfast.jpg"
+      image: "/_assets/related/bed-and-breakfast.jpg"
     },
     surfing: {
       title: "Surfing",
       path: "/en/surfing",
-      image: "/_assets/surfing/surfer-lighthouse-770x513.jpg"
+      image: "/_assets/related/surfing.jpg"
     },
     mountainBike: {
       title: "Moutain Bike",
       path: "/en/mountain-bike",
-      image: "/_assets/mountain-bike/gallery/09-mountain-bike.jpg"
+      image: "/_assets/related/mountain-bike.jpg"
     },
     kidsAreWelcome: {
       title: "Kids are Welcome",
       path: "/en/kids-are-welcome",
-      image: "/_assets/kids-are-welcome/related-kids-are-welcome.jpg"
+      image: "/_assets/related/kids-are-welcome.jpg"
     },
     happyHorses: {
       title: "Happy Horses",
       path: "/en/happy-horses",
-      image: "/_assets/happy-horses/related-happy-horses.jpg"
+      image: "/_assets/related/happy-horses.jpg"
     },
     activities: {
       title: "Aktivitäten",
