@@ -22,6 +22,7 @@ relatedPages:
 {% import "columns.njk" as columns %}
 {% import "gallery.njk" as gallery %}
 {% import "related.njk" as related %}
+{% import "video.njk" as video %}
 
 {{ hero.image(
   src="/_assets/surfing/hero-surfing.jpg",
@@ -57,7 +58,13 @@ relatedPages:
 
 <section class="centered">
   {{ partial.get(collections, tags, "whats-included", locale) }}
+  {{ partial.get(collections, tags, "class", locale) }}
 </section>
+
+<section>
+  {{ video.vimeo(videoId="168799316") }}
+</section>
+
 
 <nav class="centered">
   {{ related.three(links[locale], relatedPages)}}

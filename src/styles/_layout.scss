@@ -14,72 +14,12 @@ html {
 }
 
 body {
-  font-family: $font-code;
-  line-height: $line-height-middle;
-  color: $color-grey-dark-3;
-}
 
-a {
-
-  &:link,
-  &:visited {
-    display: inline-block;
-    color: $color-grey-dark-3;
-    // text-decoration: none;
-    font-weight: bolder;
-  }
-
-  &:hover {
-    background-color: $color-grey-light-2;
-  }
-}
-
-a.active {
-  // doesn't work above with &:active
-  background-color: $color-grey-light-2;
-}
-
-main {
-  margin: 3.6rem;
-  margin-top: 0;
-  padding: 0.8rem;
-
-  @include respond(middle) {
-    margin: 1.6rem;
-    margin-top: 0;
-  }
-
-  @include respond(small) {
-    margin: 0rem;
-  }
-}
-
-.centered {
-  margin: 0 auto;
-  padding: 0.8rem;
-  max-width: $text-block-width;
-}
-
-.display-if-middle-to-wide {
-  @include respond(small) {
-    display: none;
-  }
-}
-
-.display-if-small {
-  @include respond(middle-to-wide) {
-    display: none;
-  }
-}
-
-
-
-section,
-article {
-  // middle
   font-family: $font-code;
   font-size: $font-size-middle;
   font-weight: $font-weight-light;
+  line-height: $line-height-middle;
+  color: $color-grey-dark-3;
 
   h1,
   h2,
@@ -181,4 +121,57 @@ article {
     vertical-align: top;
   }
 
+}
+
+a {
+
+  &:link,
+  &:visited {
+    display: inline-block;
+    color: $color-grey-dark-3;
+    // text-decoration: none;
+    font-weight: bolder;
+  }
+
+  &:hover {
+    background-color: $color-grey-light-2;
+  }
+}
+
+a.active {
+  // doesn't work above with &:active
+  background-color: $color-grey-light-2;
+}
+
+main {
+  margin: 3.6rem;
+  margin-top: 0;
+  padding: 0.8rem;
+
+  @include respond(middle) {
+    margin: 1.6rem;
+    margin-top: 0;
+  }
+
+  @include respond(small) {
+    margin: 0rem;
+  }
+}
+
+.centered {
+  margin: 0 auto;
+  padding: 0.8rem;
+  max-width: $text-block-width;
+}
+
+.display-if-middle-to-wide {
+  @include respond(small) {
+    display: none;
+  }
+}
+
+.display-if-small {
+  @include respond(middle-to-wide) {
+    display: none;
+  }
 }

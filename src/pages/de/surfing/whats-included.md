@@ -3,7 +3,7 @@ tags: surfing
 partial: whats-included
 ---
 
-### 1 week/ 5 days surf classes include:
+### 1 Woche / 5 Surfkurse inklusive:
 
 * 10 x 2 Stunden Intensiv Surfkurs (2 Stunden pro Session / 2 Sessions pro Tag)
 * komplettes Surfequipment (Surfboard, Leash, Wetsuit) während des Kurses
