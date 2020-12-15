@@ -1,0 +1,63 @@
+---
+layout: main.njk
+
+galleryHorseHeads:
+  - src: /_assets/happy-horses/gallery/01-happy-horses.jpg
+  - src: /_assets/happy-horses/gallery/02-happy-horses.jpg
+  - src: /_assets/happy-horses/gallery/03-happy-horses.jpg
+
+galleryAndresh:
+  - src: /_assets/happy-horses/gallery/04-happy-horses.jpg
+  - src: /_assets/happy-horses/gallery/05-happy-horses.jpg
+  - src: /_assets/happy-horses/gallery/06-happy-horses.jpg
+
+galleryHorsesOnThePaddock:
+  - src: /_assets/happy-horses/gallery/07-happy-horses.jpg
+  - src: /_assets/happy-horses/gallery/08-happy-horses.jpg
+  - src: /_assets/happy-horses/gallery/09-happy-horses.jpg
+
+relatedPages:
+  - kidsAreWelcome
+  - surfing
+  - bedAndBreakfast
+---
+{% import "partial.njk" as partial %}
+{% import "hero.njk" as hero %}
+{% import "gallery.njk" as gallery %}
+{% import "columns.njk" as columns %}
+{% import "related.njk" as related %}
+
+{{ hero.image(
+  src="/_assets/happy-horses/hero-happy-horses.jpg",
+  alt=links[locale].mountainBike.title)
+}}
+
+<section class="centered">
+  {{ partial.get(collections, tags, "start", locale) }}
+</section>
+
+
+{{ gallery.three(images=galleryHorseHeads) }}
+
+<section class="centered">
+  {{ partial.get(collections, tags, "who-we-are", locale) }}
+</section>
+
+{{ gallery.three(images=galleryAndresh) }}
+
+{{ columns.two(
+  leftColumn=partial.get(collections, tags, "chargesKids", locale),
+  rightColumn=partial.get(collections, tags, "chargesAdults", locale)
+)}}
+
+<nav class="centered">
+  {{ partial.get(collections, tags, "offers", locale) }}
+</nav>
+
+{{ gallery.three(images=galleryHorsesOnThePaddock) }}
+
+
+
+<nav class="centered">
+  {{ related.three(links[locale], relatedPages)}}
+</nav>
