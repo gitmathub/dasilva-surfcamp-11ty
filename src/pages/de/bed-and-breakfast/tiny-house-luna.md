@@ -17,8 +17,4 @@ Preise pro Person inkl. Frühstück und 2x BBQ pro Woche:
 
 Hier geht es zur <a name="booking-link" href="https://da-silva-bike-surf-camp.bookinglayer.io/#/product/59455">Buchung</a>
 
-<!-- <script>
-document.getElementsByName('booking-link')[0].setAttribute('href', `https://da-silva-bike-surf-camp.bookinglayer.io/#/product/59455?lang={{ locale }}&start=${today()}&duration=10&couple=1`)</script> -->
-
-
 Die Matratze auf dem Hochbett ist 140 x 190cm groß. Das Schlafsofa unten ist 128 x 180cm groß. Wenn man das ausklappt, ist aber kaum noch Platz im Häuschen.

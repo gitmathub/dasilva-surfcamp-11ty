@@ -11,8 +11,13 @@
   }
 
   ul {
-    margin: 1.6rem 0 0.4rem 0;
+    margin: 0 0 1.6rem 0;
   }
+  // override global "-" dashes
+  ul>li:before {
+    content: '';
+  }
+  
   li {
     display: block ;
     float: left;
@@ -23,7 +28,7 @@
     }
   }
 
-  @include respond(middle) {
+  @media only screen and (min-width: 900px) {
     display: flex;
     justify-content: flex-end;
     margin-left: 15.0rem; // logo width
@@ -32,7 +37,7 @@
     font-weight: $font-weight-middle;
   }
 
-  @include respond(wide) {
+  @media only screen and (min-width: 1400px) {
     display: flex;
     justify-content: flex-end;
     margin-left: 20.0rem; // logo width
