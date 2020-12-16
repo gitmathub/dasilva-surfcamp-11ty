@@ -13,19 +13,47 @@
   ul {
     margin: 0 0 1.6rem 0;
   }
+
   // override global "-" dashes
   ul>li:before {
     content: '';
   }
-  
-  li {
-    display: block ;
+
+  .top-menu>li {
+    display: block;
     float: left;
     padding-right: 1rem;
 
     @include respond(wide) {
       padding-left: 0.8rem;
     }
+  }
+
+  .sub-menu {
+    display: none;
+    position: absolute;
+    min-width: 24.0rem;
+    box-shadow: 0.5rem 0.5rem 1.5rem black;
+    z-index: 1;
+  }
+
+  .top-menu>li:hover .sub-menu {
+    background-color: white;
+    display: block;
+    padding: 0.8rem 1.6rem 0.4rem 1.6rem;
+    margin-left: -1.6rem;
+    margin-right: 1.6rem;
+    box-shadow: 0.5rem 0.5rem 1.5rem black;
+    line-height: 250%;
+  }
+
+  // .second-last {
+  //   background-color: red;
+  //   margin-left: -8.0rem;
+  // }
+
+  .top-menu>li:hover .second-last{
+    margin-left: -12.0rem;
   }
 
   @media only screen and (min-width: 900px) {

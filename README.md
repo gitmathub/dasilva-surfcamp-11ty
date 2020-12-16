@@ -9,6 +9,7 @@ CMS for Da Silva Surfcamp
   - [Web Scraper and Crawler](#web-scraper-and-crawler)
   - [Multilingual with 11ty](#multilingual-with-11ty)
   - [Lightbox](#lightbox)
+  - [Dropdown Menu](#dropdown-menu)
   - [Masonry](#masonry)
   - [Ghost CMS](#ghost-cms)
   - [Booking Layer](#booking-layer)
@@ -178,6 +179,10 @@ GET http://graph.facebook.com/17841401066982260/media
 ## Lightbox
 
 - [w3school](https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_js_lightbox)
+
+## Dropdown Menu
+
+- https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_js_dropdown_hover
 
 
 ## Masonry
