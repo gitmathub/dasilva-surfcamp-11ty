@@ -208,3 +208,11 @@ relatedPages:
 <nav class="centered">
   {{ related.three(links[locale], relatedPages)}}
 </nav>
+
+<script>
+var elements = document.getElementsByName('booking-link');
+
+for (var i=0, max=elements.length; i < max; i++) {
+  document.getElementsByName('booking-link')[i].setAttribute('href', `https://da-silva-bike-surf-camp.bookinglayer.io/#/product/59455?lang={{ locale }}&start=${today()}&duration=10&couple=1`)
+}
+</script>

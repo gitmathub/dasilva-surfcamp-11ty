@@ -74,6 +74,7 @@ CMS for Da Silva Surfcamp
   - [x] Navigation bar
   - [x] Logo
   - [x] Hambuger menu
+  - [ ] Scale properly
   - [ ] All links for Hamburger
   - [ ] Language switch
 - [ ] Footer
@@ -107,6 +108,9 @@ CMS for Da Silva Surfcamp
   - [ ] Skeletons
 - [ ] Portugues Version
 - [ ] ...other pages
+- [ ] Happy Horses
+- [x] Video Macro
+- [x] Surfing
 - [x] Page Bed & Breakfast
   - [x] Hero
   - [x] Welcome
@@ -207,6 +211,10 @@ GET http://graph.facebook.com/17841401066982260/media
 ## Booking Layer
 
 https://www.bookinglayer.com
+
+- direct link to bed and breakfast for a couple in English, from the March 1st:
+ - https://da-silva-bike-surf-camp.bookinglayer.io/frontoffice/#/product/59455?lang=en&start=2021-03-01&duration=10&couple=1 
+
 
 ## CDN
 
