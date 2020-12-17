@@ -14,9 +14,18 @@
       {% endif %}
   {% endfor %}
 
-  <li class="c-lggnav__item">
-    <a class="c-lggnav__link  {{ activeClass }}" href="{{ translatedUrl }}">{{ language.label }}</a>
+  <li class="language-switch">
+    <a class="{{ activeClass }}" href="{{ translatedUrl }}">
+      <img src="/_assets/flags/{{language.code}}.svg" alt="{{ language.label }}" class="language-switch__flag"/>
+      {{ language.label }}
+    </a>
   </li>
 
   {% if loop.last %}</ul>{% endif %}
 {% endfor %}
+
+<style>
+  .language-switch__flag {
+    width: 30px;
+  }
+</style>

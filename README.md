@@ -26,6 +26,7 @@ CMS for Da Silva Surfcamp
   - [Speed results](#speed-results)
   - [Testing](#testing)
     - [Speedtest tool](#speedtest-tool)
+- [Credits](#credits)
 
 
 
@@ -315,3 +316,8 @@ curl -o /dev/null -s -w %{time_total}\\n  https://im.ages.io/4FtAEiH1l1\?height\
 ### Speedtest tool
 
 - https://www.dotcom-tools.com/website-speed-test.aspx
+
+# Credits
+
+- country icons
+  - https://www.svgrepo.com/vectors/portuguese/

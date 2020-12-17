@@ -47,13 +47,13 @@
     line-height: 250%;
   }
 
-  // .second-last {
-  //   background-color: red;
-  //   margin-left: -8.0rem;
-  // }
-
   .top-menu>li:hover .second-last{
     margin-left: -12.0rem;
+  }
+
+  .top-menu>li:hover .last{
+    margin-left: -13.0rem;
+    min-width: 12.0rem;
   }
 
   @media only screen and (min-width: 900px) {

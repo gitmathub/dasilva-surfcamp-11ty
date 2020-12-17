@@ -45,7 +45,7 @@
     </li>
     <li>
       <a href="{{ links[locale].prices.path }}">{{ links[locale].prices.title }}</a>
-    </li>    
+    </li>
     <li>
       <a href="{{ links[locale].booking.path }}">{{ links[locale].booking.title }}</a>
       <ul class="sub-menu second-last">
@@ -58,6 +58,12 @@
         <li>
           <a href="{{ links[locale].contact.path }}">{{ links[locale].contact.title }}</a>
         </li>
+      </ul>
+    </li>
+    <li>
+      <img height="30px" src="/_assets/{{locale}}.svg"/>
+      <ul class="sub-menu last">
+        {% include "lang-switch.njk" %}
       </ul>
     </li>
   </ul>
