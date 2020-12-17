@@ -1,0 +1,70 @@
+<div class="menu-list">
+  <ul class="top-menu">
+    <li>
+      <a href="{{ links[locale].home.path }}">{{ links[locale].home.title }}</a>
+      <ul class="sub-menu">
+        <li>
+          <a href="{{ links[locale].bedAndBreakfast.path }}">{{ links[locale].bedAndBreakfast.title }}</a>
+        </li>
+        <li>
+          <a href="{{ links[locale].kidsAreWelcome.path }}">{{ links[locale].kidsAreWelcome.title }}</a>
+        </li>
+        <li>
+          <a href="{{ links[locale].surroundings.path }}">{{ links[locale].surroundings.title }}</a>
+        </li>
+        <li>
+          <a href="{{ links[locale].surfBar.path }}">{{ links[locale].surfBar.title }}</a>
+        </li>
+      </ul>
+    </li>
+    <li>
+      <a href="{{ links[locale].action.path }}">{{ links[locale].action.title }}</a>
+      <ul class="sub-menu">
+        <li>
+          <a href="{{ links[locale].surfing.path }}">{{ links[locale].surfing.title }}</a>
+        </li>
+        <li>
+          <a href="{{ links[locale].mountainBike.path }}">{{ links[locale].mountainBike.title }}</a>
+        </li>
+        <li>
+          <a href="{{ links[locale].happyHorses.path }}">{{ links[locale].happyHorses.title }}</a>
+        </li>
+        <li>
+          <a href="{{ links[locale].trailRunning.path }}">{{ links[locale].trailRunning.title }}</a>
+        </li>
+        <li>
+          <a href="{{ links[locale].yoga.path }}">{{ links[locale].yoga.title }}</a>
+        </li>
+        <li>
+          <a href="{{ links[locale].skateBoard.path }}">{{ links[locale].skateBoard.title }}</a>
+        </li>
+      </ul>
+    </li>
+    <li>
+      <a href="{{ links[locale].map.path }}">{{ links[locale].map.title }}</a>
+    </li>
+    <li>
+      <a href="{{ links[locale].prices.path }}">{{ links[locale].prices.title }}</a>
+    </li>
+    <li>
+      <a href="{{ links[locale].booking.path }}">{{ links[locale].booking.title }}</a>
+      <ul class="sub-menu second-last">
+        <li>
+          <a href="{{ links[locale].onlineBooking.path }}">{{ links[locale].onlineBooking.title }}</a>
+        </li>
+        <li>
+          <a href="{{ links[locale].bookingRequest.path }}">{{ links[locale].bookingRequest.title }}</a>
+        </li>
+        <li>
+          <a href="{{ links[locale].contact.path }}">{{ links[locale].contact.title }}</a>
+        </li>
+      </ul>
+    </li>
+    <li>
+      <img height="30px" src="/_assets/{{locale}}.svg"/>
+      <ul class="sub-menu last">
+        {% include "lang-switch.njk" %}
+      </ul>
+    </li>
+  </ul>
+</div>

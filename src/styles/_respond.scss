@@ -34,6 +34,12 @@ $pad-width: 768px;
       @content;
     }
   }
+  @if $breakpoint == pad-to-wide {
+    @media only screen and (min-width: $pad-width) and (max-width: $text-block-width) {
+        // background-color: orange;
+      @content;
+    }
+  }  
   @if $breakpoint == small-to-middle {
     @media only screen and (max-width: $text-block-width) {
         // background-color: lightblue;
@@ -48,7 +54,7 @@ $pad-width: 768px;
   }
 
   @if $breakpoint == wide {
-    @media only screen and (min-width: $text-block-width) {
+    @media only screen and (min-width: $text-block-width + 1) {
         // background-color: pink;
       @content;
     }

@@ -1,0 +1,40 @@
+<div class="menu-hamburger">
+  <input  
+      type="checkbox"
+      class="menu-hamburger__checkbox"
+      id="navi-toggle"
+  />
+  <label for="navi-toggle" class="menu-hamburger__button">
+    <span class="menu-hamburger__icon">☰</span>
+  </label>
+  <div class="canvas">&nbsp;</div>
+  {# <div class="menu-area">
+    <ul class="menu-hamburger__list">
+    <li class="menu-hamburger__item">
+      <a href="{{ links[locale].home.path }}" class="menu-hamburger__link">{{ links[locale].home.title }}</a>
+    </li>
+    <li class="menu-hamburger__item">
+      <a href="{{ links[locale].surfing.path }}" class="menu-hamburger__link">{{ links[locale].surfing.title }}</a>
+    </li>
+    <li class="menu-hamburger__item">
+      <a href="{{ links[locale].mountainBike.path }}" class="menu-hamburger__link">{{ links[locale].mountainbike.title }}</a>
+    </li>
+    <li class="menu-hamburger__item">
+      <a href="{{ links[locale].kidsAreWelcome.path }}" class="menu-hamburger__link">{{ links[locale].kidsAreWelcome.title }}</a>
+    </li>
+    <li class="menu-hamburger__item">
+      <a href="{{ links[locale].happyHorses.path }}" class="menu-hamburger__link">{{ links[locale].happyHorses.title }}</a>
+    </li>
+    <li class="menu-hamburger__item">
+      <a href="{{ links[locale].activities.path }}" class="menu-hamburger__link">{{ links[locale].activities.title }}</a>
+    </li>
+    <li class="menu-hamburger__item">
+      <a href="{{ links[locale].booking.path }}" class="menu-hamburger__link">{{ links[locale].booking.title }}</a>
+    </li>
+    <li class="menu-hamburger__item">
+      <a href="{{ links[locale].bedAndBreakfast.path }}" class="menu-hamburger__link">{{ links[locale].bedAndBreakfast.title }}</a>
+    </li>
+    </ul>
+  </div> #}
+  {% include "menu-list.njk"%}
+</div>
