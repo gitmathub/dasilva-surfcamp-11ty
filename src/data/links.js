@@ -6,6 +6,9 @@ module.exports = {
       path: "/de",
       image: "/_assets/home/hero/portuguese-spirit-of-surfing.jpg"
     },
+    camp: {
+      title: "Camp"
+    },
     bedAndBreakfast: {
       title: "Unterkunft",
       path: "/de/unterkunft",
@@ -27,8 +30,7 @@ module.exports = {
       image: "/_assets/related/surf-bar.jpg"
     },
     action: {
-      title: "Action",
-      path: "/de/aktivitaeten"
+      title: "Action"
     },
     surfing: {
       title: "Surfen",
@@ -67,14 +69,13 @@ module.exports = {
     prices: {
       title: "Preise",
       path: "/de/preise"
-    },    
+    },
     booking: {
-      title: "Booking",
-      path: "/de/buchen"
+      title: "Buchen",
     },
     onlineBooking: {
-      title: "Online Booking",
-      path: "/de/buchen"
+      title: "Online Buchen",
+      path: "https://da-silva-bike-surf-camp.bookinglayer.io/frontoffice/#/?lang=de"
     },
     bookingRequest: {
       title: "Buchungsanfrage",
@@ -91,6 +92,9 @@ module.exports = {
       path: "/en",
       image: "/_assets/home/hero/portuguese-spirit-of-surfing.jpg"
     },
+    camp: {
+      title: "Camp"
+    },    
     bedAndBreakfast: {
       title: "Bed and Breakfast",
       path: "/en/bed-and-breakfast",
@@ -112,8 +116,7 @@ module.exports = {
       image: "/_assets/related/surf-bar.jpg"
     },
     action: {
-      title: "Action",
-      path: "/en/activities"
+      title: "Action"
     },
     surfing: {
       title: "Surfing",
@@ -152,14 +155,13 @@ module.exports = {
     prices: {
       title: "Prices",
       path: "/en/prices"
-    },        
+    },
     booking: {
       title: "Booking",
-      path: "/en/booking"
     },
     onlineBooking: {
       title: "Online Booking",
-      path: "/en/online-booking"
+      path: "https://da-silva-bike-surf-camp.bookinglayer.io/frontoffice/#/?lang=en"
     },
     bookingRequest: {
       title: "Booking Request",

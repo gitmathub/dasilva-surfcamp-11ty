@@ -57,16 +57,6 @@
     min-width: 12.0rem;
   }
 
-  // @media only screen and (min-width: $mobile-width -1) and (max-width: $pad-width) {
-  //   background-color: red;
-  //   display: flex;
-  //   justify-content: flex-end;
-  //   margin-left: 15.0rem; // logo width
-  //   // margin-right: 1.6rem;
-  //   font-size: $font-size-middle;
-  //   font-weight: $font-weight-middle;
-  // }
-
   @include respond(pad-to-wide) {
     display: flex;
     justify-content: flex-end;
@@ -107,14 +97,12 @@
     opacity: 1;
   }
 
-
   .menu-list {
     height: 100vh;
     width: 100%;
     position: fixed;
     top: 0;
     right: 0;
-    
 
     opacity: 0;
     width: 0;
@@ -122,15 +110,13 @@
 
   .top-menu {
     position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    top: 10%;
+    left: 20%;
+    // transform: translate(-10%, -30%);
     list-style: none;
-    // text-align: center;
   }
 
   .sub-menu {
-    margin: 0.8rem;
     margin-left: 1.8rem;
   }
 

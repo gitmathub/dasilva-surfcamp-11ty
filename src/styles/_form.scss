@@ -1,0 +1,7 @@
+.form {
+  text-decoration: dashed;
+
+  &__line>label {
+    background-color: blue;
+  }
+}

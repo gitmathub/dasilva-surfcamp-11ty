@@ -1,0 +1,25 @@
+---
+layout: main.njk
+
+relatedPages:
+  - bedAndBreakfast
+  - surfing
+  - mountainBike      
+---
+{% import "partial.njk" as partial %}
+{% import "hero.njk" as hero %}
+{% import "gallery.njk" as gallery %}
+{% import "related.njk" as related %}
+
+{{ hero.image(
+  src="/_assets/booking-request/hero-booking-request.jpg",
+  alt=links[locale].bookingRequest.title)
+}}
+
+<section class="centered">
+  {{ partial.get(collections, tags, "form", locale) }}
+</section>
+
+<nav class="centered">
+  {{ related.three(links[locale], relatedPages)}}
+</nav>
