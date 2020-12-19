@@ -22,12 +22,28 @@
   &__fields {
     display: block;
 
-    input, select {
+    input, select, textarea {
       width: 100%;
       border: 1px solid grey;
       // width: calc(100% - 200px);
     }
 
+    // textarea:focus,
+    // input:focus {
+    //   border: 2px solid gold;
+    // }    
+
+    input[type=checkbox] {
+      width: 1.6rem;
+      margin: 0.8rem;
+    }
+  
+    input[type=submit] {
+      width: 20rem;
+      font-weight: $font-weight-strong;
+      font-size: larger;
+    }
+  
     sup {
       color: $color-red;
     }
@@ -37,14 +53,10 @@
       padding: 0.8rem
     }
 
-    // textarea:focus,
-    // input:focus {
-    //   border: 2px solid gold;
-    // }
-
     &__hint {
       font-size: smaller;
       color: $color-grey-dark-2;
+      margin-top: 0.8rem;
     }
     &__two {
       display: flex;
@@ -57,6 +69,18 @@
     &__half:first-child {
       padding-right: 0.8rem;
     }
+
+    &__checkbox {
+      display: flex;
+      align-items: center;
+    }
+
+    &__submit {
+      display: flex;
+      justify-content: flex-end;
+      width: 100%;
+      margin: 1.6rem 0 0 0;
+    }    
 
     @include respond(small) {
       &__two {
@@ -75,7 +99,10 @@
 
   &__fields>div>label {
     display: block;
-    // background-color: lightgray;
     margin: 1.2rem 0 0.2rem 0;
   }
+  &__fields>div>label.checkbox {
+    margin: 0;
+    font-weight: 300;
+  }  
 }

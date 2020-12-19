@@ -67,7 +67,10 @@ termsAndConditionAccepted:
 airportTransfer:
   label: Wir möchten gern vom Flughafen abgeholt werden.
 airportTransferPrice:
-  label: Weitere Reiseteilnehmer bitte unten im Kommentarfeld eintragen. Bitte auch angeben wieviele Kinder (bis 12 Jahre) und Babys (bis 2 Jahre) dabei sind.
+  hint: Weitere Reiseteilnehmer bitte unten im Kommentarfeld eintragen. Bitte auch angeben wieviele Kinder (bis 12 Jahre) und Babys (bis 2 Jahre) dabei sind.
+
+comment:
+  label: Kommentar oder Nachricht
 
 submit:
   label: Absenden

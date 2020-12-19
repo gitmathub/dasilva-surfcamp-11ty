@@ -153,9 +153,32 @@
       <div>
         <label "bookingOptions">{{ bookingOptions.label }}</label>
       </div>
-      <div>
+      <div class="form__fields__checkbox">
         <input type="checkbox" name="bookingRequest" id="bookingRequest">
         <label for="bookingRequest" class="checkbox">{{bookingRequest.label}}</label>
+      </div>
+      <div class="form__fields__checkbox">
+        <input type="checkbox" name="bookFinally" id="bookFinally">
+        <label for="bookFinally" class="checkbox">{{bookFinally.label}}</label>
+      </div>
+      <div class="form__fields__checkbox">
+        <input type="checkbox" name="termsAndConditionAccepted" id="termsAndConditionAccepted">
+        <label for="termsAndConditionAccepted" class="checkbox">{{termsAndConditionAccepted.label}}</label>
+      </div>
+      <div class="form__fields__checkbox">
+        <input type="checkbox" name="airportTransfer" id="airportTransfer">
+        <label for="airportTransfer" class="checkbox">{{airportTransfer.label}}</label>
+      </div>
+      <div class="form__fields__hint">
+        {{ airportTransferPrice.hint }}
+      </div>
+      <div>
+        <label for="comment">{{comment.label}}</label>
+        <textarea name="comment" id="comment" rows="6"></textarea>
+      </div>
+      <!-- send -->
+      <div class="form__fields__submit">
+        <input type="submit" value="{{submit.label}}">
       </div>
     </div>
   </form>
@@ -165,6 +188,4 @@
 
 </div> #}
 {# </div>
-<div>
-<input type="submit" value="{{submit.label}}">
-</div> #}
+ #}
