@@ -13,7 +13,7 @@ html {
   box-sizing: border-box;
 }
 
-body {
+body, input, select {
 
   font-family: $font-code;
   font-size: $font-size-middle;

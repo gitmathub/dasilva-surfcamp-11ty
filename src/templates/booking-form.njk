@@ -1,17 +1,170 @@
-
-<div class="form">
-<form action="mailto:mat@alabaster.de">
-
-<div class="form__line"
-<label for="address">{{ address.label }}</label>
-<input type="text" name="address" id="address">
+<div class="form centered">
+  <form action="mailto:mat@alabaster.de">
+    <div class="form__fields">
+      <!-- first traveler -->
+      <div>
+        <label>{{ contact.label }}</label>
+      </div>
+      <div class="form__fields__two">
+        <div class="form__fields__half">
+          <div>
+            <label for="firstName">{{ firstName.label }}<sup>*<sup></label>
+          </div>
+          <div>
+            <input name="firstName" id="firstName" type="text" required/>
+          </div>
+        </div>
+        <div class="form__fields__half">
+          <div>
+            <label for="lastName">{{ lastName.label }}<sup>*<sup></label>
+          </div>
+          <div>
+            <input name="lastName" id="lastName" type="text" required/>
+          </div>
+        </div>
+      </div>
+      <!-- address and contact -->
+      <div>
+        <label for="address">{{ address.label }}</label>
+      </div>
+      <div>
+        <input name="address" id="address" type="text"/>
+      </div>
+      <div>
+        <label for="phone">{{ phone.label }}<sup>*<sup></label>
+      </div>
+      <div>
+        <input name="phone" id="phone" value="{{ phone.value }}" type="tel" required/>
+      </div>
+      <div>
+        <label for="email">{{ email.label }}<sup>*<sup></label>
+      </div>
+      <div>
+        <input name="email" id="email" type="email" required/>
+      </div>
+      <div class="form__fields__two">
+        <div class="form__fields__half">      
+          <div>
+            <label for="arrival">{{ arrival.label }}<sup>*<sup></label>
+          </div>
+          <div>
+            <input name="arrival" id="arrival" type="date" required/>
+          </div>
+        </div>
+        <div class="form__fields__half">
+          <div>
+            <label for="departure">{{ departure.label }}<sup>*<sup></label>
+          </div>
+          <div>
+            <input name="departure" id="departure" type="date" required/>
+          </div>   
+        </div>
+      </div>
+      <!-- package -->
+      <div>
+        <label for="package">{{ package.label }}<sup>*<sup></label>
+      </div>      
+      <select id="package" required>
+        <option value="surfPackage1Week" selected>{{ surfPackage1Week.label }}</option>
+        <option value="mtbPackage1Week">{{ mtbPackage1Week.label }}</option>
+        <option value="SurfMtbPackage1Week">{{ SurfMtbPackage1Week.label }}</option>
+        <option value="surfPackage2Weeks">{{ surfPackage2Weeks.label }}</option>
+        <option value="mtbPackage2Weeks">{{ mtbPackage2Weeks.label }}</option>
+        <option value="SurfMtbPackage2Weeks">{{ SurfMtbPackage2Weeks.label }}</option>
+        <option value="BedAndBreakfastOnly">{{ BedAndBreakfastOnly.label }}</option>
+        <option value="surfPackageOnly">{{ surfPackageOnly.label }}</option>
+        <option value="mtbPackageOnly">{{ mtbPackageOnly.label }}</option>
+      </select>
+      <!-- bed and breakfast -->
+      <div>
+        <label for="bedAndBreakfast">{{ bedAndBreakfast.label }}<sup>*<sup></label>
+      </div>      
+      <select id="bedAndBreakfast" required>
+        <option value="multiBedRoom" selected>{{ multiBedRoom.label }}</option>
+        <option value="doubleRoom">{{ doubleRoom.label }}</option>
+        <option value="tinyHouse">{{ tinyHouse.label }}</option>
+        <option value="singleRoom">{{ singleRoom.label }}</option>
+      </select>      
+      <!-- more travelers -->
+      <div>
+        <label>{{ travelers.label }}</label>
+      </div>
+      <!-- traveler 2 -->
+      <div class="form__fields__two">
+        <div class="form__fields__half">
+          <div>
+            <label for="firstName">{{ firstName.label }}</label>
+          </div>
+          <div>
+            <input name="firstName2" id="firstName2" type="text"/>
+          </div>
+        </div>
+        <div class="form__fields__half">
+          <div>
+            <label for="lastName">{{ lastName.label }}</label>
+          </div>
+          <div>
+            <input name="lastName2" id="lastName2" type="text"/>
+          </div>
+        </div>
+      </div> 
+      <!-- traveler 3 -->
+      <div class="form__fields__two">
+        <div class="form__fields__half">
+          <div>
+            <label for="firstName">{{ firstName.label }}</label>
+          </div>
+          <div>
+            <input name="firstName3" id="firstName3" type="text"/>
+          </div>
+        </div>
+        <div class="form__fields__half">
+          <div>
+            <label for="lastName">{{ lastName.label }}</label>
+          </div>
+          <div>
+            <input name="lastName3" id="lastName3" type="text"/>
+          </div>
+        </div>
+      </div>
+      <!-- traveler 4 -->
+      <div class="form__fields__two">
+        <div class="form__fields__half">
+          <div>
+            <label for="firstName">{{ firstName.label }}</label>
+          </div>
+          <div>
+            <input name="firstName4" id="firstName4" type="text"/>
+          </div>
+        </div>
+        <div class="form__fields__half">
+          <div>
+            <label for="lastName">{{ lastName.label }}</label>
+          </div>
+          <div>
+            <input name="lastName4" id="lastName4" type="text"/>
+          </div>
+        </div>
+      </div>
+      <div class="form__fields__hint">
+        {{ evenMoreTravelers.hint }}
+      </div>
+      <!-- booking options -->
+      <div>
+        <label "bookingOptions">{{ bookingOptions.label }}</label>
+      </div>
+      <div>
+        <input type="checkbox" name="bookingRequest" id="bookingRequest">
+        <label for="bookingRequest" class="checkbox">{{bookingRequest.label}}</label>
+      </div>
+    </div>
+  </form>
 </div>
 
-<div class="form__line"
-<label for="phone">{{ phone.label }}</label>
-<input type="text" name="phone" id="phone" value="{{phone.value}}">
-</div>
+{# 
 
-</div>
+</div> #}
+{# </div>
+<div>
 <input type="submit" value="{{submit.label}}">
-</form>
+</div> #}
