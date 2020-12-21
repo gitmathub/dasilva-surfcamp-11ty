@@ -28,11 +28,6 @@
       // width: calc(100% - 200px);
     }
 
-    // textarea:focus,
-    // input:focus {
-    //   border: 2px solid gold;
-    // }    
-
     input[type=checkbox] {
       width: 1.6rem;
       margin: 0.8rem;
@@ -67,7 +62,7 @@
     }
 
     &__half:first-child {
-      padding-right: 0.8rem;
+      padding-right: 0.8rem
     }
 
     &__checkbox {
@@ -105,4 +100,30 @@
     margin: 0;
     font-weight: 300;
   }  
+
+  .form-group {
+    position: relative;
+    margin-bottom: 15px;
+  }
+
+  .form-group .validation-error {
+    color: $color-red;
+    font-size: smaller;
+    position: absolute;
+    right: 6px;
+    top: 6px;
+  }
+
+  .form-group .form-control {
+    margin-bottom: 0;
+  }
+
+  .form-control.invalid {
+    border-color: $color-red;
+  }
+
+  .form-control:focus {
+    border-color: $color-grey-dark-2;
+  }
+
 }

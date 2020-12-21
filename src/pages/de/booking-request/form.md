@@ -72,6 +72,9 @@ airportTransferPrice:
 comment:
   label: Kommentar oder Nachricht
 
+valueMissing:
+  hint: Bitte angeben
+
 submit:
   label: Absenden
 

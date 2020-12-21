@@ -11,7 +11,7 @@ header {
 
     @include respond(middle) {
       // background-color: lightgray;
-      position: fixed;
+      position: absolute;
       width: 16.0rem;
       top: 0.8rem;
       left: 0.4rem;
