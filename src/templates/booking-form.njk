@@ -1,5 +1,24 @@
+  {# <form onsubmit="formAction(this)"> #}
+
+{# <script>
+  const formAction = (form) => {
+    console.log("sending...", form)
+    var xhttp = new XMLHttpRequest();
+    xhttp.onreadystatechange = function() {
+      console.log("function state.", this.readyState)
+      if (this.readyState == 4 && this.status == 200) {
+        console.log("response", this.responseText)
+        console.log("this", this)
+      }
+    };
+    xhttp.open("POST", "https://superlea.uber.space:45901/api/booking-request", true);
+    xhttp.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
+    xhttp.send("fname=Henry&lname=Ford");    
+  }
+</script>   #}
+
 <div class="form centered">
-  <form action="http://superlea.uber.space:45901/api/booking-request" method="post">
+  <form action="https://superlea.uber.space:45901/api/booking-request" method="post">
     <input name="apiKey" type="text" value="9e22b3ebc80a37028674c146a797aee3" hidden/>
     <div class="form__fields">
       <!-- first traveler -->
@@ -63,6 +82,7 @@
           <input name="email" id="email" type="email"
             class="form-control"
             data-valueMissing="{{ valueMissing.hint }}"
+            data-patternMismatch="{{ patternMismatch.email }}"
             required/>
         </div>
       </div>
@@ -222,8 +242,8 @@
       </div>
     </div>
   </form>
-  <script>
-    var formElement = document.querySelector('form')
-    ValidForm(formElement)
-  </script>  
 </div>
+<script>
+  const formElement = document.querySelector('form');
+  ValidForm(formElement);
+</script>

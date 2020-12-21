@@ -74,6 +74,8 @@ comment:
 
 valueMissing:
   hint: Bitte angeben
+patternMismatch:
+  email: Bitte Email angeben
 
 submit:
   label: Absenden

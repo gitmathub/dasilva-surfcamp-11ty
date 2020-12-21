@@ -3,6 +3,7 @@ CMS for Da Silva Surfcamp
 - [Anforderungen](#anforderungen)
 - [Project Todos](#project-todos)
 - [Research](#research)
+  - [XHR, Fetch and CORS](#xhr-fetch-and-cors)
   - [Instagram Integration](#instagram-integration)
   - [CMS Requirements](#cms-requirements)
   - [Site Generator Requirements](#site-generator-requirements)
@@ -90,9 +91,18 @@ CMS for Da Silva Surfcamp
   - [ ] Loader
 - [ ] Galery
   - [x] Responsive Design
+  - [ ] Fix image size for big screen
   - [ ] Overlay picture
   - [ ] Single Pic for Mobile
 - [x] Fragment galerie
+- [ ] Booking
+  - [x] online Booking link
+  - [x] Booling Form
+  - [ ] Booking Datepicker
+  - [x] Booking Validation
+  - [x] Booking Send Mail
+  - [ ] Booking Contact Form
+  - [ ] Booking Success Response
 - [ ] Home
   - [x] Hero
   - [x] Masonry
@@ -132,6 +142,14 @@ CMS for Da Silva Surfcamp
 
 
 # Research
+
+## XHR, Fetch and CORS
+
+Mozilla Resources:
+- [XHR](https://developer.mozilla.org/en-US/docs/Learn/Forms/Sending_forms_through_JavaScript)
+- [CORS](https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS)
+- [Fetch API](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API)
+
 
 ## Instagram Integration
 
