@@ -35,7 +35,6 @@
     position: absolute;
     min-width: 24.0rem;
     box-shadow: 0.5rem 0.5rem 1.5rem black;
-    z-index: 1;
   }
 
   .top-menu>li:hover .sub-menu {
@@ -48,11 +47,11 @@
     line-height: 250%;
   }
 
-  .top-menu>li:hover .second-last{
+  .top-menu>li:hover .second-last {
     margin-left: -12.0rem;
   }
 
-  .top-menu>li:hover .last{
+  .top-menu>li:hover .last {
     margin-left: -13.0rem;
     min-width: 12.0rem;
   }
@@ -78,34 +77,31 @@
 
 .menu-hamburger {
   display: none;
+  position: relative;
 
   @media only screen and (max-width: $pad-width) {
-    display:block
+    display: block
   }
 
   &__checkbox {
     display: none;
   }
 
-  &__checkbox:checked~div.canvas {
-    transform: scale(360);
-  }
-
   &__checkbox:checked~div.menu-list {
     transition: opacity 0.8s;
     width: 100%;
     opacity: 1;
+    z-index: 100;
   }
 
   .menu-list {
-    height: 100vh;
-    width: 100%;
     position: fixed;
     top: 0;
     right: 0;
-
+    height: 100vh;
+    width: 100%;
     opacity: 0;
-    width: 0;
+    background-color: $color-grey-light-2;
   }
 
   .top-menu {
@@ -113,7 +109,7 @@
     top: 50%;
     left: 50%;
     margin-left: calc(width - 50%);
-    margin-top: calc(height - 50%);    
+    margin-top: calc(height - 50%);
     top: 10%;
     left: 20%;
     // transform: translate(-10%, -30%);
@@ -149,33 +145,12 @@
     }
   }
 
-  &__icon {
-    font-size: 2.8rem;
-    position: relative;
-    top: 0.0rem;
-    left: 1.6rem;
-  }
-
   &__button {
-    position: absolute;
-    z-index: 2000;
-
-    @include respond(small) {
-      top: 0.6rem;
-      right: 2.8rem;
-    }
-
-    @include respond(middle) {
-      top: 1.6rem;
-      right: 4.2rem;
-    }
-  }
-
-  .canvas {
+    position: fixed;
+    z-index: 1500;
     width: 4rem;
     height: 4rem;
     border-radius: 50%;
-    position: absolute;
     background-color: $color-white;
     transition: transform 0.8s;
 
@@ -189,4 +164,13 @@
       right: 1.8rem;
     }
   }
+
+  &__icon {
+    position: relative;
+    top: -0.2rem;
+    left: 0.7rem;
+    z-index: 1700;
+    font-size: 2.8rem;
+  }
+
 }

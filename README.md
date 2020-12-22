@@ -77,8 +77,9 @@ CMS for Da Silva Surfcamp
   - [x] Navigation bar
   - [x] Logo
   - [x] Hambuger menu
-  - [ ] Scale properly
-  - [ ] All links for Hamburger
+  - [x] Scale properly
+  - [x] All links for Hamburger
+  - [ ] Fix overlay Hamburger
   - [ ] Language switch
 - [ ] Footer
   - [ ] Language icons
@@ -149,6 +150,7 @@ Mozilla Resources:
 - [XHR](https://developer.mozilla.org/en-US/docs/Learn/Forms/Sending_forms_through_JavaScript)
 - [CORS](https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS)
 - [Fetch API](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API)
+- [Using Fetch](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch)
 
 
 ## Instagram Integration
