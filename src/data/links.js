@@ -75,11 +75,26 @@ module.exports = {
     },
     onlineBooking: {
       title: "Online Buchen",
-      path: "https://da-silva-bike-surf-camp.bookinglayer.io/frontoffice/#/?lang=de"
+      path: "https://da-silva-bike-surf-camp.bookinglayer.io/frontoffice/#/?lang=de",
     },
     bookingRequest: {
       title: "Buchungsanfrage",
       path: "/de/buchungs-anfrage"
+    },
+    bookingBedAndBreakfast: {
+      title: "Buchen",
+      path: "https://da-silva-bike-surf-camp.bookinglayer.io/frontoffice/#/product/59455?lang=de",
+      image: "/_assets/booking-banner/bed-and-breakfast.jpg"
+    },
+    bookingPackages: {
+      title: "Buchen",
+      path: "https://da-silva-bike-surf-camp.bookinglayer.io/frontoffice/#/product/8961?lang=de",
+      image: "/_assets/booking-banner/packages.jpg"
+    },
+    bookingExperiences: {
+      title: "Buchen",
+      path: "https://da-silva-bike-surf-camp.bookinglayer.io/frontoffice/#/product/9019?lang=de",
+      image: "/_assets/booking-banner/experiences.jpg"
     },
     contact: {
       title: "Kontakt",
@@ -161,11 +176,27 @@ module.exports = {
     },
     onlineBooking: {
       title: "Online Booking",
-      path: "https://da-silva-bike-surf-camp.bookinglayer.io/frontoffice/#/?lang=en"
+      path: "https://da-silva-bike-surf-camp.bookinglayer.io/frontoffice/#/?lang=en",
+      image: "/_assets/booking-banner/bed-and-breakfast.jpg"      
     },
     bookingRequest: {
       title: "Booking Request",
       path: "/en/booking-request"
+    },
+    bookingBedAndBreakfast: {
+      title: "Book",
+      path: "https://da-silva-bike-surf-camp.bookinglayer.io/frontoffice/#/product/59455?lang=en",
+      image: "/_assets/booking-banner/bed-and-breakfast.jpg"
+    },
+    bookingPackages: {
+      title: "Book",
+      path: "https://da-silva-bike-surf-camp.bookinglayer.io/frontoffice/#/product/8961?lang=en",
+      image: "/_assets/booking-banner/packages.jpg"
+    },
+    bookingExperiences: {
+      title: "Book",
+      path: "https://da-silva-bike-surf-camp.bookinglayer.io/frontoffice/#/product/9019?lang=en",
+      image: "/_assets/booking-banner/experiences.jpg"
     },
     contact: {
       title: "Contact",

@@ -7,6 +7,11 @@ relatedPages:
   - kidsAreWelcome
   - happyHorses
   - bedAndBreakfast
+
+bookingBanner:
+  - bookingBedAndBreakfast
+  - bookingPackages
+  - bookingExperiences
 ---
 
 {% import "hero.njk" as hero %}
@@ -35,4 +40,8 @@ relatedPages:
 
 <section>
   {{ video.vimeo(videoId="173051720") }}
+</section>
+
+<section>
+  {{ related.three(links[locale], bookingBanner)}}
 </section>
