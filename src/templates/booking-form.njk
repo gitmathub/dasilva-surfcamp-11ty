@@ -1,24 +1,7 @@
-  {# <form onsubmit="formAction(this)"> #}
-
-{# <script>
-  const formAction = (form) => {
-    console.log("sending...", form)
-    var xhttp = new XMLHttpRequest();
-    xhttp.onreadystatechange = function() {
-      console.log("function state.", this.readyState)
-      if (this.readyState == 4 && this.status == 200) {
-        console.log("response", this.responseText)
-        console.log("this", this)
-      }
-    };
-    xhttp.open("POST", "https://superlea.uber.space:45901/api/booking-request", true);
-    xhttp.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
-    xhttp.send("fname=Henry&lname=Ford");    
-  }
-</script>   #}
-
+<script src="/_assets/scripts/send-form.js"></script>
 <div class="form centered">
-  <form action="https://superlea.uber.space:45901/api/booking-request" method="post">
+  {# <form action="https://superlea.uber.space:45901/api/booking-request" method="post"> #}
+  <form>
     <input name="apiKey" type="text" value="9e22b3ebc80a37028674c146a797aee3" hidden/>
     <div class="form__fields">
       <!-- first traveler -->
@@ -244,6 +227,17 @@
   </form>
 </div>
 <script>
-  const formElement = document.querySelector('form');
-  ValidForm(formElement);
+  document.forms[0].onsubmit = async(e) => {
+    e.preventDefault();
+    const data = new FormData();
+    data.append( "json", JSON.stringify( {apiKey: '9e22b3ebc80a37028674c146a797aee3'} ) );
+    fetch('http://localhost:3000/api/booking-request', {
+      method:'post',
+      mode: 'no-cors',
+      headers: {
+        'Content-Type': 'application/json',
+      },      
+      body: data
+    });    
+  }
 </script>
