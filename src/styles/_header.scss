@@ -2,6 +2,7 @@ header {
   position: relative;
 
   .logo {
+    z-index: 2500;
     @include respond(small) {
       position: absolute;
       width: 10.0rem;

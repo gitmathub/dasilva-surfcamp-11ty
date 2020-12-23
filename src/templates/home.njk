@@ -19,6 +19,7 @@ bookingBanner:
 {% import "partial.njk" as partial %}
 {% import "gallery.njk" as gallery %}
 {% import "video.njk" as video %}
+{% import "columns.njk" as columns %}
 
 <nav class="display-if-middle-to-wide">
   <div style="margin-bottom: -4.0rem">
@@ -43,5 +44,35 @@ bookingBanner:
 </section>
 
 <section>
+  {{ columns.three(
+    headline="Booking",
+    leftColumn=partial.get(collections, tags, "bookingRequest", locale),
+    middleColumn=partial.get(collections, tags, "prices", locale),
+    rightColumn=partial.get(collections, tags, "map", locale)
+  )}}
+</section>
+
+<section>
   {{ related.three(links[locale], bookingBanner)}}
 </section>
+
+<style>
+  .booking-icon-frame {
+    text-align: center;
+    a {
+      text-decoration: none;
+    }
+  }
+  .booking-icon {
+    width: 15%;
+    padding: 0.8rem
+  }
+  .price-icon {
+    width: 5%;
+  }
+  .price-icon-y {
+    width: 6%;
+    padding: 0;
+    margin: 0;
+  }  
+</style>
