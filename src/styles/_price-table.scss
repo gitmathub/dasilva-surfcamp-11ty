@@ -1,0 +1,106 @@
+div.price-table>ul {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin: 0 3.2rem;
+
+  @include respond(small) {
+    grid-template-columns: 1fr;
+    margin: 0 1.6rm;
+  }  
+}
+
+// table (headline + rows)
+div.price-table>ul>* {
+  // list-style: none;
+  margin: 3.2rem;
+  padding-inline-start: 0;
+  font-family: $font-header;
+  font-size: $font-size-title-smaller;
+  font-weight: $font-weight-title-smaller;
+  text-align: center;
+
+  @include respond(small) {
+    margin: 1.6rem;
+  }
+  @include respond(wide) {
+    font-size: $font-size-title-small;
+    font-weight: $font-weight-title-small;
+  }
+}
+
+// override layout.css
+// remove leading dashes
+div.price-table>ul>li:before,
+div.price-table>ul>li>ul>li:before {
+  content: '';
+}
+
+// subtitle
+div.price-table>ul>li>ul>li:first-child {
+  padding-top: 0;
+  font-weight: $font-weight-title-small;
+  color: $color-grey-dark-2;
+}
+
+// table content
+div.price-table>ul>li>ul {
+  list-style: none;
+  padding-inline-start: 0;
+  margin: 0;
+  font-size: $font-size-title-smallest;
+  font-weight: $font-weight-title-smallest;
+
+  @include respond(small) {
+    color: red;
+  }
+  @include respond(wide) {
+    font-size: $font-size-title-smaller;
+    font-weight: $font-weight-title-small;
+    color: green;
+  }  
+}
+
+// single reow
+div.price-table>ul>li>ul>li {
+  padding: 0.8rem;
+  @include respond(small) {
+    padding: 0.4rem;
+  }
+}
+
+// table {
+//   width: 100%;
+//   padding: 3.6rem;
+//   // border: 1px solid;
+//   border-spacing: 10px;
+// }
+// th {
+//   font-family: $font-header;
+//   font-size: $font-size-title-smaller;
+//   font-weight: $font-weight-title-smaller;
+//   width: 33%;
+//   text-align: center !important;
+// }
+// td {
+//   text-align: center !important;
+// }
+
+// @include respond(small) {
+//   font-size: $font-size-small;
+//   font-weight: $font-weight-light;
+//   color: red;
+//   th {
+//     font-size: $font-size-title-smallest;
+//     font-weight: $font-weight-title-smallest;
+//   }
+// }
+
+// @include respond(wide) {
+//   font-size: $font-size-wide;
+//   font-weight: $font-weight-middle;
+//   color: green;
+//   th {
+//     font-size: $font-size-title-small;
+//     font-weight: $font-weight-title-small;
+//   }
+// }

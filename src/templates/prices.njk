@@ -1,0 +1,36 @@
+---
+layout: main.njk
+
+bookingBanner:
+  - bookingBedAndBreakfast
+  - bookingPackages
+  - bookingExperiences    
+---
+{% import "partial.njk" as partial %}
+{% import "columns.njk" as columns %}
+{% import "related.njk" as related %}
+
+<section class="display-if-middle-to-wide">
+  {{ related.three(links[locale], bookingBanner)}}
+</section>
+
+<section class="centered">
+  {{ partial.get(collections, tags, "dorm", locale) }}
+  <div class="price-table">
+    {{ partial.get(collections, tags, "bedAndBreakfastPrices", locale) }}
+  </div>
+</season>
+
+<section class="centered">
+  {{ columns.three(
+    headline="Surf Class Prices",
+    subHeadline="The price includes the bus shuttle, surfboard and wetsuit, theoretical and practical lessons and insurance.",
+    leftColumn=partial.get(collections, tags, "low-season", locale),
+    middleColumn=partial.get(collections, tags, "mid-season", locale),
+    rightColumn=partial.get(collections, tags, "high-season", locale)
+  )}}
+</section>
+
+<section>
+  {{ related.three(links[locale], bookingBanner)}}
+</section>
