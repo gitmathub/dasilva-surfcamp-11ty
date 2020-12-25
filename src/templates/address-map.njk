@@ -1,0 +1,14 @@
+{% macro twoColumns(address = "", imageSrc = "") %}
+
+  <div class="address-map">
+    <div class="address-map__container">
+      <div class="address-map__left">
+        {{ address }}
+      </div>
+      <div class="address-map__right">
+        <img src="{{ imageSrc }}" alt="Da Silve Surfcamp located on the map" class="address-map__image">
+      </div>
+    </div>
+  </div>
+
+{% endmacro %}

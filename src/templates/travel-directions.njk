@@ -1,0 +1,30 @@
+---
+layout: main.njk
+
+relatedPages:
+  - bedAndBreakfast
+  - surfing
+  - mountainBike 
+---
+{% import "partial.njk" as partial %}
+{% import "columns.njk" as columns %}
+{% import "address-map.njk" as addressMap %}
+{% import "related.njk" as related %}
+
+<section>
+{{ addressMap.twoColumns(
+    address=partial.get(collections, tags, "address", locale),
+    imageSrc="/_assets/travel-directions/map-surfcamp.jpg"
+)}}
+</section>
+
+{# <section>
+{{ columns.two(
+    leftColumn=partial.get(collections, tags, "address", locale),
+    rightColumn=mapSurfcamp.show()
+  )}}
+</section> #}
+
+<nav class="centered">
+  {{ related.three(links[locale], relatedPages)}}
+</nav>

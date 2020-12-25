@@ -1,12 +1,12 @@
 ---
 tags: home
-partial: map
+partial: travelDirections
 ---
 
-### [{{ links.de.map.title }}]({{ links.de.map.path }})
+### [{{ links.de.travelDirections.title }}]({{ links.de.travelDirections.path }})
 
 <div class="booking-icon-frame">
-  <a href="{{ links.de.map.path }}">
+  <a href="{{ links.de.travelDirections.path }}">
     <img src="/_assets/home/booking/bolt-solid.svg" alt="Anreise" class="booking-icon"/>
   </a>
 </div>

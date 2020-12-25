@@ -4,6 +4,7 @@ CMS for Da Silva Surfcamp
 - [Project Todos](#project-todos)
 - [Research](#research)
   - [XHR, Fetch and CORS](#xhr-fetch-and-cors)
+  - [Maps](#maps)
   - [Instagram Integration](#instagram-integration)
   - [CMS Requirements](#cms-requirements)
   - [Site Generator Requirements](#site-generator-requirements)
@@ -79,7 +80,7 @@ CMS for Da Silva Surfcamp
   - [x] Hambuger menu
   - [x] Scale properly
   - [x] All links for Hamburger
-  - [ ] Fix overlay Hamburger
+  - [x] Fix overlay Hamburger
   - [ ] Language switch
 - [ ] Footer
   - [ ] Language icons
@@ -109,19 +110,26 @@ CMS for Da Silva Surfcamp
   - [x] Masonry
   - [x] Welcome
   - [x] Video
-  - [ ] Booking
+  - [x] Booking
   - [ ] Specials
   - [x] Galerie
   - [ ] Instagram
   - [ ] Partners
   - [ ] Google rating
   - [ ] Metatags
+- [ ] Maps
+  - [ ] all Sections
+  - [ ] map
+  - [ ] map interaction
 - [ ] Optimisations
   - [ ] Preload fonts
   - [ ] Skeletons
 - [ ] Portugues Version
 - [ ] ...other pages
 - [ ] Happy Horses
+- [ ] Page Pricing
+  - [x] Table Macro
+  - [x] all Sections 
 - [x] Video Macro
 - [x] Surfing
 - [x] Page Bed & Breakfast
@@ -152,7 +160,10 @@ Mozilla Resources:
 - [Fetch API](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API)
 - [Using Fetch](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch)
 
+## Maps
 
+- [Mapbox](https://github.com/mapbox/mapbox-gl-directions/blob/master/API.md) works with [Open Street Map](https://www.openstreetmap.org/#map=7/39.602/-7.839)
+- [Mapbox Directions](https://docs.mapbox.com/mapbox-gl-js/example/mapbox-gl-directions/)
 ## Instagram Integration
 
 - https://www.instagram.com/dasilvasurfcamp/

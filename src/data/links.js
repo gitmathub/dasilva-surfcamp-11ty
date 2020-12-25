@@ -62,9 +62,9 @@ module.exports = {
       path: "/de/skate-board",
       image: "/_assets/related/skate-board.jpg"
     },
-    map: {
-      title: "Anfahrt",
-      path: "/de/anfahrt"
+    travelDirections: {
+      title: "Anreise",
+      path: "/de/anreise"
     },
     prices: {
       title: "Preise",
@@ -167,9 +167,9 @@ module.exports = {
       path: "/en/skate-board",
       image: "/_assets/related/skate-board.jpg"
     },
-    map: {
-      title: "Map",
-      path: "/en/map"
+    travelDirections: {
+      title: "Travel Directions",
+      path: "/en/travel-directions"
     },
     prices: {
       title: "Prices",
