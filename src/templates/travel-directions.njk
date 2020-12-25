@@ -7,7 +7,6 @@ relatedPages:
   - mountainBike 
 ---
 {% import "partial.njk" as partial %}
-{% import "columns.njk" as columns %}
 {% import "address-map.njk" as addressMap %}
 {% import "related.njk" as related %}
 
@@ -18,12 +17,11 @@ relatedPages:
 )}}
 </section>
 
-{# <section>
-{{ columns.two(
-    leftColumn=partial.get(collections, tags, "address", locale),
-    rightColumn=mapSurfcamp.show()
-  )}}
-</section> #}
+<section class="centered">
+  {{ partial.get(collections, tags, "directions", locale) }}
+</section>
+
+
 
 <nav class="centered">
   {{ related.three(links[locale], relatedPages)}}
