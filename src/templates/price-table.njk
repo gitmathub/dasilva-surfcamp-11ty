@@ -1,0 +1,8 @@
+{% import "partial.njk" as partial %}
+
+{% macro three(collections, tags, page, locale="de") %}
+  <div class="price-table">
+    {{ partial.get(collections, tags, page, locale) }}
+  </div>
+
+{% endmacro %}

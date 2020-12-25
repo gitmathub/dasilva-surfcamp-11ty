@@ -1,7 +1,9 @@
 ---
 tags: prices
-partial: dorm
+partial: bedAndBreakfast
 ---
+
+### Unterkunft
 
 ## ab 20 € pro Tag
 

@@ -50,13 +50,9 @@ div.price-table>ul>li>ul {
   font-size: $font-size-title-smallest;
   font-weight: $font-weight-title-smallest;
 
-  @include respond(small) {
-    color: red;
-  }
   @include respond(wide) {
     font-size: $font-size-title-smaller;
     font-weight: $font-weight-title-small;
-    color: green;
   }  
 }
 
@@ -67,40 +63,3 @@ div.price-table>ul>li>ul>li {
     padding: 0.4rem;
   }
 }
-
-// table {
-//   width: 100%;
-//   padding: 3.6rem;
-//   // border: 1px solid;
-//   border-spacing: 10px;
-// }
-// th {
-//   font-family: $font-header;
-//   font-size: $font-size-title-smaller;
-//   font-weight: $font-weight-title-smaller;
-//   width: 33%;
-//   text-align: center !important;
-// }
-// td {
-//   text-align: center !important;
-// }
-
-// @include respond(small) {
-//   font-size: $font-size-small;
-//   font-weight: $font-weight-light;
-//   color: red;
-//   th {
-//     font-size: $font-size-title-smallest;
-//     font-weight: $font-weight-title-smallest;
-//   }
-// }
-
-// @include respond(wide) {
-//   font-size: $font-size-wide;
-//   font-weight: $font-weight-middle;
-//   color: green;
-//   th {
-//     font-size: $font-size-title-small;
-//     font-weight: $font-weight-title-small;
-//   }
-// }

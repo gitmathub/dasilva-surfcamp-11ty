@@ -96,6 +96,10 @@ module.exports = {
       path: "https://da-silva-bike-surf-camp.bookinglayer.io/frontoffice/#/product/9019?lang=de",
       image: "/_assets/booking-banner/experiences.jpg"
     },
+    faq: {
+      title: "FAQ",
+      path: "/de/faq"
+    },
     contact: {
       title: "Kontakt",
       path: "/de/kontakt"
@@ -198,6 +202,10 @@ module.exports = {
       path: "https://da-silva-bike-surf-camp.bookinglayer.io/frontoffice/#/product/9019?lang=en",
       image: "/_assets/booking-banner/experiences.jpg"
     },
+    faq: {
+      title: "FAQ",
+      path: "/en/faq"
+    },    
     contact: {
       title: "Contact",
       path: "/en/contact"

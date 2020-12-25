@@ -7,6 +7,7 @@ bookingBanner:
   - bookingExperiences    
 ---
 {% import "partial.njk" as partial %}
+{% import "price-table.njk" as priceTable %}
 {% import "columns.njk" as columns %}
 {% import "related.njk" as related %}
 
@@ -15,21 +16,37 @@ bookingBanner:
 </section>
 
 <section class="centered">
-  {{ partial.get(collections, tags, "dorm", locale) }}
-  <div class="price-table">
-    {{ partial.get(collections, tags, "bedAndBreakfastPrices", locale) }}
-  </div>
+  {{ partial.get(collections, tags, "bedAndBreakfast", locale) }}
+  {{ priceTable.three(collections, tags, "bedAndBreakfastPrices", locale) }}
 </season>
 
 <section class="centered">
-  {{ columns.three(
-    headline="Surf Class Prices",
-    subHeadline="The price includes the bus shuttle, surfboard and wetsuit, theoretical and practical lessons and insurance.",
-    leftColumn=partial.get(collections, tags, "low-season", locale),
-    middleColumn=partial.get(collections, tags, "mid-season", locale),
-    rightColumn=partial.get(collections, tags, "high-season", locale)
-  )}}
-</section>
+  {{ partial.get(collections, tags, "surfPackage", locale) }}
+  {{ priceTable.three(collections, tags, "surfPackagePrices", locale) }}
+</season>
+
+<section class="centered">
+  {{ partial.get(collections, tags, "surfPackage2Weeks", locale) }}
+  {{ priceTable.three(collections, tags, "surfPackage2WeeksPrices", locale) }}
+</season>
+
+<section class="centered">
+  {{ partial.get(collections, tags, "surfMtbPackage", locale) }}
+  {{ priceTable.three(collections, tags, "surfMtbPackagePrices", locale) }}
+</season>
+
+<section class="centered">
+  {{ partial.get(collections, tags, "surfSchool", locale) }}
+  {{ priceTable.three(collections, tags, "surfSchoolPrices", locale) }}
+</season>
+
+<section class="centered">
+  {{ partial.get(collections, tags, "camping", locale) }}
+</season>
+
+<section class="centered">
+  {{ partial.get(collections, tags, "booking", locale) }}
+</season>
 
 <section>
   {{ related.three(links[locale], bookingBanner)}}
