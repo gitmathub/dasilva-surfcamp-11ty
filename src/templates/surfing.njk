@@ -13,14 +13,15 @@ gallerySurfing:
   - src: /_assets/surfing/gallery/09-surfing.jpg
  
 relatedPages:
-  - bedAndBreakfast
-  - kidsAreWelcome
-  - mountainBike      
+  - mountainBike
+  - trailRunning
+  - skating
 ---
 {% import "partial.njk" as partial %}
 {% import "hero.njk" as hero %}
 {% import "columns.njk" as columns %}
 {% import "gallery.njk" as gallery %}
+{% import "price-table.njk" as priceTable %}
 {% import "related.njk" as related %}
 {% import "video.njk" as video %}
 
@@ -35,28 +36,14 @@ relatedPages:
 
 <section>
   {{ columns.two(
-    headline="Qualifiziert durch die FPS",
-    subHeadline="(Federação Portuguesa de Surf)",
     leftColumn=gallery.three(images=gallerySurfing),
     rightColumn=partial.get(collections, tags, "qualified", locale)
   )}}
 </section>
 
 <section class="centered">
-  {{ partial.get(collections, tags, "ideology", locale) }}
-</section>
-
-<section class="centered">
-  {{ columns.three(
-    headline="Surf Class Prices",
-    subHeadline="The price includes the bus shuttle, surfboard and wetsuit, theoretical and practical lessons and insurance.",
-    leftColumn=partial.get(collections, tags, "low-season", locale),
-    middleColumn=partial.get(collections, tags, "mid-season", locale),
-    rightColumn=partial.get(collections, tags, "high-season", locale)
-  )}}
-</section>
-
-<section class="centered">
+  {{ partial.get(collections, tags, "prices", locale) }}
+  {{ priceTable.three(collections, "prices", "surfSchoolPrices", locale) }}
   {{ partial.get(collections, tags, "whats-included", locale) }}
   {{ partial.get(collections, tags, "class", locale) }}
 </section>
@@ -64,7 +51,6 @@ relatedPages:
 <section>
   {{ video.vimeo(videoId="168799316") }}
 </section>
-
 
 <nav class="centered">
   {{ related.three(links[locale], relatedPages)}}

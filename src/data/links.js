@@ -57,10 +57,10 @@ module.exports = {
       path: "/de/yoga",
       image: "/_assets/related/yoga.jpg"
     },
-    skateBoard: {
-      title: "Skate Board",
-      path: "/de/skate-board",
-      image: "/_assets/related/skate-board.jpg"
+    skating: {
+      title: "Skating",
+      path: "/de/skating",
+      image: "/_assets/related/skating.jpg"
     },
     travelDirections: {
       title: "Anreise",
@@ -162,10 +162,10 @@ module.exports = {
       path: "/en/yoga",
       image: "/_assets/related/yoga.jpg"
     },
-    skateBoard: {
-      title: "Skate Board",
-      path: "/en/skate-board",
-      image: "/_assets/related/skate-board.jpg"
+    skating: {
+      title: "Skating",
+      path: "/en/skating",
+      image: "/_assets/related/skating.jpg"
     },
     travelDirections: {
       title: "Travel Directions",

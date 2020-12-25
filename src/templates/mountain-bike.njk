@@ -13,14 +13,15 @@ galleryMountainbike:
   - src: /_assets/mountain-bike/gallery/09-mountain-bike.jpg
 
 relatedPages:
-  - home
-  - kidsAreWelcome
-  - mountainBike      
+  - surfing
+  - trailRunning
+  - skating      
 ---
 {% import "partial.njk" as partial %}
 {% import "hero.njk" as hero %}
 {% import "gallery.njk" as gallery %}
 {% import "columns.njk" as columns %}
+{% import "price-table.njk" as priceTable %}
 {% import "related.njk" as related %}
 
 {{ hero.image(
@@ -41,14 +42,8 @@ relatedPages:
 </section>
 
 <section class="centered">
-  {{ columns.three(
-    headline="ab 470 € pro Woche",
-    leftColumn=partial.get(collections, tags, "low-season", locale),
-    middleColumn=partial.get(collections, tags, "mid-season", locale),
-    rightColumn=partial.get(collections, tags, "high-season", locale)
-  )}}
-</section>
-
+  {{ priceTable.three(collections, "prices", "surfMtbPackagePrices", locale) }}
+</season>
 
 <nav class="centered">
   {{ related.three(links[locale], relatedPages)}}
