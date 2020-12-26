@@ -82,6 +82,7 @@ CMS for Da Silva Surfcamp
   - [x] All links for Hamburger
   - [x] Fix overlay Hamburger
   - [ ] Language switch
+  - [ ] Activate whole ro
 - [ ] Footer
   - [ ] Language icons
   - [ ] Social media links
@@ -96,7 +97,6 @@ CMS for Da Silva Surfcamp
   - [ ] Fix image size for big screen
   - [ ] Overlay picture
   - [ ] Single Pic for Mobile
-- [x] Fragment galerie
 - [ ] Booking
   - [x] online Booking link
   - [x] Booling Form
@@ -111,23 +111,28 @@ CMS for Da Silva Surfcamp
   - [x] Welcome
   - [x] Video
   - [x] Booking
-  - [ ] Specials
+  - [x] Specials
   - [x] Galerie
   - [ ] Instagram
   - [ ] Partners
   - [ ] Google rating
-  - [ ] Metatags
-- [ ] Maps
-  - [ ] all Sections
-  - [ ] map
+- [ ] Metatags
+- [ ] Meta Descriptions
+- [ ] Travel Directions
+  - [x] all Sections
+  - [x] map
   - [ ] map interaction
 - [ ] Optimisations
   - [ ] Preload fonts
   - [ ] Skeletons
+- [ ] English Version
 - [ ] Portugues Version
-- [ ] ...other pages
-- [ ] Happy Horses
-- [ ] Page Pricing
+- [x] Trail Running
+- [x] Skating
+- [x] Surf & Yoga
+- [x] Surroundings
+- [x] Happy Horses
+- [x] Page Pricing
   - [x] Table Macro
   - [x] all Sections 
 - [x] Video Macro
@@ -148,6 +153,7 @@ CMS for Da Silva Surfcamp
 - [x] Site Generator
   - [x] Decide on Site Generator
   - [x] Checkout 11ty https://www.11ty.dev
+- [x] Fragment galeri
 
 
 # Research
