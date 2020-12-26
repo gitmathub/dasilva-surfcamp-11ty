@@ -103,6 +103,18 @@ module.exports = {
     contact: {
       title: "Kontakt",
       path: "/de/kontakt"
+    },
+    imprint: {
+      title: "Impressum",
+      path: "/de/impressum"
+    },
+    termsAndConditions: {
+      title: "AGB",
+      path: "/de/agb"
+    },
+    privacyPolicies: {
+      title: "Datenschutzerklärung",
+      path: "/de/datenschutzerklaerung"
     }
   },
   en: {
@@ -209,6 +221,18 @@ module.exports = {
     contact: {
       title: "Contact",
       path: "/en/contact"
-    }
+    },
+    imprint: {
+      title: "Imprint",
+      path: "/de/imprint"
+    },
+    termsAndConditions: {
+      title: "Terms and Conditions",
+      path: "/de/terms-and-conditions"
+    },
+    privacyPolicies: {
+      title: "Privacy Policies",
+      path: "/de/privacy-policies"
+    }    
   }
 }

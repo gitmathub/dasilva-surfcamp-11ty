@@ -26,38 +26,25 @@
 <div>
   <ul>
     <li>
-      <a href="/{{locale}}/kontakt/">{{ footer[locale].contact }}</a>
+      <a href="{{ links[locale].contact.path }}">{{ links[locale].contact.title }}</a>
     </li>
     <li>
-      <a href="/{{locale}}/dummy/">{{ footer[locale].booking }}</a>
+      <a href="{{ links[locale].imprint.path }}">{{ links[locale].imprint.title }}</a>
     </li>
     <li>
-      <a href="/{{locale}}/dummy/">{{ footer[locale].terms }}</a>
+      <a href="{{ links[locale].termsAndConditions.path }}">{{ links[locale].termsAndConditions.title }}</a>
     </li>
     <li>
-      <a href="/{{locale}}/dummy/">{{ footer[locale].impress }}</a>
+      <a href="{{ links[locale].privacyPolicies.path }}">{{ links[locale].privacyPolicies.title }}</a>
     </li>
     <li>
-      <a href="/{{locale}}/dummy/">{{ footer[locale].faq }}</a>
+      <a href="{{ links[locale].faq.path }}">{{ links[locale].faq.title }}</a>
     </li>
   </ul>
 </div>
 
 <div>
-  <ul>
-    <li>
-      <a href="{{ links[locale].home.path }}">{{ links[locale].home.title }}</a>
-    </li>
-    <li>
-      <a href="{{ links[locale].bedAndBreakfast.path }}">{{ links[locale].bedAndBreakfast.title }}</a>
-    </li>
-    <li>
-      <a href="{{ links[locale].mountainBike.path }}">{{ links[locale].mountainBike.title }}</a>
-    </li>
-    <li>
-      <a href="{{ links[locale].kidsAreWelcome.path }}">{{ links[locale].kidsAreWelcome.title }}</a>
-    </li>    
-  </ul>
+  {% include "menu-list.njk"%}
 </div>
 
 {% include "lang-switch.njk" %}

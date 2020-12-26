@@ -82,7 +82,9 @@ CMS for Da Silva Surfcamp
   - [x] All links for Hamburger
   - [x] Fix overlay Hamburger
   - [ ] Language switch
-  - [ ] Activate whole ro
+  - [x] Activate whole row
+  - [ ] Hamburger: whole row
+  - [ ] Hamburger: Fix language switch
 - [ ] Footer
   - [ ] Language icons
   - [ ] Social media links
@@ -127,6 +129,10 @@ CMS for Da Silva Surfcamp
   - [ ] Skeletons
 - [ ] English Version
 - [ ] Portugues Version
+- [ ] Impress
+- [ ] Terms & Conditions
+- [ ] Privacy Policy
+  - [ ] https://www.datenschutz.org/datenschutzerklaerung-website/
 - [x] Trail Running
 - [x] Skating
 - [x] Surf & Yoga
