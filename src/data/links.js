@@ -52,10 +52,10 @@ module.exports = {
       path: "/de/trail-running",
       image: "/_assets/related/trail-running.jpg"
     },
-    yoga: {
-      title: "Yoga",
-      path: "/de/yoga",
-      image: "/_assets/related/yoga.jpg"
+    surfAndYoga: {
+      title: "Surf & Yoga",
+      path: "/de/surf-and-yoga",
+      image: "/_assets/related/surf-and-yoga.jpg"
     },
     skating: {
       title: "Skating",
@@ -157,10 +157,10 @@ module.exports = {
       path: "/en/trail-running",
       image: "/_assets/related/trail-running.jpg"
     },
-    yoga: {
-      title: "Yoga",
-      path: "/en/yoga",
-      image: "/_assets/related/yoga.jpg"
+    surfAndYoga: {
+      title: "Surf & Yoga",
+      path: "/en/surf-and-yoga",
+      image: "/_assets/related/surf-and-yoga.jpg"
     },
     skating: {
       title: "Skating",

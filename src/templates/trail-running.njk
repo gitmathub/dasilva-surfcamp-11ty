@@ -1,0 +1,44 @@
+---
+layout: main.njk
+
+galleryTailRunning:
+  - src: /_assets/trail-running/gallery/01-trail-running.jpg
+  - src: /_assets/trail-running/gallery/02-trail-running.jpg
+  - src: /_assets/trail-running/gallery/03-trail-running.jpg
+  - src: /_assets/trail-running/gallery/04-trail-running.jpg
+  - src: /_assets/trail-running/gallery/05-trail-running.jpg
+  - src: /_assets/trail-running/gallery/06-trail-running.jpg
+
+
+relatedPages:
+  - surfing
+  - mountainBike
+  - skating      
+---
+{% import "partial.njk" as partial %}
+{% import "hero.njk" as hero %}
+{% import "gallery.njk" as gallery %}
+{% import "columns.njk" as columns %}
+{% import "price-table.njk" as priceTable %}
+{% import "related.njk" as related %}
+
+{{ hero.image(
+  src="/_assets/trail-running/hero-trail-running.jpg",
+  alt=links[locale].trailRunning.title)
+}}
+
+<section class="centered">
+  {{ partial.get(collections, tags, "start", locale) }}
+</section>
+
+<section>
+  {{ gallery.three(images=galleryTailRunning) }}
+</section>
+
+<section class="centered">
+  {{ partial.get(collections, tags, "prices", locale) }}
+</section>
+
+<nav class="centered">
+  {{ related.three(links[locale], relatedPages)}}
+</nav>
