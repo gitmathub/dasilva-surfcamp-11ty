@@ -1,0 +1,76 @@
+---
+layout: main.njk
+
+imgPath: /_assets/surroundings/leisure
+
+gallerySurroundings:
+  - src: /_assets/surroundings/gallery/01-surroundings.jpg
+  - src: /_assets/surroundings/gallery/02-surroundings.jpg
+  - src: /_assets/surroundings/gallery/03-surroundings.jpg
+  - src: /_assets/surroundings/gallery/04-surroundings.jpg
+  - src: /_assets/surroundings/gallery/05-surroundings.jpg
+  - src: /_assets/surroundings/gallery/06-surroundings.jpg
+  - src: /_assets/surroundings/gallery/07-surroundings.jpg
+  - src: /_assets/surroundings/gallery/08-surroundings.jpg
+  - src: /_assets/surroundings/gallery/09-surroundings.jpg
+  - src: /_assets/surroundings/gallery/10-surroundings.jpg
+  - src: /_assets/surroundings/gallery/11-surroundings.jpg
+  - src: /_assets/surroundings/gallery/12-surroundings.jpg
+  - src: /_assets/surroundings/gallery/13-surroundings.jpg
+  - src: /_assets/surroundings/gallery/14-surroundings.jpg
+  - src: /_assets/surroundings/gallery/15-surroundings.jpg
+
+relatedPages:
+  - surfAndYoga
+  - kidsAreWelcome
+  - skating
+---
+{% import "partial.njk" as partial %}
+{% import "hero.njk" as hero %}
+{% import "columns.njk" as columns %}
+{% import "gallery.njk" as gallery %}
+{% import "price-table.njk" as priceTable %}
+{% import "related.njk" as related %}
+
+{{ hero.image(
+  src="/_assets/surroundings/hero-surroundings.jpg",
+  alt=links[locale].surroundings.title)
+}}
+
+<section class="centered">
+  {{ partial.get(collections, tags, "start", locale) }}
+
+  <img src="{{imgPath}}/dino-parque.jpg" alt="Dino Parque Lourinhã" class="header-image"/>
+  {{partial.get(collections, tags, "dino-parque", locale)}}
+
+  <img src="{{imgPath}}/sportagua.jpg" alt="Sportagua Peniche" class="header-image"/>
+  {{partial.get(collections, tags, "sportagua", locale)}}
+
+  <img src="{{imgPath}}/buddha-eden.jpg" alt="Buddha Eden" class="header-image"/>
+  {{partial.get(collections, tags, "buddha-eden", locale)}}
+
+  <img src="{{imgPath}}/museu-lourinha.jpg" alt="Museu da Lourinhã" class="header-image"/>
+  {{partial.get(collections, tags, "museu-lourinha", locale)}}
+
+  <img src="{{imgPath}}/escape-room.jpg" alt="Escape Room" class="header-image"/>
+  {{partial.get(collections, tags, "escape-room", locale)}}
+
+  <img src="{{imgPath}}/tennis.jpg" alt="Tennis Praia da Areia Branca" class="header-image"/>
+  {{partial.get(collections, tags, "tennis", locale)}}
+
+  <img src="{{imgPath}}/minigolf.jpg" alt="Minigolf Praia da Areia Branca" class="header-image"/>
+  {{partial.get(collections, tags, "minigolf", locale)}}
+
+  <img src="{{imgPath}}/gokart.jpg" alt="Gokart" class="header-image"/>
+  {{partial.get(collections, tags, "gokart", locale)}}
+
+  {{ partial.get(collections, tags, "day-trips", locale) }}
+</section>
+
+<section>
+  {{ gallery.three(images=gallerySurroundings) }}
+</section>
+
+<nav class="centered">
+  {{ related.three(links[locale], relatedPages)}}
+</nav>

@@ -20,8 +20,8 @@ module.exports = {
       image: "/_assets/related/kids-are-welcome.jpg"
     },
     surroundings: {
-      title: "Umgebung & Ausflüge",
-      path: "/de/surroundings",
+      title: "Freizeit und Umgebung",
+      path: "/de/freizeit-und-umgebung",
       image: "/_assets/related/surroundings.jpg"
     },
     surfBar: {
