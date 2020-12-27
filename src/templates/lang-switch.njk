@@ -16,12 +16,14 @@
       {% endif %}
     {% endfor %}
 
-    <div class="language-switch_item">
-      <a class="{{ activeClass }}" href="{{ translatedUrl }}">
-        <span class"language-switch_label">{{ language.label }}</span>
+    <a class="{{ activeClass }} " href="{{ translatedUrl }}">
+      <div class="language-switch__item">
         <img src="/_assets/flags/{{language.code}}.svg" alt="{{ language.label }}" class="language-switch__flag"/>
-      </a>
-    </div>
+        <span class"language-switch__label">
+          {{ language.label }}
+        </span>
+      </div>
+    </a>
 
     {% if loop.last %}
     </div>
@@ -29,13 +31,17 @@
 {% endfor %}
 
 <style>
-  .language-switch {
-    display: grid;
+  .language-switch__item {
+    display: flex;
+    align-items: center;
+    {# border: 1px solid grey; #}
+    {# padding: 0.8rem; #}
   }
-  .language-switch_label {
-    padding: 5px;
+  .language-switch__label {
+    {# padding-right: 1rem; #}
   }
   .language-switch__flag {
-    width: 30px;
+    width: 2.1rem;
+    margin-right: 0.8rem;
   }
 </style>

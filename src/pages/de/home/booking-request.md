@@ -5,9 +5,9 @@ partial: bookingRequest
 
 ### [{{ links.de.bookingRequest.title }}]({{ links.de.bookingRequest.path }})
 
-<div class="booking-icon-frame">
+<div class="decoration-icon-frame">
   <a href="{{ links.de.bookingRequest.path }}">
-    <img src="/_assets/home/booking/bomb-solid.svg" alt="Buchungsanfrage" class="booking-icon"/>
+    <img src="/_assets/icons/fa/bomb-solid.svg" alt="Buchungsanfrage" class="decoration-icon"/>
   </a>
 </div>
 

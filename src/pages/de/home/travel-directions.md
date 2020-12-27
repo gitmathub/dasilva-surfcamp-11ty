@@ -5,9 +5,9 @@ partial: travelDirections
 
 ### [{{ links.de.travelDirections.title }}]({{ links.de.travelDirections.path }})
 
-<div class="booking-icon-frame">
+<div class="decoration-icon-frame">
   <a href="{{ links.de.travelDirections.path }}">
-    <img src="/_assets/home/booking/bolt-solid.svg" alt="Anreise" class="booking-icon"/>
+    <img src="/_assets/icons/fa/bolt-solid.svg" alt="Anreise" class="decoration-icon"/>
   </a>
 </div>
 

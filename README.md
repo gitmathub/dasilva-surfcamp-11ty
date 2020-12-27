@@ -68,37 +68,6 @@ CMS for Da Silva Surfcamp
 
 # Project Todos
 
-- [ ] Internationalisation
-  - [x] Concept
-  - [x] Switch same to same page
-  - [x] Switch to non existing page
-  - [ ] Default page: German home
-  - [ ] Detect browser language and switch
-- [ ] Header
-  - [x] Navigation bar
-  - [x] Logo
-  - [x] Hambuger menu
-  - [x] Scale properly
-  - [x] All links for Hamburger
-  - [x] Fix overlay Hamburger
-  - [ ] Language switch
-  - [x] Activate whole row
-  - [ ] Hamburger: whole row
-  - [ ] Hamburger: Fix language switch
-- [ ] Footer
-  - [ ] Language icons
-  - [ ] Social media links
-  - [ ] Site map (Generate all Links)
-- [ ] Masonry
-  - [x] Resonsive Design
-  - [ ] Links
-  - [ ] Lightbox
-  - [ ] Loader
-- [ ] Galery
-  - [x] Responsive Design
-  - [ ] Fix image size for big screen
-  - [ ] Overlay picture
-  - [ ] Single Pic for Mobile
 - [ ] Booking
   - [x] online Booking link
   - [x] Booling Form
@@ -107,6 +76,11 @@ CMS for Da Silva Surfcamp
   - [x] Booking Send Mail
   - [ ] Booking Contact Form
   - [ ] Booking Success Response
+- [ ] Masonry
+  - [x] Resonsive Design
+  - [ ] Links
+  - [ ] Lightbox
+  - [ ] Loader
 - [ ] Home
   - [x] Hero
   - [x] Masonry
@@ -120,18 +94,46 @@ CMS for Da Silva Surfcamp
   - [ ] Google rating
 - [ ] Metatags
 - [ ] Meta Descriptions
-- [ ] Travel Directions
-  - [x] all Sections
-  - [x] map
-  - [ ] map interaction
 - [ ] Optimisations
   - [ ] Preload fonts
   - [ ] Skeletons
 - [ ] English Version
 - [ ] Portugues Version
-- [ ] Impress
-- [ ] Terms & Conditions
-- [ ] Privacy Policy
+- [ ] Header
+  - [x] Navigation bar
+  - [x] Logo
+  - [x] Hambuger menu
+  - [x] Scale properly
+  - [x] All links for Hamburger
+  - [x] Fix overlay Hamburger
+  - [x] Language switch
+  - [x] Activate whole row
+  - [ ] Topnav: aligh Language Menu
+  - [ ] Hamburger: whole row
+  - [ ] Hamburger: Fix language switch
+- [ ] Footer
+  - [x] Language icons
+  - [x] Social media links
+  - [ ] Site map (for SEO)
+- [ ] Travel Directions
+  - [x] all Sections
+  - [x] map
+  - [ ] map interaction
+- [ ] Galery
+  - [x] Responsive Design
+  - [ ] Fix image size for big screen
+  - [ ] Overlay picture
+  - [ ] Single Pic for Mobile
+- [ ] Internationalisation
+  - [x] Concept
+  - [x] Switch same to same page
+  - [x] Switch to non existing page
+  - [ ] Default page: German home
+  - [ ] Detect browser language and switch
+- [x] FAQ
+- [x] Imprint
+- [x] Terms & Conditions
+- [x] Privacy Policy
   - [ ] https://www.datenschutz.org/datenschutzerklaerung-website/
 - [x] Trail Running
 - [x] Skating

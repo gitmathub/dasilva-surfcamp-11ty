@@ -6,6 +6,11 @@ footer {
   display: flex-wrap;
   justify-content: space-between;
 
+  // override global "-" dashes
+  ul>li:before {
+    content: '';
+  }
+  
   li {
     display: inline;
     margin-left: 1.6rem;
@@ -17,5 +22,20 @@ footer {
 
   a {
     text-decoration: none;
+  }
+
+  .social {
+    .fa-w-10 {
+      width: 1.2rem;
+      color: #777;
+    }
+    .fa-w-14 {
+      width: 1.6rem;
+      color: #777;
+    }
+    .fa-w-18 {
+      width: 2.1rem;
+      color: #777;
+    }
   }
 }
