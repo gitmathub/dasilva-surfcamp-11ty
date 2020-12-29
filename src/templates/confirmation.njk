@@ -1,0 +1,20 @@
+---
+layout: main.njk
+
+bookingBanner:
+  - bookingBedAndBreakfast
+  - bookingPackages
+  - bookingExperiences
+---
+
+{% import "related.njk" as related %}
+{% import "partial.njk" as partial %}
+
+<br><br>
+<section class="centered">
+  {{ partial.get(collections, tags, "response", locale) }}
+</section>
+
+<section>
+  {{ related.three(links[locale], bookingBanner)}}
+</section>

@@ -1,6 +1,6 @@
 // https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch
 
-const fetch = require('node-fetch')
+// const fetch = require('node-fetch')
 
 const dataJson = {
   apiKey: '9e22b3ebc80a37028674c146a797aee3',
@@ -24,9 +24,10 @@ const dataJson = {
 // fetch('http://superlea.uber.space:45901/api/booking-request', {
 fetch('http://localhost:3000/api/booking-request', {
   method: 'POST',
-  mode: 'no-cors',
+  // mode: 'no-cors',
   headers: {
     'Content-Type': 'application/json',
+    // 'Content-Type': 'application/x-www-form-urlencoded',
   },
   body: JSON.stringify(dataJson),
 })

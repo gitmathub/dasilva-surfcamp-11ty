@@ -173,6 +173,7 @@ Mozilla Resources:
 - [CORS](https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS)
 - [Fetch API](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API)
 - [Using Fetch](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch)
+- youtube showcasing fetch api: https://www.youtube.com/watch?v=FN_ffvw_ksE
 
 ## Maps
 
@@ -366,3 +367,4 @@ curl -o /dev/null -s -w %{time_total}\\n  https://im.ages.io/4FtAEiH1l1\?height\
 
 - country icons
   - https://www.svgrepo.com/vectors/portuguese/
+  - openstreetmap.org

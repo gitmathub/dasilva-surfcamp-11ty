@@ -1,10 +1,8 @@
 <script src="/_assets/scripts/send-form.js"></script>
 <div class="form centered">
   {# <form action="https://superlea.uber.space:45901/api/booking-request" method="post"> #}
-  <form action="http://localhost:3000/api/booking-request" method="POST">
+  <form id="booking-form">
     <input name="apiKey" type="text" value="9e22b3ebc80a37028674c146a797aee3" hidden/>
-    <input name="locale" type="text" value="{{ locale }}" hidden/>
-    <input name="apiCall" type="text" value="booking-request" hidden/>
     <div class="form__fields">
       <!-- first traveler -->
       <div>
@@ -228,3 +226,25 @@
     </div>
   </form>
 </div>
+<script>
+  document.forms[0].onsubmit = async(e) => {
+    e.preventDefault();
+    const myForm = document.getElementById('booking-form');
+    const data = new FormData(myForm);
+    console.log(data)
+    data.append( "json", JSON.stringify( {apiKey: '9e22b3ebc80a37028674c146a797aee3'} ) );
+    fetch('http://localhost:3000/api/booking-request', {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/x-www-form-urlencoded',
+      },
+      body: data,
+    })
+    .then(data => {
+      console.log('Success:', data);
+    })
+    .catch((error) => {
+      console.error('Error:', error);
+    });  
+  }
+</script>
