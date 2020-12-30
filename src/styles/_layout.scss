@@ -167,6 +167,13 @@ main {
   max-width: $text-block-width;
 }
 
+// used by hero
+.max-scaled {
+  width: 100%;
+  object-fit: cover;
+  overflow: hidden;
+}
+
 .display-if-middle-to-wide {
   @include respond(small) {
     display: none;

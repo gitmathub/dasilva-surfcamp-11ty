@@ -3,6 +3,9 @@ CMS for Da Silva Surfcamp
 - [Anforderungen](#anforderungen)
 - [Project Todos](#project-todos)
 - [Research](#research)
+  - [Image Sizes Dynamically](#image-sizes-dynamically)
+    - [Responsive Images Generator](#responsive-images-generator)
+    - [11ty Image Generator](#11ty-image-generator)
   - [XHR, Fetch and CORS](#xhr-fetch-and-cors)
   - [Maps](#maps)
   - [Instagram Integration](#instagram-integration)
@@ -68,25 +71,16 @@ CMS for Da Silva Surfcamp
 
 # Project Todos
 
-- [ ] Booking
-  - [x] online Booking link
-  - [x] Booling Form
-  - [x] Booking Validation
-  - [x] Booking Send Mail
-  - [ ] Booking Contact Form
-  - [x] Booking Success Response
-  - [x] Booking Secure Form
-  - [ ] Respond soon, before sending mail
-  - [ ] Booking Datepicker
-  - [ ] Booking vanitise user input
-  - [ ] Capture
 - [ ] Masonry
   - [x] Resonsive Design
   - [ ] Links
   - [ ] Lightbox
   - [ ] Loader
 - [ ] Online Deploy
-  - [ ] 
+  - [ ] Switch domain
+  - [ ] Re-configure cloudflare
+  - [ ] Default page: German home
+  - [ ] Detect browser language and switch
 - [ ] Home
   - [x] Hero
   - [x] Masonry
@@ -131,12 +125,22 @@ CMS for Da Silva Surfcamp
   - [ ] Fix image size for big screen
   - [ ] Overlay picture
   - [ ] Single Pic for Mobile
+- [ ] Booking
+  - [x] online Booking link
+  - [x] Booling Form
+  - [x] Booking Validation
+  - [x] Booking Send Mail
+  - [x] Booking Contact Form
+  - [x] Booking Success Response
+  - [x] Booking Secure Form
+  - [ ] Respond soon, before sending mail
+  - [ ] Booking Datepicker
+  - [ ] Booking vanitise user input
+  - [ ] Capture
 - [ ] Internationalisation
   - [x] Concept
   - [x] Switch same to same page
   - [x] Switch to non existing page
-  - [ ] Default page: German home
-  - [ ] Detect browser language and switch
 - [x] FAQ
 - [x] Imprint
 - [x] Terms & Conditions
@@ -172,6 +176,28 @@ CMS for Da Silva Surfcamp
 
 
 # Research
+
+
+## Image Sizes Dynamically
+
+To serve different versions scaled for different devices, you need to use the HTML srcset attribute in your img tags, to specify more than one image size to choose from.
+
+```html
+<img srcset="large-img.jpg 1024w,
+middle-img.jpg 640w,
+small-img.jpg  320w"
+src="small.jpg"
+/>
+```
+
+### Responsive Images Generator
+
+https://github.com/felixrieseberg/responsive-images-generator
+
+### 11ty Image Generator
+
+https://www.11ty.dev/docs/plugins/image/
+
 
 ## XHR, Fetch and CORS
 

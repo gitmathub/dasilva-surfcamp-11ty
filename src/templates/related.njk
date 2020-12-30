@@ -5,9 +5,9 @@
       {% for page in relatedPages %}
         <div class="related__item">
           <a href="{{ linksData[page].path }}">
-            <img src="{{ linksData[page].image }}"
+            <img data-src="{{ linksData[page].image }}"
               alt="{{ linksData[page].title }}" 
-              class="related__image"/>
+              class="related__image lazyload"/>
             <div class="related__text-box">
               <div class="related__title">{{ linksData[page].title }}</div>
             </div>

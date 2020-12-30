@@ -21,22 +21,22 @@ bookingBanner:
 {% import "video.njk" as video %}
 {% import "columns.njk" as columns %}
 
+{{ hero.image(src="/_assets/home/hero/portuguese-spirit-of-surfing.jpg") }}
+
+<section class="centered">
+  {{ partial.get(collections, tags, "welcome", locale) }}
+</section>
+
 <nav class="display-if-middle-to-wide">
-  <div style="margin-bottom: -4.0rem">
-    {{ hero.image(src="/_assets/home/hero/portuguese-spirit-of-surfing.jpg") }}
-  </div>
   {% include "masonry.njk" %}
 </nav>
 
 <nav class="display-if-small">
-  <div>
-    {{ hero.image(src="/_assets/home/hero/portuguese-spirit-of-surfing.jpg") }}
-  </div>
   {{ related.three(links[locale], relatedPages)}}
 </nav>
 
 <section class="centered">
-  {{ partial.get(collections, tags, "welcome", locale) }}
+  {{ partial.get(collections, tags, "corona", locale) }}
 </section>
 
 <section>
