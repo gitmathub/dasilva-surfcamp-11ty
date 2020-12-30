@@ -3,7 +3,7 @@ tags: kidsAreWelcome
 partial: start
 ---
 
-### Kids welcome
+### Kids Welcome
 
 ## Da Silva Surfcamp Portugal
 

@@ -61,7 +61,7 @@ CMS for Da Silva Surfcamp
   - darf kleiner sein aber soll complett sein, fertig aussehen
   - die Seite soll so ein paar Jahre bleiben
 - Woran gespart werden kann
-  - Aktivitäten können auf Surfen, Mountenbiken und Reiten reduziert werden
+  - Aktivitäten können auf Surfing, Mountenbiken und Reiten reduziert werden
   - Yoga hat eine Unterseite, die wegfallen soll
 
 - Zeitraum
@@ -147,8 +147,8 @@ CMS for Da Silva Surfcamp
 - [x] Privacy Policy
   - [ ] https://www.datenschutz.org/datenschutzerklaerung-website/
 - [x] Trail Running
-- [x] Skating
-- [x] Surf & Yoga
+- [x] Skateboarding
+- [x] Yoga
 - [x] Surroundings
 - [x] Happy Horses
 - [x] Page Pricing
@@ -188,6 +188,22 @@ middle-img.jpg 640w,
 small-img.jpg  320w"
 src="small.jpg"
 />
+```
+
+```js
+const configs = [
+    {width: '20%', rename: {suffix: '@1x'}},
+    {width: '40%', rename: {suffix: '@2x'}},
+    {width: '60%', rename: {suffix: '@3x'}},
+    {width: '80%', rename: {suffix: '@4x'}},
+    {width: '100%', rename: {suffix: '@5x'}}
+]
+const images = [
+  path.join(__dirname, 'aileen.jpg'),
+  path.join(__dirname, 'kevin.jpg')
+]
+
+generateResponsiveImages(images, configs)
 ```
 
 ### Responsive Images Generator

@@ -6,5 +6,5 @@ tags: contact
 title: "Kontakt"
 
 metaImage: ""
-metaDescription: "Surfen, Biken und vieles mehr"
+metaDescription: "Surfing, Biken und vieles mehr"
 ---

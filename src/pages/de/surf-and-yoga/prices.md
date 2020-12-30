@@ -9,6 +9,6 @@ partial: prices
 
 #### 5 Stunden: 60 EUR (eine Stunde gratis)
 
-## Surf & Yoga Package
+## Yoga Package
 
 # ab 400 € pro Woche

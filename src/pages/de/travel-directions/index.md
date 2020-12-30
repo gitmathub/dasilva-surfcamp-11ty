@@ -6,5 +6,5 @@ tags: travelDirections
 title: "Anreise zum Da Silver Surfcamp Mountainbike Portugal"
 
 metaImage: ""
-metaDescription: "Surfen, Biken und vieles mehr"
+metaDescription: "Surfing, Biken und vieles mehr"
 ---

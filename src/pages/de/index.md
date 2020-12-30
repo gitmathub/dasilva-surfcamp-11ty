@@ -3,9 +3,9 @@ permalink: /{{ locale }}/index.html
 layout: home.njk
 tags: home
 
-title: "Surfen und Mountain Biken"
+title: "Surfing und Mountain Biken"
 
 metaImage: ""
-metaDescription: "Surfen, Biken und vieles mehr"
+metaDescription: "Surfing, Biken und vieles mehr"
 ---
 

@@ -1,10 +1,10 @@
 ---
-permalink: /de/surf-and-yoga/index.html
-layout: surf-and-yoga.njk
+permalink: /de/yoga/index.html
+layout: yoga.njk
 tags: surfAndYoga
 
-title: "Surf & Yoga"
+title: "Yoga"
 
 metaImage: ""
-metaDescription: "Surfen, Biken und vieles mehr"
+metaDescription: "Surfing, Biken und vieles mehr"
 ---

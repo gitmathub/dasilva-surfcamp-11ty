@@ -15,17 +15,17 @@ module.exports = {
       image: "/_assets/related/bed-and-breakfast.jpg"
     },
     kidsAreWelcome: {
-      title: "Kids are Welcome",
+      title: "Kids Welcome",
       path: "/de/kids-are-welcome",
       image: "/_assets/related/kids-are-welcome.jpg"
     },
     surroundings: {
-      title: "Freizeit und Umgebung",
-      path: "/de/freizeit-und-umgebung",
+      title: "Umgebung",
+      path: "/de/umgebung",
       image: "/_assets/related/surroundings.jpg"
     },
     surfBar: {
-      title: "Surfbar",
+      title: "Surf Bar",
       path: "/de/surf-bar",
       image: "/_assets/related/surf-bar.jpg"
     },
@@ -33,9 +33,9 @@ module.exports = {
       title: "Action"
     },
     surfing: {
-      title: "Surfen",
-      path: "/de/surfing",
-      image: "/_assets/related/surfing.jpg"
+      title: "Surfschool",
+      path: "/de/surfschool",
+      image: "/_assets/related/surfschool.jpg"
     },
     mountainBike: {
       title: "Moutain Bike",
@@ -53,13 +53,13 @@ module.exports = {
       image: "/_assets/related/trail-running.jpg"
     },
     surfAndYoga: {
-      title: "Surf & Yoga",
-      path: "/de/surf-and-yoga",
-      image: "/_assets/related/surf-and-yoga.jpg"
+      title: "Yoga",
+      path: "/de/yoga",
+      image: "/_assets/related/yoga.jpg"
     },
     skating: {
-      title: "Skating",
-      path: "/de/skating",
+      title: "Skateboarding",
+      path: "/de/skateboarding",
       image: "/_assets/related/skating.jpg"
     },
     travelDirections: {
@@ -132,7 +132,7 @@ module.exports = {
       image: "/_assets/related/bed-and-breakfast.jpg"
     },
     kidsAreWelcome: {
-      title: "Kids are Welcome",
+      title: "Kids Welcome",
       path: "/en/kids-are-welcome",
       image: "/_assets/related/kids-are-welcome.jpg"
     },
@@ -142,7 +142,7 @@ module.exports = {
       image: "/_assets/related/surroundings.jpg"
     },
     surfBar: {
-      title: "Surfbar",
+      title: "Surf Bar",
       path: "/en/surf-bar",
       image: "/_assets/related/surf-bar.jpg"
     },
@@ -150,9 +150,9 @@ module.exports = {
       title: "Action"
     },
     surfing: {
-      title: "Surfing",
-      path: "/en/surfing",
-      image: "/_assets/related/surfing.jpg"
+      title: "Surfschool",
+      path: "/en/surfschool",
+      image: "/_assets/related/surfschool.jpg"
     },
     mountainBike: {
       title: "Moutain Bike",
@@ -170,13 +170,13 @@ module.exports = {
       image: "/_assets/related/trail-running.jpg"
     },
     surfAndYoga: {
-      title: "Surf & Yoga",
-      path: "/en/surf-and-yoga",
-      image: "/_assets/related/surf-and-yoga.jpg"
+      title: "Yoga",
+      path: "/en/yoga",
+      image: "/_assets/related/yoga.jpg"
     },
     skating: {
-      title: "Skating",
-      path: "/en/skating",
+      title: "Skateboarding",
+      path: "/en/skateboarding",
       image: "/_assets/related/skating.jpg"
     },
     travelDirections: {

@@ -6,5 +6,5 @@ tags: kidsAreWelcome
 title: "Kinder sind willkommen"
 
 metaImage: ""
-metaDescription: "Surfen, Biken und vieles mehr"
+metaDescription: "Surfing, Biken und vieles mehr"
 ---

@@ -1,10 +1,10 @@
 ---
-permalink: /de/freizeit-und-umgebung/index.html
+permalink: /de/umgebung/index.html
 layout: surroundings.njk
 tags: surroundings
 
-title: "Freizeit und Umgebung"
+title: "Umgebung"
 
 metaImage: ""
-metaDescription: "Surfen, Biken und vieles mehr"
+metaDescription: "Surfing, Biken und vieles mehr"
 ---

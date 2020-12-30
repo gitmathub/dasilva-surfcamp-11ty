@@ -7,5 +7,5 @@ tags: home
 title: "Da Silver Surfcamp Portugal Mountainbike"
 
 metaImage: ""
-metaDescription: "Surfen, Biken und vieles mehr"
+metaDescription: "Surfing, Biken und vieles mehr"
 ---
