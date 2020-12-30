@@ -1,5 +1,5 @@
 ---
-tags: surfAndYoga
+tags: yoga
 partial: start
 ---
 

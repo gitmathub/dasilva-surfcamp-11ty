@@ -32,7 +32,7 @@ module.exports = {
     action: {
       title: "Action"
     },
-    surfing: {
+    surfschool: {
       title: "Surfschool",
       path: "/de/surfschool",
       image: "/_assets/related/surfschool.jpg"
@@ -52,7 +52,7 @@ module.exports = {
       path: "/de/trail-running",
       image: "/_assets/related/trail-running.jpg"
     },
-    surfAndYoga: {
+    yoga: {
       title: "Yoga",
       path: "/de/yoga",
       image: "/_assets/related/yoga.jpg"
@@ -149,7 +149,7 @@ module.exports = {
     action: {
       title: "Action"
     },
-    surfing: {
+    surfschool: {
       title: "Surfschool",
       path: "/en/surfschool",
       image: "/_assets/related/surfschool.jpg"
@@ -169,7 +169,7 @@ module.exports = {
       path: "/en/trail-running",
       image: "/_assets/related/trail-running.jpg"
     },
-    surfAndYoga: {
+    yoga: {
       title: "Yoga",
       path: "/en/yoga",
       image: "/_assets/related/yoga.jpg"
