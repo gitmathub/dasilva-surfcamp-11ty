@@ -1,0 +1,47 @@
+---
+layout: main.njk
+
+gallerySurfAndYoga:
+  - src: /_assets/yoga/gallery/01-yoga.jpg
+  - src: /_assets/yoga/gallery/02-yoga.jpg
+  - src: /_assets/yoga/gallery/03-yoga.jpg
+ 
+relatedPages:
+  - surfing
+  - trailRunning
+  - kidsAreWelcome
+bookingBanner:
+  - bookingBedAndBreakfast
+  - bookingPackages
+  - bookingExperiences
+---
+{% import "partial.njk" as partial %}
+{% import "hero.njk" as hero %}
+{% import "gallery.njk" as gallery %}
+{% import "columns.njk" as columns %}
+{% import "price-table.njk" as priceTable %}
+{% import "related.njk" as related %}
+
+<section>
+  {{ gallery.three(images=gallerySurfAndYoga) }}
+</section>
+
+<section class="centered">
+  {{ partial.get(collections, tags, "start", locale) }}
+</section>
+
+{{ hero.image(
+  src="/_assets/yoga/hero-yoga.jpg",
+  alt=links[locale].surfAndYoga.title)
+}}
+
+<section class="centered">
+  {{ partial.get(collections, tags, "prices", locale) }}
+  {{ priceTable.three(collections, "prices", "surfYogaPackagePrices", locale) }}
+  {{ partial.get(collections, tags, "including", locale) }}
+</section>
+
+<nav class="centered">
+  {{ related.three(links[locale], relatedPages)}}
+  {{ related.three(links[locale], bookingBanner)}}
+</nav>

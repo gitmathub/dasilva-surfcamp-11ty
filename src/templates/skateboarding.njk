@@ -1,0 +1,52 @@
+---
+layout: main.njk
+
+galleryMiniRamp:
+  - src: /_assets/skateboarding/mini-ramp/01-mini-ramp.jpg
+  - src: /_assets/skateboarding/mini-ramp/02-mini-ramp.jpg
+  - src: /_assets/skateboarding/mini-ramp/03-mini-ramp.jpg
+  
+gallerySkatePark:
+  - src: /_assets/skateboarding/skate-park/01-skate-park.jpg
+  - src: /_assets/skateboarding/skate-park/02-skate-park.jpg
+  - src: /_assets/skateboarding/skate-park/03-skate-park.jpg
+
+relatedPages:
+  - surfing
+  - mountainBike
+  - trailRunning      
+---
+{% import "partial.njk" as partial %}
+{% import "hero.njk" as hero %}
+{% import "gallery.njk" as gallery %}
+{% import "columns.njk" as columns %}
+{% import "related.njk" as related %}
+
+{{ hero.image(
+  src="/_assets/skateboarding/hero-skating.jpg",
+  alt=links[locale].skating.title)
+}}
+
+<section class="centered">
+  {{ partial.get(collections, tags, "start", locale) }}
+</section>
+
+<section>
+  {{ columns.two(
+    headline="Our Miniramp @ Da Silva Surfcamp",
+    leftColumn=gallery.three(images=galleryMiniRamp),
+    rightColumn=partial.get(collections, tags, "miniRamp", locale)
+  )}}
+</section>
+
+<section>
+  {{ columns.two(
+    headline="Skatepark Lourinhã",
+    leftColumn=gallery.three(images=gallerySkatePark),
+    rightColumn=partial.get(collections, tags, "skatePark", locale)
+  )}}
+</section>
+
+<nav class="centered">
+  {{ related.three(links[locale], relatedPages)}}
+</nav>
