@@ -12,7 +12,7 @@ address:
   label: Adresse
 phone:
   label: Telefon
-  value: 912 345 678
+  placeholder: +49 30 123 456 78
 email:
   label: E-Mail
 arrival:

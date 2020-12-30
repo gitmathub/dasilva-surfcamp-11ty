@@ -40,6 +40,8 @@
     }
   
     sup {
+      margin: 0;
+      padding: 0;
       color: $color-red;
     }
 
@@ -54,7 +56,7 @@
       margin-top: 0.8rem;
     }
     &__two {
-      display: flex;
+      display:flex;
     }
 
     &__half {
@@ -62,7 +64,7 @@
     }
 
     &__half:first-child {
-      padding-right: 0.8rem
+      // padding-right: 0.8rem
     }
 
     &__checkbox {

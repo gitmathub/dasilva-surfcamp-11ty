@@ -1,10 +1,8 @@
-<script src="/_assets/scripts/send-form.js"></script>
 <div class="form centered">
-  {# <form action="https://superlea.uber.space:45901/api/booking-request" method="post"> #}
-  <form action="http://localhost:3000/api/booking-request" method="POST">
+  <form action="https://babylon-metropolis.com:45901/api/booking-request" method="post">
+  {# <form action="http://localhost:3000/api/booking-request" method="POST"> #}
     <input name="apiKey" type="text" value="9e22b3ebc80a37028674c146a797aee3" hidden/>
     <input name="locale" type="text" value="{{ locale }}" hidden/>
-    <input name="apiCall" type="text" value="booking-request" hidden/>
     <div class="form__fields">
       <!-- first traveler -->
       <div>
@@ -13,7 +11,7 @@
       <div class="form__fields__two">
         <div class="form-group form__fields__half">
           <div>
-            <label for="firstName">{{ firstName.label }}<sup>*<sup></label>
+            <label for="firstName">{{ firstName.label }}<sup>&#x2605;</sup></label>
           </div>
           <div>
             <input 
@@ -26,7 +24,7 @@
         </div>
         <div class="form-group form__fields__half">
           <div>
-            <label for="lastName">{{ lastName.label }}<sup>*<sup></label>
+            <label for="lastName">{{ lastName.label }}<sup>&#x2605;</sup></label>
           </div>
           <div>
             <input name="lastName" id="lastName"
@@ -48,11 +46,11 @@
       </div>
       <div class="form-group">
         <div>
-          <label for="phone">{{ phone.label }}<sup>*<sup></label>
+          <label for="phone">{{ phone.label }}<sup>&#x2605;</sup></label>
         </div>
         <div>
           <input name="phone" id="phone" 
-            placeholder="12 123 123" 
+            placeholder="{{ phone.placeholder }}" 
             type="tel"
             class="form-control"
             data-valueMissing="{{ valueMissing.hint }}"
@@ -61,7 +59,7 @@
       </div>
       <div class="form-group">
         <div>
-          <label for="email">{{ email.label }}<sup>*<sup></label>
+          <label for="email">{{ email.label }}<sup>&#x2605;</sup></label>
         </div>
         <div>
           <input name="email" id="email" type="email"
@@ -74,7 +72,7 @@
       <div class="form__fields__two">
         <div class="form-group form__fields__half">      
           <div>
-            <label for="arrival">{{ arrival.label }}<sup>*<sup></label>
+            <label for="arrival">{{ arrival.label }}<sup>&#x2605;</sup></label>
           </div>
           <div>
             <input name="arrival" id="arrival" type="date"
@@ -85,7 +83,7 @@
         </div>
         <div class="form-group form__fields__half">
           <div>
-            <label for="departure">{{ departure.label }}<sup>*<sup></label>
+            <label for="departure">{{ departure.label }}<sup>&#x2605;</sup></label>
           </div>
           <div>
             <input name="departure" id="departure" type="date"
@@ -98,7 +96,7 @@
       <!-- package -->
       <div class="form-group">
         <div>
-          <label for="package">{{ package.label }}<sup>*<sup></label>
+          <label for="package">{{ package.label }}<sup>&#x2605;</sup></label>
         </div>      
         <select id="package"
           class="form-control"
@@ -118,7 +116,9 @@
       <!-- bed and breakfast -->
       <div class="form-group">
         <div>
-          <label for="bedAndBreakfast">{{ bedAndBreakfast.label }}<sup>*<sup></label>
+          <label for="bedAndBreakfast">{{ bedAndBreakfast.label }}
+          <sup>&#x2605;</sup>
+          </label>
         </div>      
         <select id="bedAndBreakfast"
           class="form-control"
@@ -196,7 +196,7 @@
       </div>
       <!-- booking options -->
       <div>
-        <label "bookingOptions">{{ bookingOptions.label }}</label>
+        <label>{{ bookingOptions.label }}</label>
       </div>
       <div class="form__fields__checkbox">
         <input type="checkbox" name="bookingRequest" id="bookingRequest">

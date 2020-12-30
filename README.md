@@ -71,16 +71,22 @@ CMS for Da Silva Surfcamp
 - [ ] Booking
   - [x] online Booking link
   - [x] Booling Form
-  - [ ] Booking Datepicker
   - [x] Booking Validation
   - [x] Booking Send Mail
   - [ ] Booking Contact Form
-  - [ ] Booking Success Response
+  - [x] Booking Success Response
+  - [x] Booking Secure Form
+  - [ ] Respond soon, before sending mail
+  - [ ] Booking Datepicker
+  - [ ] Booking vanitise user input
+  - [ ] Capture
 - [ ] Masonry
   - [x] Resonsive Design
   - [ ] Links
   - [ ] Lightbox
   - [ ] Loader
+- [ ] Online Deploy
+  - [ ] 
 - [ ] Home
   - [x] Hero
   - [x] Masonry
@@ -97,6 +103,7 @@ CMS for Da Silva Surfcamp
 - [ ] Optimisations
   - [ ] Preload fonts
   - [ ] Skeletons
+  - [ ] Error pages
 - [ ] English Version
 - [ ] Portugues Version
 - [ ] Header

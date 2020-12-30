@@ -1,0 +1,42 @@
+---
+# layout: main.njk
+# this template inherits (extends) main.njk
+#  so that we can use the block head_extra
+# attention: block main has to be used
+
+relatedPages:
+  - bedAndBreakfast
+  - surfing
+  - mountainBike
+---
+{% extends "main.njk" %}
+{% import "columns.njk" as columns %}
+
+
+{% block head_extra %}
+    <script src="/_assets/scripts/valid-form.min.js"></script>
+{% endblock %}
+
+{% import "partial.njk" as partial %}
+{% import "related.njk" as related %}
+
+
+{% block main %}
+
+  <section class="centered">
+  {{ partial.get(collections, tags, "form", locale) }}
+  </section>
+
+<section>
+  {{ columns.three(
+    leftColumn="",
+    middleColumn=partial.get(collections, tags, "address", locale),
+    rightColumn=""
+  )}}
+</section>
+
+  <nav class="centered">
+  {{ related.three(links[locale], relatedPages)}}
+  </nav>
+
+{% endblock %}
