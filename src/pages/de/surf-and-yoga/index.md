@@ -1,7 +1,7 @@
 ---
 permalink: /de/yoga/index.html
 layout: yoga.njk
-tags: surfAndYoga
+tags: yoga
 
 title: "Yoga"
 
