@@ -18,22 +18,27 @@ module.exports = function (eleventyConfig) {
     const markdownLib = markdownIt(options).disable('code');
     eleventyConfig.setLibrary("md", markdownLib);
 
-    // works also with addLiquidShortcode or addJavaScriptFunction
+    // PICTURE
     eleventyConfig.addNunjucksAsyncShortcode("responsiveimage", async function (src, alt, sizes = "100vw") {
+        // console.log("parameters: ", src, alt, sizes)
         if (alt === undefined) {
-            // You bet we throw an error on missing alt (alt="" works okay)
             throw new Error(`Missing \`alt\` on responsiveimage from: ${src}`);
         }
 
         let metadata = await Image(src, {
             widths: [230, 300, 350, 480, 768, 1024],
-            formats: ['webp', 'jpeg']
+            formats: ['webp', 'jpeg'],
+            urlPath: "/_assets/images/",
+            outputDir: "src/assets/images",
         });
         let lowsrc = metadata.jpeg[0];
+        // console.log("lowsrc", lowsrc)
 
         return `<picture>
       ${Object.values(metadata).map(imageFormat => {
-        return `  <source type="image/${imageFormat[0].format}" srcset="${imageFormat.map(entry => entry.srcset).join(", ")}" sizes="${sizes}">`;
+          console.log("sizes", sizes)
+        return `  <source type="image/${imageFormat[0].format}" 
+        srcset="${imageFormat.map(entry => entry.srcset).join(", ")}" sizes="${sizes}">`;
       }).join("\n")}
         <img
           src="${lowsrc.url}"
@@ -42,6 +47,32 @@ module.exports = function (eleventyConfig) {
           alt="${alt}">
       </picture>`;
     })
+
+    // IMAGE
+    eleventyConfig.addNunjucksAsyncShortcode("image", async function ({src, alt, myClass}) {
+        if (alt === undefined) {
+            throw new Error(`Missing \`alt\` on myImage from: ${src}`);
+        }
+        let metadata = await Image(src, {
+            widths: [230, 300, 350, 480, 768, 1024, 2048],
+            formats: ['webp', 'jpeg'],
+            urlPath: "/_assets/images/",
+            outputDir: "src/assets/images",
+        });
+        // const srcset= metadata.jpeg.map(item => `${item.jpeg.url} ${item.jpeg.width}w`).join(", ")
+        // const srcset = metadata.jpeg.map(item => `${item.jpeg.url} ${item.jpeg.width}w`)
+        // console.log(srcset)
+        return `<img alt="${alt}" 
+            data-sizes="auto"
+            data-srcset="${metadata.jpeg[0].url} ${metadata.jpeg[0].width}w, 
+                ${metadata.jpeg[1].url} ${metadata.jpeg[1].width}w,
+                ${metadata.jpeg[2].url} ${metadata.jpeg[2].width}w,
+                ${metadata.jpeg[3].url} ${metadata.jpeg[3].width}w,  
+                ${metadata.jpeg[4].url} ${metadata.jpeg[4].width}w, 
+                ${metadata.jpeg[5].url} ${metadata.jpeg[5].width}w,
+                ${metadata.jpeg[6].url} ${metadata.jpeg[6].width}w" 
+            class="lazyload ${myClass}">`;        
+     });
 
     return {
         dir: {
