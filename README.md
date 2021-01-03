@@ -87,13 +87,14 @@ CMS for Da Silva Surfcamp
 - [ ] Optimisations
   - [ ] Preload fonts
   - [ ] Skeletons
-  - [ ] Error pages
 - [ ] English Version
 - [ ] Online Deploy
+  - [x] Detect browser language and switch
   - [x] Switch domain
   - [ ] Re-configure cloudflare
   - [x] Default page: German home
-  - [x] Detect browser language and switch
+  - [ ] Error pages
+  - [ ] favicon.ico
 - [ ] Portugues Version
 - [ ] Header
   - [x] Navigation bar
