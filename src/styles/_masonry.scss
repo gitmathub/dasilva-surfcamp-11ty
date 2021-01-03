@@ -70,7 +70,8 @@
     background-color: white;
     transition: .5s ease;
     opacity: 0;
-    top: 80%;
+    top: calc(100% - 8rem);
+    z-index: 3000;
     left: 50%;
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
@@ -82,7 +83,7 @@
   // is touch device: always show text box
   @media (pointer:none), (pointer:coarse) {
     &__text-box {
-      opacity: 0.7;
+      opacity: 0.8;
     }
   }
 

@@ -22,8 +22,8 @@ bookingBanner:
 {% import "columns.njk" as columns %}
 
 
-{# {% image {src:"./src/assets/home/hero/portuguese-spirit-of-surfing.jpg", 
-alt:"Da Silva Surfcamp Mountain Bike Portugal", myClass:"max-scaled"}%} #}
+{% image {src:"./src/assets/home/hero/portuguese-spirit-of-surfing.jpg", 
+alt:"Da Silva Surfcamp Mountain Bike Portugal", myClass:"max-scaled"}%}
 
 <section class="centered">
   {{ partial.get(collections, tags, "welcome", locale) }}
@@ -41,9 +41,9 @@ alt:"Da Silva Surfcamp Mountain Bike Portugal", myClass:"max-scaled"}%} #}
   {{ partial.get(collections, tags, "corona", locale) }}
 </section>
 
-{# <section>
+<section>
   {{ video.vimeo(videoId="173051720") }}
-</section> #}
+</section>
 
 <section>
   {{ columns.three(

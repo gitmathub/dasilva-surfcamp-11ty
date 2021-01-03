@@ -71,16 +71,6 @@ CMS for Da Silva Surfcamp
 
 # Project Todos
 
-- [ ] Masonry
-  - [x] Resonsive Design
-  - [ ] Links
-  - [ ] Lightbox
-  - [ ] Loader
-- [ ] Online Deploy
-  - [ ] Switch domain
-  - [ ] Re-configure cloudflare
-  - [ ] Default page: German home
-  - [ ] Detect browser language and switch
 - [ ] Home
   - [x] Hero
   - [x] Masonry
@@ -99,6 +89,11 @@ CMS for Da Silva Surfcamp
   - [ ] Skeletons
   - [ ] Error pages
 - [ ] English Version
+- [ ] Online Deploy
+  - [x] Switch domain
+  - [ ] Re-configure cloudflare
+  - [x] Default page: German home
+  - [x] Detect browser language and switch
 - [ ] Portugues Version
 - [ ] Header
   - [x] Navigation bar
@@ -137,7 +132,10 @@ CMS for Da Silva Surfcamp
   - [ ] Booking Datepicker
   - [ ] Booking vanitise user input
   - [ ] Capture
-- [ ] Internationalisation
+- [x] Masonry
+  - [x] Resonsive Design
+  - [x] Links
+- [x] Internationalisation
   - [x] Concept
   - [x] Switch same to same page
   - [x] Switch to non existing page

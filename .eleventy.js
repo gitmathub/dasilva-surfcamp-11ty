@@ -49,28 +49,21 @@ module.exports = function (eleventyConfig) {
     })
 
     // IMAGE
-    eleventyConfig.addNunjucksAsyncShortcode("image", async function ({src, alt, myClass}) {
+    eleventyConfig.addNunjucksAsyncShortcode("image", async ({src, alt, myClass}) => {
         if (alt === undefined) {
             throw new Error(`Missing \`alt\` on myImage from: ${src}`);
         }
         let metadata = await Image(src, {
             widths: [230, 300, 350, 480, 768, 1024, 2048],
-            formats: ['webp', 'jpeg'],
+            formats: ['jpeg'], //'webp'
             urlPath: "/_assets/images/",
             outputDir: "src/assets/images",
         });
-        // const srcset= metadata.jpeg.map(item => `${item.jpeg.url} ${item.jpeg.width}w`).join(", ")
-        // const srcset = metadata.jpeg.map(item => `${item.jpeg.url} ${item.jpeg.width}w`)
-        // console.log(srcset)
+        const srcset = metadata.jpeg.filter(i => i).map(i => `${i.url} ${i.width}w`).join(', ')
+        
         return `<img alt="${alt}" 
             data-sizes="auto"
-            data-srcset="${metadata.jpeg[0].url} ${metadata.jpeg[0].width}w, 
-                ${metadata.jpeg[1].url} ${metadata.jpeg[1].width}w,
-                ${metadata.jpeg[2].url} ${metadata.jpeg[2].width}w,
-                ${metadata.jpeg[3].url} ${metadata.jpeg[3].width}w,  
-                ${metadata.jpeg[4].url} ${metadata.jpeg[4].width}w, 
-                ${metadata.jpeg[5].url} ${metadata.jpeg[5].width}w,
-                ${metadata.jpeg[6].url} ${metadata.jpeg[6].width}w" 
+            data-srcset="${srcset}"
             class="lazyload ${myClass}">`;        
      });
 
