@@ -67,7 +67,7 @@ termsAndConditionAccepted:
 airportTransfer:
   label: Wir möchten gern vom Flughafen abgeholt werden.
 airportTransferPrice:
-  hint: Weitere Reiseteilnehmer bitte unten im Kommentarfeld eintragen. Bitte auch angeben wieviele Kinder (bis 12 Jahre) und Babys (bis 2 Jahre) dabei sind.
+  hint: Preis für 1-2 Personen = 80 EUR +10 EUR für jede weitere Person +20 EUR Nachtzuschlag von 00:00 bis 06:00 Uhr.
 
 comment:
   label: Kommentar oder Nachricht
