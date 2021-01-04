@@ -79,6 +79,7 @@ CMS for Da Silva Surfcamp
   - [x] Booking
   - [x] Specials
   - [x] Galerie
+  - [ ] Team
   - [ ] Instagram
   - [ ] Partners
   - [ ] Google rating
@@ -105,6 +106,7 @@ CMS for Da Silva Surfcamp
   - [x] Fix overlay Hamburger
   - [x] Language switch
   - [x] Activate whole row
+  - [x] Hamburgermenu: Disable all links below
   - [ ] Topnav: aligh Language Menu
   - [ ] Hamburger: whole row
   - [ ] Hamburger: Fix language switch

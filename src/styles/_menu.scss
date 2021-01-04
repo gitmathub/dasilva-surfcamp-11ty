@@ -3,6 +3,12 @@
   font-weight: $font-weight-light;
   text-transform: uppercase;
   z-index: 500;
+
+  // override global "-" dashes
+  ul>li:before {
+    content: '';
+    display: block;
+  }
 }
 
 .menu-bar {
@@ -15,12 +21,6 @@
 
   ul {
     margin: 0 0 1.6rem 0;
-  }
-
-  // override global "-" dashes
-  ul>li:before {
-    content: '';
-    display: block;
   }
 
   .top-menu>li {
@@ -96,6 +96,9 @@
     width: 100%;
     opacity: 1;
     z-index: 100;
+    body {
+      width: 0;
+    }
   }
 
   .menu-list {
@@ -106,7 +109,8 @@
     width: 100%;
     opacity: 0;
     width: 0; // actually hide menu
-    background-color: $color-grey-light-2;
+    background-color: green;
+    // background-color: $color-grey-light-2;    
   }
 
   .top-menu {
@@ -129,26 +133,9 @@
     text-decoration: none;
   }
 
-  a.active {
-    background-color: $color-white;
-  }
-
-  &__link {
-
-    &:link,
-    &:visited {
-      display: inline-block;
-      font-family: $font-sans-serif;
-      font-size: $font-size-middle;
-      padding: 0.5rem 2rem;
-      color: $color-black;
-      text-transform: uppercase;
-    }
-
-    &:hover {
-      background-color: $color-white;
-    }
-  }
+  // a.active {
+  //   background-color: $color-white;
+  // }
 
   &__button {
     position: fixed;
