@@ -1,5 +1,5 @@
 ---
-tags: kidsAreWelcome
+tags: kids-are-welcome
 partial: what-matters
 ---
 

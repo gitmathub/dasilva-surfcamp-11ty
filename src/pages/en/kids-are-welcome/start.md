@@ -1,12 +1,12 @@
 ---
-tags: kidsAreWelcome
+tags: kids-are-welcome
 partial: start
 ---
 
 ### Kids Welcome
 
-## Da Silva Surfcamp Portugal
+## Da Silva Surf & Mountainbike Camp Portugal
 
-#### heisst Kinder
+#### says
 
-# HERZLICH WILLKOMMEN
+# A WARM WELCOME TO KIDS

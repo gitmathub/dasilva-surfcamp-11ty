@@ -1,10 +1,10 @@
 ---
 permalink: /en/kids-are-welcome/index.html
 layout: kids-are-welcome.njk
-tags: kidsAreWelcome
+tags: kids-are-welcome
 
-title: "Kinder sind willkommen"
+title: "Kids are Welcome"
 
 metaImage: ""
-metaDescription: "Surfing, Biken und vieles mehr"
+metaDescription: ""
 ---
