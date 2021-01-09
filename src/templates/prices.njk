@@ -15,12 +15,16 @@ bookingBanner:
 </section>
 
 <section class="centered">
-  {{ partial.get(collections, tags, "bedAndBreakfast", locale) }}
+  <div class="centered-text">
+    {{ partial.get(collections, tags, "bedAndBreakfast", locale) }}
+  </div>
   {{ priceTable.three(collections, tags, "bedAndBreakfastPrices", locale) }}
 </season>
 
 <section class="centered">
-  {{ partial.get(collections, tags, "surfPackage", locale) }}
+  <div class="centered-text">
+    {{ partial.get(collections, tags, "surfPackage", locale) }}
+  </div>
   {{ priceTable.three(collections, tags, "surfPackagePrices", locale) }}
 </season>
 
@@ -30,7 +34,9 @@ bookingBanner:
 </season>
 
 <section class="centered">
+  <div class="centered-text">
   {{ partial.get(collections, tags, "surfMtbPackage", locale) }}
+  </div>
   {{ priceTable.three(collections, tags, "surfMtbPackagePrices", locale) }}
 </season>
 

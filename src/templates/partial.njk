@@ -1,5 +1,5 @@
- {# get the whole template #}
-{% macro get(collections, tags, partial, locale="de") %}
+{# get the whole template #}
+{% macro get(collections, tags, partial, locale = "de") %}
   {% for item in collections[tags] %}
     {% if item.data.partial == partial and item.data.locale == locale%}
       {{ item.templateContent | safe }}
@@ -7,8 +7,8 @@
   {% endfor %}
 {% endmacro %}
 
- {# get only item from the front matter #}
-{% macro getValueForKey(collections, tags, partial, locale="de", key="") %}
+{# get only item from the front matter #}
+{% macro getValueForKey(collections, tags, partial, locale = "de", key = "") %}
   {% for item in collections[tags] %}
     {% if item.data.partial == partial and item.data.locale == locale%}
       {{ item.data[key] | safe }}

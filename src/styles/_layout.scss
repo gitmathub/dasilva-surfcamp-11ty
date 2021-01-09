@@ -166,7 +166,10 @@ main {
   padding: 0.8rem;
   max-width: $text-block-width;
 }
-
+.centered-text {
+  text-align: center;
+  margin-bottom: 3.2rem;;
+}
 // used by hero
 .max-scaled {
   width: 100%;
