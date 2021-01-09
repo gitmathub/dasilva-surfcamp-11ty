@@ -7,9 +7,9 @@ partial: camping
 
 ## Just Camping
 
-im eigenen Zelt ab 10 € pro Person und Nacht
+In your own tent from 10 € per person per night
 
-ohne Zelt zzgl. 10 € Zeltmiete pro Nacht
+Without tent add. 10 € tent rental per night
 
-im eigenen Campingwagen 10 € Stellgebühr pro Campingwagen und Tag (inkl. Strom)
-zzgl. 10 EUR pro Tag/Person für die Mitbenutzung von Badezimmer und Küche im Haupthaus, sowie tägliches Frühstücksbüffet und 2xBBQ pro Woche (ab 1 Woche Aufenthalt).
+In your own camper/ van 10 € parking fee per camper per day (incl. electricity)
+add. 10 EUR per day/ person for the use of bath and kitchen facilities, as well as daily breakfast buffet and 2x BBQ per week (for stays from 7 days).

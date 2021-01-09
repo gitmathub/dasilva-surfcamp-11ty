@@ -6,5 +6,5 @@ tags: prices
 title: "Prices"
 
 metaImage: ""
-metaDescription: "Surfing, Biken und vieles mehr"
+metaDescription: ""
 ---

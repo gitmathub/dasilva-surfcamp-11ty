@@ -3,16 +3,16 @@ tags: prices
 partial: surfMtbPackage
 ---
 
-### Surf- & MTB-Package
+### Surf & MTB Package
 
-## ab 470 € pro Woche
+## from 470 € per week
 
-#### inklusive
+#### including
 
-* Bed & Breakfast im Da Silva Surfcamp
-* 3 Tage Surfunterricht (2 Stunden pro Session / 2 Sessions pro Tag)
-* komplettes Surf Equipment (surfboard, leash, wetsuit)
-* Shuttle-Bus zu den Stränden mit den besten Wellen in unserer Region
-* 3 Tage geführte Mountainbike Touren (3-5 Stunden / 30-50 km pro Tag)
-* High Level Full Suspension CUBE Mountainbike (29 Zoll Räder)
-* Shuttle-Bus zu den besten MTB-Trails an der portugiesischen Westküste
+* Bed & Breakfast at the Da Silva Surfcamp
+* 3 days of surf course (2 hours per session / 2 sessions per day)
+* Surf equipment (surfboard, leash, wetsuit)
+* Shuttle to the best surf spots in the area
+* 3 days guided mountainbike tour (3-5 hours / 30-50 km per day)
+* High Level Full Suspension CUBE Mountainbike (29 inch)
+* Shuttle to the best mountainbike trails in the area

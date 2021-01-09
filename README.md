@@ -79,13 +79,15 @@ CMS for Da Silva Surfcamp
 - [ ] Surf Bar
 - [ ] Metatags
 - [ ] Meta Descriptions
-- [ ] Optimisations
+- [ ] Optimisations (technical)
   - [ ] Preload fonts
   - [ ] Skeletons
   - [ ] Images multisizse
     - [ ] all heros
     - [ ] galerie bed and breakfast
     - [ ] others...
+- [ ] Layout Optimizations
+  - [ ] price page: text centered
 - [ ] Home
   - [x] Hero
   - [x] Masonry

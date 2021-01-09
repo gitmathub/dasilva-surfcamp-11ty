@@ -3,15 +3,15 @@ tags: prices
 partial: bedAndBreakfast
 ---
 
-### Unterkunft
+### Bed & Breakfast
 
-## ab 20 € pro Tag
+## from 20 € per day
 
-#### inklusive:
+#### including:
 
-* Unterkunft im Mehrbettzimmer
-* tägliches Frühstücksbuffet
-* täglicher Shuttlebus in den nächsten Strandort
-* kostenloser Beachcruiserverleih
-* freies W-Lan im ganzen Haus
-* ab 1 Woche Aufenthalt: 2x die Woche Barbecue (auch vegetarisch)
+* accommodation in the dormitory
+* daily breakfast from a buffet
+* daily shuttle service to a nearby beach
+* free use of beach cruisers
+* free WIFI on the property
+* a 1-week stay also includes: 2 BBQs (vegetarian options available)

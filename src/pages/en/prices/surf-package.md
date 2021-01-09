@@ -3,14 +3,13 @@ tags: prices
 partial: surfPackage
 ---
 
-### Surf-Package
+### Surf Package
 
-## ab 340 € pro Woche
+## from 340 € per weeks
 
 #### inklusive:
 
-* 7 Nächte Bed & Breakfast im Da Silva Surfcamp (wie oben beschrieben)
-* 10 x 2 Stunden Intensiv Surfkurs (2 Stunden pro Session / 2 Sessions pro Tag)
-* komplettes Surfequipment (Surfboard, Leash, Wetsuit) während des Kurses
-* Shuttlebus zu den Stränden mit den besten Wellen in unserer Gegend
-
+* 7 nights Bed & Breakfast in the Da Silva Surfcamp (as described above)
+* 10 x 2 hours of intensive surf course (2 hours per session / 2 sessions per day)
+* Surf equipment (surfboard, leash, wetsuit) during the course
+* Shuttle to the best surf spots in the area

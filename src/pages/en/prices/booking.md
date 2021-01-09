@@ -5,7 +5,7 @@ partial: booking
 
 ### Então?!
 
-Solltet Ihr Euch bereits entschieden haben und Euren Urlaub gerne mit uns verbringen und mit uns Surfing wollen, dann könnt ihr direkt [{{links.de.onlineBooking.title}}]({{links.de.onlineBooking.path}}) oder ihr benutzt das [Buchungsformular]({{links.de.bookingRequest.path}}). Solltet Ihr hingegen noch weitere Fragen haben und in unserem [{{links.de.faq.title}}]({{links.de.faq.path}}) nicht die passende Antwort finden, richtet diese doch einfach unter [{{links.de.contact.title}}]({{links.de.contact.path}}) direkt an uns, damit wir sie Euch so schnell als möglich beantworten können. Bis dahin!
+Are you already set on spending your vacation with us, then you can go straight to [{{links.en.onlineBooking.title}}]({{links.en.onlineBooking.path}}) or use our [Booking Form]({{links.en.bookingRequest.path}}) and we will back from us shortly. In case you are still unsure and have more questions, check out our [{{links.en.faq.title}}]({{links.en.faq.path}}). If you can’t find the right answer there, go to our [{{links.en.contact.title}} Page]({{links.en.contact.path}}) and get in touch with us. We are looking forward to hearing from you. See you soon!
 
 ## Hangloose & sea you soon
 

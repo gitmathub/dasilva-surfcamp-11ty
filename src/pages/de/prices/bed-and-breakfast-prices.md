@@ -7,17 +7,17 @@ partial: bedAndBreakfastPrices
   - (November – March)
   - Multiple: 20 €
   - Double: 25 €
-  - Ensuite / Tiny House: 30 €
+  - Ensuite /<br/>Tiny House: 30 €
   - Single: 45 €
 - Mid Season
-  - (April – June & October)
+  - (April – June & Oct.)
   - Multiple: 20 €
   - Double: 25 €
-  - Ensuite / Tiny House: 30 €
+  - Ensuite /<br/>Tiny House: 30 €
   - Single: 45 €
 - High Season
   - (July – September)
   - Multiple: 20 €
   - Double: 25 €
-  - Ensuite / Tiny House: 30 €
+  - Ensuite /<br/>Tiny House: 30 €
   - Single: 45 €

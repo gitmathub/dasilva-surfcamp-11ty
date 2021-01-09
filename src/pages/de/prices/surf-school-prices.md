@@ -5,16 +5,16 @@ partial: surfSchoolPrices
 
 - Low Season
   - (November – March)
-  - 1 Tag / 2 Sessions: 50 €
-  - 5 Tage / 10 Sessions: 200 €
-  - 10 Tage / 20 Sessions: 380 €
+  - 1 day /<br/>2 sessions: 50 €
+  - 5 days /<br/>10 sessions: 200 €
+  - 10 days /<br/>20 sessions: 380 €
 - Mid Season
-  - (April – June & October)
-  - 1 Tag / 2 Sessions: 50 €
-  - 5 Tage / 10 Sessions: 220 €
-  - 10 Tage / 20 Sessions: 400 €
+  - (April – June & Oct.)
+  - 1 day /<br/>2 sessions: 50 €
+  - 5 days /<br/>10 sessions: 220 €
+  - 10 days /<br/>20 sessions: 400 €
 - High Season
   - (July – September)
-  - 1 Tag / 2 Sessions: 60 €
-  - 5 Tage / 10 Sessions: 240 €
-  - 10 Tage / 20 Sessions: 420 €
+  - 1 day /<br/>2 sessions: 60 €
+  - 5 days /<br/>10 sessions: 240 €
+  - 10 days /<br/>20 sessions: 420 €

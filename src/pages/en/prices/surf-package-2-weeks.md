@@ -3,6 +3,6 @@ tags: prices
 partial: surfPackage2Weeks
 ---
 
-### Surf-Package
+### Surf Package
 
-## 2 Wochen
+## 2 weeks
