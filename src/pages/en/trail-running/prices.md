@@ -5,14 +5,14 @@ partial: prices
 
 ## Apropos
 
-Im Frühling und Herbst haben wir hier übrigens bestes Wetter für den perfekten Run. Nicht zu heiß, aber warm genug, um in kurzen Sachen unterwegs zu sein. Während man zuhause noch auf den Sommer wartet, kann man hier schon unvergessliche Trails bei herrlichem Wetter rocken.
+By the way, in spring and autumn, we have the best weather for the perfect run. Not too hot, but warm enough to run in shorts. While you are still waiting for summer at home, you can rock unforgettable trails in beautiful weather.
 
-## Preise
+## Prices
 
-Je nach Interesse und Fitness gestalten wir euch ein individuelles Angebot – alles ist möglich – ob nur Trailrunning oder mit einem Surfkurs kombiniert! Ideal für jeden Surfer, der im Urlaub auch mal weniger ausgetretene Pfade beschreiten möchte, und für jeden Trailrunner der im Urlaub auch mal surfen möchte. Das gute dran: Man kann die Tage so legen, dass bei guten Wellen gesurft wird und an den anderen Tagen geht’s auf die Trails. Z. B. 3 Tage Surfing, 3 Tage Trailrunning, geht noch mehr in einer Woche?
+Depending on your interest and fitness, we will design an individual offer for you – everything is possible – whether just trail running or combined with a surf course! Ideal for every surfer who wants to tread less beaten paths on vacation, and for every trail runner who also wants to surf on vacation. The good thing about it: You can set the days so that you can surf when the waves are sound, and on the other days you can go on the trails. For example, three days of surfing, three days of trail running, can more be done in a week?
 
-### Preise auf Anfrage
+### Prices on Request
 
-#### Wir freuen uns auf eine schöne Zeit mit Euch!
+#### We look forward to a great time with you!
 
-### Keep on running und bis dahin!
+### Keep on running!

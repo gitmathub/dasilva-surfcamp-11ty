@@ -6,5 +6,5 @@ tags: trailRunning
 title: "Trail Running & Jogging"
 
 metaImage: ""
-metaDescription: "Surfing, Biken und vieles mehr"
+metaDescription: ""
 ---
