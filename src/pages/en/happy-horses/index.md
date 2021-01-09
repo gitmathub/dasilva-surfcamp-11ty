@@ -6,5 +6,5 @@ tags: happyHorses
 title: "Horses and Ponies"
 
 metaImage: ""
-metaDescription: "Surfing, Biken und vieles mehr"
+metaDescription: " "
 ---

@@ -75,6 +75,7 @@ CMS for Da Silva Surfcamp
 # Project Todos
 
 - [ ] English Version
+  - [ ] Review happy horses
 - [ ] Surf Bar
 - [ ] Metatags
 - [ ] Meta Descriptions

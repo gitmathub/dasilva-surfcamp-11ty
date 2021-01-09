@@ -3,7 +3,7 @@ tags: happyHorses
 partial: chargesKids
 ---
 
-### Preise für Ponyreiten (Kinder und Jgdl.)
+### Preise für Ponyreiten<br/>(Kinder und Jgdl.)
 
 ## ab 20€ für 1/2 Stunde
 

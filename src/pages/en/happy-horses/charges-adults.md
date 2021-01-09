@@ -3,15 +3,14 @@ tags: happyHorses
 partial: chargesAdults
 ---
 
-### Preise für Reiten (Erwachsene)
+### Prices for riding<br/>(adults)
 
-## ab 25€ für 1/2 Stunde
+## from 25 € for 1/2 hour
 
-#### 1/2 Std. Longe: 25€ (5er Karte 115€)
+#### 1/2 hour lunge: 25 € (5 courses ticket 115 €)
 
-#### 1 Std. Reitplatz: 35€ (5er Karte 155€)
+#### 1 hour riding arena: 35 € (5 courses ticket 155 €)
 
-#### 1 Std. Ausritt begleitet: 38€ (5er Karte 170€)
+#### 1 hour accompanied ride: 38 € (5 courses ticket 170 €)
 
-#### 2,5 Std. Ausritt begleitet: 70€ (5 x 2 Std. Karte 280€)
-
+#### 2.5 hours accompanied ride: 70 € (5 x 2 hours ticket 280 €)

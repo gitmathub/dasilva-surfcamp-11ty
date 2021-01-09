@@ -3,18 +3,18 @@ tags: happyHorses
 partial: who-we-are
 ---
 
-Wir, das bin ich, Christiane, die als kleines Mädchen bereits ihr Herz an die Pferde verloren hatte und seitdem den Traum vom eigenen Pferd träumte. Nach einem künstlerischen beruflichen Werdegang der als Szenenbildnerin beim Film mündete habe ich gemerkt, dass vor lauter Arbeit etwas wesentliches auf der Strecke geblieben ist, und habe mir die Pferde zurück in mein Leben geholt. Seitdem weiß ich, was eigentlich immer gefehlt hat.
+We, that's me, Christiane, who as a little girl had already lost her heart to horses and has dreamed of having her own horse ever since. After an artistic career that ended as a production designer for a film, I noticed that something essential had fallen by the wayside because of all the work, and I brought the horses back into my life. Since then I have known what has always been missing.
 
-Meine Liebe zu Pferden hat sich bereits im Kindesalter seinen Weg gebahnt. Seit ich denken kann bin ich jedem Pferd oder Pony entgegengelaufen und bin, wenn ich durfte, am liebsten auch gleich drauf gehüpft. Ich hatte das große Glück diese Liebe in meiner Kindheit und Jugend als Reitschülerin und Pferdepflege-Mädchen in einem Reitstall nahe Bonn ausleben zu dürfen. Ich erinnere mich nur zu gut wie glücklich es mich gemacht hat, meinen Foxtrott zu putzen, zu pflegen und zu versorgen. Und natürlich auch zu reiten. Angst kannte ich nicht. Und dass, obwohl ich auch öfter runtergefallen bin, auch mal getreten oder gebissen wurde.
+My love for horses has already paved its way in childhood. For as long as I can remember I have run towards every horse or pony and, if I was allowed to, I preferred to jump on it. I was very lucky to be able to live out this love in my childhood and youth as a riding student and horse care girl in a riding stable near Bonn. I remember all too well how happy it made me clean, maintain, and look after my foxtrot. And of course to ride too. I didn't know fear. And that even though I fell down a lot, I was kicked or bitten.
 
-Irgendwie war mir immer klar, dass die Pferde von Grund auf sehr liebe Tiere sind und was auch immer sie tun, sie es nicht tun, um uns weh zu tun. Es ist ja eher ein Wunder und ein Geschenk der Natur, dass diese großen Tiere bereitwillig sich uns anschließen, und gerne bei uns sind, wenn wir freundlich und gut mit ihnen umgehen. Diese Art des Umgangs und eine feine und pferdefreundliche Reitweise sind das, was ich mit meine Ponies und Pferden heute Kindern, Jugendlichen und Erwachsenen vermitteln möchte. Und natürlich sollen Spass und gute Laune dabei nicht zu kurz kommen.
+Somehow I always knew that horses are fundamentally very nice animals, and no matter they do, they don't do it to hurt us. It is more of a miracle and a gift from nature that these large animals willingly join us and are happy to be with us if we treat them kindly and well. This way of handling and a fine and horse-friendly riding style is what I want to convey to children, young people, and adults with my ponies and horses today. And of course, fun and a good mood shouldn't be neglected.
 
-**Jesuli**, mein Lusitano Wallach, 6 Jahre jung und ein sehr feiner Kerl, der genau wissen will, mit wem er es zu tun hat. Mir hat er sofort ins Herz geschaut.
+**Jesuli**, my Lusitano gelding, 6 years young and a very fine guy who wants to know exactly who he's dealing with. He looked straight into my heart.
 
-**Kalimero**, ein Findelkind, welcher auf Umwegen zu mir fand. Er ist ebenfalls 6 Jahre Jung und ein Araber Lusitano Mix. Er ist ein ganz lieber und steht selbst noch ganz am Anfang seiner Ausbildung.
+**Kalimero**, a foundling who found me in a roundabout way. He is also 6 years old and an Arab Lusitano Mix. He is very dear and is still at the very beginning of his training.
 
-**Timól** ein 8 jähriger Shetty Mix der aus einer sehr guten Ausbildung bei einem Jungen Portugiesen zu mir gekommen ist. Er ist der absolute Schatz mit Kindern und ausser Reiten macht es auch total Spaß mit ihm vom Boden zu arbeiten zu spielen oder spazieren zu gehen.
+**Timól**, an 8 year old Shetty Mix who came to me from a very good training with a young Portuguese. He is the absolute treasure with children and besides riding it is also great fun to work with him from the ground, to play or to go for a walk.
 
-**Zorro**, 16 Jahre, stiehlt sich in alle Herzen mit seiner imposanten Erscheinung, seiner meterlangen Mähne und seinem freundlichen Wesen.
+**Zorro**, 16 years old, steals himself into everyone's heart with his imposing appearance, his meter-long mane and his friendly nature.
 
-**Andresch**, mein Freund, der zwar bisher lieber Wellen reitet, aber dem die Pferdchen auch bereits sehr ans Herz gewachsen sind und der nun auch sein Glück auf dem Rücken der Pferde sucht. ( aber nur wenn die Wellen schlecht sind )
+**Andresch**, my friend, who has preferred to ride waves up to now, but who has grown very fond of horses and who is now looking for happiness on horseback (but only when the waves are bad).

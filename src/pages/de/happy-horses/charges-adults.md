@@ -3,7 +3,7 @@ tags: happyHorses
 partial: chargesAdults
 ---
 
-### Preise für Reiten (Erwachsene)
+### Preise für Reiten<br/>(Erwachsene)
 
 ## ab 25€ für 1/2 Stunde
 
