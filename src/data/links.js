@@ -180,7 +180,7 @@ module.exports = {
       image: "/_assets/related/skateboarding.jpg"
     },
     travelDirections: {
-      title: "Travel Directions",
+      title: "Arrival",
       path: "/en/travel-directions"
     },
     prices: {

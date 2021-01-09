@@ -1,6 +1,6 @@
 ---
 tags: home
-partial: bookingRequest
+partial: booking-request
 ---
 
-Buchen ohne Umwege, oder doch noch Fragen?! Bezüglich des Swells, der Surfschule oder rund ums Camp und seine Events? Antworten findet Ihr in unserem FAQ. Und wenn nicht, das Da Silva Surfcamp Portugal beantwortet Euch diese und Eure [Buchungsanfrage]({{links.de.bookingRequest.path}}) 24/7!
+Book without detours, or do you have any questions? Regarding the swells, the surf school or around the camp and its events? You will find answers in our FAQ. And if not, theDa Silva Surfcamp Portugal answer this and your [booking request](({{links.en.bookingRequest.path}})) 24/7!

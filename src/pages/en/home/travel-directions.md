@@ -1,6 +1,6 @@
 ---
 tags: home
-partial: travelDirections
+partial: travel-directions
 ---
 
-Und, heiß geworden? Na dann, ab in den Flieger nach Lissabon! Die 60km bis zum Surfcamp schafft Ihr locker mit dem Expressbus nach Praia da Areia Branca, wo wir Euch gern an der Bushaltestelle abholen. »Das Glück liegt so nah«. Wem das zu stressig ist, der kann auch unseren [Airport-Transfer]({{links.de.travelDirections.path}}) nutzen.
+You get hot? Well then, get on the plane to Lisbon! The 60km to the surf camp can be easily done by express bus to Praia da Areia Branca, where we will pick you up at the bus stop. “Luck is so close”. If this is too stressful for you, you can also use our [airport transfer]({{links.de.travelDirections.path}}).

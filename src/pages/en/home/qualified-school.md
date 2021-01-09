@@ -3,10 +3,10 @@ tags: home
 partial: qualified-school
 ---
 
-### Qualifiziert durch die Federação Portuguesa de Surf
+### Certified by the Portuguese Surfing Federation
 
-#### Den »Spirit of Surfing« kennenlernen -
-#### nicht nur während der Surfstunden, sondern 24/7
+#### Get to know the “Spirit of Surfing” –
+#### during surf lessons, but 24/7.
+<br/>
 
-
-Das Da Silva Surfcamp Portugal ist ein typisch portugiesisches Landhaus in ruhiger Lage mit herrlichem Blick über die Landschaft bis zum Meer. Hier kommt zweimal täglich ein Hirte mit seiner Schafherde vorbei, morgens wird man vom Krähen eines Hahns geweckt und sonst hört man nur die Vögel zwitschern.Zum Strand läuft man zu Fuss in 20 Minuten, mit dem Beachcruiser, den man bei uns kostenlos ausleihen kann, dauert es nur 10 Minuten. Dieses Haus ist genau richtig für Leute, die mal etwas abschalten und dem Stress der Großstadt entfliehen möchten. Für Familien mit Kindern ist es hier ideal.
+The Da Silva Surfcamp Portugal is a typical Portuguese country house in a quiet location with wonderful views over the countryside to the sea. Here a shepherd and his flock of sheep pass by twice a day, in the morning you are woken up by the crow of a rooster, otherwise you only hear the birds chirping. 20 minutes walk to the beach, with the beach cruiser, which you can rent for free, it only takes 10 minutes. This house is perfect for people who want to relax and escape the stress of the big city. It is ideal for families with children.

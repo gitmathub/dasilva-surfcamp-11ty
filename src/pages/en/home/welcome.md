@@ -3,10 +3,10 @@ tags: home
 partial: welcome
 ---
 
-## Herzlich Willkommen
+## A warm welcome to you!
 
 # BEM VINDO
 
-## im DA SILVA SURFCAMP Portugal
+## DA SILVA SURFCAMP Portugal
 
-Im Da Silva Surfcamp ist man ganz nah an der Natur, am Meer und an der portugiesischen Kultur und Lebensfreude. Erstklassige Surfspots mit wenig Crowd bieten perfekte Bedingungen für Anfänger und Fortgeschrittene. Legendäre BBQs und spontane Lagerfeuer-Sessions sorgen für unvergessliche Momente!
+At Da Silva Surfcamp you are close to nature, the sea and the Portuguese culture and joie de vivre. First class surf spots with little crowd offer perfect conditions for beginners and advanced surfers. Legendary BBQs and spontaneous campfire sessions provide for unforgettable moments!
