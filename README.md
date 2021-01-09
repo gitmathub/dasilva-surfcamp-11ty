@@ -1,6 +1,7 @@
 CMS for Da Silva Surfcamp
 
 - [Anforderungen](#anforderungen)
+- [Daniel's Todos](#daniels-todos)
 - [Project Todos](#project-todos)
 - [Research](#research)
   - [Image Sizes Dynamically](#image-sizes-dynamically)
@@ -68,9 +69,21 @@ CMS for Da Silva Surfcamp
   - bis 11. Januar
   - 8 Wochen
 
+# Daniel's Todos
+- [ ] Corona Massnahmen auf Englisch
 
 # Project Todos
 
+- [ ] English Version
+- [ ] Metatags
+- [ ] Meta Descriptions
+- [ ] Optimisations
+  - [ ] Preload fonts
+  - [ ] Skeletons
+  - [ ] Images multisizse
+    - [ ] all heros
+    - [ ] galerie bed and breakfast
+    - [ ] others...
 - [ ] Home
   - [x] Hero
   - [x] Masonry
@@ -83,12 +96,6 @@ CMS for Da Silva Surfcamp
   - [ ] Instagram
   - [ ] Partners
   - [ ] Google rating
-- [ ] Metatags
-- [ ] Meta Descriptions
-- [ ] Optimisations
-  - [ ] Preload fonts
-  - [ ] Skeletons
-- [ ] English Version
 - [ ] Online Deploy
   - [x] Detect browser language and switch
   - [x] Switch domain

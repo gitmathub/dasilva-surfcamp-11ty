@@ -1,7 +1,12 @@
 ---
-permalink: "/{{ locale }}/dummy/index.html"
-translationKey: "dummytPage"
-layout: "main.njk"
+permalink: /en/dummy/index.html
+layout: plain-text.njk
+tags: dummy
+
+title: ""
+
+metaImage: ""
+metaDescription: ""
 ---
 
-# Dummyseite in English...
+# This page is not present yet
