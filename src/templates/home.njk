@@ -27,28 +27,30 @@ bookingBanner:
 {% import "columns.njk" as columns %}
 {% import "booking-columns.njk" as bookingColumns %}
 
-
 {% image {src:"./src/assets/home/hero/portuguese-spirit-of-surfing.jpg", 
 alt:"Da Silva Surfcamp Mountain Bike Portugal", myClass:"max-scaled"}%}
 
 <section class="centered">
   {{ partial.get(collections, tags, "welcome", locale) }}
+  {{ partial.get(collections, tags, "corona", locale) }}
 </section>
 
 <nav class="display-if-middle-to-wide">
   {% include "masonry.njk" %}
 </nav>
-
 <nav class="display-if-small">
   {{ related.three(links[locale], relatedPages)}}
 </nav>
 
-<section class="centered">
-  {{ partial.get(collections, tags, "corona", locale) }}
+<section>
+  <div class="centered">
+    {{ partial.get(collections, tags, "spirit-of-surfing", locale) }}
+  </div>
+  {{ video.vimeo(videoId="173051720") }}
 </section>
 
-<section>
-  {{ video.vimeo(videoId="173051720") }}
+<section class="centered">
+  {{ partial.get(collections, tags, "qualified-school", locale) }}
 </section>
 
 <section>
