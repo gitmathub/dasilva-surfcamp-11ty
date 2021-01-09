@@ -9,15 +9,14 @@ partial: start
 
 # RIDE
 
-Die Westküste Portugals ist zweifellos ein Surfparadies. Traumhafte Strände und erstklassige Surfspots locken viele Surfer aus der ganzen Welt hierher. Viele wissen aber noch nicht, dass sich unsere Küste auch hervorragend zum Mountainbiken anbietet!
+The west coast of Portugal is undoubtedly a surfing paradise. Wonderful beaches and first-class surf spots attract many surfers from all over the world. But many don’t know yet that our coastline is also perfect for mountain biking!
 
 ## Storming Portugal by MTBike
 
-Die nähere Umgebung unseres Surfcamps bietet dafür als riesige Spielwiese mit unzähligen sehr schönen Mountainbikestrecken an. Es gibt Touren durch das urige Hinterland vorbei an Weinbergen und Olivenhainen, bei denen man nur selten andere Menschen trifft. Wahrscheinlicher ist es, an einem Eselskarren vorbei zu fahren oder in der Ferne einen einsamen Bauer auf seinem Feld beim Arbeiten zu sehen. Andere Touren führen über schmale Singletrails direkt an der Steilküste entlang und bieten atemberaubende Blicke über den Atlantik. So mancher Secret Surfspot wurde schon auf diese Weise entdeckt. Mit unserem Shuttlebus fahren wir Euch aber auch zu deutlich höheren Bergen, die sich perfekt für unvergessliche Tagesausflüge anbieten. Dort findet man auch ausgebaute Downhill-Strecken und einen Haufen anspruchsvoller Singletrails für jeden Geschmack. Auf jeden Fall lernt man bei allen Touren Portugal auf eine besondere Art und Weise kennen. Wir möchten Euch das Land, das Volk und seine Kultur damit etwas näher bringen. Dabei kommt der sportliche Anspruch nicht zu kurz. Etwas Abenteuer und Adrenalin sind auch immer dabei.
+The near surroundings of our surf camp offer a huge playground with countless beautiful mountain bike trails. There are tours through the rustic hinterland past vineyards and olive groves, where you rarely meet other people. It is more likely to drive past a donkey cart or to see a lonely farmer working on his field in the distance. Other tours take you over narrow single trails directly along the cliffs and offer breathtaking views over the Atlantic Ocean. Some Secret Surfspot has already been discovered in this way. With our shuttle bus we also take you to much higher mountains, which are perfect for unforgettable day trips. There you will also find developed downhill tracks and a bunch of challenging single trails for every taste. In any case, you get to know Portugal in a special way on all tours. We would like to bring the country, the people and their culture closer to you. The athletic demands are not neglected. There is always some adventure and adrenaline with you.
 
+## Including
 
-## Im Preis enthalten
+High Level CUBE Full Suspension Mountainbikes (29 inch wheels). Helmets available.
 
-Hochwertige CUBE Full Suspension Mountainbikes (29 Zoll Räder). Helme sind vorhanden.
-
-**Einen Rucksack mit Wasser, Obst und ein paar Müsliriegel bitte selber mitbringen.**
+**Please bring your own backpack with water, fruit and some cereal bars.**

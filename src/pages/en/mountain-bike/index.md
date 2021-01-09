@@ -6,5 +6,5 @@ tags: mountainBike
 title: "Mountain Bike"
 
 metaImage: ""
-metaDescription: "Surfing, Biken und vieles mehr"
+metaDescription: ""
 ---

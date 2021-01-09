@@ -5,12 +5,12 @@ partial: prices
 
 ## Apropos
 
-Im Frühling und Herbst haben wir hier übrigens bestes Mountainbikewetter. Nicht zu heiß, aber warm genug, um in kurzen Sachen unterwegs zu sein. Während man zuhause noch auf den Sommer wartet, kann man hier schon unvergessliche MTB Touren bei herrlichem Wetter fahren.
+In spring and autumn we have the best weather for mountain biking. Not too hot, but warm enough to be on the road in shorts. While you are waiting for the summer at home, here you can enjoy unforgettable MTB tours in wonderful weather.
 
-## Preise
+## Prices
 
 ## Surf & Mountainbike-Package
 
-Die Kombination von Surfing mit Mountainbiken! Ideal für jeden Surfer, der im Urlaub auch mal mountainbiken möchte, und für jeden Mountainbiker der im Urlaub auch mal surfen möchte. Das gute dran: Man kann die Tage so legen, dass bei guten Wellen gesurft wird und an den anderen Tagen geht’s auf die MTB Trails. 3 Tage Surfing, 3 Tage Mountainbiken, geht noch mehr in einer Woche?
+The combination of surfing and mountain biking! Ideal for every surfer who also wants to go mountain biking on holiday and for every mountain biker who also wants to surf on holiday. The good thing about it: You can arrange the days in such a way that you can surf with good waves and on the other days you can go on the MTB Trails. 3 days of surfing, 3 days of mountain biking, want more in one week?
 
-## ab 470 € pro Woche
+## from 470 € pro week
