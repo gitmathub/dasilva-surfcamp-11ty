@@ -3,38 +3,40 @@ tags: travelDirections
 partial: directions
 ---
 
-## Allgemeine Infos
+## General Information
 
-Der näheste Flughafen ist in Lissabon, ca. 65 km südlich von uns. Von dort kommt man sehr bequem und preiswert mit dem Expressbus direkt nach Praia da Areia Branca, wo wir Euch gern von der Bushaltestelle abholen. Ansonsten kann man sich auch am Flughafen einen Mietwagen nehmen, mit dem Taxi anreisen oder unseren Flughafen-Transfer nutzen. Wenn nichts anderes mit uns vereinbart wurde, findet die Anreise im Surfcamp Sonntags und im Beach House Samstags jeweils ab 16 Uhr und die Abreise jeweils bis 12 Uhr statt. Vorher und nachher könnt Ihr natürlich gern Euer Gepäck bei uns unterstellen und die Zeit bei uns geniessen.
+The nearest airport is in Lisbon, about 65 km south of us. From there you can easily and cheaply take the express bus directly to Praia da Areia Branca, where we will be happy to pick you up from the bus stop. Otherwise you can also hire a car at the airport, take a taxi or use our airport transfer. Unless otherwise agreed with us, arrival and check-in at the Surfcamp is on Sundays and starts at 4 pm and departure is until 12 am. Before and after you can of course put your luggage with us and enjoy the time with us.
 
 ## Aerobus
 
-Am Flughafen nimmt man den „Aerobus“ (Linie 2 – Financial Center) zum Busbahnhof „Sete Rios“. Die Fahrt kostet 3,50 EUR pro Person. Das Ticket gilt übrigens den ganzen Tag für alle zwei Linien, d.h. wenn man schon vormittags anreist, kann man sehr günstig noch einen Abstecher in die Stadtmitte machen, bevor man am Nachmittag nach Praia da Areia Branca weiter fährt. Direkt gegenüber vom Busbahnhof kann man auch den sehr schönen Zoo von Lissabon besuchen. Die Tickets für den Aerobus kann man hier auch online kaufen: [www.yellowbustours.com](http://www.yellowbustours.com)
+At the airport you take the “Aerobus” (line 2 – Financial Center) to the bus station “Sete Rios”. It goes every 40 minutes and the trip costs 3,50 EUR per person. Tickets for the Aerobus can also be purchased online here: [www.yellowbustours.com](http://www.yellowbustours.com) or directly in the bus.
+
+By the way, the ticket is valid the whole day for all two lines, i.e. if you arrive in the morning, you can make a very cheap detour to the city centre before continuing to Praia da Areia Branca in the afternoon. Directly opposite the bus station “Sete Rios” you can also visit the very beautiful zoo of Lisbon. 
 
 ## Expressbus
 
-Am Busbahnhof „Sete Rios“ muss man sich dann am Schalter ein Ticket nach Praia da Areia Branca kaufen, bevor man in den Expressbus einsteigt. Unter diesem Link kann man die Tickets auch online kaufen oder die sehr praktische App downloaden, mit der man die Bustickets auf seinem Smartphone abspeichern kann: [www.rede-expressos.pt](http://www.rede-expressos.pt/)
+At the bus station “Sete Rios” you have to buy a ticket to Praia da Areia Branca before getting on the express bus. Under this link you can also buy the tickets online or download the very practical app with which you can save the bus tickets on your smartphone: [www.rede-expressos.pt](http://www.rede-expressos.pt/)
 
-Die Fahrt mit dem Expressbus von Lisboa nach Praia da Areia Branca kostet 8,90 EUR und dauert genau 1 Stunde und 15 Minuten . Die Endstation ist Peniche. Praia da Areia Branca ist die vorletzte Haltestelle und kein Busbahnhof, sondern nur eine kleine unauffällige Bushaltestelle mitten im Ort Praia da Areia Branca. Wenn man durch die Kreisstadt Lourinha gefahren ist, muss man an der nächsten Haltestelle aussteigen.
+An express bus ride from Lisboa to Praia da Areia Branca costs 8,90 EUR and takes exactly 1 hour and 15 minutes. The end of the line is Peniche. Praia da Areia Branca is the penultimate stop and not a bus station, but only a small inconspicuous bus stop in the middle of Praia da Areia Branca. When you have passed through the district town Lourinha, you have to get off at the next stop.
 
-Am Besten Ihr versucht den Bus zu nehmen, der um 17:00 oder 18:15 Uhr in Praia da Areia Branca ankommt. Dann seid Ihr genau pünktlich zum Welcome-BBQ, das jeden Sonntag bei uns stattfindet.
+Best you try to take the bus that arrives in Praia da Areia Branca at 17:00 or 18:15. Then you are just in time for the Welcome-BBQ, which takes place every Sunday.
 
-Achtung, man kann auch mit dem Taxi zum Busbahnhof fahren, muss aber aufpassen, dass man nicht beschummelt wird. Die Fahrt sollte nicht mehr als 10 EUR kosten. Ein Tipp: Nicht die Taxis nehmen, die bei den Arrivals warten, sondern zu den Departures gehen und dort ein Taxi nehmen, das gerade zufällig jemanden zum Flughafen gebracht hat.
+Attention, you can also take a taxi to the bus station, but you have to be careful not to be cheated. The trip should not cost more than 10 EUR. A tip: Don’t take the taxis waiting at the arrival desk, but go to the departures and take a taxi that just happened to take someone to the airport.
 
-## Flughafen-Transfer
+## Airport Transfer
 
-Wir holen euch auch gern und jederzeit vom Flughafen in Lissabon ab oder bringen Euch dorthin. Das macht vor allem Sinn, wenn Euer Flug ausserhalb der Fahrzeiten vom Expressbus stattfindet. In unseren Shuttlebus passen bis zu 8 Personen. Bitte unbedingt den Flughafen-Transfer rechtzeitig bei uns anmelden und bestätigen lassen.
+We are also happy to pick you up at any time from Lisbon airport or take you there. This is especially useful if your flight is outside the express bus timetable. Our shuttle bus can accommodate up to 8 people. Please register the airport transfer with us in time and have it confirmed.
 
 <div style="white-space: pre">
-Preis für 1 Person = 80 EUR
-für 2 Personen = 40 EUR pro Person
-für 3 Personen = 30 EUR pro Person
-für 4 Personen = 25 EUR pro Person
-für 5 Personen = 22 EUR pro Person
-ab 6 Personen = 20 EUR pro Person
-+ 20 EUR Nachtzuschlag (von 00:00 bis 06:00 Uhr)
+Price for 1 person = 80 €
+for 2 persons = 40 € per person
+for 3 persons = 30 € per person
+for 4 persons = 25 € per person
+for 5 persons = 22 € per person
+form 6 persons = 20 € per person
++ 20 € night surcharge (from 00:00 to 06:00 a.m.)
 </div>
 
-## Anreise mit dem Auto
+## Arrival by car
 
-Falls Ihr mit dem Auto kommt, mit dem **Navigationsgerät: NICHT zur postalischen Adresse** fahren! Es gibt in unserer Gegend **mehrere Strassen mit dem gleichen Namen** und man wird daher oft zur falschen Adresse navigiert. Die sicherste Art und Weise uns zu finden ist bei **Google-Maps: „Da Silva Surfcamp“** einzugeben. Wenn Ihr noch ein klassisches Navigatonsgerät benutzt, lasst Euch bitte nach „**Casal da Murta, Lourinhã**“ navigieren. Dort findet man ganz leicht die Straße „Rua Por do Sol“ und ein Schild zeigt Euch den Weg zu unserem Surfcamp.
+If you are travelling by car using a navigation device, **please DO NOT navigate to our postal address**! There are **several streets with the same name** in our area and you are therefore often navigated to the wrong address. The safest way to find us is with **Google Maps: “Da Silva Surfcamp”**. If you still use a classic navigation device, please navigate to “**Casal da Murta, Lourinhã**”. There you can easily find the street “Rua Por do Sol” and a sign shows you the way to our surf camp.

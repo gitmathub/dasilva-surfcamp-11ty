@@ -3,7 +3,7 @@ tags: travelDirections
 partial: address
 ---
 
-## Adresse
+## Address
 
 Da Silva Surfcamp<br>
 Casal da Capela<br>
@@ -13,6 +13,6 @@ Google Maps: <a href="http://g.co/maps/9xh8n">http://g.co/maps/9xh8n</a><br>
 Mobiltelefon: <a href="tel:+351 913 880 855">+351 913 880 855</a><br>
 Festnetz: <a href="tel:+351 261 461 515">+351 261 461 515</a>
 
-## Anreise
+## Arrival
 
-Die Anreise vom Flughafen Lissabon zu uns ist denkbar einfach! Es gibt einen Shuttlebus zum Busbahnhof und von dort einen Expressbus, der direkt bei uns im Ort hält. An der Bushaltestelle holen wir Euch gern ab und bringen Euch direkt zu uns ins Surfcamp.
+Arriving from the airport in Lisbon is really easy! There is a shuttle to the main bus station and from there you’ll take the express bus, that will drop you off close to our surf camp. We are happy to pick you up at the bus station and take you to the camp.
