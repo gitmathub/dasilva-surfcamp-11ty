@@ -5,7 +5,7 @@ partial: museu-lourinha
 
 ## Museu da Lourinhã
 
-Zeitreise gefällig? Dann lasst euch die spannende Geschichte der Gegend um Lourinhã erzählen. Inklusive Dinoskelett, dem Leben und der Arbeit der Menschen und faszinierender Handwerkskunst verschiedenster Epochen.
+Would you like to travel back in time? Then learn the exciting story of the area around Lourinhau. Including dinosaur skeleton, the life and work of people, and fascinating craftsmanship from various eras.
 
 Web: [museulourinha.org](https://museulourinha.org)
 

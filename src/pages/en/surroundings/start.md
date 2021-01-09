@@ -3,7 +3,6 @@ tags: surroundings
 partial: start
 ---
 
-# Freizeit & Umgebung
+# Surroundings
 
-Außer mit Surfing kann man sich bei uns die Zeit auch noch mit vielen anderen netten Dingen vertreiben! Die Gegend von Lourinhã und Praia da Areia Branca bietet für Groß und Klein viel Abwechslung. Langweilig wird einem bestimmt nicht. Guckt Euch hier die vielen Möglichkeiten an.
-
+In addition to surfing, you can also spend your time with many other beautiful things! The area of Lourinhã and Praia da Areia Branca offers a lot of variety for young and old. You won’t get bored. Check it out.

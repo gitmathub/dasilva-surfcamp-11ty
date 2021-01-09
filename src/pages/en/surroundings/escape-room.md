@@ -5,7 +5,7 @@ partial: escape-room
 
 ## Escape Room
 
-Zu lange an der frischen Luft gewesen? Dann versuchts doch mal mit dem Escape Room und ein bischen Denksport! Beim Mystery-Dinner werden dann nicht nur die Gaumen verwöhnt…
+Have you been out in the fresh air for too long? Then try the Escape Room and a bit of thinking! At the mystery dinner, not only the palate is spoiled…
 
 Web: [facebook.com/lourinhaenigmabox](https://facebook.com/lourinhaenigmabox)
 

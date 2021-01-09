@@ -5,7 +5,7 @@ partial: tennis
 
 ## Tennis in Praia da Areia Branca
 
-Nicht immer nur im Neo schwitzen? Stimmt, geht natürlich auch auf dem Tennisplatz in Praia da Areia Branca. Locker-flockig servieren und im Einzel oder Doppel mit den Skills in der Sonne glänzen! Huah! Uff! Yeah!
+Don’t always sweat in the neo? That’s right, of course, you can also sweat on the tennis court in Praia da Areia Branca. Play a single or double, cool and casually or like the pros! Huah! Uff! Yeah!
 
 Web: [www.pedrosmash.pt](https://www.pedrosmash.pt)
 

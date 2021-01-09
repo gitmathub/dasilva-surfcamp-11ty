@@ -5,6 +5,6 @@ partial: minigolf
 
 ## Minigolf Animar Praia da Areia Branca
 
-Schon lange keine ruhige Kugel mehr geschoben? Kein Ding – einfach direkt Richtung Strand nach Praia da Areia Branca und locker aus der Hüfte die Murmeln versenken. Großer Spaß mit den Kids oder für die großen mit gepflegtem Kaltgetränk als erhöhtem Schwierigkeitsgrad 😉
+Wanna play miniature golf? Easy thing, head straight for the beach to Praia da Areia Branca and putt the marbles loosely from your hip. Great fun with the kids or for the big ones with a well-kept cold drink as an increased level of difficulty 😉
 
 Maps: [https://bit.ly/2Zrgjdb](https://bit.ly/2Zrgjdb)

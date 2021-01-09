@@ -5,6 +5,6 @@ partial: gokart
 
 ## Go Kart
 
-Einfach mal ne Runde drehen? Geht im Dinokart – und natürlich nicht nur eine. Gas geben schön um die Wette fahren statt rennen! Cabriofeeling im Miniformat – näher am Asphalt geht nicht!
+Do you fancy speed? Then race with Dinokart. Accelerate and compete with miniature convertible – you can’t get any closer to the asphalt!
 
 Web: [www.dinokart.com.pt](www.dinokart.com.pt)

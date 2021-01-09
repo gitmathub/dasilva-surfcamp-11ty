@@ -5,7 +5,7 @@ partial: buddha-eden
 
 ## Buddha Eden
 
-Keine Lust extra nach Asien zu fliegen um die schönsten Buddah-Statuen zu sehen? Dann ab in den traumhaften Garten Eden mit den faszinierendsten Buddah-Statuen außerhalb Asiens. Ohmmmm..
+Are you tired of flying to Asia to experience something exotic? Then ride to the dreamlike Garden of Eden with the fascinating Buddha statues outside of Asia. Ohmmmm ..
 
 Web: [www.bacalhoa.pt](https://www.bacalhoa.pt)
 

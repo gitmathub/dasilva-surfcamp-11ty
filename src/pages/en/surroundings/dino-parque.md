@@ -5,7 +5,7 @@ partial: dino-parque
 
 ## Dino Parque Lourinha
 
-Nem Dino mal entspannt ins Maul schauen? Dann eintauchen in die Dinowelt im Dinopark Lourinha und über die lebensgroßen detailgetreuen Nachbildungen staunen! Ein must have für Kids und Dinofans.
+Looking Nem Dino relaxed in the mouth? Then immerse yourself in the dinosaur world in Dinopark Lourinha and marvel at the life-size, detailed replicas! A must-have for kids and dino fans.
 
 Web: [www.dinoparque.pt](https://www.dinoparque.pt)
 

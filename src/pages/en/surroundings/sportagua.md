@@ -5,7 +5,7 @@ partial: sportagua
 
 ## Sportagua in Peniche
 
-Wasser auch mal ohne Salz? Dann rein in die Rutsche und im kühlen Nass die Sonne genießen, mit Drinks, Essen und einem gepflegten Ambiente drumherum.
+Water without salt? Then slide into the fresh water and enjoy the sun with drinks, food, and a neat ambiance around it.
 
 Web: [www.sportagua.com](https://www.sportagua.com)
 
