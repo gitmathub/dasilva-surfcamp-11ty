@@ -3,22 +3,23 @@ tags: surfschool
 partial: class
 ---
 
-## Anfänger (Erste Woche)
+## Beginers (first week)
 
-* Theorie über Wetter, Gezeiten, Strömung und Wellen
-* Einweisung in die Materie (Surfmaterial)
-* Sicherheitsregeln
-* Vorfahrtsregeln im Wasser
-* Paddeln, Sitzen, Wenden
-* Surfing im weißen Teil der Welle
+* Theory of weather, tides, currents and waves
+* Instruction in the matter (surfing material)
+* Safety regulations
+* Right of way in water
+* Paddling, sitting on the board, turning
+* Surfing in the white part of the wave
 
-## Fortgeschrittene (Zweite Woche)
+## Advanced (second week)
 
-* Surfing im grünen Teil der Welle
-* Duck Dive (durch die Welle tauchen)
-* erste Surfmanöver
-* fortgeschrittene Technik
-* Front & Backside surfen
-* Styleverbesserung
+* Surf the green part of the wave
+* Duck Dive
+* First surfing maneuvers
+* Advanced technology
+* Surf front & backside
+* Style improvement
 
-übrigens habt ihr auch die Möglichkeit das Angebot der Da Silva Surfschool mit geführten Mountainbiketouren zu kombinieren. Sounds interesting? Mehr dazu hier, unter: [{{ links[locale].mountainBike.title }}]({{ links[locale].mountainBike.path }})
+<br/>
+Recently we have started to offer the possibility to combine the Da Silva Surfschool with guided mountain bike tours. Sounds interesting? For more information, see [{{ links[locale].mountainBike.title }}]({{ links[locale].mountainBike.path }}).

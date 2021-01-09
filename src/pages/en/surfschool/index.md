@@ -6,5 +6,5 @@ tags: surfschool
 title: "Surfschool Portugal"
 
 metaImage: ""
-metaDescription: "Surfing, Biken und vieles mehr"
+metaDescription: ""
 ---

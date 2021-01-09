@@ -3,9 +3,9 @@ tags: surfschool
 partial: whats-included
 ---
 
-### 1 Woche / 5 Surfkurse inklusive:
+### 1 week/ 5 days surf classes include:
 
-* 10 x 2 Stunden Intensiv Surfkurs (2 Stunden pro Session / 2 Sessions pro Tag)
-* komplettes Surfequipment (Surfboard, Leash, Wetsuit) während des Kurses
-* Shuttlebus zu den Stränden mit den besten Wellen in unserer Gegend
-* Abschluss-BBQ mit Lagerfeuer im Surfcamp
+* 10 x 2 hours intensive surf course (2 hours per session / 2 sessions per day)
+* complete surf equipment (surfboard, leash, wetsuit) during the course
+* Shuttle bus to the beaches with the best waves in our area
+* Final BBQ with campfire at the surf camp

@@ -75,6 +75,7 @@ CMS for Da Silva Surfcamp
 # Project Todos
 
 - [ ] English Version
+- [ ] Surf Bar
 - [ ] Metatags
 - [ ] Meta Descriptions
 - [ ] Optimisations

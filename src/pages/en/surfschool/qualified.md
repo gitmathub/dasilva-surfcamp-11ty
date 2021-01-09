@@ -3,10 +3,10 @@ tags: surfschool
 partial: qualified
 ---
 
-Seit 2016 führt das Da Silva Surfcamp die Surfkurse intern mit der hauseigenen Surfschule der Da Silva Surfschool durch und hilft dabei Anfängern wie auch Fortgeschrittenen aufs Brett.
+Since 2016 the surf classes at the Da Silva Surfcamp are done by our very own Da Silva Surfschool , which is also located on our property and helps beginners and advanced surfers on the board.
 
-Abhängig von Wellenkonditionen und Niveau der Schüler tut sie das an unterschiedlichen Surfspots maximal 20 Fahrminuten entfernt von Praia da Areia Branca. Dabei wird darauf geachtet, dass es sich um Strände handelt, die nicht so überlaufen sind, wie die bekannten Strände von Peniche.
+Depending on the wave conditions and level of the students, the classes take place at different surf spots a maximum of 20 minutes drive from Praia da Areia Branca. It is important to note that these are beaches which are not as crowded as the famous beaches of Peniche.
 
-Die Surfkurse gehen normalerweise von Montag bis Freitag. Es kann jedoch vorkommen, dass die eine oder andere Session aufgrund von Wetter- oder Wellenkonditionen ausfallen muss. In diesem Fall werden Ersatzaktivitäten, wie z.B. Ausflüge in die nähere Umgebung, SUP-Sessions, Skateboard-Sessions o.ä., angeboten.
+The surf courses are usually held from Monday to Friday. However, some sessions may have to be cancelled due to weather or wave conditions. In this case, alternative activities are offered, such as excursions to the surrounding area, SUP sessions, skateboard sessions or similar.
 
-Am Ende des kompletten Kurses (Anfänger und/oder Fortgeschrittene) sollte jeder Schüler das Stehen auf dem Brett (Take-off) respektive das Surfing im ungebrochenen Teil der Welle (Grünwasser) beherrschen. Die einzelnen Erfolge hängen stark von Motivation, Talent und der allgemeinen sportlichen Verfassung des Schülers ab. Im Preis enthalten sind der Busshuttle, Surfboard und Neoprenanzug, theoretischer und praktischer Unterricht und eine Versicherung.
+At the end of the complete course (beginner and/or advanced) each student should be able to stand on the board (take-off) or surf in the unbroken part of the wave (green water). The individual successes depend heavily on the motivation, talent and general physical fitness of the student. The price includes bus shuttle, surfboard and wetsuit, theoretical and practical lessons and insurance.

@@ -5,14 +5,14 @@ partial: start
 
 ## Start Surfing Today
 
-#### mit der
+#### with the
 
 ### Da Silva Surfschool Portugal
 
-Mit uns – der Da Silva Surfschool Portugal – könnt Ihr leicht und sicher surfen lernen. Wir haben das beste Surfmaterial für alle Levels und bringen Euch zu den schönsten Stränden mit den besten Wellen Europas. Ihr könnt an unseren Surfkursen übrigens auch teilnehmen, obwohl Ihr keine Gäste des Surfcamps seid! Wir holen Euch gern und kostenlos in eurem Ferienhaus, Hotel, Campingplatz oder wo Ihr sonst untergebracht seid, ab und bringen Euch nach dem Surfing wieder zurück.
+With us – the Da Silva Surfschool Portugal – you can learn to surf easily and safely. We have the best surfing equipment for all levels and take you to the most beautiful beaches with some of the best waves in Europe. You can also participate in our surf courses even if you are not a guest of our surf camp! We will be happy to pick you up free of charge at your accommodation and drop you back off after the surf lesson.platz oder wo Ihr sonst untergebracht seid, ab und bringen Euch nach dem Surfing wieder zurück.
 
-## Unsere ideology
+## Our ideology
 
-#### Der beste Surfer ist derjenige, der den meisten Spass dabei hat.
+#### The best surfer is the one having the most fun.
 
 # SURFING IS FUN

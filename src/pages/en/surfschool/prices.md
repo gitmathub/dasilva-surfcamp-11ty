@@ -3,6 +3,6 @@ tags: surfschool
 partial: prices
 ---
 
-## Surfkurs-Preise
+## Surf Class Prices
 
-### Im Preis enthalten sind der Busshuttle, Surfboard und Neoprenanzug, theoretischer und praktischer Unterricht und eine Versicherung.
+### The price includes the bus shuttle, surfboard and wetsuit, theoretical and practical lessons and insurance.
