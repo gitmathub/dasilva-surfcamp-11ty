@@ -3,7 +3,8 @@ const Image = require("@11ty/eleventy-img")
 
 module.exports = function (eleventyConfig) {
     eleventyConfig.addPassthroughCopy({
-        'src/assets': "_assets/"
+        "src/assets": "_assets/",
+        "img": "/_assets/images/"
     })
     eleventyConfig.addPlugin(pluginSass, {
         watch: ["src/styles/*.scss"],
@@ -57,7 +58,7 @@ module.exports = function (eleventyConfig) {
             widths: [230, 300, 350, 480, 768, 1024, 2048],
             formats: ['jpeg'], //'webp'
             urlPath: "/_assets/images/",
-            outputDir: "src/assets/images",
+            outputDir: "img",
         });
         const srcset = metadata.jpeg.filter(i => i).map(i => `${i.url} ${i.width}w`).join(', ')
         

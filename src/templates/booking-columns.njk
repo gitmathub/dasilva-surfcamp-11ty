@@ -1,0 +1,62 @@
+{% macro threeCards(headline = "", subHeadline = "", 
+leftTitle = "", leftLink = "", leftColumn = "",
+ middleTitle = "", 
+ middleLink = "", middleColumn = "", 
+ rightTitle = "", rightLink = "", rightColumn = "") %}
+
+  <div class="booking-columns">
+    <h2>{{ headline }}</h2>
+    <h3>{{ subHeadline }}</h3>
+    <div class="booking-columns__container">
+
+      <div class="booking-columns__left">
+        <div class="booking-columns__headline">
+          <a href="{{ leftLink }}">
+            <h3>{{ leftTitle }}</h3>
+          </a>
+        </div>
+        <div class="decoration-icon-wrapper">
+          <div class="decoration-icon-circle">
+            <a href="{{ leftLink }}">
+              <img src="/_assets/icons/fa/comment-solid.svg" class="decoration-icon comment">
+            </a>
+          </div>
+        </div>
+        {{ leftColumn }}
+      </div>
+
+      <div>
+        <div class="booking-columns__headline">
+          <a href="{{ middleLink }}">
+            <h3>{{ middleTitle }}</h3>
+          </a>
+        </div>
+        <div class="decoration-icon-wrapper">
+          <div class="decoration-icon-circle">
+            <a href="{{ middleLink }}">
+              <img src="/_assets/icons/svgrepo/euro.svg" class="decoration-icon euro">
+            </a>
+          </div>
+        </div>
+        {{ middleColumn }}
+      </div>
+
+      <div class="booking-columns__right">
+        <div class="booking-columns__headline">
+          <a href="{{ rightLink }}">
+            <h3>{{ rightTitle }}</h3>
+          </a>
+        </div>
+        <div class="decoration-icon-wrapper">
+          <div class="decoration-icon-circle">
+            <a href="{{ rightLink }}">
+              <img src="/_assets/icons/fa/shuttle-van-solid.svg" class="decoration-icon shuttle-van">
+            </a>
+          </div>
+        </div>
+        {{ rightColumn }}
+      </div>
+
+    </div>
+  </div>
+{% endmacro %}

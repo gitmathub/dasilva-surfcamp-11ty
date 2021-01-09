@@ -135,6 +135,10 @@ CMS for Da Silva Surfcamp
   - [ ] Booking Datepicker
   - [ ] Booking vanitise user input
   - [ ] Capture
+- [ ] Anruf Button a la Whatsapp
+  - [ ] Recherche
+  - [ ] Test
+  - [ ] Einbau
 - [x] Masonry
   - [x] Resonsive Design
   - [x] Links
@@ -173,7 +177,7 @@ CMS for Da Silva Surfcamp
 - [x] Site Generator
   - [x] Decide on Site Generator
   - [x] Checkout 11ty https://www.11ty.dev
-- [x] Fragment galeri
+- [x] Fragment galerie
 
 
 # Research

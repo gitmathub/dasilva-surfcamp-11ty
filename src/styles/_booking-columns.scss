@@ -1,0 +1,92 @@
+.booking-columns {
+
+  &__container {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+  &__container>div {
+    padding: 0;
+    margin: 0 auto;
+  }
+
+  &__headline {
+    display: block;
+    width: 100%;
+    // border: 1px solid black;
+    text-align: center;
+
+    a {
+      text-decoration: none;
+    }
+
+    h3 {
+      margin: 0;
+    }
+  }
+
+  .decoration-icon-wrapper {
+    display: flex;
+    width: 100%;
+    margin-top: 0.8rem;
+    margin-bottom: 2.1rem;
+    ;
+    // border: 1px black solid;
+    justify-content: center;
+
+  }
+
+  .decoration-icon-circle {
+    position: relative;
+    background-color: #eee;
+    width: 8rem;
+    height: 8rem;
+    border-radius: 50%;
+  }
+
+  .decoration-icon {
+    position: absolute;
+  }
+
+  .shuttle-van {
+    left: 1.8rem;
+    top: 2.4rem;
+    width: 4.4rem;
+  }
+
+  .paper-plane {
+    left: 1.6rem;
+    top: 1.8rem;
+    width: 4rem;
+  }
+
+  .comment {
+    left: 2.1rem;
+    top: 2rem;
+    width: 4rem;
+  }
+
+  .euro {
+    left: 2.1rem;
+    top: 2.4rem;
+    width: 3.2rem;
+  }
+
+  @include respond(middle-to-wide) {
+
+    &__container {
+      grid-template-columns: 1fr 1fr 1fr;
+      grid-gap: 4rem;
+    }
+
+    &__container>div {
+      padding: 0;
+      margin: 0.5rem;
+    }
+
+    &__left {
+      grid-row-start: 1;
+      // text-align: right;
+    }
+  }
+}

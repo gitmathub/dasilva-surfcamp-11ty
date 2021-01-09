@@ -8,10 +8,15 @@ relatedPages:
   - happyHorses
   - bedAndBreakfast
 
+topTips:
+  - kidsAreWelcome
+  - happyHorses
+  - mountainBike
 bookingBanner:
   - bookingBedAndBreakfast
   - bookingPackages
   - bookingExperiences
+
 ---
 
 {% import "hero.njk" as hero %}
@@ -20,6 +25,7 @@ bookingBanner:
 {% import "gallery.njk" as gallery %}
 {% import "video.njk" as video %}
 {% import "columns.njk" as columns %}
+{% import "booking-columns.njk" as bookingColumns %}
 
 
 {% image {src:"./src/assets/home/hero/portuguese-spirit-of-surfing.jpg", 
@@ -46,35 +52,25 @@ alt:"Da Silva Surfcamp Mountain Bike Portugal", myClass:"max-scaled"}%}
 </section>
 
 <section>
-  {{ columns.three(
+  {{ related.three(links[locale], bookingBanner)}}
+</section>
+
+<section>
+  {{ bookingColumns.threeCards(
     headline="Booking",
+    leftTitle=links[locale].bookingRequest.title,
+    leftLink=links[locale].bookingRequest.path,
     leftColumn=partial.get(collections, tags, "bookingRequest", locale),
+    middleTitle=links[locale].prices.title,
+    middleLink=links[locale].prices.path,
     middleColumn=partial.get(collections, tags, "prices", locale),
+    rightTitle=links[locale].travelDirections.title,
+    rightLink=links[locale].travelDirections.path,
     rightColumn=partial.get(collections, tags, "travelDirections", locale)
   )}}
 </section>
 
-<section>
+<section class="centered">
+  {{ related.three(links[locale], topTips)}}
   {{ related.three(links[locale], bookingBanner)}}
 </section>
-
-<style>
-  .decoration-icon-frame {
-    text-align: center;
-    a {
-      text-decoration: none;
-    }
-  }
-  .decoration-icon {
-    width: 15%;
-    padding: 0.8rem
-  }
-  .price-icon {
-    width: 5%;
-  }
-  .price-icon-y {
-    width: 6%;
-    padding: 0;
-    margin: 0;
-  }  
-</style>
