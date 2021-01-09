@@ -3,19 +3,19 @@ tags: yoga
 partial: including
 ---
 
-## inklusive
+## including
 
-* 7 Nächte Bed & Breakfast im Da Silva Surfcamp (wie nachfolgend beschrieben)
-* 10 x 2 Stunden Intensiv Surfkurs (2 Stunden pro Session / 2 Sessions pro Tag)
-* komplettes Surfequipment (Surfboard, Leash, Wetsuit) während des Kurses
-* Shuttlebus zu den Stränden mit den besten Wellen in unserer Gegend
-* 5 x 1 Stunde Yoga nach dem Surfkurs
+* 7 nights Bed & Breakfast at Da Silva Surfcamp (as described below)
+* 10 x 2 hours intensive surf classes (2 hours per session / 2 sessions per day)
+* complete surf equipment (surfboard, leash, wetsuit) during the classes
+* Shuttle bus to the beaches with the best waves in our area
+* 5 x 1 hour yoga lesson every day after surflessons
 
 ### Bed & Breakfast
 
-* Unterkunft
-* tägliches Frühstücksbuffet
-* täglicher Shuttlebus in den nächsten Strandort
-* kostenloser Beachcruiserverleih
-* freies W-Lan im ganzen Haus
-* ab 1 Woche Aufenthalt: 2x die Woche Barbecue (auch vegetarisch)
+* Accommodation
+* daily breakfast buffet
+* daily shuttle bus to the next beach
+* free beachcruiser rental
+* free WIFI in the camp
+* from 1 week stay: 2x barbecue per week (also vegetarian)

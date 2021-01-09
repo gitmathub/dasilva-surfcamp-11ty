@@ -3,12 +3,12 @@ tags: yoga
 partial: prices
 ---
 
-## Preise
+## Prices
 
-#### 1 Stunde: 15 EUR (Termine nach Absprache)
+#### 1 Hour 15 € (date by arrangement)
 
-#### 5 Stunden: 60 EUR (eine Stunde gratis)
+#### 5 Hours 60 € (1 hour for free)
 
-## Yoga Package
+## Surf & Yoga Package
 
-# ab 400 € pro Woche
+# from 400 € per week

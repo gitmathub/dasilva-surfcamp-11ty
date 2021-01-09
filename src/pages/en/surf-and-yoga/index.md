@@ -6,5 +6,5 @@ tags: yoga
 title: "Yoga"
 
 metaImage: ""
-metaDescription: "Surfing, Biken und vieles mehr"
+metaDescription: ""
 ---
