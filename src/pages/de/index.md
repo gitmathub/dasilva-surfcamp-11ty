@@ -1,5 +1,5 @@
 ---
-permalink: /{{ locale }}/index.html
+permalink: /de/index.html
 layout: home.njk
 tags: home
 
