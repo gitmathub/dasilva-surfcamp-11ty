@@ -12,31 +12,30 @@ relatedPages:
 {% extends "main.njk" %}
 {% import "columns.njk" as columns %}
 
-
 {% block head_extra %}
-    <script src="/_assets/scripts/valid-form.min.js"></script>
+  <script src="/_assets/scripts/valid-form.min.js"></script>
 {% endblock %}
 
 {% import "partial.njk" as partial %}
 {% import "related.njk" as related %}
 
-
 {% block main %}
 
   <section class="centered">
-  {{ partial.get(collections, tags, "form", locale) }}
+    {{ partial.get(collections, tags, "form", locale) }}
   </section>
 
-<section>
-  {{ columns.three(
+  <section>
+    {{ columns.three(
     leftColumn="",
     middleColumn=partial.get(collections, tags, "address", locale),
     rightColumn=""
   )}}
-</section>
-
+  </section>
+  <br/>
+  
   <nav class="centered">
-  {{ related.three(links[locale], relatedPages)}}
+    {{ related.three(links[locale], relatedPages)}}
   </nav>
 
 {% endblock %}

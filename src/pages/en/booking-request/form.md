@@ -3,87 +3,88 @@ tags: bookingRequest
 partial: form
 
 contact:
-  label: Deine Kontaktdaten
+  label: You Contact Details
 firstName:
-  label: Vorname
+  label: First Name
 lastName:
-  label: Nachname
+  label: Last Name
 address:
-  label: Adresse
+  label: Address
 phone:
-  label: Telefon
-  placeholder: +49 30 123 456 78
+  label: Telefone
+  placeholder: +44 30 123 456 78
 email:
   label: E-Mail
 arrival:
-  label: Anreise
+  label: Arrival
 departure:
-  label: Abreise
+  label: Departure
 travelers:
-  label: Weitere Reiseteilnehmer 
+  label: Additional Travelers 
 evenMoreTravelers:
-  hint: Weitere Reiseteilnehmer bitte unten im Kommentarfeld eintragen. Bitte auch angeben wieviele Kinder (bis 12 Jahre) und Babys (bis 2 Jahre) dabei sind.
+  hint: Please enter other travellers in the comment field below. Please also indicate how many children (up to 12 years) and babies (up to 2 years) are included.
 
 package:
-  label: Leistung
+  label: Services
 surfPackage1Week:
-  label: 1 Woche Surfpackage
+  label: 1 week Surf Package
 mtbPackage1Week:
-  label: 1 Woche MTB-Package
+  label: 1 week MTB Package
 SurfMtbPackage1Week:
-  label: 1 Woche Surf- & MTB-Package
+  label: 1 week Surf & MTB Package
 surfPackage2Weeks:
-  label: 2 Wochen Surfpackage
+  label: 2 weeks Surf Package
 mtbPackage2Weeks:
-  label: 2 Wochen MTB-Package
+  label: 2 weeks MTB Package
 SurfMtbPackage2Weeks:
-  label: 2 Wochen Surf- & MTB-Package
+  label: 2 weeks Surf & MTB Package
 BedAndBreakfastOnly:
-  label: nur Bed & Breakfast
+  label: only Bed & Breakfast
 surfPackageOnly:
-  label: nur Surfkurs
+  label: only Surf Classes
 mtbPackageOnly:
-  label: nur Mountainbiken
+  label: only Mountainbiking
 
 bedAndBreakfast:
-  label: Unterkunft
+  label: Bed and Breakfast
 multiBedRoom:
-  label: Mehrbettzimmer
+  label: Shared Room
 doubleRoom:
-  label: Doppelzimmer
+  label: Double Room
 tinyHouse:
   label: Ensuite/ Tiny House
 singleRoom:
-  label: Einzelzimmer
+  label: Single Room
 
 bookingOptions:
-  label: Buchungsoptionen
+  label: Booking Options
 bookingRequest:
-  label: Dies ist nur eine Anfrage
+  label: This is only a request
 bookFinally:
-  label: Ich möchte verbindlich buchen
+  label: I would like to make a binding booking
 termsAndConditionAccepted:
-  label: Ich habe die AGBen zur Kenntnis genommen
+  label: I have taken note of the terms and conditions
 airportTransfer:
-  label: Wir möchten gern vom Flughafen abgeholt werden.
+  label: We would like to be picked up from the airport.
 airportTransferPrice:
-  hint: Preis für 1-2 Personen = 80 EUR +10 EUR für jede weitere Person +20 EUR Nachtzuschlag von 00:00 bis 06:00 Uhr.
+  hint: Price for 1-2 persons = 80 € + 10 € additional person +20 EUR night charge bewtween 00:00am and 06:00 am.
 
 comment:
-  label: Kommentar oder Nachricht
+  label: Comment
 
 valueMissing:
-  hint: Bitte angeben
+  hint: Please specify
 patternMismatch:
-  email: Bitte Email angeben
+  email: Please check email
 
 submit:
-  label: Absenden
+  label: Submit
 
 ---
 
-## Da Silva Surfcamp Portugal - Buchungsanfrage
+### Da Silva Surf & Mountainbike Camp Portugal
+# Booking Form
 
-Wenn Ihr bei uns Urlaub machen möchtet, dann füllt bitte diese Buchungsanfrage für unser Surfcamp in Portugal aus.
+If you would like to spend your holiday with us and surf and/or mountain bike with us, please fill out the following form:
 
 {% include "booking-form.njk" %}

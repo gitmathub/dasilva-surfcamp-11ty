@@ -7,11 +7,11 @@ name:
 email:
   label: E-Mail
 comment:
-  label: Kommentar oder Nachricht
+  label: Message
 submit:
-  label: Absenden
+  label: Submit
 ---
 
-## Kontakt
+## Contact
 
 {% include "contact-form.njk" %}

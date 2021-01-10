@@ -5,9 +5,9 @@ tags: bookingRequest
 partial: response
 ---
 
-## Buchungsanfrage erhalten
+## Booking Request
 
-Vielen Dank für die Buchungsanfrage. Wir werden sie so schnell wie möglich beantworten.
+Thank you for you request. We come back to you as soon as possible.
 
-Mit freundlichen Grüßen<br>
+Cheers<br>
 Daniel W. Da Silva

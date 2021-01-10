@@ -87,7 +87,8 @@ CMS for Da Silva Surfcamp
     - [ ] galerie bed and breakfast
     - [ ] others...
 - [ ] Layout Optimizations
-  - [ ] price page: text centered
+  - [x] price page: text centered
+  - [ ] booking form: align fields
 - [ ] Home
   - [x] Hero
   - [x] Masonry
