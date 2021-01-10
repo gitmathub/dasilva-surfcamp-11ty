@@ -6,6 +6,7 @@ CMS for Da Silva Surfcamp
   - [Backlog](#backlog)
   - [Done](#done)
 - [Research](#research)
+  - [SEO Tools](#seo-tools)
   - [Image Sizes Dynamically](#image-sizes-dynamically)
     - [Responsive Images Generator](#responsive-images-generator)
     - [11ty Image Generator](#11ty-image-generator)
@@ -74,7 +75,6 @@ CMS for Da Silva Surfcamp
 # Project Todos
 
 ## MVP Release
-- [ ] Surf Bar
 - [ ] SEO
   - [ ] Metatags
   - [ ] Meta Descriptions
@@ -133,6 +133,7 @@ CMS for Da Silva Surfcamp
 
 ## Done
 
+- [x] Surf Bar
 - [x] English Version
 - [x] Home
   - [x] Hero
@@ -215,6 +216,29 @@ CMS for Da Silva Surfcamp
 
 
 # Research
+
+## SEO Tools
+
+- [Google Search Preview](https://seositecheckup.com/seo-audit/google-search-results-preview-test/)
+  - https://seositecheckup.com/seo-audit/google-search-results-preview-test/dasilva.alabaster.de
+- [SEO Online Checker](https://freetools.seobility.net/de/seocheck/dasilva.alabaster.de)
+- [Meta Imaage Maker](https://www.kapwing.com/studio/editor)
+- Meta description
+  - [good meta description examples](https://www.seobility.net/de/wiki/Meta-Description#Positive_Effekte_einer_guten_Meta-Description)
+  - [meta description instruction](https://www.seobility.net/de/blog/die-perfekte-seo-meta-description/)
+  - 1000pixel ~ 156 characters
+  - must be human readalbe
+  - must include main key word (e.g. surfing)
+  - Im Da Silva Surf & Mountainbike Camp wohnst Du in einem typisch portugiesischen Landhaus in Strandnähe und mit Pferden. Familien und Kinder sind willkommen!
+  - Urlaub in Portugal in einem typischen portugiesischen Landhaus in Standnähe | Surfschool | Mountainbike | Pferde reiten | Kinder willkommen
+- Meta Title
+  - 580px, 70 characters
+  - No keyword stuffing but 3 relevant key words. 1st key word most important
+  - Build a sentence, be crisp
+  - Don't use a dash (-) but rather a pipe (|)
+  - Da Silva Camp Portugal » Surfing und Mountainbike mit der Familie
+  - Da Silva Camp Portugal » Surfing und Mountainbike und viel Meer
+
 
 
 ## Image Sizes Dynamically

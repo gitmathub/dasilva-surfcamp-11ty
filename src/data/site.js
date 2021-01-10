@@ -1,8 +1,8 @@
 module.exports = {
   buildTime: new Date(),
-  baseUrl: "https://www.mysite.com",
-  name: "Da Silva Surfcamp Portugal",
-  twitter: "@handle",
+  baseUrl: "https://www.dasilva-surfcamp.de",
+  name: "Da Silva Camp Portugal",
+  twitter: "@dasilvasurfcamp",
   languages: [
     {
       label: "deutsch",
@@ -12,6 +12,5 @@ module.exports = {
       label: "english",
       code: "en"
     }
-
   ]
 };
