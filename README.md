@@ -1,8 +1,10 @@
 CMS for Da Silva Surfcamp
 
 - [Anforderungen](#anforderungen)
-- [Daniel's Todos](#daniels-todos)
 - [Project Todos](#project-todos)
+  - [MVP Release](#mvp-release)
+  - [Backlog](#backlog)
+  - [Done](#done)
 - [Research](#research)
   - [Image Sizes Dynamically](#image-sizes-dynamically)
     - [Responsive Images Generator](#responsive-images-generator)
@@ -69,27 +71,70 @@ CMS for Da Silva Surfcamp
   - bis 11. Januar
   - 8 Wochen
 
-# Daniel's Todos
-- [ ] Corona Massnahmen auf Englisch
-
 # Project Todos
 
-- [ ] English Version
-  - [ ] Review happy horses
+## MVP Release
 - [ ] Surf Bar
-- [ ] Metatags
-- [ ] Meta Descriptions
-- [ ] Optimisations (technical)
-  - [ ] Preload fonts
-  - [ ] Skeletons
-  - [ ] Images multisizse
-    - [ ] all heros
-    - [ ] galerie bed and breakfast
-    - [ ] others...
+- [ ] SEO
+  - [ ] Metatags
+  - [ ] Meta Descriptions
 - [ ] Layout Optimizations
   - [x] price page: text centered
   - [ ] booking form: align fields
+
+## Backlog
+
+- [ ] Optimisations (technical)
+  - [ ] Preload fonts
+  - [ ] Skeletons
+  - [ ] Images multisizes
+    - [ ] all heros
+    - [ ] galerie bed and breakfast
+    - [ ] others...
+- [ ] Text work
+  - [ ] Missing: Corona in English
+  - [ ] Review happy horses in 
+  - [ ] Review impress, terms and privacy DE/ EN
+  - [ ] Surfcamp -> Surf & Mountainbike Camp
 - [ ] Home
+  - [ ] Team
+  - [ ] Instagram
+  - [ ] Partners
+  - [ ] Google rating
+  - [ ] Footer: partners in crime
+- [ ] Online Deploy
+  - [ ] Switch DNS dasilva-surfcamp.de
+  - [ ] Check Rewrite Rules
+  - [ ] Re-configure cloudflare
+  - [ ] Error pages
+  - [ ] favicon.ico
+- [ ] Portugues Version
+- [ ] Header
+  - [ ] Topnav: aligh Language Menu
+  - [ ] Hamburger: select whole row
+  - [ ] Hamburger: Fix language switch
+- [ ] SEO
+  - [ ] Site map in footer  
+- [ ] Travel Directions
+  - [ ] map interaction
+- [ ] Galery plus
+  - [ ] Fix image size for big screen
+  - [ ] Overlay picture
+  - [ ] Single Pic for Mobile
+- [ ] Booking
+  - [ ] Respond soon, before sending mail
+  - [ ] Booking Datepicker
+  - [ ] Booking vanitise user input
+  - [ ] Capture
+- [ ] Call Button a la Whatsapp
+  - [ ] Recherche
+  - [ ] Test
+  - [ ] Installation
+
+## Done
+
+- [x] English Version
+- [x] Home
   - [x] Hero
   - [x] Masonry
   - [x] Welcome
@@ -97,19 +142,31 @@ CMS for Da Silva Surfcamp
   - [x] Booking
   - [x] Specials
   - [x] Galerie
-  - [ ] Team
-  - [ ] Instagram
-  - [ ] Partners
-  - [ ] Google rating
-- [ ] Online Deploy
-  - [x] Detect browser language and switch
-  - [x] Switch domain
-  - [ ] Re-configure cloudflare
-  - [x] Default page: German home
-  - [ ] Error pages
-  - [ ] favicon.ico
-- [ ] Portugues Version
-- [ ] Header
+- [x] Masonry
+  - [x] Resonsive Design
+  - [x] Links
+- [x] Gallary
+  - [x] 3 columns
+  - [x] responsive
+- [x] Internationalisation
+  - [x] Concept
+  - [x] Switch same to same page
+  - [x] Switch to non existing page
+- [x] Booking
+  - [x] online Booking link
+  - [x] Booling Form
+  - [x] Booking Validation
+  - [x] Booking Send Mail
+  - [x] Booking Contact Form
+  - [x] Booking Success Response
+  - [x] Booking Secure Form
+- [x] Travel Directions / Arrival
+  - [x] all Sections
+  - [x] map
+- [x] Footer
+  - [x] Language icons
+  - [x] Social media links
+- [x] Header
   - [x] Navigation bar
   - [x] Logo
   - [x] Hambuger menu
@@ -119,45 +176,10 @@ CMS for Da Silva Surfcamp
   - [x] Language switch
   - [x] Activate whole row
   - [x] Hamburgermenu: Disable all links below
-  - [ ] Topnav: aligh Language Menu
-  - [ ] Hamburger: whole row
-  - [ ] Hamburger: Fix language switch
-- [ ] Footer
-  - [x] Language icons
-  - [x] Social media links
-  - [ ] Site map (for SEO)
-- [ ] Travel Directions
-  - [x] all Sections
-  - [x] map
-  - [ ] map interaction
-- [ ] Galery
-  - [x] Responsive Design
-  - [ ] Fix image size for big screen
-  - [ ] Overlay picture
-  - [ ] Single Pic for Mobile
-- [ ] Booking
-  - [x] online Booking link
-  - [x] Booling Form
-  - [x] Booking Validation
-  - [x] Booking Send Mail
-  - [x] Booking Contact Form
-  - [x] Booking Success Response
-  - [x] Booking Secure Form
-  - [ ] Respond soon, before sending mail
-  - [ ] Booking Datepicker
-  - [ ] Booking vanitise user input
-  - [ ] Capture
-- [ ] Anruf Button a la Whatsapp
-  - [ ] Recherche
-  - [ ] Test
-  - [ ] Einbau
-- [x] Masonry
-  - [x] Resonsive Design
-  - [x] Links
-- [x] Internationalisation
-  - [x] Concept
-  - [x] Switch same to same page
-  - [x] Switch to non existing page
+- [x] Online Administration
+  - [x] Detect browser language and switch
+  - [x] Switch domain
+  - [x] Default page: German home
 - [x] FAQ
 - [x] Imprint
 - [x] Terms & Conditions

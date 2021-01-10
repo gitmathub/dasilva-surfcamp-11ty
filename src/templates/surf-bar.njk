@@ -1,0 +1,48 @@
+---
+layout: main.njk
+
+gallerySurfBar:
+  - src: /_assets/surf-bar/gallery/01-surf-bar.jpg
+  - src: /_assets/surf-bar/gallery/02-surf-bar.jpg
+  - src: /_assets/surf-bar/gallery/03-surf-bar.jpg
+  - src: /_assets/surf-bar/gallery/04-surf-bar.jpg
+  - src: /_assets/surf-bar/gallery/05-surf-bar.jpg
+  - src: /_assets/surf-bar/gallery/06-surf-bar.jpg
+  - src: /_assets/surf-bar/gallery/07-surf-bar.jpg
+  - src: /_assets/surf-bar/gallery/08-surf-bar.jpg
+  - src: /_assets/surf-bar/gallery/09-surf-bar.jpg
+         
+relatedPages:
+  - surfschool
+  - mountainBike
+  - surroundings      
+---
+{% import "partial.njk" as partial %}
+{% import "hero.njk" as hero %}
+{% import "gallery.njk" as gallery %}
+{% import "columns.njk" as columns %}
+{% import "related.njk" as related %}
+
+{{ hero.image(
+  src="/_assets/surf-bar/hero-surf-bar.jpg",
+  alt=links[locale].surfBar.title)
+}}
+
+<section class="centered">
+  {{ partial.get(collections, tags, "start", locale) }}
+</section>
+
+<section>
+  {{ columns.two(
+    leftColumn=gallery.three(images=gallerySurfBar),
+    rightColumn=partial.get(collections, tags, "surf-bar", locale)
+  )}}
+</section>
+
+<section class="centered">
+  {{ partial.get(collections, tags, "revival", locale) }}
+</section>
+
+<nav class="centered">
+  {{ related.three(links[locale], relatedPages)}}
+</nav>
