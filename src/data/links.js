@@ -224,15 +224,15 @@ module.exports = {
     },
     imprint: {
       title: "Imprint",
-      path: "/de/imprint"
+      path: "/en/imprint"
     },
     termsAndConditions: {
       title: "Terms and Conditions",
-      path: "/de/terms-and-conditions"
+      path: "/en/terms-and-conditions"
     },
     privacyPolicies: {
       title: "Privacy Policies",
-      path: "/de/privacy-policies"
+      path: "/en/privacy-policies"
     }    
   }
 }

@@ -1,7 +1,7 @@
 ---
-permalink: /en/terms-and-conditins/index.html
+permalink: /de/agb/index.html
 layout: plain-text.njk
-tags: agb
+tags: termsAndConditions
 
 title: "AGB - Allgemeine Geschäftsbedingungen"
 
@@ -19,13 +19,14 @@ Wenn Ihr bei uns buchen möchtet, übersenden wir Euch gern eine verbindliche Bu
 ### 2. Restzahlung
 Der Restbetrag ist spätestens vier Wochen vor Reiseantritt zu zahlen. Nach Zahlungseingang erhaltet Ihr von uns die endgültige Buchungsbestätigung und ausführliche Anreiseinfos. Sollten wir innerhalb der gesetzten Frist keinen Zahlungseingang des Restbetrages verzeichnen können, sind wir berechtigt, eine angemessene Frist zur Zahlung zu setzen. Sollten wir nach Ablauf dieser Frist keinen Zahlungseingang verzeichnen können, sind wir berechtigt, vom Vertag zurück zu treten. Nach einem erfolgten Rücktritt vom Vertrag sind wir berechtigt, einen pauschalisierten Schadensersatz nach Maßgabe von Ziffer 4 unserer AGBen zu verlangen.
 ### 3. Reiserücktritt des Kunden
-Vor Reiseantritt kann der Kunde jederzeit von der Reise zurück treten. Im Falle des Rücktritts können wir eine pauschalisierte Entschädigung verlangen, die sich nach folgenden Prozentsätzen berechnet:
-bis zu 61 Tage vor Reiseantritt: 15 % des Gesamtpreises
+
+Vor Reiseantritt kann der Kunde jederzeit von der Reise zurück treten. Im Falle des Rücktritts können wir eine pauschalisierte Entschädigung verlangen, die sich nach folgenden Prozentsätzen berechnet:<div style="white-space: pre">bis zu 61 Tage vor Reiseantritt: 15 % des Gesamtpreises
 60 bis 45 Tage vor Reiseantritt: 25 % des Gesamtpreises
 44 bis 35 Tage vor Reiseantritt: 50 % des Gesamtpreises
 34 bis 15 Tage vor Reiseantritt: 60 % des Gesamtpreises
 14 bis 7 Tage vor Reiseantritt: 70 % des Gesamtpreises
-ab 6 Tage vor Reiseantritt 80 % des Gesamtpreises
+ab 6 Tage vor Reiseantritt 80 % des Gesamtpreises</div>
+
 Es bleibt dem Reiseanbieter unbenommen, einen höheren, konkreten, Schaden geltend zu machen. Der Kunde hat die Möglichkeit, nachzuweisen, dass kein oder ein geringerer Schaden als die geltend gemachte Pauschale angefallen ist.
 ### 4. Stornokosten und AGBen für Leistungen von Fremdanbietern
 Bei Buchung von Leistungen bei Fremdanbietern, z.B. Flug-, Mietwagen, oder Hotelbuchungen, gelten die Geschäftsbedingungen inklusive der Stornogebühren der jeweiligen Anbieter. Der Kunde hat die Möglichkeit, in unseren Geschäftsräumlichkeiten die Geschäftsbedingungen der Fremdanbieter einzusehen. Auf Wunsch übersenden wir die jeweiligen Geschäftsbedingungen.

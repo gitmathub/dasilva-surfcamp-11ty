@@ -3,35 +3,37 @@ permalink: /en/imprint/index.html
 layout: plain-text.njk
 tags: imprint
 
-title: "Impressum"
+title: "Imprint"
 
 metaImage: ""
-metaDescription: "Impressum"
+metaDescription: "Imprint"
 ---
 
-# Impressum
+# Imprint
 
-### Inhaber/ Herausgeber
+### Owner/ Publisher
 
 <div style="white-space: pre">
 Daniel Wohlang da Silva
 (Da Silva Surfcamp Portugal)
 Casal da Capela – Rua Pôr do Sol, N° 21
 2530 – 077 Lourinhã - Portugal
-Telefon: +351 / 261 461 515
+Telephon: +351 / 261 461 515
 E-Mail: surfcamp[@]dasilva.de
 </div>
+<br/>
+Responsible according to § 55 Abs. 2 RStV: Daniel Wohlang da Silva
 
-Verantwortlich gemäß § 55 Abs. 2 RStV: Daniel Wohlang da Silva
 
-### Urheberrecht
+### Copyright
 
-Die durch den Seitenbetreiber erstellten Inhalte und Werke sind urheberrechtlich geschützt. Dies betrifft die Gestaltung wie den Inhalt. Vervielfältigungen, Bearbeitungen oder Veränderungen sind nur nach Erteilung einer schriftlichen Genehmigung erlaubt. Ebenso bleiben alle Rechte für Wiedergaben, in welcher Form und in welchem Medium auch immer, vorbehalten.
+The content and works created by the site operator are protected by copyright. This affects the design as well as the content. Reproduction, processing or changes are only permitted after written approval. Likewise, all rights for reproductions, in whatever form and in whatever medium, are reserved.
 
-### Haftungsausschluß
+### Disclaimer
 
-Eigene Inhalte | Sämtliche Informationen werden regelmäßig und sorgfältig, nach bestem Wissen und Gewissen, aktualisiert. Im rechtlichen Sinne sind sie jedoch ohne Gewähr.
-Fremde Inhalte | An manchen Stellen verweisen wir auf fremde Seiten (Links). Auf deren Gestaltung, Inhalte, Aktualität, Vollständigkeit und Korrektheit haben wir keinerlei Einfluß. Deshalb distanzieren wir uns ausdrücklich von allen Inhalten dieser Seiten, sowie von allen Seiten, zu denen wiederum die von uns gelinkten Seiten führen.
+Own content | All information is updated regularly and carefully, to the best of our knowledge and belief. In the legal sense, however, they are not guaranteed.
+
+Foreign content In some places we refer to external sites (links). We have no influence on their design, content, topicality, completeness and correctness. We therefore expressly distance ourselves from all content on these pages, as well as from all pages to which the linked pages lead.
 
 # Licences
 
