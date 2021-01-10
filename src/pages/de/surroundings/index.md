@@ -3,8 +3,11 @@ permalink: /de/umgebung/index.html
 layout: surroundings.njk
 tags: surroundings
 
-title: "Umgebung"
+# "Da Silva Camp Portugal » " = max 39 characters
+title: "Umgebung, Freizeit und Aktivitäten"
 
-metaImage: ""
-metaDescription: "Surfing, Biken und vieles mehr"
+# max 158 characters
+metaDescription: "Tolle Strände, Landschaften und Ortschaften | Spass im Dinopark, Schwimmbad, Escape Room, Go Kart oder Tenis und vieles mehr"
+# relative path. example: "/_assets/surfschool/hero-surfschool.jpg"
+metaImage: "/_assets/surroundings/hero-surroundings.jpg"
 ---

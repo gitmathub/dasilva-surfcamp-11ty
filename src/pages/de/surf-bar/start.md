@@ -3,8 +3,8 @@ tags: surf-bar
 partial: start
 ---
 
-### GOD MAY FORGIVE YOU
+<div class="h3">GOD MAY FORGIVE YOU</div>
 
-#### YOUR SURF INSTRUCTOR WON’T
+<div class="h4">YOUR SURF INSTRUCTOR WON’T</div>
 
 # DA SILVA SURF BAR

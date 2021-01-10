@@ -3,8 +3,11 @@ permalink: /de/surfschool/index.html
 layout: surfschool.njk
 tags: surfschool
 
-title: "Surfschool Portugal"
+# "Da Silva Camp Portugal » " = max 39 characters
+title: "Da Silva Surfschool - Surfschule"
 
-metaImage: ""
-metaDescription: "Surfing, Biken und vieles mehr"
+# max 158 characters
+metaDescription: "Mit uns könnt ihr leicht und sicher surfen lernen | Surfing is fun! | Anfänger und Fortgeschrittene | Preise und Packages"
+# relative path. example: "/_assets/surfschool/hero-surfschool.jpg"
+metaImage: "/_assets/surfschool/hero-surfschool.jpg"
 ---

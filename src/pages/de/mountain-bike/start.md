@@ -3,11 +3,11 @@ tags: mountainBike
 partial: start
 ---
 
-## Da Silva Mountainbiking
+# Da Silva Mountainbike Tours
 
-#### Today's to Do:
+<div class="h4" style="margin-top: -2rem;">Today's to do:</div>
 
-# RIDE
+<div class="h1" style="margin: 0 0 2rem 0;">RIDE</div>
 
 Die Westküste Portugals ist zweifellos ein Surfparadies. Traumhafte Strände und erstklassige Surfspots locken viele Surfer aus der ganzen Welt hierher. Viele wissen aber noch nicht, dass sich unsere Küste auch hervorragend zum Mountainbiken anbietet!
 

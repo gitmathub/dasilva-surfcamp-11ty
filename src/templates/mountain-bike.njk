@@ -25,7 +25,7 @@ relatedPages:
 {% import "related.njk" as related %}
 
 {{ hero.image(
-  src="/_assets/mountain-bike/hero-joyride.jpg",
+  src="/_assets/mountain-bike/hero-mountain-bike.jpg",
   alt=links[locale].mountainBike.title)
 }}
 
@@ -34,7 +34,7 @@ relatedPages:
 </section>
 
 <section>
-  {{ gallery.three(images=galleryMountainbike) }}
+  {{ gallery.three(images=galleryMountainbike, altDefault="MTB Portugal countryside and coast") }}
 </section>
 
 <section class="centered">
