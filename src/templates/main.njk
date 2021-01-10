@@ -3,7 +3,6 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta http-equiv="X-UA-Compatible" content="ie=edge">
         <meta http-equiv="content-type" content="text/html; charset=utf-8">
         <meta http-equiv="language" content="{{ locale }}">
         <link rel="canonical" href="{{ site.baseUrl }}{{ permalink }}" />
@@ -12,15 +11,15 @@
 
         <!-- open graph -->
         <meta property="og:type" content="article">
-        <meta property="og:title" content="{{ title }}">
-        <meta property="og:image" content="{{ site.baseUrl }}{{ metaImage }}">
         <meta property="og:site_name" content="{{ site.name }}">
+        <meta property="og:title" content="{{ title }}">
         <meta property="og:description" content="{{ metaDescription }}">
+        <meta property="og:image" content="{{ site.baseUrl }}{{ metaImage }}">
 
         <!-- twitter -->
         <meta name="twitter:card" content="summary">
         <meta name="twitter:site" content="{{ site.twitter }}">
-        <meta name="twitter:title" content="{{ metaTitle }}">
+        <meta name="twitter:title" content="{{ site.name }} » {{ title }}">
         <meta name="twitter:description" content="{{ metaDescription }}">
         <meta name="twitter:image" content="{{ site.baseUrl }}{{ metaImage }}">
 
