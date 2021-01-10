@@ -76,8 +76,8 @@ CMS for Da Silva Surfcamp
 
 ## MVP Release
 - [ ] SEO
-  - [ ] Metatags
-  - [ ] Meta Descriptions
+  - [ ] Title & meta descriptions & meta image
+  - [ ] H1 headline optimisation
 - [ ] Layout Optimizations
   - [x] price page: text centered
   - [ ] booking form: align fields
@@ -95,7 +95,9 @@ CMS for Da Silva Surfcamp
   - [ ] Missing: Corona in English
   - [ ] Review happy horses in 
   - [ ] Review impress, terms and privacy DE/ EN
-  - [ ] Surfcamp -> Surf & Mountainbike Camp
+  - [ ] Da Silva Surfcamp -> Da Silva Camp?
+- [ ] Kids Welcome
+  - [ ] New pictures and gallery
 - [ ] Home
   - [ ] Team
   - [ ] Instagram

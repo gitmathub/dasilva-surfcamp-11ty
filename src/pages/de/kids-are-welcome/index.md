@@ -3,8 +3,11 @@ permalink: /de/kids-are-welcome/index.html
 layout: kids-are-welcome.njk
 tags: kids-are-welcome
 
+# "Da Silva Camp Portugal » " = max 39 characters
 title: "Kinder sind willkommen"
 
-metaImage: ""
-metaDescription: "Surfing, Biken und vieles mehr"
+# max 158 characters
+metaDescription: "Spass für die ganze Familie | Am Strand mit Mama und Papa surfen oder im Meer | Pferde reiten im Camp | viele andere Kinder"
+# relative path. example: "/_assets/surfschool/hero-surfschool.jpg"
+metaImage: "/_assets/kids-are-welcome/hero-kids-are-welcome.jpg"
 ---

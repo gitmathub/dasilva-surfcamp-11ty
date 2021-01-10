@@ -4,8 +4,10 @@ layout: bed-and-breakfast.njk
 tags: bedAndBreakfast
 
 # "Da Silva Camp Portugal » " = max 39 characters
-title: "Surf und Aktivurlaub für die Families"
-metaImage: "/_assets/bed-and-breakfast/hero-bed-and-breakfast.jpg"
+title: "Surf und Aktivurlaub für die Familie"
+
 # max 158 characters
 metaDescription: "Ein typisch portugiesisches Landhaus mitten in der Natur, nahe zu traumhaften Surfstränden und ideal für Familien mit Kindern"
+# relative path. example: "/_assets/surfschool/hero-surfschool.jpg"
+metaImage: "/_assets/bed-and-breakfast/hero-bed-and-breakfast.jpg"
 ---

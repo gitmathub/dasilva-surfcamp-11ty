@@ -3,10 +3,8 @@ tags: kids-are-welcome
 partial: start
 ---
 
-### Kids Welcome
-
 ## Da Silva Surfcamp Portugal
 
-#### heisst Kinder
+#### heisst Kinder herzlich willkommen
 
-# HERZLICH WILLKOMMEN
+# Kids Welcome :-)

@@ -1,8 +1,9 @@
 {% macro three(
   images=[{
     src:"/_assets/dasilva-surfcamp-logo.png",
-    alt:"Da Silve Surfcamp",
-    link:"https://dasilva-surfcamp.de"}]
+    alt:"Da Silve Surfcamp Logo",
+    link:"https://dasilva-surfcamp.de"}],
+  altDefault="photo"
   ) 
 %}
   <div class="gallery-container">
@@ -10,12 +11,12 @@
       <div>
         {% if image.link %}<a href="{{image.link}}">{% endif %}
           <img src="{{image.src}}"
-           {% if image.alt %} alt="{{image.alt}}" {% endif %}
-           class="gallery-image"
-          />
+            {% if image.alt %} alt="{{image.alt}}" 
+            {% else %} alt="{{altDefault}}"
+            {% endif %}
+           class="gallery-image"/>
         {% if image.link %}</a>{% endif %}
       </div>
     {% endfor %}
   </div>
-
 {% endmacro %}
