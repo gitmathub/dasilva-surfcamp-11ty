@@ -79,14 +79,41 @@ CMS for Da Silva Surfcamp
 
 ## MVP Release
 
+- [ ] Kids Welcome
+ - [ ] Fotos austauschen
+- [ ] SEO
+  - [ ] Da Silver Camp Portugal -> Da Silve Surfcamp Portugal
+- Contact form fix layout
+- Home
+  - [ ] ueber den 3 booking banner: ueberschrift: Online Booking:
+  - [ ] die untere Ueberschrift Booking weg
+- [ ] Gallery plus
+  - [ ] multiple image size
+  - [ ] Overlay picture
+- [ ] Online Deploy
+  - [ ] Switch DNS dasilva-surfcamp.de -> auf new Website zeigen
+  - [ ] Check Rewrite Rules
+  - [ ] Re-configure PROXY cloudflare
+- Arrival
+  - [ ] link hiter der Kart auf Google Map
+- Formulare
+  - [ ] Domain umstellen
+  - [ ] Anreise ist kein muss-Feld und beliebiges Format
+  - [ ] Name & Email
+
+  
+  
+## Backlog
+
+- [ ] Text work
+  - [ ] Missing: Corona in English
+  - [ ] Review happy horses in 
+  - [ ] Review impress, terms and privacy DE/ EN
 - [ ] SEO english version
   - [ ] Home menu
   - [ ] Action menu
   - [ ] Prices, arrival & rest
-
-
-## Backlog
-
+  - [ ] Site map in footer 
 - [ ] Optimisations (technical)
   - [ ] Booking from URl
   - [ ] Preload fonts
@@ -95,17 +122,10 @@ CMS for Da Silva Surfcamp
     - [ ] all heros
     - [ ] galerie bed and breakfast
     - [ ] others...
-- [ ] Text work
-  - [ ] Missing: Corona in English
-  - [ ] Review happy horses in 
-  - [ ] Review impress, terms and privacy DE/ EN
-  - [ ] Da Silva Surfcamp -> Da Silva Camp?
-- [ ] Kids Welcome
-  - [ ] New pictures and gallery
+  - [ ] Error pages
 - [ ] Home
   - [ ] Team
   - [ ] Instagram
-  - [ ] Partners
   - [ ] Google rating
   - [ ] Footer: partners in crime
 - [ ] Online Deploy
@@ -113,19 +133,14 @@ CMS for Da Silva Surfcamp
   - [ ] Check Rewrite Rules
   - [ ] Re-configure cloudflare
   - [ ] Error pages
-  - [ ] favicon.ico
-- [ ] Portugues Version
-- [ ] Header
+- [ ] Portugues Version... Franz, Span.
+- [ ] Menu UX
   - [ ] Topnav: align language Menu
   - [ ] Hamburger: select whole row
   - [ ] Hamburger: Fix language switch
-- [ ] SEO
-  - [ ] Site map in footer  
-- [ ] Travel Directions
-  - [ ] map interaction
-- [ ] Galery plus
-  - [ ] Fix image size for big screen
-  - [ ] Overlay picture
+- [ ] Arrival
+  - [ ] map interaction (goolge maps)
+- [ ] Gallery plus
   - [ ] Single Pic for Mobile
 - [ ] Booking
   - [ ] Respond soon, before sending mail
