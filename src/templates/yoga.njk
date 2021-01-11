@@ -38,7 +38,9 @@ bookingBanner:
 <section class="centered">
   {{ partial.get(collections, tags, "prices", locale) }}
   {{ priceTable.three(collections, "prices", "surfYogaPackagePrices", locale) }}
-  {{ partial.get(collections, tags, "including", locale) }}
+  <div class="centered-text">
+    {{ partial.get(collections, tags, "including", locale) }}
+  </div>
 </section>
 
 <nav class="centered">

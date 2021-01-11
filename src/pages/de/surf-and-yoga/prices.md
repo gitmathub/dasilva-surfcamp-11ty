@@ -5,10 +5,10 @@ partial: prices
 
 ## Preise
 
-#### 1 Stunde: 15 EUR (Termine nach Absprache)
+<div class="h4">1 Stunde: 15 EUR (Termine nach Absprache)</div>
 
-#### 5 Stunden: 60 EUR (eine Stunde gratis)
+<div class="h4"> 5 Stunden: 60 EUR (eine Stunde gratis)</div>
 
-## Yoga Package
+## Surf & Yoga Package
 
-# ab 400 € pro Woche
+<div class="h1"> ab 400 € pro Woche</div>
