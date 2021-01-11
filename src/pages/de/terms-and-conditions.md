@@ -3,10 +3,13 @@ permalink: /de/agb/index.html
 layout: plain-text.njk
 tags: termsAndConditions
 
-title: "AGB - Allgemeine Geschäftsbedingungen"
+# "Da Silva Camp Portugal » " = max 39 characters
+title: "Allgemeine Geschäftsbedingungen"
 
-metaImage: ""
-metaDescription: ""
+# max 158 characters
+metaDescription: "Allgemeine Geschäftsbedingungen - AGB"
+# relative path. example: "/_assets/surfschool/hero-surfschool.jpg"
+metaImage: "/_assets/home/hero-home.jpg"
 ---
 
 

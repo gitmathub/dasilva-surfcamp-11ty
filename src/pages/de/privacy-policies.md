@@ -3,10 +3,13 @@ permalink: /de/datenschutzerklaerung/index.html
 layout: plain-text.njk
 tags: privacyPolicies
 
+# "Da Silva Camp Portugal » " = max 39 characters
 title: "Datenschutzerklärung"
 
-metaImage: ""
-metaDescription: "Datenschutzerklärung"
+# max 158 characters
+metaDescription: "Datenschutzerklärung | Privacy Policies"
+# relative path. example: "/_assets/surfschool/hero-surfschool.jpg"
+metaImage: "/_assets/home/hero-home.jpg"
 ---
 
 # Datenschutzerklärung

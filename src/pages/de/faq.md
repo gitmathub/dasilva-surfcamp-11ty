@@ -3,10 +3,13 @@ permalink: /de/faq/index.html
 layout: plain-text.njk
 tags: faq
 
-title: "FAQ - Häufig gestellte Fragen und ihre Antworten"
+# "Da Silva Camp Portugal » " = max 39 characters
+title: "FAQ"
 
-metaImage: ""
-metaDescription: "FAQ - Häufig gestellte Fragen und ihre Antworten"
+# max 158 characters
+metaDescription: "Fragen zur Surfschule, Buchung, Unterkunft und Verplfegung uvm."
+# relative path. example: "/_assets/surfschool/hero-surfschool.jpg"
+metaImage: "/_assets/home/hero-home.jpg"
 ---
 
 

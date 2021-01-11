@@ -3,11 +3,11 @@ tags: prices
 partial: bedAndBreakfast
 ---
 
-### Unterkunft
+## Unterkunft
 
-## ab 20 € pro Tag
+### ab 20 € pro Tag
 
-#### inklusive:
+<div class="h4">inklusive:</div>
 
 * Unterkunft im Mehrbettzimmer
 * tägliches Frühstücksbuffet

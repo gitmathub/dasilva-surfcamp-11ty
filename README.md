@@ -75,13 +75,14 @@ CMS for Da Silva Surfcamp
 # Project Todos
 
 ## MVP Release
+
 - [ ] SEO
-  - [ ] Title & meta descriptions & meta image
-  - [ ] H1 headline optimisation
-  - [ ] Favicon
+  - [x] Title & meta descriptions & meta image
+  - [x] H1 headline optimisation
   - [x] Home menu
-  - [ ] Action menu (done: surfschool, mountainbike)
-  - [ ] Arrival, prices
+  - [x] Action menu (done: surfschool, mountainbike), arrival
+  - [ ] Prices
+  - [ ] Favicon
 - [ ] Layout Optimizations
   - [x] price page: text centered
   - [ ] booking form: align fields

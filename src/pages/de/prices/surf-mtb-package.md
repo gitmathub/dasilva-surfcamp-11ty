@@ -3,11 +3,11 @@ tags: prices
 partial: surfMtbPackage
 ---
 
-### Surf- & MTB-Package
+## Surf- & MTB-Package
 
-## ab 470 € pro Woche
+### ab 470 € pro Woche
 
-#### inklusive
+<div class="h4">inklusive</div>
 
 * Bed & Breakfast im Da Silva Surfcamp
 * 3 Tage Surfunterricht (2 Stunden pro Session / 2 Sessions pro Tag)

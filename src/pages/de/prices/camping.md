@@ -3,7 +3,7 @@ tags: prices
 partial: camping
 ---
 
-### No Glam
+<div class="h3">No Glam</div>
 
 ## Just Camping
 

@@ -3,10 +3,13 @@ permalink: /de/impressum/index.html
 layout: plain-text.njk
 tags: imprint
 
-title: "Impressum"
+# "Da Silva Camp Portugal » " = max 39 characters
+title: "Impressumg"
 
-metaImage: ""
-metaDescription: "Impressum"
+# max 158 characters
+metaDescription: "Impressung und Adresse"
+# relative path. example: "/_assets/surfschool/hero-surfschool.jpg"
+metaImage: "/_assets/home/hero-home.jpg"
 ---
 
 # Impressum
