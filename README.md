@@ -78,6 +78,10 @@ CMS for Da Silva Surfcamp
 - [ ] SEO
   - [ ] Title & meta descriptions & meta image
   - [ ] H1 headline optimisation
+  - [ ] Favicon
+  - [x] Home menu
+  - [ ] Action menu (done: surfschool, mountainbike)
+  - [ ] Arrival, prices
 - [ ] Layout Optimizations
   - [x] price page: text centered
   - [ ] booking form: align fields
@@ -148,9 +152,10 @@ CMS for Da Silva Surfcamp
 - [x] Masonry
   - [x] Resonsive Design
   - [x] Links
-- [x] Gallary
+- [x] Gallery
   - [x] 3 columns
   - [x] responsive
+  - [x] default alt attribute
 - [x] Internationalisation
   - [x] Concept
   - [x] Switch same to same page
