@@ -80,16 +80,18 @@ CMS for Da Silva Surfcamp
 ## MVP Release
 
 - [ ] Kids Welcome
- - [ ] Fotos austauschen
+  - [ ] Fotos austauschen
+- [ ] Unterkunft
+  - [ ] Textänderungen (siehe Ordner)
 - [ ] SEO
   - [ ] Da Silver Camp Portugal -> Da Silve Surfcamp Portugal
-- Contact form fix layout
-- Home
+- [ ] Home
   - [ ] ueber den 3 booking banner: ueberschrift: Online Booking:
   - [ ] die untere Ueberschrift Booking weg
 - [ ] Gallery plus
   - [ ] multiple image size
   - [ ] Overlay picture
+  - [ ] Single Pic for Mobile  
 - [ ] Online Deploy
   - [ ] Switch DNS dasilva-surfcamp.de -> auf new Website zeigen
   - [ ] Check Rewrite Rules
@@ -100,9 +102,11 @@ CMS for Da Silva Surfcamp
   - [ ] Domain umstellen
   - [ ] Anreise ist kein muss-Feld und beliebiges Format
   - [ ] Name & Email
+  - [ ] Contact form fix layout
+- [ ] Menu
+  - [ ] Buchen durch Booking ersetzen
 
-  
-  
+
 ## Backlog
 
 - [ ] Text work
@@ -140,8 +144,6 @@ CMS for Da Silva Surfcamp
   - [ ] Hamburger: Fix language switch
 - [ ] Arrival
   - [ ] map interaction (goolge maps)
-- [ ] Gallery plus
-  - [ ] Single Pic for Mobile
 - [ ] Booking
   - [ ] Respond soon, before sending mail
   - [ ] Booking Datepicker
