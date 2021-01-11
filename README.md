@@ -88,14 +88,6 @@ CMS for Da Silva Surfcamp
 - [ ] Home
   - [ ] ueber den 3 booking banner: ueberschrift: Online Booking:
   - [ ] die untere Ueberschrift Booking weg
-- [ ] Gallery plus
-  - [ ] multiple image size
-  - [ ] Overlay picture
-  - [ ] Single Pic for Mobile  
-- [ ] Online Deploy
-  - [ ] Switch DNS dasilva-surfcamp.de -> auf new Website zeigen
-  - [ ] Check Rewrite Rules
-  - [ ] Re-configure PROXY cloudflare
 - Arrival
   - [ ] link hiter der Kart auf Google Map
 - Formulare
@@ -105,7 +97,17 @@ CMS for Da Silva Surfcamp
   - [ ] Contact form fix layout
 - [ ] Menu
   - [ ] Buchen durch Booking ersetzen
+- [ ] Gallery plus
+  - [ ] multiple image size
+  - [ ] Overlay picture
+  - [ ] Single Pic for Mobile  
 
+## Online Deploy
+
+- [ ] Online Deploy
+  - [ ] Switch DNS dasilva-surfcamp.de -> auf new Website zeigen
+  - [ ] Check Rewrite Rules
+  - [ ] Re-configure PROXY cloudflare
 
 ## Backlog
 
