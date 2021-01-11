@@ -3,10 +3,11 @@ tags: skateboarding
 partial: start
 ---
 
-## Keep on Rollin`
+# Skateboarding
 
-<div style="text-align: center; white-space: pre">
-If you liked it more dry,
+<div class="h3">Keep on Rollin`</div>
+
+<div style="text-align: center; white-space: pre;">If you liked it more dry,
 try the skateparks arround our camp,
 after you damaged our sweet miniramp
 at the camp 😉
