@@ -80,11 +80,14 @@ CMS for Da Silva Surfcamp
 ## MVP Release
 
 - [ ] Kids Welcome
-  - [ ] neue Fotos austauschen
+  - [ ] neue Fotos einbauen und Titelfoto austauschen
 - [ ] Unterkunft
   - [ ] Textänderungen (siehe Ordner)
+- [ ] Umgebung
+  - [ ] Angebote in drei Spalten
+  - [ ] zusätzlicher Text (siehe Ordner) 
 - [ ] SEO
-  - [ ] Da Silver Camp Portugal -> Da Silve Surfcamp Portugal
+  - [ ] Da Silva Camp Portugal -> Da Silva Surfcamp Portugal
 - [ ] Home
   - [ ] ueber den 3 booking banner: ueberschrift: Online Booking:
   - [ ] die untere Ueberschrift Booking weg
