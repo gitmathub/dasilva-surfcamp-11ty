@@ -50,8 +50,8 @@ CMS for Da Silva Surfcamp
   - Content:
     - Bed & Breakfast
     - Surfing
-    - Mountenbikes
-    - Kids are Welcome
+    - Mountainbikes
+    - Kids Welcome
     - Reiten
     - Activities
   - Bookinglayer
@@ -86,6 +86,8 @@ CMS for Da Silva Surfcamp
 - [ ] Umgebung
   - [ ] Angebote in drei Spalten
   - [ ] zusätzlicher Text (siehe Ordner) 
+- [ ] Preise
+  - [ ] verschiedene Änderungen (siehe Ordner)
 - [ ] SEO
   - [ ] Da Silva Camp Portugal -> Da Silva Surfcamp Portugal
 - [ ] Home
