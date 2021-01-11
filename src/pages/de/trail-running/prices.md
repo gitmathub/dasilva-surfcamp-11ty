@@ -3,7 +3,7 @@ tags: trailRunning
 partial: prices
 ---
 
-## Apropos
+## Bestes Wetter
 
 Im Frühling und Herbst haben wir hier übrigens bestes Wetter für den perfekten Run. Nicht zu heiß, aber warm genug, um in kurzen Sachen unterwegs zu sein. Während man zuhause noch auf den Sommer wartet, kann man hier schon unvergessliche Trails bei herrlichem Wetter rocken.
 
@@ -11,8 +11,8 @@ Im Frühling und Herbst haben wir hier übrigens bestes Wetter für den perfekte
 
 Je nach Interesse und Fitness gestalten wir euch ein individuelles Angebot – alles ist möglich – ob nur Trailrunning oder mit einem Surfkurs kombiniert! Ideal für jeden Surfer, der im Urlaub auch mal weniger ausgetretene Pfade beschreiten möchte, und für jeden Trailrunner der im Urlaub auch mal surfen möchte. Das gute dran: Man kann die Tage so legen, dass bei guten Wellen gesurft wird und an den anderen Tagen geht’s auf die Trails. Z. B. 3 Tage Surfing, 3 Tage Trailrunning, geht noch mehr in einer Woche?
 
-### Preise auf Anfrage
+<div class="h3">Preise auf Anfrage</div>
 
-#### Wir freuen uns auf eine schöne Zeit mit Euch!
+<div class="h4">Wir freuen uns auf eine schöne Zeit mit Euch!</div>
 
-### Keep on running und bis dahin!
+<div class="h3" style="margin-top: 0;">Keep on running und bis dahin!</div>
