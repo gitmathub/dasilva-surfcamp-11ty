@@ -80,7 +80,7 @@ CMS for Da Silva Surfcamp
 ## MVP Release
 
 - [ ] Kids Welcome
-  - [ ] Fotos austauschen
+  - [ ] neue Fotos austauschen
 - [ ] Unterkunft
   - [ ] Textänderungen (siehe Ordner)
 - [ ] SEO
