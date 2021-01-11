@@ -1,4 +1,4 @@
-.form {
+.form-wrapper {
   padding: 0;
   font-weight: $font-weight-strong;
   color: $color-black;
@@ -16,116 +16,118 @@
   @include respond(wide) {
     width: 80%;
   }
+}
 
 
+.form-fields {
+  display: block;
 
-  &__fields {
-    display: block;
+  input,
+  select,
+  textarea {
+    width: 100%;
+    border: 1px solid grey;
+    // width: calc(100% - 200px);
+  }
 
-    input, select, textarea {
-      width: 100%;
-      border: 1px solid grey;
-      // width: calc(100% - 200px);
-    }
+  input[type=checkbox] {
+    width: 1.6rem;
+    margin: 0.8rem;
+  }
 
-    input[type=checkbox] {
-      width: 1.6rem;
-      margin: 0.8rem;
-    }
-  
-    input[type=submit] {
-      width: 20rem;
-      font-weight: $font-weight-strong;
-      font-size: larger;
-    }
-  
-    sup {
-      margin: 0;
-      padding: 0;
-      color: $color-red;
-    }
+  input[type=submit] {
+    width: 20rem;
+    font-weight: $font-weight-strong;
+    font-size: larger;
+  }
 
-    button {
-      float: right;
-      padding: 0.8rem
-    }
+  sup {
+    margin: 0;
+    padding: 0;
+    color: $color-red;
+  }
 
-    &__hint {
-      font-size: smaller;
-      color: $color-grey-dark-2;
-      margin-top: 0.8rem;
-    }
+  button {
+    float: right;
+    padding: 0.8rem
+  }
+
+  &__hint {
+    font-size: smaller;
+    color: $color-grey-dark-2;
+    margin-top: 0.8rem;
+  }
+
+  &__two {
+    display: flex;
+  }
+
+  &__half {
+    width: 50%;
+  }
+
+  &__half:first-child {
+    // padding-right: 0.8rem
+  }
+
+  &__checkbox {
+    display: flex;
+    align-items: center;
+  }
+
+  &__submit {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    margin: 1.6rem 0 0 0;
+  }
+
+  @include respond(small) {
     &__two {
-      display:flex;
+      display: block;
     }
 
     &__half {
-      width: 50%;
+      width: 100%;
     }
 
     &__half:first-child {
-      // padding-right: 0.8rem
-    }
-
-    &__checkbox {
-      display: flex;
-      align-items: center;
-    }
-
-    &__submit {
-      display: flex;
-      justify-content: flex-end;
-      width: 100%;
-      margin: 1.6rem 0 0 0;
-    }    
-
-    @include respond(small) {
-      &__two {
-        display: block;
-      }
-
-      &__half {
-        width: 100%;
-      }
-
-      &__half:first-child {
-        padding-right: 0;
-      }
+      padding-right: 0;
     }
   }
+}
 
-  &__fields>div>label {
-    display: block;
-    margin: 1.2rem 0 0.2rem 0;
-  }
-  &__fields>div>label.checkbox {
-    margin: 0;
-    font-weight: 300;
-  }  
+.form-fields>div>label {
+  display: block;
+  margin: 1.2rem 0 0.2rem 0;
+}
 
-  .form-group {
-    position: relative;
-    margin-bottom: 15px;
-  }
+.form-fields>div>label.checkbox {
+  margin: 0;
+  font-weight: 300;
+}
 
-  .form-group .validation-error {
-    color: $color-red;
-    font-size: smaller;
-    position: absolute;
-    right: 6px;
-    top: 6px;
-  }
+.form-group {
+  position: relative;
+  margin-bottom: 15px;
+}
 
-  .form-group .form-control {
-    margin-bottom: 0;
-  }
+.form-group .validation-error {
+  color: $color-red;
+  font-size: smaller;
+  position: absolute;
+  right: 6px;
+  top: 6px;
+}
 
-  .form-control.invalid {
-    border-color: $color-red;
-  }
+.form-group .form-control {
+  margin-bottom: 0;
+}
 
-  .form-control:focus {
-    border-color: $color-grey-dark-2;
-  }
+.form-control.invalid {
+  border-color: $color-red;
+}
 
+.form-control:focus {
+  border-color: $color-grey-dark-2;
 }

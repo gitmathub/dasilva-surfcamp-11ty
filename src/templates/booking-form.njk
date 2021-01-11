@@ -1,17 +1,19 @@
-<div class="form centered">
+<div class="form-wrapper centered">
   <form action="https://babylon-metropolis.com:45901/api/booking-request" method="post">
-  {# <form action="http://localhost:3000/api/booking-request" method="POST"> #}
+    {# <form action="http://localhost:3000/api/booking-request" method="POST"> #}
     <input name="apiKey" type="text" value="9e22b3ebc80a37028674c146a797aee3" hidden/>
     <input name="locale" type="text" value="{{ locale }}" hidden/>
-    <div class="form__fields">
+    <div class="form-fields">
       <!-- first traveler -->
       <div>
         <label>{{ contact.label }}</label>
       </div>
-      <div class="form__fields__two">
-        <div class="form-group form__fields__half">
+      <div class="form-fields__two">
+        <div class="form-group form-fields__half">
           <div>
-            <label for="firstName">{{ firstName.label }}<sup>&#x2605;</sup></label>
+            <label for="firstName">{{ firstName.label }}
+              <sup>&#x2605;</sup>
+            </label>
           </div>
           <div>
             <input 
@@ -22,9 +24,11 @@
               required/>
           </div>
         </div>
-        <div class="form-group form__fields__half">
+        <div class="form-group form-fields__half">
           <div>
-            <label for="lastName">{{ lastName.label }}<sup>&#x2605;</sup></label>
+            <label for="lastName">{{ lastName.label }}
+              <sup>&#x2605;</sup>
+            </label>
           </div>
           <div>
             <input name="lastName" id="lastName"
@@ -46,7 +50,9 @@
       </div>
       <div class="form-group">
         <div>
-          <label for="phone">{{ phone.label }}<sup>&#x2605;</sup></label>
+          <label for="phone">{{ phone.label }}
+            <sup>&#x2605;</sup>
+          </label>
         </div>
         <div>
           <input name="phone" id="phone" 
@@ -59,7 +65,9 @@
       </div>
       <div class="form-group">
         <div>
-          <label for="email">{{ email.label }}<sup>&#x2605;</sup></label>
+          <label for="email">{{ email.label }}
+            <sup>&#x2605;</sup>
+          </label>
         </div>
         <div>
           <input name="email" id="email" type="email"
@@ -69,10 +77,12 @@
             required/>
         </div>
       </div>
-      <div class="form__fields__two">
-        <div class="form-group form__fields__half">      
+      <div class="form-fields__two">
+        <div class="form-group form-fields__half">
           <div>
-            <label for="arrival">{{ arrival.label }}<sup>&#x2605;</sup></label>
+            <label for="arrival">{{ arrival.label }}
+              <sup>&#x2605;</sup>
+            </label>
           </div>
           <div>
             <input name="arrival" id="arrival" type="date"
@@ -81,23 +91,27 @@
               required/>
           </div>
         </div>
-        <div class="form-group form__fields__half">
+        <div class="form-group form-fields__half">
           <div>
-            <label for="departure">{{ departure.label }}<sup>&#x2605;</sup></label>
+            <label for="departure">{{ departure.label }}
+              <sup>&#x2605;</sup>
+            </label>
           </div>
           <div>
             <input name="departure" id="departure" type="date"
               class="form-control"
               data-valueMissing="{{ valueMissing.hint }}"
               required/>
-          </div>   
+          </div>
         </div>
       </div>
       <!-- package -->
       <div class="form-group">
         <div>
-          <label for="package">{{ package.label }}<sup>&#x2605;</sup></label>
-        </div>      
+          <label for="package">{{ package.label }}
+            <sup>&#x2605;</sup>
+          </label>
+        </div>
         <select id="package"
           class="form-control"
           data-valueMissing="{{ valueMissing.hint }}"
@@ -117,9 +131,9 @@
       <div class="form-group">
         <div>
           <label for="bedAndBreakfast">{{ bedAndBreakfast.label }}
-          <sup>&#x2605;</sup>
+            <sup>&#x2605;</sup>
           </label>
-        </div>      
+        </div>
         <select id="bedAndBreakfast"
           class="form-control"
           data-valueMissing="{{ valueMissing.hint }}"
@@ -135,8 +149,8 @@
         <label>{{ travelers.label }}</label>
       </div>
       <!-- traveler 2 -->
-      <div class="form__fields__two">
-        <div class="form-group form__fields__half">
+      <div class="form-fields__two">
+        <div class="form-group form-fields__half">
           <div>
             <label for="firstName">{{ firstName.label }}</label>
           </div>
@@ -144,7 +158,7 @@
             <input name="firstName2" id="firstName2" type="text"/>
           </div>
         </div>
-        <div class="form-group form__fields__half">
+        <div class="form-group form-fields__half">
           <div>
             <label for="lastName">{{ lastName.label }}</label>
           </div>
@@ -152,10 +166,10 @@
             <input name="lastName2" id="lastName2" type="text"/>
           </div>
         </div>
-      </div> 
+      </div>
       <!-- traveler 3 -->
-      <div class="form__fields__two">
-        <div class="form-group form__fields__half">
+      <div class="form-fields__two">
+        <div class="form-group form-fields__half">
           <div>
             <label for="firstName">{{ firstName.label }}</label>
           </div>
@@ -163,7 +177,7 @@
             <input name="firstName3" id="firstName3" type="text"/>
           </div>
         </div>
-        <div class="form-group form__fields__half">
+        <div class="form-group form-fields__half">
           <div>
             <label for="lastName">{{ lastName.label }}</label>
           </div>
@@ -173,8 +187,8 @@
         </div>
       </div>
       <!-- traveler 4 -->
-      <div class="form__fields__two">
-        <div class="form-group form__fields__half">
+      <div class="form-fields__two">
+        <div class="form-group form-fields__half">
           <div>
             <label for="firstName">{{ firstName.label }}</label>
           </div>
@@ -182,7 +196,7 @@
             <input name="firstName4" id="firstName4" type="text"/>
           </div>
         </div>
-        <div class="form-group form__fields__half">
+        <div class="form-group form-fields__half">
           <div>
             <label for="lastName">{{ lastName.label }}</label>
           </div>
@@ -191,30 +205,30 @@
           </div>
         </div>
       </div>
-      <div class="form__fields__hint">
+      <div class="form-fields__hint">
         {{ evenMoreTravelers.hint }}
       </div>
       <!-- booking options -->
       <div>
         <label>{{ bookingOptions.label }}</label>
       </div>
-      <div class="form__fields__checkbox">
+      <div class="form-fields__checkbox">
         <input type="checkbox" name="bookingRequest" id="bookingRequest">
         <label for="bookingRequest" class="checkbox">{{bookingRequest.label}}</label>
       </div>
-      <div class="form__fields__checkbox">
+      <div class="form-fields__checkbox">
         <input type="checkbox" name="bookFinally" id="bookFinally">
         <label for="bookFinally" class="checkbox">{{bookFinally.label}}</label>
       </div>
-      <div class="form__fields__checkbox">
+      <div class="form-fields__checkbox">
         <input type="checkbox" name="termsAndConditionAccepted" id="termsAndConditionAccepted">
         <label for="termsAndConditionAccepted" class="checkbox">{{termsAndConditionAccepted.label}}</label>
       </div>
-      <div class="form__fields__checkbox">
+      <div class="form-fields__checkbox">
         <input type="checkbox" name="airportTransfer" id="airportTransfer">
         <label for="airportTransfer" class="checkbox">{{airportTransfer.label}}</label>
       </div>
-      <div class="form__fields__hint">
+      <div class="form-fields__hint">
         {{ airportTransferPrice.hint }}
       </div>
       <div>
@@ -222,7 +236,7 @@
         <textarea name="comment" id="comment" rows="6"></textarea>
       </div>
       <!-- send -->
-      <div class="form__fields__submit">
+      <div class="form-fields__submit">
         <input type="submit" value="{{submit.label}}">
       </div>
     </div>
