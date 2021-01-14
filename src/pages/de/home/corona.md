@@ -3,7 +3,14 @@ tags: home
 partial: corona
 ---
 
-### Corona Schutzmassnahmen
+### Unsere Corona Clean & Safe Schutzmaßnahmen
 
-Wir freuen uns über das Re-Opening des Da Silva Surfcamp am 14. Juni 2020!
-Hier findest Du unsere [Corona Clean & Safe Schutzmassnahmen](https://www.portugal-wellenreiten.de/re-opening-des-da-silva-surfcamp/).
+- Das Frühstück wird im Aussenbereich an den Tischen serviert (kein Frühstücks-Buffet).
+- Täglicher Shuttle Service in Restaurants oder Fast-Food-Bestellung für alle (keine Gemeinschaftsküche)
+- Tiny Houses werden mit gefülltem Kühlschrank für das Frühstück übergeben.
+- Mehrbettzimmer nur an befreundete Gruppen oder Familien
+- Maskenpflicht in allen Gemeinschafts-Innenbereichen
+- Desinfektionsmittel steht überall zur Verfügung
+- Für weitere Infos auf unserem Blog: [Corona Clean & Safe Schutzmassnahmen](https://www.portugal-wellenreiten.de/re-opening-des-da-silva-surfcamp/).
+
+<br/>

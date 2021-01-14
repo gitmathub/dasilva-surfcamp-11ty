@@ -5,6 +5,16 @@ galleryKids:
   - src: /_assets/kids-are-welcome/gallery/01-kids-are-welcome.jpg
   - src: /_assets/kids-are-welcome/gallery/02-kids-are-welcome.jpg
   - src: /_assets/kids-are-welcome/gallery/03-kids-are-welcome.jpg
+galleryKids2:
+  - src: /_assets/kids-are-welcome/gallery/04-kids-are-welcome.jpg
+  - src: /_assets/kids-are-welcome/gallery/05-kids-are-welcome.jpg
+  - src: /_assets/kids-are-welcome/gallery/06-kids-are-welcome.jpg
+  - src: /_assets/kids-are-welcome/gallery/07-kids-are-welcome.jpg
+  - src: /_assets/kids-are-welcome/gallery/08-kids-are-welcome.jpg
+  - src: /_assets/kids-are-welcome/gallery/09-kids-are-welcome.jpg
+  - src: /_assets/kids-are-welcome/gallery/10-kids-are-welcome.jpg
+  - src: /_assets/kids-are-welcome/gallery/11-kids-are-welcome.jpg
+  - src: /_assets/kids-are-welcome/gallery/12-kids-are-welcome.jpg
 
 relatedPages:
   - surroundings
@@ -31,6 +41,10 @@ relatedPages:
 
 <section class="centered">
   {{ partial.get(collections, tags, "what-matters", locale) }}
+</section>
+
+<section>
+  {{ gallery.three(images=galleryKids2, altDefault="kids are welcome") }}
 </section>
 
 <nav class="centered">

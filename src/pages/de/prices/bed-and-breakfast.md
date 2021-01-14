@@ -3,7 +3,7 @@ tags: prices
 partial: bedAndBreakfast
 ---
 
-## Unterkunft
+## Bed & Breakfast
 
 ### ab 20 € pro Tag
 

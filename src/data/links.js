@@ -38,7 +38,7 @@ module.exports = {
       image: "/_assets/related/surfschool.jpg"
     },
     mountainBike: {
-      title: "Moutain Bike",
+      title: "Mountain Bike",
       path: "/de/mountain-bike",
       image: "/_assets/related/mountain-bike.jpg"
     },
@@ -71,10 +71,10 @@ module.exports = {
       path: "/de/preise"
     },
     booking: {
-      title: "Buchen",
+      title: "Booking",
     },
     onlineBooking: {
-      title: "Online Buchen",
+      title: "Online Booking",
       path: "https://da-silva-bike-surf-camp.bookinglayer.io/frontoffice/#/?lang=de",
     },
     bookingRequest: {
@@ -155,7 +155,7 @@ module.exports = {
       image: "/_assets/related/surfschool.jpg"
     },
     mountainBike: {
-      title: "Moutain Bike",
+      title: "Mountain Bike",
       path: "/en/mountain-bike",
       image: "/_assets/related/mountain-bike.jpg"
     },

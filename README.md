@@ -3,6 +3,7 @@ CMS for Da Silva Surfcamp
 - [Anforderungen](#anforderungen)
 - [Project Todos](#project-todos)
   - [MVP Release](#mvp-release)
+  - [Online Deploy](#online-deploy)
   - [Backlog](#backlog)
   - [Done](#done)
 - [Research](#research)
@@ -79,8 +80,8 @@ CMS for Da Silva Surfcamp
 
 ## MVP Release
 
-- [ ] Kids Welcome
-  - [ ] neue Fotos einbauen und Titelfoto austauschen
+- [x] Kids Welcome
+  - [x] neue Fotos einbauen und Titelfoto austauschen
 - [ ] Unterkunft
   - [ ] Textänderungen (siehe Ordner)
 - [ ] Umgebung

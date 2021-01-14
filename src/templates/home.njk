@@ -50,16 +50,16 @@ alt:"Da Silva Surfcamp Mountainbike Portugal", myClass:"max-scaled"}%}
 </section>
 
 <section class="centered">
-  {{ partial.get(collections, tags, "qualified-school", locale) }}
+  {{ partial.get(collections, tags, "spirit-of-surfing-2", locale) }}
 </section>
 
 <section>
+  <h2>{{ links[locale].onlineBooking.title }}</h2>
   {{ related.three(links[locale], bookingBanner)}}
 </section>
 
 <section>
   {{ bookingColumns.threeCards(
-    headline="Booking",
     leftTitle=links[locale].bookingRequest.title,
     leftLink=links[locale].bookingRequest.path,
     leftColumn=partial.get(collections, tags, "booking-request", locale),

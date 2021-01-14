@@ -1,0 +1,56 @@
+
+# OFFEN
+Preise: No Glam / Just Camping >>> Infos wie unter Unterkunft austauschen
+> Verstehe ich nicht
+
+# CHECKEN
+
+Seite Preise Abschnittverpflegung mit Coronahinweisen:
+https://portugal-paddleboard.de/de/preise/
+
+
+# DONE
+
+## Kids war Welcome
+
+Titelfotos ersetzen (jetzt mit Schriftzug)
+Die ersten drei Bilder bleiben so bestehen.
+Weiter unten vor dem Abscnitt "Preislich versuchen wir, den Eltern...." sollen die anderen (neun) Bilder als Galerie erscheinen.
+
+Unsere Corona Clean & Safe Schutzmassnahmen:
+- Das Frühstück wird im Aussenbereich an den Tischen serviert (kein Frühstücks-Buffet).
+- Täglicher Shuttle Service in Restaurants oder Fast-Food-Bestellung für alle (keine Gemeinschaftsküche)
+- Tiny Houses werden mit gefülltem Kühlschrank für das Frühstück übergeben.
+- Mehrbettzimmer nur an befreundete Gruppen oder Familien
+- Maskenpflicht in allen Gemeinschafts-Innenbereichen
+- Desinfektionsmittel steht überall zur Verfügung
+- Für weitere Infos auf unserem Blog bitte HIER (<<< Link einfügen) klicken.
+
+Mouseover korrigieren: Mountain Bike
+
+Überschrift "Online Booking" über die Bookinglayer-Buttons
+Überschrift "Booking" darunter entfernen.
+
+Entfernen:
+Qualifiziert durch die Federação Portuguesa de Surf
+
+Buchungsanfrage
+FAQ-Link fehlt
+
+## Preise
+https://portugal-paddleboard.de/de/preise/
+
+Anstatt Unterkunft: Bed & breakfast
+Preise für Bed & breakfast nicht aktuell!
+eine dezente Trennlinie zwischen den einzelnen Paketen
+No Glam / Just Camping >>> Infos wie unter Unterkunft austauschen
+
+Dieser Abschnitt fehlt noch ganz, ist aber wichtig:
+An- und Abreise
+Beachcruiser
+Verpflegung
+Freizeit
+Sportliche Aktivitäten
+
+Korrektur:
+Solltet Ihr Euch bereits entschieden haben und Euren Urlaub gerne mit uns verbringen und mit uns Surfing (>>> surfen!) wollen,... 
