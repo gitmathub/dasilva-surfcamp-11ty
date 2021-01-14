@@ -198,7 +198,7 @@ relatedPages:
       partial.get(collections, tags, "person-price", locale)]
   )}}
 </section>
-
+{# 
 <section>
   {{ columns.two(
     headline="Camper Van",
@@ -207,10 +207,10 @@ relatedPages:
     rightColumn=[partial.get(collections, tags, "camper-van", locale)]
   )}}
 </section>
-
+#}
 <section class="centered">
   {{ partial.get(collections, tags, "glamping-people-surrounding", locale) }}
-</section>
+</section> 
 
 <nav class="centered">
   {{ related.three(links[locale], relatedPages)}}
