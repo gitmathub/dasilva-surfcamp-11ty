@@ -3,7 +3,7 @@ permalink: /de/kids-are-welcome/index.html
 layout: kids-are-welcome.njk
 tags: kids-are-welcome
 
-# "Da Silva Camp Portugal » " = max 39 characters
+# "Da Silva Surfcamp Portugal » " = max 35 characters
 title: "Kinder sind willkommen"
 
 # max 158 characters

@@ -3,7 +3,7 @@ permalink: /de/yoga/index.html
 layout: yoga.njk
 tags: yoga
 
-# "Da Silva Camp Portugal » " = max 39 characters
+# "Da Silva Surfcamp Portugal » " = max 35 characters
 title: "Surf und Yoga"
 
 # max 158 characters

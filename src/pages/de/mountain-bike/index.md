@@ -3,7 +3,7 @@ permalink: /de/mountain-bike/index.html
 layout: mountain-bike.njk
 tags: mountainBike
 
-# "Da Silva Camp Portugal » " = max 39 characters
+# "Da Silva Surfcamp Portugal » " = max 35 characters
 title: "Mountain Bike Tours » MTB Joyride"
 
 # max 158 characters

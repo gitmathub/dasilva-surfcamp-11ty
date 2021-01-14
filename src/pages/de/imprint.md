@@ -3,7 +3,7 @@ permalink: /de/impressum/index.html
 layout: plain-text.njk
 tags: imprint
 
-# "Da Silva Camp Portugal » " = max 39 characters
+# "Da Silva Surfcamp Portugal » " = max 35 characters
 title: "Impressumg"
 
 # max 158 characters

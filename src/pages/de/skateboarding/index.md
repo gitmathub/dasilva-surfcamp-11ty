@@ -3,7 +3,7 @@ permalink: /de/skateboarding/index.html
 layout: skateboarding.njk
 tags: skateboarding
 
-# "Da Silva Camp Portugal » " = max 39 characters
+# "Da Silva Surfcamp Portugal » " = max 35 characters
 title: "Skateboarding"
 
 # max 158 characters

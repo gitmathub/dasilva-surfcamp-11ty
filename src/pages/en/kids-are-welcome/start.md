@@ -5,7 +5,7 @@ partial: start
 
 ### Kids Welcome
 
-## Da Silva Surf & Mountainbike Camp Portugal
+## Da Silva Surfcamp Portugal
 
 #### says
 

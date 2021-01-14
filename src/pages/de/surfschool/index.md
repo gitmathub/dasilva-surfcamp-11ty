@@ -3,7 +3,7 @@ permalink: /de/surfschool/index.html
 layout: surfschool.njk
 tags: surfschool
 
-# "Da Silva Camp Portugal » " = max 39 characters
+# "Da Silva Surfcamp Portugal » " = max 35 characters
 title: "Da Silva Surfschool - Surfschule"
 
 # max 158 characters

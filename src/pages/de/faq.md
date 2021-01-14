@@ -3,7 +3,7 @@ permalink: /de/faq/index.html
 layout: plain-text.njk
 tags: faq
 
-# "Da Silva Camp Portugal » " = max 39 characters
+# "Da Silva Surfcamp Portugal » " = max 35 characters
 title: "FAQ"
 
 # max 158 characters

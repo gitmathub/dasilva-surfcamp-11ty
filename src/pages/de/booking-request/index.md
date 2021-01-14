@@ -3,7 +3,7 @@ permalink: /de/buchungs-anfrage/index.html
 layout: booking-request.njk
 tags: bookingRequest
 
-# "Da Silva Camp Portugal » " = max 39 characters
+# "Da Silva Surfcamp Portugal » " = max 35 characters
 title: "Ihre Buchungsanfrage"
 
 # max 158 characters

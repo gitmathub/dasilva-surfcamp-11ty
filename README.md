@@ -82,31 +82,20 @@ CMS for Da Silva Surfcamp
 
 - [x] Kids Welcome
   - [x] neue Fotos einbauen und Titelfoto austauschen
-- [ ] Unterkunft
-  - [ ] Textänderungen (siehe Ordner)
-- [ ] Umgebung
-  - [ ] Angebote in drei Spalten
-  - [ ] zusätzlicher Text (siehe Ordner) 
-- [ ] Preise
-  - [ ] verschiedene Änderungen (siehe Ordner)
-- [ ] SEO
-  - [ ] Da Silva Camp Portugal -> Da Silva Surfcamp Portugal
-- [ ] Home
-  - [ ] ueber den 3 booking banner: ueberschrift: Online Booking:
-  - [ ] die untere Ueberschrift Booking weg
+- [x] alle Aenderungen-Anmerkungen von Daniel (1drive)
+- [x] SEO
+  - [x] Da Silva Camp Portugal -> Da Silva Surfcamp Portugal
 - Arrival
-  - [ ] link hiter der Kart auf Google Map
+  - [x] link hiter der Kart auf Google Map
+- [ ] Gallery plus
+  - [ ] multiple image size
+  - [ ] Overlay picture
+  - [ ] Single Pic for Mobile  
 - Formulare
   - [ ] Domain umstellen
   - [ ] Anreise ist kein muss-Feld und beliebiges Format
   - [ ] Name & Email
   - [ ] Contact form fix layout
-- [ ] Menu
-  - [ ] Buchen durch Booking ersetzen
-- [ ] Gallery plus
-  - [ ] multiple image size
-  - [ ] Overlay picture
-  - [ ] Single Pic for Mobile  
 
 ## Online Deploy
 

@@ -3,7 +3,7 @@ permalink: /de/kontakt/index.html
 layout: contact.njk
 tags: contact
 
-# "Da Silva Camp Portugal » " = max 39 characters
+# "Da Silva Surfcamp Portugal » " = max 35 characters
 title: "Kontakt"
 
 # max 158 characters

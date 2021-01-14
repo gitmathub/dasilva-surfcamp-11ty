@@ -3,7 +3,7 @@ module.exports = {
   // baseUrl: "https://www.dasilva-surfcamp.de",
   baseUrl: "https://dasilva.alabaster.de",
   iconPath: "/_assets/icons/fav",
-  name: "Da Silva Camp Portugal",
+  name: "Da Silva Surfcamp Portugal",
   twitter: "@dasilvasurfcamp",
   languages: [
     {

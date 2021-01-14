@@ -3,7 +3,7 @@ permalink: /de/datenschutzerklaerung/index.html
 layout: plain-text.njk
 tags: privacyPolicies
 
-# "Da Silva Camp Portugal » " = max 39 characters
+# "Da Silva Surfcamp Portugal » " = max 35 characters
 title: "Datenschutzerklärung"
 
 # max 158 characters

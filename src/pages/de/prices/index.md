@@ -3,7 +3,7 @@ permalink: /de/preise/index.html
 layout: prices.njk
 tags: prices
 
-# "Da Silva Camp Portugal » " = max 39 characters
+# "Da Silva Surfcamp Portugal » " = max 35 characters
 title: "Preise"
 
 # max 158 characters

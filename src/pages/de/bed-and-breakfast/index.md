@@ -3,7 +3,7 @@ permalink: /de/unterkunft/index.html
 layout: bed-and-breakfast.njk
 tags: bedAndBreakfast
 
-# "Da Silva Camp Portugal » " = max 39 characters
+# "Da Silva Surfcamp Portugal » " = max 35 characters
 title: "Surf und Aktivurlaub für die Familie"
 
 # max 158 characters

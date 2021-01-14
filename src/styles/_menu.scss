@@ -9,6 +9,9 @@
     content: '';
     display: block;
   }
+  ul>li:last-child {
+    margin-bottom: 0;
+  }  
 }
 
 .menu-bar {
@@ -21,10 +24,6 @@
 
   ul {
     margin: 0 0 1.6rem 0;
-  }
-
-  ul>li:last-child {
-    margin-bottom: 0;
   }
 
   .top-menu>li {

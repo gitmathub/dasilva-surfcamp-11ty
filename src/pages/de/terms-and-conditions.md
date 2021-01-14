@@ -3,7 +3,7 @@ permalink: /de/agb/index.html
 layout: plain-text.njk
 tags: termsAndConditions
 
-# "Da Silva Camp Portugal » " = max 39 characters
+# "Da Silva Surfcamp Portugal » " = max 35 characters
 title: "Allgemeine Geschäftsbedingungen"
 
 # max 158 characters

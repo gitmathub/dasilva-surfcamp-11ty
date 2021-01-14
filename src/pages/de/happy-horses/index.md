@@ -3,7 +3,7 @@ permalink: /de/happy-horses/index.html
 layout: happy-horses.njk
 tags: happyHorses
 
-# "Da Silva Camp Portugal » " = max 39 characters
+# "Da Silva Surfcamp Portugal » " = max 35 characters
 title: "Happy Horses"
 
 # max 158 characters

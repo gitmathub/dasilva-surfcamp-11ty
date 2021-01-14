@@ -82,7 +82,7 @@ submit:
 
 ---
 
-### Da Silva Surf & Mountainbike Camp Portugal
+### Da Silva Surfcamp Portugal
 # Booking Form
 
 If you would like to spend your holiday with us and surf and/or mountain bike with us, please fill out the following form:

@@ -3,7 +3,7 @@ permalink: /de/index.html
 layout: home.njk
 tags: home
 
-# "Da Silva Camp Portugal » " = max 39 characters
+# "Da Silva Surfcamp Portugal » " = max 35 characters
 title: "Surfing und Mountainbike und mehr"
 
 # max 158 characters

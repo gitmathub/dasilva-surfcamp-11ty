@@ -3,7 +3,7 @@ permalink: /de/surf-bar/index.html
 layout: surf-bar.njk
 tags: surf-bar
 
-# "Da Silva Camp Portugal » " = max 39 characters
+# "Da Silva Surfcamp Portugal » " = max 35 characters
 title: "Da Silva Surf Bar"
 
 # max 158 characters

@@ -3,7 +3,7 @@ permalink: /de/umgebung/index.html
 layout: surroundings.njk
 tags: surroundings
 
-# "Da Silva Camp Portugal » " = max 39 characters
+# "Da Silva Surfcamp Portugal » " = max 35 characters
 title: "Umgebung, Freizeit und Aktivitäten"
 
 # max 158 characters
