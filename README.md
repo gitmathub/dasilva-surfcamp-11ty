@@ -124,6 +124,8 @@ CMS for Da Silva Surfcamp
     - [ ] galerie bed and breakfast
     - [ ] others...
   - [ ] Error pages
+- [ ] Price
+  - [ ] change to real table layout (use grid)
 - [ ] Home
   - [ ] Team
   - [ ] Instagram

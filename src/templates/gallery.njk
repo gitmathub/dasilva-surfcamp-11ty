@@ -6,9 +6,13 @@
   altDefault="photo"
   ) 
 %}
-  <div class="gallery-container">
+  <div class="gallery">
     {% for image in images%}
-      <div>
+      <div 
+        {% if loop.length > 3 and loop.index0 == 2 %}class="gallery__item-3"
+        {% elif loop.index0 > 2 %}class="gallery__item-more-than-3"
+        {% endif %}
+       >
         {% if image.link %}<a href="{{image.link}}">{% endif %}
           <img src="{{image.src}}"
             {% if image.alt %} alt="{{image.alt}}" 
@@ -16,6 +20,11 @@
             {% endif %}
            class="gallery-image"/>
         {% if image.link %}</a>{% endif %}
+        <div class="gallery__show-more">
+          <div class="gallery__circle">
+            <img src="/_assets/icons/svgrepo/pictures.svg" class="gallery__more-icon" alt="more pictures">
+          </div>
+        </div>
       </div>
     {% endfor %}
   </div>
