@@ -12,12 +12,11 @@ module.exports = function (eleventyConfig) {
     })
 
     // override anouying md code formatting
-    const markdownIt = require("markdown-it");
-    const options = {
-        html: true
-    };
-    const markdownLib = markdownIt(options).disable('code');
-    eleventyConfig.setLibrary("md", markdownLib);
+    const options = { html: true }
+    const markdownIt = require("markdown-it")(options)
+        .disable('code')
+        .use(require('markdown-it-github-headings'))
+    eleventyConfig.setLibrary("md", markdownIt)
 
     // PICTURE
     eleventyConfig.addNunjucksAsyncShortcode("responsiveimage", async function (src, alt, sizes = "100vw") {
