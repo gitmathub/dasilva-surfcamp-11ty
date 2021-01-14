@@ -13,7 +13,7 @@
     position: relative;
     display: block;
   }
-  &__circle &__show-more {
+  &__circle {
     position: absolute;
     background-color: white;
     opacity: 0.7;
@@ -23,7 +23,7 @@
     bottom: 1rem;
     right: 0;
   }
-  &__more-icon  &__show-more{
+  &__more-icon {
     position: absolute;
     width: 6rem;
     left: 1.4rem;
@@ -52,6 +52,9 @@
   .gallery {
     grid-template-columns: 1fr 1fr 1fr;
 
+    &__item-3 &__show-more {
+      display: none;
+    }    
     &__item-more-than-3 {
       display: block;
     }  
