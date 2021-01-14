@@ -74,7 +74,6 @@ galleryQuartoAzul:
   - src: /_assets/bed-and-breakfast/quarto-azul/02-quarto-azul.jpg
   - src: /_assets/bed-and-breakfast/quarto-azul/03-quarto-azul.jpg
   - src: /_assets/bed-and-breakfast/quarto-azul/04-quarto-azul.jpg
-  - src: /_assets/bed-and-breakfast/quarto-azul/05-quarto-azul.jpg
   - src: /_assets/bed-and-breakfast/quarto-azul/06-quarto-azul.jpg
 galleryQuartoVermelho:
   - src: /_assets/bed-and-breakfast/quarto-vermelho/01-quarto-vermelho.jpg
@@ -88,7 +87,6 @@ galleryCamperVan:
   - src: /_assets/bed-and-breakfast/camper-van/02-camper-van.jpg
   - src: /_assets/bed-and-breakfast/camper-van/03-camper-van.jpg
   - src: /_assets/bed-and-breakfast/camper-van/04-camper-van.jpg
-  - src: /_assets/bed-and-breakfast/camper-van/05-camper-van.jpg
   - src: /_assets/bed-and-breakfast/camper-van/06-camper-van.jpg
   - src: /_assets/bed-and-breakfast/camper-van/07-camper-van.jpg
 relatedPages:
@@ -127,15 +125,18 @@ relatedPages:
   {{ columns.two(
     headline="Tiny House Luna",
     leftColumn=gallery.three(images=galleryTinyHouseLuna, altDefault="Tiny house details"),
-    rightColumn=partial.get(collections, tags, "tiny-house-luna", locale)
+    rightColumn=[partial.get(collections, tags, "tiny-house-luna", locale), 
+      partial.get(collections, tags, "person-price", locale)]
   )}}
+  
 </section>
 
 <section>
   {{ columns.two(
     headline="Tiny House Eloá",
     leftColumn=gallery.three(images=galleryTinyHouseEloa, altDefault="Tiny house details"),
-    rightColumn=partial.get(collections, tags, "tiny-house-eloa", locale)
+    rightColumn=[partial.get(collections, tags, "tiny-house-eloa", locale), 
+      partial.get(collections, tags, "person-price", locale)]
   )}}
 </section>
 
@@ -143,7 +144,8 @@ relatedPages:
   {{ columns.two(
     headline="Tiny House Jorgina",
     leftColumn=gallery.three(images=galleryTinyHouseJorgina, altDefault="Tiny house details"),
-    rightColumn=partial.get(collections, tags, "tiny-house-jorgina", locale)
+    rightColumn=[partial.get(collections, tags, "tiny-house-jorgina", locale), 
+      partial.get(collections, tags, "person-price", locale)]
   )}}
 </section>
 
@@ -152,7 +154,8 @@ relatedPages:
     headline="Quarto do Terraço",
     subHeadline=partial.getValueForKey(collections, tags, "quarto-do-terraco", locale, "subtitle"),
     leftColumn=gallery.three(images=galleryQuartoDoTerraco, altDefault="Room details of Quarto do Terraco"),
-    rightColumn=partial.get(collections, tags, "quarto-do-terraco", locale)
+    rightColumn=[partial.get(collections, tags, "quarto-do-terraco", locale), 
+      partial.get(collections, tags, "person-price", locale)]
   )}}
 </section>
 
@@ -161,7 +164,8 @@ relatedPages:
     headline="Quarto Zambujeira",
     subHeadline=partial.getValueForKey(collections, tags, "quarto-zambujeira", locale, "subtitle"),
     leftColumn=gallery.three(images=galleryQuartoZambujeira, altDefault="Room details of Quarto Zambujeira"),
-    rightColumn=partial.get(collections, tags, "quarto-zambujeira", locale)
+    rightColumn=[partial.get(collections, tags, "quarto-zambujeira", locale), 
+      partial.get(collections, tags, "person-price", locale)]
   )}}
 </section>
 
@@ -170,7 +174,8 @@ relatedPages:
     headline="Quarto Abelheira",
     subHeadline=partial.getValueForKey(collections, tags, "quarto-abelheira", locale, "subtitle"),
     leftColumn=gallery.three(images=galleryQuartoAbelheira, altDefault="Room details of Quartro Abelheira"),
-    rightColumn=partial.get(collections, tags, "quarto-abelheira", locale)
+    rightColumn=[partial.get(collections, tags, "quarto-abelheira", locale), 
+      partial.get(collections, tags, "person-price", locale)]
   )}}
 </section>
 
@@ -179,7 +184,8 @@ relatedPages:
     headline="Quarto Azul",
     subHeadline=partial.getValueForKey(collections, tags, "quarto-azul", locale, "subtitle"),
     leftColumn=gallery.three(images=galleryQuartoAzul, altDefault="Room details of Quarto Azul"),
-    rightColumn=partial.get(collections, tags, "quarto-azul", locale)
+    rightColumn=[partial.get(collections, tags, "quarto-azul", locale), 
+      partial.get(collections, tags, "person-price", locale)]
   )}}
 </section>
 
@@ -188,7 +194,8 @@ relatedPages:
     headline="Quarto Vermelho",
     subHeadline=partial.getValueForKey(collections, tags, "quarto-vermelho", locale, "subtitle"),
     leftColumn=gallery.three(images=galleryQuartoVermelho, altDefault="Room details of Quarto Vermelho"),
-    rightColumn=partial.get(collections, tags, "quarto-vermelho", locale)
+    rightColumn=[partial.get(collections, tags, "quarto-vermelho", locale), 
+      partial.get(collections, tags, "person-price", locale)]
   )}}
 </section>
 
@@ -197,7 +204,7 @@ relatedPages:
     headline="Camper Van",
     subHeadline=partial.getValueForKey(collections, tags, "camper-van", locale, "subtitle"),
     leftColumn=gallery.three(images=galleryCamperVan, altDefault="Details of the camper van"),
-    rightColumn=partial.get(collections, tags, "camper-van", locale)
+    rightColumn=[partial.get(collections, tags, "camper-van", locale)]
   )}}
 </section>
 

@@ -35,7 +35,7 @@ relatedPages:
 <section>
   {{ columns.two(
     leftColumn=gallery.three(images=gallerySurfBar),
-    rightColumn=partial.get(collections, tags, "surf-bar", locale)
+    rightColumn=[partial.get(collections, tags, "surf-bar", locale)]
   )}}
 </section>
 

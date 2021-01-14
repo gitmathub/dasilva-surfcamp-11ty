@@ -9,7 +9,7 @@ bookingBanner:
 {% import "partial.njk" as partial %}
 {% import "price-table.njk" as priceTable %}
 {% import "related.njk" as related %}
-{# 
+
 <section class="display-if-middle-to-wide">
   {{ related.three(links[locale], bookingBanner)}}
 </section>
@@ -31,7 +31,7 @@ bookingBanner:
 <section class="centered">
   {{ partial.get(collections, tags, "surfPackage2Weeks", locale) }}
   {{ priceTable.three(collections, tags, "surfPackage2WeeksPrices", locale) }}
-</season> #}
+</season>
 
 <section class="centered">
   <div class="centered-text">

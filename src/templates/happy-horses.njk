@@ -47,7 +47,7 @@ relatedPages:
 
 {{ columns.two(
   leftColumn=partial.get(collections, tags, "chargesKids", locale),
-  rightColumn=partial.get(collections, tags, "chargesAdults", locale)
+  rightColumn=[partial.get(collections, tags, "chargesAdults", locale)]
 )}}
 
 <nav class="centered">

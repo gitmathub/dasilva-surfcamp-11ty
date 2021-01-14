@@ -8,7 +8,9 @@
         {{ leftColumn }}
       </div>
       <div class="two-columns__right">
-        {{ rightColumn }}
+        {% for text in rightColumn %}
+          {{ text }}
+        {% endfor %}
       </div>
     </div>
   </div>

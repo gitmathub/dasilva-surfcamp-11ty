@@ -37,7 +37,7 @@ relatedPages:
 <section>
   {{ columns.two(
     leftColumn=gallery.three(images=gallerySurfing),
-    rightColumn=partial.get(collections, tags, "qualified", locale)
+    rightColumn=[partial.get(collections, tags, "qualified", locale)]
   )}}
 </section>
 

@@ -35,7 +35,7 @@ relatedPages:
   {{ columns.two(
     headline="Our Miniramp @ Da Silva Surfcamp",
     leftColumn=gallery.three(images=galleryMiniRamp),
-    rightColumn=partial.get(collections, tags, "miniRamp", locale)
+    rightColumn=[partial.get(collections, tags, "miniRamp", locale)]
   )}}
 </section>
 
@@ -43,7 +43,7 @@ relatedPages:
   {{ columns.two(
     headline="Skatepark Lourinhã",
     leftColumn=gallery.three(images=gallerySkatePark),
-    rightColumn=partial.get(collections, tags, "skatePark", locale)
+    rightColumn=[partial.get(collections, tags, "skatePark", locale)]
   )}}
 </section>
 
