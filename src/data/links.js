@@ -137,7 +137,7 @@ module.exports = {
       image: "/_assets/related/kids-are-welcome.jpg"
     },
     surroundings: {
-      title: "Surroundings & Trips",
+      title: "Surroundings",
       path: "/en/surroundings",
       image: "/_assets/related/surroundings.jpg"
     },
