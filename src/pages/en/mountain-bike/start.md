@@ -3,11 +3,11 @@ tags: mountainBike
 partial: start
 ---
 
-## Da Silva Bikecamp Portugal
+### Da Silva Bikecamp Portugal
 
-#### Discover the Portuguese Atlantic coast
+<div class="h4" style="margin-top: -2rem;">Discover the Portuguese Atlantic coast</div>
 
-# by Mountain Bike!
+<div class="h1" style="margin: 0 0 2rem 0;">by Mountain Bike!</div>
 
 The west coast of Portugal is undoubtedly a surfing paradise. Wonderful beaches and first-class surf spots attract many surfers from all over the world. But many don’t know yet that our coastline is also perfect for mountain biking!
 
