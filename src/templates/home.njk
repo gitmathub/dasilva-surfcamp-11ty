@@ -32,7 +32,6 @@ alt:"Da Silva Surfcamp Mountainbike Portugal", myClass:"max-scaled"}%}
 
 <section class="centered">
   {{ partial.get(collections, tags, "welcome", locale) }}
-  {{ partial.get(collections, tags, "corona", locale) }}
 </section>
 
 <nav class="display-if-middle-to-wide">
@@ -42,10 +41,13 @@ alt:"Da Silva Surfcamp Mountainbike Portugal", myClass:"max-scaled"}%}
   {{ related.three(links[locale], relatedPages)}}
 </nav>
 
+<br/>
+<section class="centered">
+  {{ partial.get(collections, tags, "corona", locale) }}
+</section>
+<br/>
+
 <section>
-  <div class="centered">
-    {{ partial.get(collections, tags, "spirit-of-surfing", locale) }}
-  </div>
   {{ video.vimeo(videoId="173051720") }}
 </section>
 
