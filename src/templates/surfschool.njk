@@ -51,6 +51,12 @@ relatedPages:
 <section>
   {{ video.vimeo(videoId="168799316") }}
 </section>
+<div class="centered">
+  {{ partial.get(collections, tags, "federacao-portuguesa", locale) }}
+</div>
+</section>
+
+<br/>
 
 <nav class="centered">
   {{ related.three(links[locale], relatedPages)}}
