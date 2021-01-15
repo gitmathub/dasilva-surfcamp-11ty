@@ -7,7 +7,7 @@ partial: directions-tips-activities
 
 In theory, you can arrive and depart from us on any day of the week. Since the surf courses always start on Monday and we do our welcome BBQ on Sunday evening. So it is advisable to arrive and depart on Sunday, also because of the group dynamics that develop automatically over the course of a week.
 
-Apropos, everything else about the location of the surf camp ([Lourinhã and Praia da Areia Branca] ({{links.en.surroundings.path}})) and how to get to us can be found here: [Arrival] ({{links.en.travelDirections.path}}).
+Apropos, this is  how to get to us: [Arrival]({{links.en.travelDirectionspath}}).
 
 ## Beachruiser
 
@@ -15,7 +15,7 @@ For the way to the beach or just to drive around, you can borrow chic beach crui
 
 ## Food
 
-As part of our [Corona Clean & Safe protective measures] (https://www.portugal-wellenreiten.de/re-opening-des-da-silva-surfcamp/) we unfortunately have to do without the communal kitchen, but there is still delicious food:
+As part of our [Corona Clean & Safe protective measures](https://www.portugal-wellenreiten.de/re-opening-des-da-silva-surfcamp/) we unfortunately have to do without the communal kitchen, but there is still delicious food:
 * Breakfast and BBQs are served outside at the table (no buffet)
 * Daily shuttle service in restaurants or joint meal orders (no communal kitchen)
 * Our Tiny Houses are handed over for breakfast with a full fridge

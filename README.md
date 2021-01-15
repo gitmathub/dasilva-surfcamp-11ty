@@ -107,8 +107,8 @@ CMS for Da Silva Surfcamp
 ## Backlog
 
 - [ ] Text work
-  - [ ] Missing: Corona in English
-  - [ ] Review happy horses in 
+  - [ ] Review basically everything in English
+  - [ ] Review happy horses
   - [ ] Review impress, terms and privacy DE/ EN
 - [ ] SEO english version
   - [ ] Home menu
@@ -126,6 +126,9 @@ CMS for Da Silva Surfcamp
   - [ ] Error pages
 - [ ] Price
   - [ ] change to real table layout (use grid)
+- [ ] Surroundings
+  - [ ] layout in 3 columns
+  - [ ] peniche, óbidos, lourinhã
 - [ ] Home
   - [ ] Team
   - [ ] Instagram

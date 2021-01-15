@@ -5,9 +5,9 @@ partial: directions-tips-activities
 
 ## An- und Abreise
 
-Theoretisch kann man bei uns an jedem beliebigen Wochentag an- und abreisen. Da die Surfkurse aber immer montags anfangen und wir am Sonntag Abend unser Welcome-BBQ machen, empfiehlt es sich am Sonntag an- und abzureisen, nicht zuletzt auch wegen der Gruppendynamik, die sich im Laufe einer Woche automatisch entwickelt.
+Theoretisch kann man bei uns an jedem beliebigen Wochentag an- und abreisen. Da die Surfkurse aber immer montags anfangen und wir am Sonntag Abend unser berühmt-berüchtigtes Welcome-BBQ machen, empfiehlt es sich am Sonntag an- und abzureisen, nicht zuletzt auch wegen der Gruppendynamik, die sich im Laufe einer Woche automatisch entwickelt.
 
-Apropos, alles weitere zur Lage des Surfcamps ([Lourinhã und Praia da Areia Branca]({{links.de.surroundings.path}})) und wie Ihr zu uns kommt, erfahrt Ihr hier: [Anreise]({{links.de.travelDirections.path}}).
+Apropos, wie Ihr zu uns findet, erfahrt Ihr hier: [Anreise]({{links.de.travelDirections.path}}).
 
 ## Beachruiser
 
