@@ -38,10 +38,14 @@ bookingBanner:
     {{ partial.get(collections, tags, "surfMtbPackage", locale) }}
   </div>
   {{ priceTable.three(collections, tags, "surfMtbPackagePrices", locale) }}
+  <div class="centered-text">
+    {{ partial.get(collections, tags, "surfMtbPackageHint", locale) }}
+  </div>  
 </season>
 
 <section class="centered">
   {{ partial.get(collections, tags, "surfSchool", locale) }}
+  <br/>
   {{ priceTable.three(collections, tags, "surfSchoolPrices", locale) }}
 </season>
 

@@ -14,5 +14,4 @@ partial: surfMtbPackage
 * komplettes Surf Equipment (surfboard, leash, wetsuit)
 * Shuttle-Bus zu den Stränden mit den besten Wellen in unserer Region
 * 3 Tage geführte Mountainbike Touren (3-5 Stunden / 30-50 km pro Tag)
-* High Level Full Suspension CUBE Mountainbike (29 Zoll Räder)
 * Shuttle-Bus zu den besten MTB-Trails an der portugiesischen Westküste
