@@ -3,6 +3,8 @@ tags: prices
 partial: bedAndBreakfast
 ---
 
+# Money makes the world go round…?
+
 ### Bed & Breakfast
 
 ## from 20 € per day

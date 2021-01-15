@@ -200,17 +200,17 @@ module.exports = {
       path: "/en/booking-request"
     },
     bookingBedAndBreakfast: {
-      title: "Book",
+      title: "Booking",
       path: "https://da-silva-bike-surf-camp.bookinglayer.io/frontoffice/#/product/59455?lang=en",
       image: "/_assets/booking-banner/bed-and-breakfast.jpg"
     },
     bookingPackages: {
-      title: "Book",
+      title: "Booking",
       path: "https://da-silva-bike-surf-camp.bookinglayer.io/frontoffice/#/product/8961?lang=en",
       image: "/_assets/booking-banner/packages.jpg"
     },
     bookingExperiences: {
-      title: "Book",
+      title: "Booking",
       path: "https://da-silva-bike-surf-camp.bookinglayer.io/frontoffice/#/product/9019?lang=en",
       image: "/_assets/booking-banner/experiences.jpg"
     },
