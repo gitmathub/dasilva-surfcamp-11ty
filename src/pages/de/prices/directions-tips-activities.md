@@ -3,13 +3,13 @@ tags: prices
 partial: directions-tips-activities
 ---
 
-## An- und Abreise
+## An- und Abreisetag
 
 Theoretisch kann man bei uns an jedem beliebigen Wochentag an- und abreisen. Da die Surfkurse aber immer montags anfangen und wir am Sonntag Abend unser berühmt-berüchtigtes Welcome-BBQ machen, empfiehlt es sich am Sonntag an- und abzureisen, nicht zuletzt auch wegen der Gruppendynamik, die sich im Laufe einer Woche automatisch entwickelt.
 
 Apropos, wie Ihr zu uns findet, erfahrt Ihr hier: [Anreise]({{links.de.travelDirections.path}}).
 
-## Beachruiser
+## Beachcruiser
 
 Für den Weg zum Strand oder einfach nur so zum Rumfahren könnt Ihr Euch bei uns jederzeit kostenlos schicke Beachcruiser ausleihen. Das ist cool und macht die Beine locker :o)
 

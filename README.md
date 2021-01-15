@@ -93,9 +93,9 @@ CMS for Da Silva Surfcamp
   - [ ] multiple image size
 - Formulare
   - [ ] Domain umstellen
-  - [ ] Anreise ist kein muss-Feld und beliebiges Format
-  - [ ] Name & Email
-  - [ ] Contact form fix layout
+  - [x] Anreise ist kein muss-Feld und beliebiges Format
+  - [x] Name & Email
+  - [x] Contact form fix layout
 
 ## Online Deploy
 

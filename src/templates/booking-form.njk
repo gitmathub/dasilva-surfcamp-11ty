@@ -51,16 +51,13 @@
       <div class="form-group">
         <div>
           <label for="phone">{{ phone.label }}
-            <sup>&#x2605;</sup>
           </label>
         </div>
         <div>
           <input name="phone" id="phone" 
             placeholder="{{ phone.placeholder }}" 
             type="tel"
-            class="form-control"
-            data-valueMissing="{{ valueMissing.hint }}"
-            required/>
+            class="form-control"/>
         </div>
       </div>
       <div class="form-group">
@@ -81,27 +78,23 @@
         <div class="form-group form-fields__half">
           <div>
             <label for="arrival">{{ arrival.label }}
-              <sup>&#x2605;</sup>
+              
             </label>
           </div>
           <div>
             <input name="arrival" id="arrival" type="date"
-              class="form-control"
-              data-valueMissing="{{ valueMissing.hint }}"
-              required/>
+              class="form-control"/>
           </div>
         </div>
         <div class="form-group form-fields__half">
           <div>
             <label for="departure">{{ departure.label }}
-              <sup>&#x2605;</sup>
+              
             </label>
           </div>
           <div>
             <input name="departure" id="departure" type="date"
-              class="form-control"
-              data-valueMissing="{{ valueMissing.hint }}"
-              required/>
+              class="form-control"/>
           </div>
         </div>
       </div>
@@ -109,13 +102,10 @@
       <div class="form-group">
         <div>
           <label for="package">{{ package.label }}
-            <sup>&#x2605;</sup>
           </label>
         </div>
         <select id="package"
-          class="form-control"
-          data-valueMissing="{{ valueMissing.hint }}"
-          required>
+          class="form-control">
           <option value="surfPackage1Week" selected>{{ surfPackage1Week.label }}</option>
           <option value="mtbPackage1Week">{{ mtbPackage1Week.label }}</option>
           <option value="SurfMtbPackage1Week">{{ SurfMtbPackage1Week.label }}</option>
@@ -131,13 +121,10 @@
       <div class="form-group">
         <div>
           <label for="bedAndBreakfast">{{ bedAndBreakfast.label }}
-            <sup>&#x2605;</sup>
           </label>
         </div>
         <select id="bedAndBreakfast"
-          class="form-control"
-          data-valueMissing="{{ valueMissing.hint }}"
-          required>
+          class="form-control">
           <option value="multiBedRoom" selected>{{ multiBedRoom.label }}</option>
           <option value="doubleRoom">{{ doubleRoom.label }}</option>
           <option value="tinyHouse">{{ tinyHouse.label }}</option>
