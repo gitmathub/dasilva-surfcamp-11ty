@@ -42,10 +42,8 @@ relatedPages:
   <div class="centered-text">
     {{ partial.get(collections, "prices", "mtb-package", locale) }}
   </div>
+  {{ partial.get(collections, "prices", "mtb-package-info", locale) }}
   {{ priceTable.three(collections, "prices", "mtb-package-prices", locale) }}
-  <div class="centered-text">
-    {{ partial.get(collections, "prices", "surfMtbPackageHint", locale) }}
-  </div>  
 </season>
 
 <section class="centered">
@@ -54,7 +52,6 @@ relatedPages:
     {{ partial.get(collections, "prices", "surf-mtb-package-including", locale) }}
     {{ priceTable.three(collections, "prices", "surfMtbPackagePrices", locale) }}
   </div>
-  {{ partial.get(collections, "prices", "surfMtbPackageHint", locale) }}
 </season>
 
 <nav class="centered">

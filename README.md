@@ -96,13 +96,17 @@ CMS for Da Silva Surfcamp
   - [x] Anreise ist kein muss-Feld und beliebiges Format
   - [x] Name & Email
   - [x] Contact form fix layout
+- [ ] Text & Layout Changes
+  - [ ] MTB English same structure as German
+  - [ ] delete? surf-mtb-package-hint.md
 
 ## Online Deploy
 
 - [ ] Online Deploy
+  - [ ] Switch DNS portugal-paddleboard.de -> old dasilva-surfcamp.de site
   - [ ] Switch DNS dasilva-surfcamp.de -> auf new Website zeigen
-  - [ ] Check Rewrite Rules
-  - [ ] Re-configure PROXY cloudflare
+  - [x] Check Rewrite Rules
+  - [x] Re-configure PROXY cloudflare
 
 ## Backlog
 
