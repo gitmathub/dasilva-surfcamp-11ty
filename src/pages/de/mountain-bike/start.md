@@ -1,5 +1,5 @@
 ---
-tags: mountainbike
+tags: mountainBike
 partial: start
 ---
 

@@ -37,6 +37,17 @@ relatedPages:
   {{ gallery.three(images=galleryMountainbike, altDefault="MTB Portugal countryside and coast") }}
 </section>
 
+
+<section class="centered">
+  <div class="centered-text">
+    {{ partial.get(collections, "prices", "mtb-package", locale) }}
+  </div>
+  {{ priceTable.three(collections, "prices", "mtb-package-prices", locale) }}
+  <div class="centered-text">
+    {{ partial.get(collections, "prices", "surfMtbPackageHint", locale) }}
+  </div>  
+</season>
+
 <section class="centered">
   {{ partial.get(collections, "prices", "surf-mtb-package-about", locale) }}
   <div class="centered-text">
