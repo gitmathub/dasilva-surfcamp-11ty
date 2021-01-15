@@ -3,7 +3,7 @@ tags: prices
 partial: bedAndBreakfast
 ---
 
-# Unsere Preise
+# Was kostet der Spaß?
 
 ## Bed & Breakfast
 
