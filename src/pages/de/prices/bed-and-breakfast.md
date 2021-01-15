@@ -3,6 +3,8 @@ tags: prices
 partial: bedAndBreakfast
 ---
 
+# Unsere Preise
+
 ## Bed & Breakfast
 
 ### ab 20 € pro Tag
