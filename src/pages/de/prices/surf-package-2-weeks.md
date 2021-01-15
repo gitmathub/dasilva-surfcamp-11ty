@@ -5,7 +5,7 @@ partial: surfPackage2Weeks
 
 ## 2 Wochen Surf-Package
 
-### ab 660 €
+### ab 660 € pro Person
 
 <div class="h4">inklusive:</div>
 
