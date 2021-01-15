@@ -1,11 +1,7 @@
 ---
 tags: prices
-partial: surfMtbPackage
+partial: surf-mtb-package-including
 ---
-
-## Surf- & MTB-Package
-
-### ab 470 € pro Woche / Person
 
 <div class="h4">inklusive</div>
 

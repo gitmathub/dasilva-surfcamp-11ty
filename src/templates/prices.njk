@@ -35,7 +35,8 @@ bookingBanner:
 
 <section class="centered">
   <div class="centered-text">
-    {{ partial.get(collections, tags, "surfMtbPackage", locale) }}
+    {{ partial.get(collections, tags, "surf-mtb-package-headline", locale) }}
+    {{ partial.get(collections, tags, "surf-mtb-package-including", locale) }}
   </div>
   {{ priceTable.three(collections, tags, "surfMtbPackagePrices", locale) }}
   <div class="centered-text">

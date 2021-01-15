@@ -38,11 +38,12 @@ relatedPages:
 </section>
 
 <section class="centered">
-  {{ partial.get(collections, tags, "prices", locale) }}
-</section>
-
-<section class="centered">
-  {{ priceTable.three(collections, "prices", "surfMtbPackagePrices", locale) }}
+  {{ partial.get(collections, "prices", "surf-mtb-package-about", locale) }}
+  <div class="centered-text">
+    {{ partial.get(collections, "prices", "surf-mtb-package-including", locale) }}
+    {{ priceTable.three(collections, "prices", "surfMtbPackagePrices", locale) }}
+  </div>
+  {{ partial.get(collections, "prices", "surfMtbPackageHint", locale) }}
 </season>
 
 <nav class="centered">
