@@ -3,11 +3,11 @@ tags: prices
 partial: bedAndBreakfast
 ---
 
-# Was kostet der Spaß?
+# Und was kostet der Spaß?
 
 ## Bed & Breakfast
 
-### ab 20 € pro Tag
+### ab 20 € pro Tag / Person
 
 <div class="h4">inklusive:</div>
 
