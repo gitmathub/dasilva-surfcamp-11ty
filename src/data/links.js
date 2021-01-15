@@ -82,17 +82,17 @@ module.exports = {
       path: "/de/buchungs-anfrage"
     },
     bookingBedAndBreakfast: {
-      title: "Buchen",
+      title: "Booking",
       path: "https://da-silva-bike-surf-camp.bookinglayer.io/frontoffice/#/product/59455?lang=de",
       image: "/_assets/booking-banner/bed-and-breakfast.jpg"
     },
     bookingPackages: {
-      title: "Buchen",
+      title: "Booking",
       path: "https://da-silva-bike-surf-camp.bookinglayer.io/frontoffice/#/product/8961?lang=de",
       image: "/_assets/booking-banner/packages.jpg"
     },
     bookingExperiences: {
-      title: "Buchen",
+      title: "Booking",
       path: "https://da-silva-bike-surf-camp.bookinglayer.io/frontoffice/#/product/9019?lang=de",
       image: "/_assets/booking-banner/experiences.jpg"
     },
