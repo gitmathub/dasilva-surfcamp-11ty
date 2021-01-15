@@ -5,7 +5,7 @@ partial: surfPackage
 
 ## Surf-Package
 
-### ab 340 € pro Woche
+### ab 340 € pro Woche / Person
 
 <div class="h4">inklusive:</div>
 
