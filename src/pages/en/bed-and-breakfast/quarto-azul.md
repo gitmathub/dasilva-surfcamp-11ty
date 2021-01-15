@@ -8,11 +8,9 @@ Our 4-bed room on the ground floor can be reached directly from the fireplace ro
 
 Prices per person including breakfast and 2x BBQ per week:
 
-- July to September: 40 EUR
-- April to June and October: 35 EUR
-- Remaining year: 30 EUR
-- Minimum occupancy: 2 persons (adults)
-- Children up to 12 years 50% discount
-- Babies up to 2 years free of charge
+- July to September: 30 EUR
+- April to June and October: 25 EUR
+- Remaining year: 20 EUR
+- Occupancy: 1-4 persons
 
 Click here for [booking]({{ links.en.onlineBooking.path }}).
