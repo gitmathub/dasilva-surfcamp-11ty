@@ -3,17 +3,16 @@ tags: prices
 partial: bedAndBreakfast
 ---
 
-# Money makes the world go round…?
+# Our Surf Holidays Prices
 
 ### Bed & Breakfast
 
-## from 20 € per day
+## from 20 € per day / person
 
 #### including:
 
-- accommodation in the dormitory
-- daily breakfast from a buffet
-- daily shuttle service to a nearby beach
+- accommodation & daily breakfast buffet
+- 2x BBQ per week (also vegetarian) for 1-week stay or more
+- daily shuttle service to our beach
 - free use of beach cruisers
 - free WIFI on the property
-- a 1-week stay also includes: 2 BBQs<br/>(vegetarian options available)
