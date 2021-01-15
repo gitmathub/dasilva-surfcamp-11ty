@@ -15,7 +15,7 @@ module.exports = function (eleventyConfig) {
     const options = { html: true }
     const markdownIt = require("markdown-it")(options)
         .disable('code')
-        .use(require('markdown-it-github-headings'))
+        // .use(require('markdown-it-github-headings'))
     eleventyConfig.setLibrary("md", markdownIt)
 
     // PICTURE

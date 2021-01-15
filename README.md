@@ -88,9 +88,9 @@ CMS for Da Silva Surfcamp
 - Arrival
   - [x] link hiter der Kart auf Google Map
 - [ ] Gallery plus
+  - [x] only 3 pics on mobile  
+  - [ ] enlarge pic (lightbox)
   - [ ] multiple image size
-  - [ ] Overlay picture
-  - [ ] Single Pic for Mobile  
 - Formulare
   - [ ] Domain umstellen
   - [ ] Anreise ist kein muss-Feld und beliebiges Format
