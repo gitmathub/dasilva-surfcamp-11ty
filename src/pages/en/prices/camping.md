@@ -3,13 +3,12 @@ tags: prices
 partial: camping
 ---
 
-### No Glam
+## No Glamping/ Just Camping
 
-## Just Camping
+For the smart savers, we also have the option of camping. It will be cheapest if you bring your own tent, but you can also rent tents from us. We also offer parking spaces for mobile homes or caravans.
 
-In your own tent from 10 € per person per night
-
-Without tent add. 10 € tent rental per night
-
-In your own camper/ van 10 € parking fee per camper per day (incl. electricity)
-add. 10 EUR per day/ person for the use of bath and kitchen facilities, as well as daily breakfast buffet and 2x BBQ per week (for stays from 7 days).
+* Overnight stay in your own tent, mobile home or caravan: € 10 per person / night
+* Parking fee for mobile homes or caravans: € 10 per night (including electricity)
+* Tent rental: 10 € per tent / night (for 1-2 people)
+* All prices include shared use of bathroom and communal kitchen. (check out our corona safty rules)
+* Breakfast buffet and BBQ are NOT included in the price.

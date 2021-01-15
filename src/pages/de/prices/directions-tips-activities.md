@@ -16,9 +16,10 @@ Für den Weg zum Strand oder einfach nur so zum Rumfahren könnt Ihr Euch bei un
 ## Verpflegung
 
 Im Rahmen unserer [Corona Clean & Safe Schutzmassnahmen](https://www.portugal-wellenreiten.de/re-opening-des-da-silva-surfcamp/) müssen wir leider auf die Gemeinschaftsküche verzichten aber lecker Essen gibt es trotzdem:
-- Das Frühstück wird im Aussenbereich an den Tischen serviert (kein Frühstücks-Buffet).
-- Täglicher Shuttle Service in Restaurants oder Fast-Food-Bestellung für alle (keine Gemeinschaftsküche)
-- Tiny Houses werden mit gefülltem Kühlschrank für das Frühstück übergeben.
+* Das Frühstück und die BBQs  werden im Aussenbereich am Tisch serviert (kein Buffet)
+* Täglicher Shuttle Service in Restaurants oder gemeinsame Essens-Bestellung (keine Gemeinschaftsküche)
+* Unsere Tiny Houses werden mit gefülltem Kühlschrank für das Frühstück übergeben
+* Ansonsten fahren wir Euch gern zum Supermarkt, wo Ihr alles einkaufen könnt, was Ihr braucht
 
 ## Freizeit
 

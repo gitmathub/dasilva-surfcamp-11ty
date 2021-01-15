@@ -3,13 +3,12 @@ tags: prices
 partial: camping
 ---
 
-<div class="h3">No Glam</div>
+## No Glam / Just Camping!
 
-## Just Camping
+Für die sparsamen Füchse gibt es bei uns auch die Möglichkeit zu campen. Am günstigsten wird es, wenn man sein eigenes Zelt mitbringt, man kann aber auch Zelte bei uns mieten. Außerdem bieten wir Stellplätze für Wohnmobile oder Campingwagen an.
 
-im eigenen Zelt ab 10 € pro Person und Nacht
-
-ohne Zelt zzgl. 10 € Zeltmiete pro Nacht
-
-im eigenen Campingwagen 10 € Stellgebühr pro Campingwagen und Tag (inkl. Strom)
-zzgl. 10 EUR pro Tag/Person für die Mitbenutzung von Badezimmer und Küche im Haupthaus, sowie tägliches Frühstücksbüffet und 2xBBQ pro Woche (ab 1 Woche Aufenthalt).
+* Übernachtung im eigenen Zelt, Wohnmobil oder Campingwagen: 10€ pro Person/Nacht
+* Stellplatzgebühr für Wohnmobil oder Campingwagen: 10€ pro Nacht (inkl. Strom)
+* Zeltmiete: 10€ pro Zelt/Nacht (für 1-2 Personen)
+* Alle Preise inkl. Mitbenutzung von Badezimmer und Gemeinschaftsküche.
+* Frühstücksbüffet und BBQ sind NICHT im Preis enthalten.
