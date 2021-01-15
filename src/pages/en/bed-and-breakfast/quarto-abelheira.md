@@ -8,9 +8,9 @@ Also located on the first floor of the main house, if you look out of the window
 
 Prices per person including breakfast and 2x BBQ per week:
 
-- July to September: 40 EUR
-- April to June and October: 35 EUR
-- Remaining year: 30 EUR
+- July to September: 35 EUR
+- April to June and October: 30 EUR
+- Remaining year: 25 EUR
 - Minimum occupancy: 2 persons (adults)
 - Children up to 12 years 50% discount
 - Babies up to 2 years free of charge
