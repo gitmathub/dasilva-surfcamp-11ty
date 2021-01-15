@@ -7,4 +7,5 @@ partial: surfSchool
 
 ### ab 50 € pro Tag
 
-<div class="h4">Surfing mit der Da Silva Surf School Portugal</div>
+<div class="h4">Surfen lernen mit der Da Silva Surf School Portugal</div>
+
