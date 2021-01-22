@@ -99,6 +99,12 @@ CMS for Da Silva Surfcamp
 - [ ] Text & Layout Changes
   - [ ] MTB English same structure as German
   - [ ] delete? surf-mtb-package-hint.md
+- [ ] Umgebung
+  - [x] Neue Texte
+  - [ ] Dreispaltiges Layout
+  - [ ] Abschnitt: Wichtigste Orte
+  - [ ] Google Maps Icon https://www.svgrepo.com/svg/47634/google-maps 
+  - [ ] Englische Variante
 
 ## Online Deploy
 
