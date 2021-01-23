@@ -64,6 +64,7 @@ module.exports = function (eleventyConfig) {
         return `<img alt="${alt}" 
             data-sizes="auto"
             data-srcset="${srcset}"
+            loading="lazy"
             class="lazyload ${myClass}">`;        
      });
 
