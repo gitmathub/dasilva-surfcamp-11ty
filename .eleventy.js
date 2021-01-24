@@ -12,10 +12,12 @@ module.exports = function (eleventyConfig) {
     })
 
     // override anouying md code formatting
-    const options = { html: true }
+    const options = {
+        html: true
+    }
     const markdownIt = require("markdown-it")(options)
         .disable('code')
-        // .use(require('markdown-it-github-headings'))
+    // .use(require('markdown-it-github-headings'))
     eleventyConfig.setLibrary("md", markdownIt)
 
     // PICTURE
@@ -49,24 +51,31 @@ module.exports = function (eleventyConfig) {
     })
 
     // IMAGE
-    eleventyConfig.addNunjucksAsyncShortcode("image", async ({src, alt, myClass}) => {
+    eleventyConfig.addNunjucksAsyncShortcode("image", async ({
+        src,
+        alt,
+        myClass
+    }) => {
         if (alt === undefined) {
             throw new Error(`Missing \`alt\` on myImage from: ${src}`);
         }
-        let metadata = await Image(src, {
+        const filename = src.match(/([^\/]+)\.(\w+)$/)[1]
+        const metadata = await Image(src, {
             widths: [230, 300, 350, 480, 768, 1024, 2048],
             formats: ['jpeg'], //'webp'
             urlPath: "/_assets/images/",
             outputDir: "img",
+            filenameFormat: (id, src, width, format, options) => `${filename}-${width}-${id}.${format}`
         });
         const srcset = metadata.jpeg.filter(i => i).map(i => `${i.url} ${i.width}w`).join(', ')
-        
         return `<img alt="${alt}" 
             data-sizes="auto"
             data-srcset="${srcset}"
-            loading="lazy"
-            class="lazyload ${myClass}">`;        
-     });
+            class="lazyload ${myClass}"
+            style="display:block"
+            >`;
+        // style="display:block is important for lazyload to calculate correctly
+    });
 
     return {
         dir: {

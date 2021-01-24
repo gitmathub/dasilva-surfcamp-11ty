@@ -4,6 +4,7 @@ CMS for Da Silva Surfcamp
 - [Project Todos](#project-todos)
   - [MVP Release](#mvp-release)
   - [Online Deploy](#online-deploy)
+  - [Changes](#changes)
   - [Backlog](#backlog)
   - [Done](#done)
 - [Research](#research)
@@ -96,6 +97,17 @@ CMS for Da Silva Surfcamp
   - [x] Anreise ist kein muss-Feld und beliebiges Format
   - [x] Name & Email
   - [x] Contact form fix layout
+
+## Online Deploy
+
+- [ ] Online Deploy
+  - [ ] Switch DNS portugal-paddleboard.de -> old dasilva-surfcamp.de site
+  - [ ] Switch DNS dasilva-surfcamp.de -> auf new Website zeigen
+  - [x] Check Rewrite Rules
+  - [x] Re-configure PROXY cloudflare
+
+## Changes
+
 - [ ] Text & Layout Changes
   - [ ] MTB English same structure as German
   - [ ] delete? surf-mtb-package-hint.md
@@ -106,13 +118,6 @@ CMS for Da Silva Surfcamp
   - [ ] Google Maps Icon https://www.svgrepo.com/svg/47634/google-maps 
   - [ ] Englische Variante
 
-## Online Deploy
-
-- [ ] Online Deploy
-  - [ ] Switch DNS portugal-paddleboard.de -> old dasilva-surfcamp.de site
-  - [ ] Switch DNS dasilva-surfcamp.de -> auf new Website zeigen
-  - [x] Check Rewrite Rules
-  - [x] Re-configure PROXY cloudflare
 
 ## Backlog
 
