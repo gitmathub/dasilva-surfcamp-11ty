@@ -22,10 +22,8 @@ relatedPages:
 {% import "columns.njk" as columns %}
 {% import "related.njk" as related %}
 
-{{ hero.image(
-  src="/_assets/skateboarding/hero-skateboarding.jpg",
-  alt=links[locale].skateboarding.title)
-}}
+{% image {src:"./src/assets/skateboarding/hero-skateboarding.jpg", 
+alt:links[locale].skateboarding.title, myClass:"max-scaled"} %}
 
 <section class="centered">
   {{ partial.get(collections, tags, "start", locale) }}

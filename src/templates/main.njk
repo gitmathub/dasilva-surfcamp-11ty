@@ -62,8 +62,9 @@
 
         <script src="/_assets/scripts/lazysizes.min.js" async></script>
         <script>
-            console.log("client width", document.documentElement.clientWidth)
-            console.log("devicePixelRatio", window.devicePixelRatio)
+            const width = document.documentElement.clientWidth || 0
+            const pixelRatio = window.devicePixelRatio || 1
+            console.log("width * pixel ratio: ", Math.round(width * pixelRatio))
         </script>        
     </body>
 </html>

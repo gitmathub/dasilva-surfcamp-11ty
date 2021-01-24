@@ -30,10 +30,8 @@ bookingBanner:
   {{ partial.get(collections, tags, "start", locale) }}
 </section>
 
-{{ hero.image(
-  src="/_assets/yoga/hero-yoga.jpg",
-  alt=links[locale].yoga.title)
-}}
+{% image {src:"./src/assets/yoga/hero-yoga.jpg", 
+alt:links[locale].yoga.title, myClass:"max-scaled"} %}
 
 <section class="centered">
   {{ partial.get(collections, tags, "prices", locale) }}

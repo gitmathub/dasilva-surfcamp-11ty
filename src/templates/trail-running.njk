@@ -21,10 +21,8 @@ relatedPages:
 {% import "price-table.njk" as priceTable %}
 {% import "related.njk" as related %}
 
-{{ hero.image(
-  src="/_assets/trail-running/hero-trail-running.jpg",
-  alt=links[locale].trailRunning.title)
-}}
+{% image {src:"./src/assets/trail-running/hero-trail-running.jpg", 
+alt:links[locale].trailRunning.title, myClass:"max-scaled"} %}
 
 <section class="centered">
   {{ partial.get(collections, tags, "start", locale) }}

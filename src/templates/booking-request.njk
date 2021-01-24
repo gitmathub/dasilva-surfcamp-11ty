@@ -12,27 +12,24 @@ relatedPages:
 {% extends "main.njk" %}
 
 {% block head_extra %}
-    <script src="/_assets/scripts/valid-form.min.js"></script>
+  <script src="/_assets/scripts/valid-form.min.js"></script>
 {% endblock %}
 
 {% import "partial.njk" as partial %}
 {% import "hero.njk" as hero %}
 {% import "related.njk" as related %}
 
-
 {% block main %}
 
-  {{ hero.image(
-  src="/_assets/booking-request/hero-booking-request.jpg",
-  alt=links[locale].bookingRequest.title)
-  }}
+  {% image {src:"./src/assets/booking-request/hero-booking-request.jpg", 
+alt:links[locale].bookingRequest.title, myClass:"max-scaled"} %}
 
   <section class="centered">
-  {{ partial.get(collections, tags, "form", locale) }}
+    {{ partial.get(collections, tags, "form", locale) }}
   </section>
 
   <nav class="centered">
-  {{ related.three(links[locale], relatedPages)}}
+    {{ related.three(links[locale], relatedPages)}}
   </nav>
 
 {% endblock %}

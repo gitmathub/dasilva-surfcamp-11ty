@@ -24,10 +24,9 @@ relatedPages:
 {% import "price-table.njk" as priceTable %}
 {% import "related.njk" as related %}
 
-{{ hero.image(
-  src="/_assets/mountain-bike/hero-mountain-bike.jpg",
-  alt=links[locale].mountainBike.title)
-}}
+
+{% image {src:"./src/assets/mountain-bike/hero-mountain-bike.jpg", 
+alt:links[locale].mountainBike.title, myClass:"max-scaled"} %}
 
 <section class="centered">
   {{ partial.get(collections, tags, "start", locale) }}

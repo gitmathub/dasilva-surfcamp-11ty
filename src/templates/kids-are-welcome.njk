@@ -26,10 +26,8 @@ relatedPages:
 {% import "gallery.njk" as gallery %}
 {% import "related.njk" as related %}
 
-{{ hero.image(
-  src="/_assets/kids-are-welcome/hero-kids-are-welcome.jpg",
-  alt=links[locale].mountainBike.title)
-}}
+{% image {src:"./src/assets/kids-are-welcome/hero-kids-are-welcome.jpg", 
+alt:links[locale].kidsAreWelcome.title, myClass:"max-scaled"} %}
 
 <section class="centered">
   {{ partial.get(collections, tags, "start", locale) }}

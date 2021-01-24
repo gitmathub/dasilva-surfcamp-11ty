@@ -25,10 +25,8 @@ relatedPages:
 {% import "related.njk" as related %}
 {% import "video.njk" as video %}
 
-{{ hero.image(
-  src="/_assets/surfing/hero-surfing.jpg",
-  alt=links[locale].mountainBike.title)
-}}
+{% image {src:"./src/assets/surfing/hero-surfing.jpg", 
+alt:links[locale].surfing.title, myClass:"max-scaled"} %}
 
 <section class="centered">
   {{ partial.get(collections, tags, "start", locale) }}
