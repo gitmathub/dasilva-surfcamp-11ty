@@ -97,6 +97,10 @@ CMS for Da Silva Surfcamp
   - [x] Anreise ist kein muss-Feld und beliebiges Format
   - [x] Name & Email
   - [x] Contact form fix layout
+- Image Size
+  - [x] richtige Größe laden
+  - [x] automatische Generierung (Build-Script)
+  - [x] alle Hero-Bilder
 
 ## Online Deploy
 
@@ -105,6 +109,7 @@ CMS for Da Silva Surfcamp
   - [ ] Switch DNS dasilva-surfcamp.de -> auf new Website zeigen
   - [x] Check Rewrite Rules
   - [x] Re-configure PROXY cloudflare
+  - [ ] https://trello.com/b/Rv9TiS3e/surfcamp-website
 
 ## Changes
 

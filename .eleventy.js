@@ -56,7 +56,7 @@ async function generateImages({
 }) {
 
   if (alt === undefined) {
-    throw new Error(`Missing \`alt\` on myImage from: ${src}`);
+    console.error(`Missing \`alt\` on image from: ${src}`);
   }
 
   const filename = src.match(/([^\/]+)\.(\w+)$/)[1]
