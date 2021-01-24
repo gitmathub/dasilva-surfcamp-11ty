@@ -4,9 +4,6 @@ pwd
 echo 'copy htaccess'
 cp -v config/htaccess dist/.htaccess
 
-echo 'copy generated images'
-cp -va img dist/
-
 echo "rename dist folder"
 new_folder="dasilva-`date +%Y%m%d%H%M`"
 mv -v dist $new_folder

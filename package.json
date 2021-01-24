@@ -4,11 +4,14 @@
     "author": "mat@alabaster.de",
     "license": "MIT",
     "scripts": {
-        "dev": "npm-run-all --parallel dev:*",
-        "build": "npm-run-all build:*",
+        "clean": "rm -rf dist generated-images",
+        "dev": "npm-run-all clean dev:eleventy generated-images --parallel dev:rollup dev:serve",
+        "build": "npm-run-all clean build:* generated-images",
         "deploy": "npm run build && sh ./bin/deploy.sh",
-        "dev:eleventy": "ELEVENTY_ENV=development npx @11ty/eleventy --watch --serve --port=8081",
+        "dev:eleventy": "ELEVENTY_ENV=development npx @11ty/eleventy",
         "dev:rollup": "npx rollup -c -w",
+        "dev:serve": "ELEVENTY_ENV=development npx @11ty/eleventy --watch --serve --port=8081",
+        "generated-images": "cp -a generated-images dist/_assets/images",
         "build:eleventy": "ELEVENTY_ENV=production npx @11ty/eleventy",
         "build:rollup": "npx rollup -c --environment BUILD:production --plugin terser"
     },
