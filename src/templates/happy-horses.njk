@@ -22,13 +22,12 @@ relatedPages:
   - bedAndBreakfast
 ---
 {% import "partial.njk" as partial %}
-{% import "hero.njk" as hero %}
 {% import "gallery.njk" as gallery %}
 {% import "columns.njk" as columns %}
 {% import "related.njk" as related %}
 
 {% image {src:"./src/assets/happy-horses/hero-happy-horses.jpg", 
-alt:links[locale].yoga.happyHorses, myClass:"max-scaled"} %}
+alt:links[locale].happyHorses.title, myClass:"max-scaled"} %}
 
 <section class="centered">
   {{ partial.get(collections, tags, "start", locale) }}
