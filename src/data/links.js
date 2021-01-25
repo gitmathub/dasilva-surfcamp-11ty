@@ -75,7 +75,7 @@ module.exports = {
     },
     onlineBooking: {
       title: "Online Booking",
-      path: "https://da-silva-bike-surf-camp.bookinglayer.io/frontoffice/#/?lang=de",
+      path: "https://da-silva-bike-surf-camp.bookinglayer.com/de/",
     },
     bookingRequest: {
       title: "Buchungsanfrage",
@@ -83,17 +83,17 @@ module.exports = {
     },
     bookingBedAndBreakfast: {
       title: "Booking",
-      path: "https://da-silva-bike-surf-camp.bookinglayer.io/frontoffice/#/product/59455?lang=de",
+      path: "ttps://da-silva-bike-surf-camp.bookinglayer.com/de/product/bed-and-breakfast-and-more-1/",
       image: "/_assets/booking-banner/bed-and-breakfast.jpg"
     },
     bookingPackages: {
       title: "Booking",
-      path: "https://da-silva-bike-surf-camp.bookinglayer.io/frontoffice/#/category/8961?lang=de",
+      path: "https://da-silva-bike-surf-camp.bookinglayer.com/de/category/surf-package/",
       image: "/_assets/booking-banner/packages.jpg"
     },
     bookingExperiences: {
       title: "Booking",
-      path: "https://da-silva-bike-surf-camp.bookinglayer.io/frontoffice/#/category/9019?lang=de",
+      path: "https://da-silva-bike-surf-camp.bookinglayer.com/de/category/experiences/",
       image: "/_assets/booking-banner/experiences.jpg"
     },
     faq: {
@@ -192,7 +192,7 @@ module.exports = {
     },
     onlineBooking: {
       title: "Online Booking",
-      path: "https://da-silva-bike-surf-camp.bookinglayer.io/frontoffice/#/?lang=en",
+      path: "https://da-silva-bike-surf-camp.bookinglayer.com/en/",
       image: "/_assets/booking-banner/bed-and-breakfast.jpg"      
     },
     bookingRequest: {
@@ -201,17 +201,17 @@ module.exports = {
     },
     bookingBedAndBreakfast: {
       title: "Booking",
-      path: "https://da-silva-bike-surf-camp.bookinglayer.io/frontoffice/#/product/59455?lang=en",
+      path: "https://da-silva-bike-surf-camp.bookinglayer.com/de/product/bed-and-breakfast-and-more-1/",
       image: "/_assets/booking-banner/bed-and-breakfast.jpg"
     },
     bookingPackages: {
       title: "Booking",
-      path: "https://da-silva-bike-surf-camp.bookinglayer.io/frontoffice/#/category/8961?lang=en",
+      path: "https://da-silva-bike-surf-camp.bookinglayer.com/en/category/surf-package/",
       image: "/_assets/booking-banner/packages.jpg"
     },
     bookingExperiences: {
       title: "Booking",
-      path: "https://da-silva-bike-surf-camp.bookinglayer.io/frontoffice/#/category/9019?lang=en",
+      path: "https://da-silva-bike-surf-camp.bookinglayer.com/en/category/experiences/",
       image: "/_assets/booking-banner/experiences.jpg"
     },
     faq: {
