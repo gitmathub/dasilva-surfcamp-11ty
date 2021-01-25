@@ -16,8 +16,8 @@
       {% endif %}
     {% endfor %}
 
-    <a class="{{ activeClass }} " href="{{ translatedUrl }}">
-      <div class="language-switch__item">
+    <a class="language-switch__link {{ activeClass }} " href="{{ translatedUrl }}">
+      <div class="language-switch__image-and-label">
         <img src="/_assets/flags/{{language.code}}.svg" alt="{{ language.label }}" class="language-switch__flag"/>
         <span class"language-switch__label">
           {{ language.label }}
@@ -29,19 +29,3 @@
     </div>
   {% endif %}
 {% endfor %}
-
-<style>
-  .language-switch__item {
-    display: flex;
-    align-items: center;
-    {# border: 1px solid grey; #}
-    {# padding: 0.8rem; #}
-  }
-  .language-switch__label {
-    {# padding-right: 1rem; #}
-  }
-  .language-switch__flag {
-    width: 2.1rem;
-    margin-right: 0.8rem;
-  }
-</style>
