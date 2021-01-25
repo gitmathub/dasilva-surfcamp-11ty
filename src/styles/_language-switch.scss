@@ -1,0 +1,17 @@
+.language-switch {
+  display: inherit;
+
+  &__link {
+    padding: 0 1rem;
+  }
+
+  &__image-and-label {
+    display: flex;
+    align-items: center;
+  }
+
+  &__flag {
+    width: 2.1rem;
+    margin-right: 0.8rem;
+  }
+}
