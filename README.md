@@ -101,15 +101,19 @@ CMS for Da Silva Surfcamp
   - [x] richtige Größe laden
   - [x] automatische Generierung (Build-Script)
   - [x] alle Hero-Bilder
-
+- [x] Menu UX
+  - [x] Topnav: align language menu
+  - [x] Hamburger: select whole row
+ 
 ## Online Deploy
 
 - [ ] Online Deploy
-  - [ ] Switch DNS portugal-paddleboard.de -> old dasilva-surfcamp.de site
+  - [x] Switch DNS portugal-paddleboard.de -> old dasilva-surfcamp.de site
   - [ ] Switch DNS dasilva-surfcamp.de -> auf new Website zeigen
   - [x] Check Rewrite Rules
   - [x] Re-configure PROXY cloudflare
-  - [ ] https://trello.com/b/Rv9TiS3e/surfcamp-website
+
+
 
 ## Changes
 
@@ -125,7 +129,7 @@ CMS for Da Silva Surfcamp
 
 
 ## Backlog
-
+- [ ] Todo List  https://trello.com/b/Rv9TiS3e/surfcamp-website
 - [ ] Text work
   - [ ] Review basically everything in English
   - [ ] Review happy horses
@@ -140,7 +144,6 @@ CMS for Da Silva Surfcamp
   - [ ] Preload fonts
   - [ ] Skeletons
   - [ ] Images multisizes
-    - [ ] all heros
     - [ ] galerie bed and breakfast
     - [ ] others...
   - [ ] Error pages
@@ -161,9 +164,9 @@ CMS for Da Silva Surfcamp
   - [ ] Error pages
 - [ ] Portugues Version... Franz, Span.
 - [ ] Menu UX
-  - [ ] Topnav: align language Menu
-  - [ ] Hamburger: select whole row
-  - [ ] Hamburger: Fix language switch
+  - [ ] Hamburger: language switch: not a banner
+  - [ ] Hamburger: Show selected
+  - [ ] use visibility not display
 - [ ] Arrival
   - [ ] map interaction (goolge maps)
 - [ ] Booking

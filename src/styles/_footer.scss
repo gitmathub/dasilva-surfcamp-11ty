@@ -1,5 +1,4 @@
 footer {
-  // display: block;
   font-size: $font-size-middle;
   text-align: center;
   margin: 5rem;
@@ -19,12 +18,13 @@ footer {
   li:first-child {
     margin-left: 0;
   }
+}
 
-  a {
-    text-decoration: none;
-  }
-
-  .social {
+.footer {
+  &__social {
+    a {
+      padding: 0;
+    }
     .fa-w-10 {
       width: 1.2rem;
       color: #777;
@@ -38,4 +38,10 @@ footer {
       color: #777;
     }
   }
+
+  &__lang-switch {
+    display: inline-flex;
+  }
 }
+
+
