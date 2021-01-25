@@ -8,39 +8,51 @@
 %}
   <div class="gallery">
     {% for image in images%}
+
       <div 
-        {# {% if loop.length > 3 and loop.index0 == 2 %}class="gallery__item-3"
+        {% if loop.length > 3 and loop.index0 == 2 %}class="gallery__item-3"
         {% elif loop.index0 > 2 %}class="gallery__item-more-than-3"
-        {% endif %} #}
-       >
-        {% if image.link %}<a href="{{image.link}}">
-        {% else %}<a href="#{{image.src}}">
         {% endif %}
-          <img src="{{image.src}}"
-            {% if image.alt %} alt="{{image.alt}}" 
+       >
+        {% if image.link %}
+          <a href="{{image.link}}">
+          {% else %}
+            <a href="#{{image.src}}">
+            {% endif %}
+            <img src="{{image.src}}"
+            {% if image.alt %} alt="{{image.alt | safe }}" 
             {% else %} alt="{{altDefault}}"
             {% endif %}
            class="gallery-image"/>
           </a>
-        <div class="gallery__show-more">
-          <div class="gallery__circle">
-            <img src="/_assets/icons/svgrepo/pictures.svg" class="gallery__more-icon" alt="more pictures">
+
+          <div class="gallery__show-more">
+            <a href="#{{image.src}}">
+              <div class="gallery__circle">
+                <img src="/_assets/icons/svgrepo/pictures.svg" class="gallery__more-icon" alt="more pictures">
+              </div>
+            </a>
           </div>
         </div>
-      </div>
-      <div class="gallery-popup" id="{{image.src}}">
-        <a href="#_" class="gallery-popup__close">X</a>
-        <a href="#img2" class="gallery-popup__previous light-btn">P</a>
-        <img src="{{image.src}}"
-            {% if image.alt %} alt="{{image.alt}}" 
+
+        <div class="gallery-popup" id="{{image.src}}">
+          <a href="#">
+            <img src="/_assets/icons/svgrepo/close.svg" class="gallery-popup__control-icon gallery-popup__close" alt="close">
+          </a>
+          <a href="#{{images[loop.index0 -1].src}}">
+            <img src="/_assets/icons/svgrepo/previous.svg" class="gallery-popup__control-icon gallery-popup__previous" alt="previous">
+          </a>
+          <img src="{{image.src}}"
+            {% if image.alt %} alt="{{image.alt | safe }}" 
             {% else %} alt="{{altDefault}}"
             {% endif %}
-            class="gallery-popup__image"
-            />
-        <a href="#img2" class="gallery-popup__next light-btn">N</a>
-      </div>
-    {% endfor %}
-  </div>
+            class="gallery-popup__image"/>
+          <a href="#{{images[loop.index0 +1].src}}">
+            <img src="/_assets/icons/svgrepo/next.svg" class="gallery-popup__control-icon gallery-popup__next" alt="next">
+          </a>
+        </div>
 
-{% endmacro %}
+      {% endfor %}
+    </div>
 
+  {% endmacro %}

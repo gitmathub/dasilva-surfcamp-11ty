@@ -5,7 +5,7 @@
     "license": "MIT",
     "scripts": {
         "clean": "rm -rf dist generated-images",
-        "dev": "npm-run-all clean dev:eleventy generated-images --parallel dev:rollup dev:serve",
+        "dev": "npm-run-all clean --parallel dev:eleventy --parallel dev:rollup dev:serve",
         "build": "npm-run-all clean build:* generated-images",
         "deploy": "npm run build && sh ./bin/deploy.sh",
         "dev:eleventy": "ELEVENTY_ENV=development npx @11ty/eleventy",

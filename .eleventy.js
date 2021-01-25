@@ -13,7 +13,6 @@ module.exports = function (eleventyConfig) {
     outputDir: "dist/_assets"
   })
 
-
   // override anouying md code formatting
   const markdownIt = require("markdown-it")({
       html: true
@@ -23,6 +22,7 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.setLibrary("md", markdownIt)
 
   // generate images
+  eleventyConfig.addWatchTarget("generated-images");
   eleventyConfig.addNunjucksAsyncShortcode("image", ({
     src,
     alt,

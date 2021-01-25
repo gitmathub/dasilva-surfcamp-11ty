@@ -1,6 +1,8 @@
 .gallery {
   display: grid;
   grid-template-columns: 1fr;
+  grid-gap: 1rem;
+
 
   &__item-more-than-3 {
     display: none;
@@ -34,19 +36,9 @@
   }
 }
 
-.gallery>div {
-  padding: 0;
-  margin: 0.2rem 0;
-}
-
-.gallery>div {
-  padding: 0.5rem;
-  width: 100%;
-  height: 100%;
-}
-
 .gallery-image {
   object-fit: cover;
+  overflow: hidden;
   width: 100%;
   height: 100%; // auto
 }
@@ -67,24 +59,25 @@
 }
 
 .gallery-popup {
+  display: none;
+  opacity: 0;
+  visibility: hidden;
   margin: 0;
   padding: 0;
-  height: 100vh;
-  width: 100%;
   position: fixed;
   top: 0;
   left: 0;
+  height: 100vh;
+  width: 100%;
   background-color: rgba(black, 0.8);
   z-index: 3500;
-  opacity: 0;
-  visibility: hidden;
   transition: all .3;
 
   &:target {
+    display: block;
     opacity: 1;
     visibility: visible;
   }
-
 
   &__image {
     width: 90%;
@@ -99,36 +92,25 @@
     transform: translate(-50%, -50%);
   }
 
-  &__close {
+  &__control-icon {
     position: absolute;
-    right: 2%;
-    top: 2%;
-    color: #fafafa;
-    background-color: red;
-    border: solid 5px white;
-    padding: 10px 15px;
-    border-radius: 1px;
-    text-decoration: none;
+    z-index: 50;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 3em;
+    border-radius: 50%;
+    background-color: white;
   }
 
-  .light-btn {
-    color: #fafafa;
-    background-color: #333;
-    border: solid 3px white;
-    padding: 5px 15px;
-    border-radius: 1px;
-    text-decoration: none;
-    cursor: pointer;
-    vertical-align: middle;
-    position: absolute;
-    top: 45%;
-    z-index: 99;
-}
   &__previous {
-    left: 7%;
+    left: 2em;
   }
 
   &__next {
-    right: 7%;
+    right: -1em;
+  }
+  &__close {
+    top: 2em;
+    left: 2em;
   }
 }

@@ -88,23 +88,27 @@ CMS for Da Silva Surfcamp
   - [x] Da Silva Camp Portugal -> Da Silva Surfcamp Portugal
 - Arrival
   - [x] link hiter der Kart auf Google Map
-- [ ] Gallery plus
+- [x] Gallery plus
   - [x] only 3 pics on mobile  
-  - [ ] enlarge pic (lightbox)
+  - [x] enlarge pic (lightbox)
   - [ ] multiple image size
+  - [ ] smart close button
 - Formulare
   - [ ] Domain umstellen
   - [x] Anreise ist kein muss-Feld und beliebiges Format
   - [x] Name & Email
   - [x] Contact form fix layout
 - Image Size
-  - [x] richtige Größe laden
-  - [x] automatische Generierung (Build-Script)
-  - [x] alle Hero-Bilder
-- [x] Menu UX
+  - [x] load correct size
+  - [x] automatic generation (Build-Script)
+  - [x] responsive loading for all hero pics
+- Menu UX
   - [x] Topnav: align language menu
   - [x] Hamburger: select whole row
- 
+  - [x] Topnav: extend selected row highlighting
+  - [x] Footer: extend selected row highlighting
+ - [ ] Google Adwords
+ - 
 ## Online Deploy
 
 - [ ] Online Deploy
@@ -167,6 +171,11 @@ CMS for Da Silva Surfcamp
   - [ ] Hamburger: language switch: not a banner
   - [ ] Hamburger: Show selected
   - [ ] use visibility not display
+- [ ] Gallery UX
+  - [ ] swipe picture
+  - [ ] close gallery by tapping outside
+  - [ ] multiple image size
+  - [ ] smart close button
 - [ ] Arrival
   - [ ] map interaction (goolge maps)
 - [ ] Booking
