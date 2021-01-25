@@ -83,7 +83,7 @@ module.exports = {
     },
     bookingBedAndBreakfast: {
       title: "Booking",
-      path: "ttps://da-silva-bike-surf-camp.bookinglayer.com/de/product/bed-and-breakfast-and-more-1/",
+      path: "https://da-silva-bike-surf-camp.bookinglayer.com/de/product/bed-and-breakfast-and-more/",
       image: "/_assets/booking-banner/bed-and-breakfast.jpg"
     },
     bookingPackages: {
@@ -201,7 +201,7 @@ module.exports = {
     },
     bookingBedAndBreakfast: {
       title: "Booking",
-      path: "https://da-silva-bike-surf-camp.bookinglayer.com/de/product/bed-and-breakfast-and-more-1/",
+      path: "https://da-silva-bike-surf-camp.bookinglayer.com/en/product/bed-and-breakfast-and-more/",
       image: "/_assets/booking-banner/bed-and-breakfast.jpg"
     },
     bookingPackages: {
