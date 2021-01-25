@@ -5,6 +5,10 @@ footer {
   display: flex-wrap;
   justify-content: space-between;
 
+  ul {
+    display: block;
+    margin-top: 1rem;
+  }
   // override global "-" dashes
   ul>li:before {
     content: '';
@@ -12,7 +16,6 @@ footer {
   
   li {
     display: inline;
-    margin-left: 1.6rem;
   }
 
   li:first-child {
