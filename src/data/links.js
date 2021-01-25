@@ -88,12 +88,12 @@ module.exports = {
     },
     bookingPackages: {
       title: "Booking",
-      path: "https://da-silva-bike-surf-camp.bookinglayer.io/frontoffice/#/product/8961?lang=de",
+      path: "https://da-silva-bike-surf-camp.bookinglayer.io/frontoffice/#/category/8961?lang=de",
       image: "/_assets/booking-banner/packages.jpg"
     },
     bookingExperiences: {
       title: "Booking",
-      path: "https://da-silva-bike-surf-camp.bookinglayer.io/frontoffice/#/product/9019?lang=de",
+      path: "https://da-silva-bike-surf-camp.bookinglayer.io/frontoffice/#/category/9019?lang=de",
       image: "/_assets/booking-banner/experiences.jpg"
     },
     faq: {
@@ -206,12 +206,12 @@ module.exports = {
     },
     bookingPackages: {
       title: "Booking",
-      path: "https://da-silva-bike-surf-camp.bookinglayer.io/frontoffice/#/product/8961?lang=en",
+      path: "https://da-silva-bike-surf-camp.bookinglayer.io/frontoffice/#/category/8961?lang=en",
       image: "/_assets/booking-banner/packages.jpg"
     },
     bookingExperiences: {
       title: "Booking",
-      path: "https://da-silva-bike-surf-camp.bookinglayer.io/frontoffice/#/product/9019?lang=en",
+      path: "https://da-silva-bike-surf-camp.bookinglayer.io/frontoffice/#/category/9019?lang=en",
       image: "/_assets/booking-banner/experiences.jpg"
     },
     faq: {

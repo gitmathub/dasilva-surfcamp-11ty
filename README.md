@@ -4,7 +4,7 @@ CMS for Da Silva Surfcamp
 - [Project Todos](#project-todos)
   - [MVP Release](#mvp-release)
   - [Online Deploy](#online-deploy)
-  - [Changes](#changes)
+  - [Im Trello](#im-trello)
   - [Backlog](#backlog)
   - [Done](#done)
 - [Research](#research)
@@ -91,8 +91,6 @@ CMS for Da Silva Surfcamp
 - [x] Gallery plus
   - [x] only 3 pics on mobile  
   - [x] enlarge pic (lightbox)
-  - [ ] multiple image size
-  - [ ] smart close button
 - Formulare
   - [ ] Domain umstellen
   - [x] Anreise ist kein muss-Feld und beliebiges Format
@@ -108,10 +106,13 @@ CMS for Da Silva Surfcamp
   - [x] Topnav: extend selected row highlighting
   - [x] Footer: extend selected row highlighting
  - [ ] Google Adwords
- - 
+ - [ ] Booking Links korrigieren
+
+
 ## Online Deploy
 
 - [ ] Online Deploy
+  - [ ] Mail DNS umstellen
   - [x] Switch DNS portugal-paddleboard.de -> old dasilva-surfcamp.de site
   - [ ] Switch DNS dasilva-surfcamp.de -> auf new Website zeigen
   - [x] Check Rewrite Rules
@@ -119,7 +120,7 @@ CMS for Da Silva Surfcamp
 
 
 
-## Changes
+## Im Trello
 
 - [ ] Text & Layout Changes
   - [ ] MTB English same structure as German
@@ -132,7 +133,9 @@ CMS for Da Silva Surfcamp
   - [ ] Englische Variante
 
 
+
 ## Backlog
+
 - [ ] Todo List  https://trello.com/b/Rv9TiS3e/surfcamp-website
 - [ ] Text work
   - [ ] Review basically everything in English
@@ -161,11 +164,6 @@ CMS for Da Silva Surfcamp
   - [ ] Instagram
   - [ ] Google rating
   - [ ] Footer: partners in crime
-- [ ] Online Deploy
-  - [ ] Switch DNS dasilva-surfcamp.de
-  - [ ] Check Rewrite Rules
-  - [ ] Re-configure cloudflare
-  - [ ] Error pages
 - [ ] Portugues Version... Franz, Span.
 - [ ] Menu UX
   - [ ] Hamburger: language switch: not a banner
@@ -176,6 +174,7 @@ CMS for Da Silva Surfcamp
   - [ ] close gallery by tapping outside
   - [ ] multiple image size
   - [ ] smart close button
+  - [ ] nice more pics button
 - [ ] Arrival
   - [ ] map interaction (goolge maps)
 - [ ] Booking
