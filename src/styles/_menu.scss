@@ -18,8 +18,13 @@
   display: none;
 
   a {
+    display: inline-block;
     text-decoration: none;
+    padding: 0;
     width: 100%;
+  }
+  ul>li>ul>li>a {
+    padding: 0 1rem;
   }
 
   ul {
@@ -29,7 +34,9 @@
   .top-menu>li {
     display: block;
     float: left;
+    padding-top: 1.6rem;
     padding-right: 1rem;
+    padding-left: 1rem;
 
     @include respond(wide) {
       padding-left: 0.8rem;
@@ -46,7 +53,7 @@
   .top-menu>li:hover .sub-menu {
     background-color: white;
     display: block;
-    padding: 0.8rem 1.6rem 0.4rem 1.6rem;
+    padding: 0.8rem;
     margin-left: -1.6rem;
     margin-right: 1.6rem;
     box-shadow: 0.5rem 0.5rem 1.5rem black;
@@ -59,6 +66,7 @@
 
   .top-menu>li:hover .last {
     margin-left: -13.0rem;
+    margin-top: -1rem;
     min-width: 12.0rem;
   }
 
@@ -130,15 +138,21 @@
 
   .sub-menu {
     margin-left: 1.8rem;
+    display: block;
   }
 
   a {
+    display: inline-block;
     text-decoration: none;
+    width: 100%;
   }
 
-  // a.active {
-  //   background-color: $color-white;
-  // }
+  a:hover {
+    background-color: white;
+  }
+  a.active {
+    font-weight: 900;
+  }
 
   &__button {
     position: fixed;
@@ -168,4 +182,9 @@
     font-size: 2.8rem;
   }
 
+  .language-switch {
+    display: block;
+  }
+  
 }
+
