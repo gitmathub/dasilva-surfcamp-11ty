@@ -1,12 +1,9 @@
-CMS for Da Silva Surfcamp
+# CMS for Da Silva Surfcamp
 
-- [Anforderungen](#anforderungen)
+- [CMS for Da Silva Surfcamp](#cms-for-da-silva-surfcamp)
 - [Project Todos](#project-todos)
-  - [MVP Release](#mvp-release)
-  - [Online Deploy](#online-deploy)
   - [Im Trello](#im-trello)
   - [Backlog](#backlog)
-  - [Done](#done)
 - [Research](#research)
   - [SEO](#seo)
     - [Tools](#tools)
@@ -40,85 +37,15 @@ CMS for Da Silva Surfcamp
   - [Speed results](#speed-results)
   - [Testing](#testing)
     - [Speedtest tool](#speedtest-tool)
+- [Project Archive](#project-archive)
+  - [Anforderungen (dez 2020)](#anforderungen-dez-2020)
+  - [Done](#done)
 - [Credits](#credits)
 
 
-
-# Anforderungen
-
-- im Prinzip wie die jetzige Seite nur eben richtig schnell
-- muss auf Handy und Computer funktionieren
-- Wichtigen Funktionalitäten
-  - Content:
-    - Bed & Breakfast
-    - Surfing
-    - Mountainbikes
-    - Kids Welcome
-    - Reiten
-    - Activities
-  - Bookinglayer
-  - Meta-Tags
-  - Tracking
-  - Deutsch & Englisch und weitere in der Zukunft
-- Booking
-  - Bed & Breakfast
-  - Packages
-  - Activities
-- Administration
-  - Texte editieren
-- Die Seite
-  - darf kleiner sein aber soll complett sein, fertig aussehen
-  - die Seite soll so ein paar Jahre bleiben
-- Woran gespart werden kann
-  - Aktivitäten können auf Surfing, Mountenbiken und Reiten reduziert werden
-  - Yoga hat eine Unterseite, die wegfallen soll
-
-- Zeitraum
-  - bis 11. Januar
-  - 8 Wochen
-
 # Project Todos
 
-## MVP Release
-
-- [x] Kids Welcome
-  - [x] neue Fotos einbauen und Titelfoto austauschen
-- [x] alle Aenderungen-Anmerkungen von Daniel (1drive)
-- [x] SEO
-  - [x] Da Silva Camp Portugal -> Da Silva Surfcamp Portugal
-- Arrival
-  - [x] link hiter der Kart auf Google Map
-- [x] Gallery plus
-  - [x] only 3 pics on mobile  
-  - [x] enlarge pic (lightbox)
-- Formulare
-  - [ ] Domain umstellen
-  - [x] Anreise ist kein muss-Feld und beliebiges Format
-  - [x] Name & Email
-  - [x] Contact form fix layout
-- Image Size
-  - [x] load correct size
-  - [x] automatic generation (Build-Script)
-  - [x] responsive loading for all hero pics
-- Menu UX
-  - [x] Topnav: align language menu
-  - [x] Hamburger: select whole row
-  - [x] Topnav: extend selected row highlighting
-  - [x] Footer: extend selected row highlighting
- - [ ] Google Adwords
- - [ ] Booking Links korrigieren
-
-
-## Online Deploy
-
-- [ ] Online Deploy
-  - [ ] Mail DNS umstellen
-  - [x] Switch DNS portugal-paddleboard.de -> old dasilva-surfcamp.de site
-  - [ ] Switch DNS dasilva-surfcamp.de -> auf new Website zeigen
-  - [x] Check Rewrite Rules
-  - [x] Re-configure PROXY cloudflare
-
-
+- [Trello](https://trello.com/b/Rv9TiS3e/surfcamp-website)
 
 ## Im Trello
 
@@ -131,12 +58,12 @@ CMS for Da Silva Surfcamp
   - [ ] Abschnitt: Wichtigste Orte
   - [ ] Google Maps Icon https://www.svgrepo.com/svg/47634/google-maps 
   - [ ] Englische Variante
-
+- [ ] Google Adwords
 
 
 ## Backlog
 
-- [ ] Todo List  https://trello.com/b/Rv9TiS3e/surfcamp-website
+
 - [ ] Text work
   - [ ] Review basically everything in English
   - [ ] Review happy horses
@@ -186,101 +113,6 @@ CMS for Da Silva Surfcamp
   - [ ] Recherche
   - [ ] Test
   - [ ] Installation
-
-## Done
-
-- [x] Layout Optimizations
-  - [x] price page: text centered
-  - [x] booking form: align fields
-- [x] SEO
-  - [x] Title & meta descriptions & meta image
-  - [x] H1 headline optimisation
-  - [x] Home menu
-  - [x] Action menu
-  - [x] Prices, arrival & rest
-  - [x] Favicon
-- [x] Surf Bar
-- [x] English Version
-- [x] Home
-  - [x] Hero
-  - [x] Masonry
-  - [x] Welcome
-  - [x] Video
-  - [x] Booking
-  - [x] Specials
-  - [x] Galerie
-- [x] Masonry
-  - [x] Resonsive Design
-  - [x] Links
-- [x] Gallery
-  - [x] 3 columns
-  - [x] responsive
-  - [x] default alt attribute
-- [x] Internationalisation
-  - [x] Concept
-  - [x] Switch same to same page
-  - [x] Switch to non existing page
-- [x] Booking
-  - [x] online Booking link
-  - [x] Booling Form
-  - [x] Booking Validation
-  - [x] Booking Send Mail
-  - [x] Booking Contact Form
-  - [x] Booking Success Response
-  - [x] Booking Secure Form
-- [x] Travel Directions / Arrival
-  - [x] all Sections
-  - [x] map
-- [x] Footer
-  - [x] Language icons
-  - [x] Social media links
-- [x] Header
-  - [x] Navigation bar
-  - [x] Logo
-  - [x] Hambuger menu
-  - [x] Scale properly
-  - [x] All links for Hamburger
-  - [x] Fix overlay Hamburger
-  - [x] Language switch
-  - [x] Activate whole row
-  - [x] Hamburgermenu: Disable all links below
-- [x] Online Administration
-  - [x] Detect browser language and switch
-  - [x] Switch domain
-  - [x] Default page: German home
-- [x] FAQ
-- [x] Imprint
-- [x] Terms & Conditions
-- [x] Privacy Policy
-  - [ ] https://www.datenschutz.org/datenschutzerklaerung-website/
-- [x] Trail Running
-- [x] Skateboarding
-- [x] Yoga
-- [x] Surroundings
-- [x] Happy Horses
-- [x] Page Pricing
-  - [x] Table Macro
-  - [x] all Sections 
-- [x] Video Macro
-- [x] Surfing
-- [x] Page Bed & Breakfast
-  - [x] Hero
-  - [x] Welcome
-  - [x] Galerie
-  - [x] Rooms
-  - [x] Related links
-- [x] Fragment related links
-  - [x] Images
-  - [x] Mouse over
-- [x] Headless CMS
-  - [x] CMS Requirement List
-  - [x] Checkout Ghost https://ghost.org
-  - [x] Decide on CMS
-- [x] Site Generator
-  - [x] Decide on Site Generator
-  - [x] Checkout 11ty https://www.11ty.dev
-- [x] Fragment galerie
-
 
 # Research
 
@@ -544,6 +376,170 @@ curl -o /dev/null -s -w %{time_total}\\n  https://im.ages.io/4FtAEiH1l1\?height\
 ### Speedtest tool
 
 - https://www.dotcom-tools.com/website-speed-test.aspx
+
+
+# Project Archive
+
+## Anforderungen (dez 2020)
+
+- im Prinzip wie die jetzige Seite nur eben richtig schnell
+- muss auf Handy und Computer funktionieren
+- Wichtigen Funktionalitäten
+  - Content:
+    - Bed & Breakfast
+    - Surfing
+    - Mountainbikes
+    - Kids Welcome
+    - Reiten
+    - Activities
+  - Bookinglayer
+  - Meta-Tags
+  - Tracking
+  - Deutsch & Englisch und weitere in der Zukunft
+- Booking
+  - Bed & Breakfast
+  - Packages
+  - Activities
+- Administration
+  - Texte editieren
+- Die Seite
+  - darf kleiner sein aber soll complett sein, fertig aussehen
+  - die Seite soll so ein paar Jahre bleiben
+- Woran gespart werden kann
+  - Aktivitäten können auf Surfing, Mountenbiken und Reiten reduziert werden
+  - Yoga hat eine Unterseite, die wegfallen soll
+
+- Zeitraum
+  - bis 11. Januar
+  - 8 Wochen
+
+
+## Done
+
+- [x] Online Deploy
+  - [x] Mail DNS umstellen
+  - [x] Switch DNS portugal-paddleboard.de -> old dasilva-surfcamp.de site
+  - [x] Switch DNS dasilva-surfcamp.de -> auf new Website zeigen
+  - [x] Check Rewrite Rules
+  - [x] Re-configure PROXY cloudflare
+- [x] Todo List  https://trello.com/b/Rv9TiS3e/surfcamp-website
+- [x] Kids Welcome
+  - [x] neue Fotos einbauen und Titelfoto austauschen
+- [x] alle Aenderungen-Anmerkungen von Daniel (1drive)
+- [x] SEO
+  - [x] Da Silva Camp Portugal -> Da Silva Surfcamp Portugal
+- Arrival
+  - [x] link hiter der Kart auf Google Map
+- [x] Gallery plus
+  - [x] only 3 pics on mobile  
+  - [x] enlarge pic (lightbox)
+- Formulare
+  - [x] Domain umstellen
+  - [x] Anreise ist kein muss-Feld und beliebiges Format
+  - [x] Name & Email
+  - [x] Contact form fix layout
+- Image Size
+  - [x] load correct size
+  - [x] automatic generation (Build-Script)
+  - [x] responsive loading for all hero pics
+- Menu UX
+  - [x] Topnav: align language menu
+  - [x] Hamburger: select whole row
+  - [x] Topnav: extend selected row highlighting
+  - [x] Footer: extend selected row highlighting
+ - [x] Booking Links korrigieren
+- [x] Layout Optimizations
+  - [x] price page: text centered
+  - [x] booking form: align fields
+- [x] SEO
+  - [x] Title & meta descriptions & meta image
+  - [x] H1 headline optimisation
+  - [x] Home menu
+  - [x] Action menu
+  - [x] Prices, arrival & rest
+  - [x] Favicon
+- [x] Surf Bar
+- [x] English Version
+- [x] Home
+  - [x] Hero
+  - [x] Masonry
+  - [x] Welcome
+  - [x] Video
+  - [x] Booking
+  - [x] Specials
+  - [x] Galerie
+- [x] Masonry
+  - [x] Resonsive Design
+  - [x] Links
+- [x] Gallery
+  - [x] 3 columns
+  - [x] responsive
+  - [x] default alt attribute
+- [x] Internationalisation
+  - [x] Concept
+  - [x] Switch same to same page
+  - [x] Switch to non existing page
+- [x] Booking
+  - [x] online Booking link
+  - [x] Booling Form
+  - [x] Booking Validation
+  - [x] Booking Send Mail
+  - [x] Booking Contact Form
+  - [x] Booking Success Response
+  - [x] Booking Secure Form
+- [x] Travel Directions / Arrival
+  - [x] all Sections
+  - [x] map
+- [x] Footer
+  - [x] Language icons
+  - [x] Social media links
+- [x] Header
+  - [x] Navigation bar
+  - [x] Logo
+  - [x] Hambuger menu
+  - [x] Scale properly
+  - [x] All links for Hamburger
+  - [x] Fix overlay Hamburger
+  - [x] Language switch
+  - [x] Activate whole row
+  - [x] Hamburgermenu: Disable all links below
+- [x] Online Administration
+  - [x] Detect browser language and switch
+  - [x] Switch domain
+  - [x] Default page: German home
+- [x] FAQ
+- [x] Imprint
+- [x] Terms & Conditions
+- [x] Privacy Policy
+  - [ ] https://www.datenschutz.org/datenschutzerklaerung-website/
+- [x] Trail Running
+- [x] Skateboarding
+- [x] Yoga
+- [x] Surroundings
+- [x] Happy Horses
+- [x] Page Pricing
+  - [x] Table Macro
+  - [x] all Sections 
+- [x] Video Macro
+- [x] Surfing
+- [x] Page Bed & Breakfast
+  - [x] Hero
+  - [x] Welcome
+  - [x] Galerie
+  - [x] Rooms
+  - [x] Related links
+- [x] Fragment related links
+  - [x] Images
+  - [x] Mouse over
+- [x] Headless CMS
+  - [x] CMS Requirement List
+  - [x] Checkout Ghost https://ghost.org
+  - [x] Decide on CMS
+- [x] Site Generator
+  - [x] Decide on Site Generator
+  - [x] Checkout 11ty https://www.11ty.dev
+- [x] Fragment galerie
+
 
 # Credits
 
