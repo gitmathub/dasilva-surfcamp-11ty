@@ -3,7 +3,6 @@
   grid-template-columns: 1fr;
   grid-gap: 1rem;
 
-
   &__item-more-than-3 {
     display: none;
   }
@@ -43,6 +42,11 @@
   height: 100%; // auto
 }
 
+// .gallery-image:hover {
+//   transition: 0.3s;
+//   width: 200%;
+// }
+
 @media screen and (min-width: 767px) {
   .gallery {
     grid-template-columns: 1fr 1fr 1fr;
@@ -69,11 +73,11 @@
   left: 0;
   height: 100vh;
   width: 100%;
-  background-color: rgba(black, 0.8);
+  background-color: rgba(black, 1);
   z-index: 3500;
   transition: all .3;
 
-  &:target {
+  &__show {
     display: block;
     opacity: 1;
     visibility: visible;

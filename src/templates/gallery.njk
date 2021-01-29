@@ -17,7 +17,7 @@
         {% if image.link %}
           <a href="{{image.link}}">
           {% else %}
-            <a href="#{{image.src}}">
+            <a href="javascript:(void(0))" onclick="document.getElementById('{{image.src}}').classList.add('gallery-popup__show')">
             {% endif %}
             <img src="{{image.src}}"
             {% if image.alt %} alt="{{image.alt | safe }}" 
@@ -36,20 +36,22 @@
         </div>
 
         <div class="gallery-popup" id="{{image.src}}">
-          <a href="#">
-            <img src="/_assets/icons/svgrepo/close.svg" class="gallery-popup__control-icon gallery-popup__close" alt="close">
-          </a>
-          <a href="#{{images[loop.index0 -1].src}}">
-            <img src="/_assets/icons/svgrepo/previous.svg" class="gallery-popup__control-icon gallery-popup__previous" alt="previous">
-          </a>
+          <img src="/_assets/icons/svgrepo/close.svg" 
+            class="gallery-popup__control-icon gallery-popup__close" alt="close"
+            onclick="document.getElementById('{{image.src}}').classList.remove('gallery-popup__show')">
+          <img src="/_assets/icons/svgrepo/previous.svg" 
+            class="gallery-popup__control-icon gallery-popup__previous" alt="previous"
+            onclick="document.getElementById('{{images[loop.index0 -1].src}}').classList.add('gallery-popup__show');
+            document.getElementById('{{image.src}}').classList.remove('gallery-popup__show')">
           <img src="{{image.src}}"
             {% if image.alt %} alt="{{image.alt | safe }}" 
             {% else %} alt="{{altDefault}}"
             {% endif %}
             class="gallery-popup__image"/>
-          <a href="#{{images[loop.index0 +1].src}}">
-            <img src="/_assets/icons/svgrepo/next.svg" class="gallery-popup__control-icon gallery-popup__next" alt="next">
-          </a>
+          <img src="/_assets/icons/svgrepo/next.svg" 
+            class="gallery-popup__control-icon gallery-popup__next" alt="next"
+            onclick="document.getElementById('{{images[loop.index0 +1].src}}').classList.add('gallery-popup__show');
+            document.getElementById('{{image.src}}').classList.remove('gallery-popup__show')">
         </div>
 
       {% endfor %}
