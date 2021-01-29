@@ -13,6 +13,7 @@
         {% if loop.length > 3 and loop.index0 == 2 %}class="gallery__item-3"
         {% elif loop.index0 > 2 %}class="gallery__item-more-than-3"
         {% endif %}
+        
        >
         {% if image.link %}
           <a href="{{image.link}}">
@@ -39,18 +40,20 @@
           <img src="/_assets/icons/svgrepo/close.svg" 
             class="gallery-popup__control-icon gallery-popup__close" alt="close"
             onclick="document.getElementById('{{image.src}}').classList.remove('gallery-popup__show')">
+          {% set prev = images[loop.index0 -1].src if loop.index0 > 0 else images[loop.length -1].src %}
           <img src="/_assets/icons/svgrepo/previous.svg" 
             class="gallery-popup__control-icon gallery-popup__previous" alt="previous"
-            onclick="document.getElementById('{{images[loop.index0 -1].src}}').classList.add('gallery-popup__show');
+            onclick="document.getElementById('{{prev}}').classList.add('gallery-popup__show');
             document.getElementById('{{image.src}}').classList.remove('gallery-popup__show')">
           <img src="{{image.src}}"
             {% if image.alt %} alt="{{image.alt | safe }}" 
             {% else %} alt="{{altDefault}}"
             {% endif %}
             class="gallery-popup__image"/>
+          {% set next = images[loop.index0 +1].src if loop.index0 < loop.length -1 else images[0].src %}
           <img src="/_assets/icons/svgrepo/next.svg" 
             class="gallery-popup__control-icon gallery-popup__next" alt="next"
-            onclick="document.getElementById('{{images[loop.index0 +1].src}}').classList.add('gallery-popup__show');
+            onclick="document.getElementById('{{next}}').classList.add('gallery-popup__show');
             document.getElementById('{{image.src}}').classList.remove('gallery-popup__show')">
         </div>
 
