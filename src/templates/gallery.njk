@@ -40,11 +40,13 @@
           <img src="/_assets/icons/svgrepo/close.svg" 
             class="gallery-popup__control-icon gallery-popup__close" alt="close"
             onclick="document.getElementById('{{image.src}}').classList.remove('gallery-popup__show')">
+          <div class="gallery-popup__button-fill gallery-popup__control-icon gallery-popup__close">&nbsp;</div>
           {% set prev = images[loop.index0 -1].src if loop.index0 > 0 else images[loop.length -1].src %}
           <img src="/_assets/icons/svgrepo/previous.svg" 
             class="gallery-popup__control-icon gallery-popup__previous" alt="previous"
             onclick="document.getElementById('{{prev}}').classList.add('gallery-popup__show');
             document.getElementById('{{image.src}}').classList.remove('gallery-popup__show')">
+          <div class="gallery-popup__button-fill gallery-popup__control-icon gallery-popup__previous">&nbsp;</div>
           <img src="{{image.src}}"
             {% if image.alt %} alt="{{image.alt | safe }}" 
             {% else %} alt="{{altDefault}}"
@@ -55,6 +57,7 @@
             class="gallery-popup__control-icon gallery-popup__next" alt="next"
             onclick="document.getElementById('{{next}}').classList.add('gallery-popup__show');
             document.getElementById('{{image.src}}').classList.remove('gallery-popup__show')">
+          <div class="gallery-popup__button-fill gallery-popup__control-icon gallery-popup__next">&nbsp;</div>
         </div>
 
       {% endfor %}

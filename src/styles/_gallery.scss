@@ -74,7 +74,7 @@
   left: 0;
   height: 100vh;
   width: 100%;
-  background-color: rgba(black, 1);
+  background-color: rgba(black, 0.9);
   z-index: 3500;
   transition: all .3;
 
@@ -103,7 +103,12 @@
     top: 50%;
     transform: translate(-50%, -50%);
     width: 3em;
-    border-radius: 50%;
+  }
+
+  &__button-fill {
+    z-index: 40;
+    top: 50%;
+    width: 2em;
     background-color: white;
   }
 
@@ -112,8 +117,10 @@
   }
 
   &__next {
-    right: -1em;
+    right: 2em;
+    transform: translate(+50%, -50%);
   }
+
   &__close {
     top: 2em;
     left: 2em;
