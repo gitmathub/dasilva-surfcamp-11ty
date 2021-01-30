@@ -3,36 +3,34 @@
   grid-template-columns: 1fr;
   grid-gap: 1rem;
 
-  &__item-more-than-3 {
-    display: none;
-  }
-
-  &__show-more {
-    display: none;
-  }
-
-  &__item-3 &__show-more {
+  &__3rd-item {
     position: relative;
     display: block;
   }
 
-  &__circle {
+  &__more-button {
     position: absolute;
     background-color: white;
-    opacity: 0.7;
-    width: 8rem;
-    height: 8rem;
+    opacity: 1;
+    width: 4em;
+    height: 4em;
     border-radius: 50%;
-    bottom: 1rem;
-    right: 0;
+    bottom: -1em;
+    right: -1em;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;;
   }
 
-  &__more-icon {
+  &__more-button-icon {
     position: absolute;
-    width: 6rem;
-    left: 1.4rem;
-    top: 1.1rem;
+    width: 2.6em;
+    left: 0.7em;
+    top: 0.7em;
   }
+
+  &__more-than-3-items {
+    display: none;
+  }
+
 }
 
 .gallery-image {
@@ -40,23 +38,27 @@
   overflow: hidden;
   width: 100%;
   height: 100%; // auto
+  transition: 0.3s ease;
 }
 
-// .gallery-image:hover {
-//   transition: 0.3s;
-// box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-//   width: 200%;
-// }
+.gallery-image:hover {
+  -webkit-transform: scale(1.05);
+  -ms-transform: scale(1.05);
+  transform: scale(1.05);
+  transition: 0.3s ease;
+  // box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
 
 @media screen and (min-width: 767px) {
   .gallery {
     grid-template-columns: 1fr 1fr 1fr;
 
-    &__item-3 &__show-more {
+    &__more-button {
       display: none;
     }
 
-    &__item-more-than-3 {
+    &__more-than-3-items {
       display: block;
     }
   }

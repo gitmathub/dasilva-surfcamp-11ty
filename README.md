@@ -9,6 +9,7 @@
     - [Tools](#tools)
     - [Meta description](#meta-description)
     - [Meta Title](#meta-title)
+  - [CSS Tricks](#css-tricks)
   - [Image Sizes Dynamically](#image-sizes-dynamically)
     - [Responsive Images Generator](#responsive-images-generator)
     - [11ty Image Generator](#11ty-image-generator)
@@ -143,6 +144,10 @@
   - `Da Silva Camp Portugal » Surfing und Mountainbike mit der Familie`
 
 
+## CSS Tricks
+
+- [box shadow examples](https://getcssscan.com/css-box-shadow-examples)
+- [hover effects](https://thebrandsmen.com/css-image-hover-effects/)
 ## Image Sizes Dynamically
 
 To serve different versions scaled for different devices, you need to use the HTML srcset attribute in your img tags, to specify more than one image size to choose from.
