@@ -42,11 +42,10 @@
 }
 
 .gallery-image:hover {
-  -webkit-transform: scale(1.05);
-  -ms-transform: scale(1.05);
-  transform: scale(1.05);
+  -webkit-transform: scale(1.01);
+  -ms-transform: scale(1.01);
+  transform: scale(1.01);
   transition: 0.3s ease;
-  // box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
   box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
 }
 
@@ -78,7 +77,6 @@
   width: 100%;
   background-color: rgba(black, 0.9);
   z-index: 3500;
-  transition: all .3;
 
   &__show {
     display: block;

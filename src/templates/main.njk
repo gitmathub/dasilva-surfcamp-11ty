@@ -1,72 +1,87 @@
 <!doctype html>
 <html lang="{{ locale }}">
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta http-equiv="content-type" content="text/html; charset=utf-8">
-        <meta http-equiv="language" content="{{ locale }}">
-        <link rel="canonical" href="{{ site.baseUrl }}{{ permalink }}"/>
-        <meta name="description" content="{{ metaDescription }}">
-        <title>{{ site.name }} » {{ title }}</title>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <meta http-equiv="language" content="{{ locale }}">
+    <link rel="canonical" href="{{ site.baseUrl }}{{ permalink }}"/>
+    <meta name="description" content="{{ metaDescription }}">
+    <title>{{ site.name }} » {{ title }}</title>
 
-        <!-- open graph -->
-        <meta property="og:type" content="article">
-        <meta property="og:site_name" content="{{ site.name }}">
-        <meta property="og:title" content="{{ title }}">
-        <meta property="og:description" content="{{ metaDescription }}">
-        <meta property="og:image" content="{{ site.baseUrl }}{{ metaImage }}">
+    <!-- open graph -->
+    <meta property="og:type" content="article">
+    <meta property="og:site_name" content="{{ site.name }}">
+    <meta property="og:title" content="{{ title }}">
+    <meta property="og:description" content="{{ metaDescription }}">
+    <meta property="og:image" content="{{ site.baseUrl }}{{ metaImage }}">
 
-        <!-- twitter -->
-        <meta name="twitter:card" content="summary">
-        <meta name="twitter:site" content="{{ site.twitter }}">
-        <meta name="twitter:title" content="{{ site.name }} » {{ title }}">
-        <meta name="twitter:description" content="{{ metaDescription }}">
-        <meta name="twitter:image" content="{{ site.baseUrl }}{{ metaImage }}">
+    <!-- twitter -->
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:site" content="{{ site.twitter }}">
+    <meta name="twitter:title" content="{{ site.name }} » {{ title }}">
+    <meta name="twitter:description" content="{{ metaDescription }}">
+    <meta name="twitter:image" content="{{ site.baseUrl }}{{ metaImage }}">
 
-        <!-- icons -->
-        <link rel="apple-touch-icon" sizes="57x57" href="{{site.iconPath}}/apple-icon-57x57.png">
-        <link rel="apple-touch-icon" sizes="60x60" href="{{site.iconPath}}/apple-icon-60x60.png">
-        <link rel="apple-touch-icon" sizes="72x72" href="{{site.iconPath}}/apple-icon-72x72.png">
-        <link rel="apple-touch-icon" sizes="76x76" href="{{site.iconPath}}/apple-icon-76x76.png">
-        <link rel="apple-touch-icon" sizes="114x114" href="{{site.iconPath}}/apple-icon-114x114.png">
-        <link rel="apple-touch-icon" sizes="120x120" href="{{site.iconPath}}/apple-icon-120x120.png">
-        <link rel="apple-touch-icon" sizes="144x144" href="{{site.iconPath}}/apple-icon-144x144.png">
-        <link rel="apple-touch-icon" sizes="152x152" href="{{site.iconPath}}/apple-icon-152x152.png">
-        <link rel="apple-touch-icon" sizes="180x180" href="{{site.iconPath}}/apple-icon-180x180.png">
-        <link rel="icon" type="image/png" sizes="192x192"  href="{{site.iconPath}}/android-icon-192x192.png">
-        <link rel="icon" type="image/png" sizes="32x32" href="{{site.iconPath}}/favicon-32x32.png">
-        <link rel="icon" type="image/png" sizes="96x96" href="{{site.iconPath}}/favicon-96x96.png">
-        <link rel="icon" type="image/png" sizes="16x16" href="{{site.iconPath}}/favicon-16x16.png">
-        <link rel="manifest" href="{{site.iconPath}}/manifest.json">
-        <meta name="msapplication-TileColor" content="#ffffff">
-        <meta name="msapplication-TileImage" content="{{site.iconPath}}/ms-icon-144x144.png">
-        <meta name="theme-color" content="#ffffff">
+    <!-- icons -->
+    <link rel="apple-touch-icon" sizes="57x57" href="{{site.iconPath}}/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="{{site.iconPath}}/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="{{site.iconPath}}/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="{{site.iconPath}}/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="{{site.iconPath}}/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="{{site.iconPath}}/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="{{site.iconPath}}/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="{{site.iconPath}}/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="{{site.iconPath}}/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="{{site.iconPath}}/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="{{site.iconPath}}/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="{{site.iconPath}}/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="{{site.iconPath}}/favicon-16x16.png">
+    <link rel="manifest" href="{{site.iconPath}}/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="{{site.iconPath}}/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
 
-        <link rel="stylesheet" href="/_assets/main.css">
-        <script src="/_assets/main.js"></script>
-        <script async src="https://www.widgetsquad.com/pixel/7n7pa8bd0qf61hq9584ukvh5unzwyb73"></script>
-        {% block head_extra %}
-            {# extra head stuff like page-specific JS or CSS #}
-        {% endblock %}
-    </head>
-    <body>
-        <header>
-            {% include "header.njk" %}
-        </header>
-        <main>
-            {% block main %}
-                {{ content | safe }}
-            {% endblock %}
-        </main>
-        <footer>
-            {% include "footer.njk" %}
-        </footer>
+    <link rel="stylesheet" href="/_assets/main.css">
+    <script src="/_assets/main.js"></script>
+    <script async src="https://www.widgetsquad.com/pixel/7n7pa8bd0qf61hq9584ukvh5unzwyb73"></script>
+    {% block head_extra %}
+      {# extra head stuff like page-specific JS or CSS #}
+    {% endblock %}
+  </head>
 
-        <script src="/_assets/scripts/lazysizes.min.js" async></script>
-        <script>
-            const width = document.documentElement.clientWidth || 0
-            const pixelRatio = window.devicePixelRatio || 1
-            console.log("width * pixel ratio: ", Math.round(width * pixelRatio))
-        </script>        
-    </body>
+  <body>
+
+    <header>
+
+      {% import "logo.njk" as logo %}
+      {% block logo %}
+        {{ logo.show(
+          imgSrc="/_assets/logos/dasilva-surfcamp-logo.png",
+          link=links[locale].home.path,
+          alt=links[locale].home.title)
+        }}
+      {% endblock %}
+
+      <nav>{% include "menu-bar.njk" %}</nav>
+      <nav>{% include "menu-hamburger.njk" %}</nav>
+    </header>
+
+    <main>
+      {% block main %}
+        {{ content | safe }}
+      {% endblock %}
+    </main>
+
+    <footer>
+      {% include "footer.njk" %}
+    </footer>
+
+    <script src="/_assets/scripts/lazysizes.min.js" async></script>
+    <script>
+      const width = document.documentElement.clientWidth || 0
+      const pixelRatio = window.devicePixelRatio || 1
+      console.log("width * pixel ratio: ", Math.round(width * pixelRatio))
+    </script>
+  </body>
 </html>

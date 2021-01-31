@@ -1,0 +1,12 @@
+{% macro show(
+    imgSrc="/_assets/logos/dasilva-surfcamp-logo.png",
+    link="/",
+    alt="logo"
+  )
+%}
+
+  <a href="{{ link }}">
+    <img src="{{ imgSrc }}" class="logo" alt="{{ alt }}">
+  </a>
+
+{% endmacro %}

@@ -1,6 +1,4 @@
 ---
-layout: main.njk
-
 galleryMountainbike:
   - src: /_assets/mountain-bike/gallery/01-mountain-bike.jpg
   - src: /_assets/mountain-bike/gallery/02-mountain-bike.jpg
@@ -17,13 +15,23 @@ relatedPages:
   - trailRunning
   - skateboarding      
 ---
+{% extends "main.njk"%}
+
 {% import "partial.njk" as partial %}
 {% import "gallery.njk" as gallery %}
 {% import "columns.njk" as columns %}
 {% import "price-table.njk" as priceTable %}
 {% import "related.njk" as related %}
 
+{% block logo %}
+  {{ logo.show(
+    imgSrc="/_assets/logos/dasilva-bikecamp-logo.png",
+    link=links[locale].mountainBike.path,
+    alt=links[locale].mountainBike.title)
+  }}
+{% endblock %}
 
+{% block main %}
 {% image {src:"./src/assets/mountain-bike/hero-mountain-bike.jpg", 
 alt:links[locale].mountainBike.title, myClass:"max-scaled"} %}
 
@@ -34,7 +42,6 @@ alt:links[locale].mountainBike.title, myClass:"max-scaled"} %}
 <section>
   {{ gallery.three(images=galleryMountainbike, altDefault="MTB Portugal countryside and coast") }}
 </section>
-
 
 <section class="centered">
   <div class="centered-text">
@@ -55,3 +62,5 @@ alt:links[locale].mountainBike.title, myClass:"max-scaled"} %}
 <nav class="centered">
   {{ related.three(links[locale], relatedPages)}}
 </nav>
+
+{% endblock %}
