@@ -1,4 +1,9 @@
-# CMS for Da Silva Surfcamp
+# We moved to gitlab because we like their CI/CD better
+https://gitlab.com/gitmatlab/dasilva-surfcamp-11ty
+
+This repo is read-only and will be deleted eventually.
+
+## CMS for Da Silva Surfcamp
 
 - [CMS for Da Silva Surfcamp](#cms-for-da-silva-surfcamp)
 - [Project Todos](#project-todos)
